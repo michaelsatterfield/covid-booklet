@@ -1,0 +1,560 @@
+/* screen - embrace-change */
+
+.embrace-change {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 7599px;
+  overflow: hidden;
+  padding: 0.0px 0;
+  width: 1366px;
+}
+
+.embrace-change .overlap-group {
+  height: 1901px;
+  position: relative;
+  width: 1414px;
+}
+
+.embrace-change .lwpb4384-bw-web {
+  height: 951px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 950px;
+  width: 1366px;
+}
+
+.embrace-change .rectangle-127 {
+  background: linear-gradient(271deg, #ffffff 1.03%, #9a9a9a 56.53%, #808080 98.99%);
+  height: 950px;
+  left: 0;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 951px;
+  width: 781px;
+}
+
+.embrace-change .rectangle-5 {
+  background-color: var(--avocado);
+  height: 951px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.embrace-change .rectangle-4 {
+  background-color: var(--zambezi);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #00000029;
+  height: 70px;
+  left: 1265px;
+  position: absolute;
+  top: 650px;
+  width: 149px;
+}
+
+.embrace-change .group-114 {
+  background-image: url(../img/path-189@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 22px;
+  left: 1297px;
+  position: absolute;
+  top: 677px;
+  width: 21px;
+}
+
+.embrace-change .embrace-change-1 {
+  left: 599px;
+  letter-spacing: -0.80px;
+  line-height: 71px;
+  position: absolute;
+  top: 428px;
+  white-space: nowrap;
+}
+
+.embrace-change .addressing-equity {
+  left: 801px;
+  letter-spacing: 0.20px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 505px;
+  white-space: nowrap;
+}
+
+.embrace-change .together-we-can {
+  left: 246px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 1115px;
+  white-space: nowrap;
+}
+
+.embrace-change .over-the-past-five-y {
+  left: 234px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 1243px;
+  width: 318px;
+}
+
+.embrace-change .text-36 {
+  left: 182px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 1157px;
+  width: 633px;
+}
+
+.embrace-change .overlap-group2 {
+  height: 1901px;
+  position: relative;
+  width: 1366px;
+}
+
+.embrace-change .lwpb4357-web {
+  height: 951px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.embrace-change .rectangle-126 {
+  background: linear-gradient(271deg, #ffffff 1.03%, #9a9a9a 56.53%, #808080 98.99%);
+  height: 950px;
+  left: 0;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  width: 781px;
+}
+
+.embrace-change .rectangle-135 {
+  background: linear-gradient(268.74deg, #ffffff 6.45%, #9a9a9a 57.14%, #808080 95.93%);
+  height: 1366px;
+  left: 519px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 104px;
+  transform: rotate(-90deg);
+  width: 328px;
+}
+
+.embrace-change .group-85 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  left: 1260px;
+  position: absolute;
+  top: 856px;
+}
+
+.embrace-change .overlap-group5 {
+  align-items: flex-start;
+  background-image: url(../img/path-186-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 104px;
+  margin-top: -31.5px;
+  min-width: 104px;
+  padding: 45.5px;
+}
+
+.embrace-change .group-76 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  min-width: 13px;
+}
+
+.embrace-change .overlap-group6 {
+  height: 15px;
+  margin-top: -1.4px;
+  position: relative;
+  width: 15px;
+}
+
+.embrace-change .line-12 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 14px;
+}
+
+.embrace-change .path-187 {
+  height: 15px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.embrace-change .rectangle-63 {
+  background-color: var(--wild-sand);
+  height: 951px;
+  left: 0;
+  position: absolute;
+  top: 950px;
+  width: 1366px;
+}
+
+.embrace-change .address {
+  left: 318px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 1128px;
+  white-space: nowrap;
+}
+
+.embrace-change .addressing-equityth {
+  left: 756px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 1266px;
+  width: 314px;
+}
+
+.embrace-change .span0 {
+  letter-spacing: 0.18px;
+}
+
+.embrace-change .while-embracing {
+  left: 247px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 164px;
+  white-space: nowrap;
+}
+
+.embrace-change .over-the-past-five-y-1 {
+  left: 235px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 293px;
+  width: 324px;
+}
+
+.embrace-change .text-31 {
+  left: 809px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 861px;
+  white-space: nowrap;
+}
+
+.embrace-change .what-matters-most {
+  left: 183px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 207px;
+  width: 633px;
+}
+
+.embrace-change .text-32 {
+  left: 368px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 1158px;
+  width: 792px;
+}
+
+.embrace-change .granfather-and-randdaughter-31 {
+  height: 499px;
+  left: 263px;
+  object-fit: cover;
+  position: absolute;
+  top: 1271px;
+  width: 440px;
+}
+
+.embrace-change .text-37 {
+  color: var(--jaffa);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  left: 1108px;
+  letter-spacing: 0.18px;
+  line-height: 20px;
+  position: absolute;
+  top: 1321px;
+  width: 144px;
+}
+
+.embrace-change .span1 {
+  font-size: 13px;
+  letter-spacing: 0.13px;
+}
+
+.embrace-change .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--wild-sand);
+  display: flex;
+  flex-direction: column;
+  min-height: 951px;
+  padding: 131px 206px;
+  width: 1366px;
+}
+
+.embrace-change .overlap-group7 {
+  height: 128px;
+  margin-top: 47px;
+  position: relative;
+  width: 842px;
+}
+
+.embrace-change .address-1 {
+  left: 0;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.embrace-change .text-33 {
+  left: 50px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 30px;
+  width: 792px;
+}
+
+.embrace-change .flex-row {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 504px;
+  margin-right: 36.0px;
+  margin-top: 10px;
+  min-width: 804px;
+}
+
+.embrace-change .eastside-leaders-1 {
+  align-self: flex-end;
+  height: 499px;
+  object-fit: cover;
+  width: 440px;
+}
+
+.embrace-change .meaningful-decisions {
+  height: 490px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  margin-left: 53px;
+  width: 311px;
+}
+
+.embrace-change .overlap-group1 {
+  height: 1901px;
+  margin-top: 1px;
+  position: relative;
+  width: 1366px;
+}
+
+.embrace-change .gettyimages-130-19327-2048x2048 {
+  height: 952px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 949px;
+  width: 1366px;
+}
+
+.embrace-change .rectangle-66 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.51) 100%, rgba(128, 128, 128, 0.51) 100%);
+  height: 638px;
+  left: -157px;
+  opacity: 0.51;
+  position: absolute;
+  top: 1106px;
+  transform: rotate(90deg);
+  width: 952px;
+}
+
+.embrace-change .text-30 {
+  left: 214px;
+  letter-spacing: -0.34px;
+  line-height: 36px;
+  position: absolute;
+  top: 1132px;
+  white-space: nowrap;
+}
+
+.embrace-change .find-new-solutions {
+  left: 277px;
+  letter-spacing: -0.80px;
+  line-height: 72px;
+  position: absolute;
+  top: 1170px;
+  white-space: nowrap;
+}
+
+.embrace-change .rectangle-94 {
+  background-color: var(--wild-sand);
+  height: 951px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.embrace-change .address-2 {
+  left: 318px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 178px;
+  white-space: nowrap;
+}
+
+.embrace-change .text-34 {
+  left: 368px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 207px;
+  width: 792px;
+}
+
+.embrace-change .rectangle-95 {
+  background-color: var(--old-brick);
+  height: 407px;
+  left: 224px;
+  position: absolute;
+  top: 328px;
+  width: 335px;
+}
+
+.embrace-change .rectangle-96 {
+  background-color: var(--mulled-wine);
+  height: 407px;
+  left: 559px;
+  position: absolute;
+  top: 328px;
+  width: 334px;
+}
+
+.embrace-change .rectangle-97 {
+  background-color: var(--avocado);
+  height: 407px;
+  left: 893px;
+  position: absolute;
+  top: 328px;
+  width: 334px;
+}
+
+.embrace-change .social-justice-fund {
+  height: 348px;
+  left: 258px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 362px;
+  width: 270px;
+}
+
+.embrace-change .census-outreach-we-p {
+  height: 348px;
+  left: 592px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 362px;
+  width: 270px;
+}
+
+.embrace-change .emergency-and-rapid {
+  height: 348px;
+  left: 926px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 362px;
+  width: 270px;
+}
+
+.embrace-change .text-35 {
+  color: var(--avocado);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 839px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 860px;
+  white-space: nowrap;
+}
+
+.embrace-change .to-old-problems {
+  left: 619px;
+  letter-spacing: -0.34px;
+  line-height: 36px;
+  position: absolute;
+  top: 1244px;
+  white-space: nowrap;
+}
+
+.embrace-change .group-88 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  left: 1260px;
+  position: absolute;
+  top: 855px;
+}
+
+.embrace-change .overlap-group4 {
+  background-image: url(../img/gettyimages-1309819327-2048x2048@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 952px;
+  position: relative;
+  width: 1366px;
+}
+
+.embrace-change .rectangle-76 {
+  background-color: var(--white);
+  height: 530px;
+  left: 240px;
+  opacity: 0.8;
+  position: absolute;
+  top: 150px;
+  width: 508px;
+}
+
+.embrace-change .as-the-country-embar {
+  left: 281px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 184px;
+  width: 430px;
+}

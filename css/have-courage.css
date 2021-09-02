@@ -1,0 +1,556 @@
+/* screen - have-courage */
+
+.have-courage {
+  background-color: var(--white);
+  height: 6651px;
+  overflow: hidden;
+  position: relative;
+  width: 1366px;
+}
+
+.have-courage .overlap-group2 {
+  height: 3801px;
+  left: -1px;
+  position: absolute;
+  top: 0;
+  width: 1415px;
+}
+
+.have-courage .rectangle-5 {
+  background-color: var(--calypso);
+  height: 951px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.have-courage .rectangle-4 {
+  background-color: var(--zambezi);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #00000029;
+  height: 70px;
+  left: 1266px;
+  position: absolute;
+  top: 650px;
+  width: 149px;
+}
+
+.have-courage .group-115 {
+  background-image: url(../img/path-189@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 22px;
+  left: 1298px;
+  position: absolute;
+  top: 677px;
+  width: 21px;
+}
+
+.have-courage .rectangle-100 {
+  background-color: var(--wild-sand);
+  height: 951px;
+  left: 1px;
+  position: absolute;
+  top: 1900px;
+  width: 1366px;
+}
+
+.have-courage .group-85 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  left: 1261px;
+  position: absolute;
+  top: 2757px;
+}
+
+.have-courage .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/path-186-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 104px;
+  margin-top: -31.5px;
+  min-width: 104px;
+  padding: 45.5px;
+}
+
+.have-courage .group-76 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  min-width: 13px;
+}
+
+.have-courage .overlap-group-1 {
+  height: 15px;
+  margin-top: -1.4px;
+  position: relative;
+  width: 15px;
+}
+
+.have-courage .line-12 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 14px;
+}
+
+.have-courage .path-187 {
+  height: 15px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.have-courage .have-courage-1 {
+  left: 288px;
+  letter-spacing: -0.80px;
+  line-height: 71px;
+  position: absolute;
+  top: 248px;
+  white-space: nowrap;
+}
+
+.have-courage .scholarships {
+  left: 484px;
+  letter-spacing: 0.20px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 326px;
+  white-space: nowrap;
+}
+
+.have-courage .rectangle-99 {
+  background-color: var(--wild-sand);
+  height: 951px;
+  left: 1px;
+  position: absolute;
+  top: 950px;
+  width: 1366px;
+}
+
+.have-courage .text-18 {
+  left: 230px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 1148px;
+  white-space: nowrap;
+}
+
+.have-courage .name {
+  color: var(--calypso);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 1000px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 1811px;
+  white-space: nowrap;
+}
+
+.have-courage .text-19 {
+  left: 500px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 1191px;
+  width: 556px;
+}
+
+.have-courage .former-scholarship-r {
+  height: 333px;
+  left: 857px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 1384px;
+  width: 314px;
+}
+
+.have-courage .span0 {
+  letter-spacing: 0.18px;
+}
+
+.have-courage .eric-wilson-st-ckandwhite-web {
+  height: 365px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 1389px;
+  width: 327px;
+}
+
+.have-courage .text-20 {
+  left: 230px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 2098px;
+  white-space: nowrap;
+}
+
+.have-courage .text-21 {
+  color: var(--calypso);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 854px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 2761px;
+  white-space: nowrap;
+}
+
+.have-courage .text-22 {
+  left: 500px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 2141px;
+  width: 556px;
+}
+
+.have-courage .donor-generositytha {
+  height: 333px;
+  left: 857px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 2334px;
+  width: 314px;
+}
+
+.have-courage .span-1 {
+  color: var(--buddha-gold);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 900;
+}
+
+.have-courage .hernan-rozember-ids-scholarship {
+  height: 365px;
+  left: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 2339px;
+  width: 327px;
+}
+
+.have-courage .dsc4745 {
+  height: 951px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 2850px;
+  width: 1366px;
+}
+
+.have-courage .text-23 {
+  left: 247px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 3035px;
+  white-space: nowrap;
+}
+
+.have-courage .text-24 {
+  left: 247px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 3071px;
+  width: 582px;
+}
+
+.have-courage .text-25 {
+  left: 846px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  text-shadow: 0px 3px 6px #00000029;
+  top: 3710px;
+  white-space: nowrap;
+}
+
+.have-courage .group-90 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  left: 1261px;
+  position: absolute;
+  top: 1806px;
+}
+
+.have-courage .group-91 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  left: 1261px;
+  position: absolute;
+  top: 3705px;
+}
+
+.have-courage .overlap-group-2 {
+  height: 1902px;
+  left: -1px;
+  position: absolute;
+  top: 3801px;
+  width: 1367px;
+}
+
+.have-courage .saafdn-ymca-3 {
+  height: 951px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 951px;
+  width: 1366px;
+}
+
+.have-courage .rectangle-101 {
+  background: linear-gradient(0deg, #ffffff 0%, #808080 100%);
+  height: 436px;
+  left: 1px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 951px;
+  width: 1366px;
+}
+
+.have-courage .conjunto-taller-bene-45-web {
+  height: 951px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.have-courage .text-16 {
+  left: 589px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 216px;
+  white-space: nowrap;
+}
+
+.have-courage .text-17 {
+  left: 661px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 250px;
+  width: 696px;
+}
+
+.have-courage .text-26 {
+  left: 436px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 1074px;
+  width: 786px;
+}
+
+.have-courage .text-27 {
+  left: 614px;
+  letter-spacing: 0.21px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 587px;
+  white-space: nowrap;
+}
+
+.have-courage .text-28 {
+  left: 489px;
+  letter-spacing: 0.21px;
+  line-height: 32px;
+  position: absolute;
+  text-decoration: underline;
+  top: 474px;
+  white-space: nowrap;
+}
+
+.have-courage .text-29 {
+  height: 302px;
+  left: 949px;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  top: 842px;
+  width: 311px;
+}
+
+.have-courage .overlap-group1 {
+  height: 6656px;
+  left: -72px;
+  position: absolute;
+  top: 0;
+  width: 1438px;
+}
+
+.have-courage .rectangle-63 {
+  background-color: var(--wild-sand);
+  height: 951px;
+  left: 72px;
+  position: absolute;
+  top: 5705px;
+  width: 1366px;
+}
+
+.have-courage .text-14 {
+  color: var(--tundora);
+  font-family: var(--font-family-whitman-roman);
+  font-size: var(--font-size-xxl);
+  left: 340px;
+  letter-spacing: -0.27px;
+  line-height: 33px;
+  position: absolute;
+  top: 6128px;
+  width: 465px;
+}
+
+.have-courage .text-15 {
+  color: var(--mulled-wine);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 680px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 6582px;
+  white-space: nowrap;
+}
+
+.have-courage .name-1 {
+  left: 342px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 5941px;
+  width: 641px;
+}
+
+.have-courage .group-76-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  left: 1010px;
+  position: absolute;
+  top: 6591px;
+}
+
+.have-courage .address {
+  color: var(--mulled-wine);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 334px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 6583px;
+  white-space: nowrap;
+}
+
+.have-courage .group-76-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  left: 552px;
+  position: absolute;
+  top: 6592px;
+}
+
+.have-courage .group-122 {
+  align-items: flex-start;
+  display: flex;
+  height: 62px;
+  left: 342px;
+  position: absolute;
+  top: 6324px;
+}
+
+.have-courage .overlap-group5 {
+  height: 62px;
+  position: relative;
+  width: 256px;
+}
+
+.have-courage .rectangle-125 {
+  background-color: var(--old-brick);
+  border-radius: 6px;
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 252px;
+}
+
+.have-courage .path-181 {
+  height: 18px;
+  left: 22px;
+  object-fit: cover;
+  position: absolute;
+  top: 22px;
+  width: 21px;
+}
+
+.have-courage .donate-now {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  left: 57px;
+  letter-spacing: -0.27px;
+  line-height: 33px;
+  position: absolute;
+  top: 10px;
+  white-space: nowrap;
+  width: 199px;
+}
+
+.have-courage .line-40 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 5985px;
+  width: 262px;
+}
+
+.have-courage .line-41 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 6604px;
+  width: 262px;
+}

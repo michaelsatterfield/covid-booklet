@@ -1,0 +1,1053 @@
+/* screen - digital-annual-report */
+
+.digital-annual-report {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 6655px;
+  overflow: hidden;
+  width: 1366px;
+}
+
+.digital-annual-report .overlap-group13 {
+  height: 1901px;
+  margin-left: -174px;
+  position: relative;
+  width: 100%;
+}
+
+.digital-annual-report .overlap-group2 {
+  height: 1901px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.digital-annual-report .rectangle-63 {
+  background-color: var(--wild-sand);
+  height: 951px;
+  left: 174px;
+  position: absolute;
+  top: 950px;
+  width: 1366px;
+}
+
+.digital-annual-report .group-134 {
+  background-image: url(../img/gettyimages-1309819327-2048x2048-4@1x.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 952px;
+  left: 174px;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+  transform: scale(1);
+}
+
+.digital-annual-report .group-134.animate-enter {
+  animation: animate-enter-frames 6.00s ease 0.50s 1 normal forwards;
+  transform: scale(1);
+}
+
+@keyframes animate-enter-frames {
+  from{transform: scale(1);
+}
+to{transform: scale(1.12);
+}
+}
+
+.digital-annual-report .group-133 {
+  background-image: url(../img/gettyimages-1309819327-2048x2048-4@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 952px;
+  left: 174px;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+  opacity: 0;transform: scale(1);
+}
+
+.digital-annual-report .group-133.animate-enter1 {
+  animation: animate-enter1-frames 6.00s ease 0.50s 1 normal forwards;
+  opacity: 0;transform: scale(1);
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;transform: scale(1);
+}
+to{opacity: 1;transform: scale(1.12);
+}
+}
+
+.digital-annual-report .text-2 {
+  left: 355px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 1188px;
+  white-space: nowrap;
+  opacity: 0;transform: translate(25px, 0);
+}
+
+.digital-annual-report .text-2.animate-enter2 {
+  animation: animate-enter2-frames 4.00s ease 0.50s 1 normal forwards;
+  opacity: 0;transform: translate(25px, 0);
+}
+
+@keyframes animate-enter2-frames {
+  from{opacity: 0;transform: translate(25px, 0);
+}
+to{opacity: 1;transform: translate(0,0);
+}
+}
+
+.digital-annual-report .text-3 {
+  left: 577px;
+  letter-spacing: -0.80px;
+  line-height: 72px;
+  position: absolute;
+  top: 1285px;
+  white-space: nowrap;
+  opacity: 0;transform: translate(25px, 0);
+}
+
+.digital-annual-report .text-3.animate-enter3 {
+  animation: animate-enter3-frames 3.50s ease 1.00s 1 normal forwards;
+  opacity: 0;transform: translate(25px, 0);
+}
+
+@keyframes animate-enter3-frames {
+  from{opacity: 0;transform: translate(25px, 0);
+}
+to{opacity: 1;transform: translate(0,0);
+}
+}
+
+.digital-annual-report .text-4 {
+  color: var(--tundora);
+  font-family: var(--font-family-whitman-roman);
+  font-size: var(--font-size-xxl);
+  left: 857px;
+  letter-spacing: -0.27px;
+  line-height: 33px;
+  position: absolute;
+  top: 1449px;
+  width: 417px;
+  opacity: 0;
+}
+
+.digital-annual-report .text-4.animate-enter4 {
+  animation: animate-enter4-frames 3.00s ease 1.50s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-enter4-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.digital-annual-report .path-205 {
+  display: block;
+  height: 104px;
+  left: 1404px;
+  object-fit: cover;
+  position: absolute;
+  top: 1774px;
+  width: 104px;
+  opacity: 0;transform: scale(1);
+}
+
+.digital-annual-report .path-205.animate-enter5 {
+  animation: animate-enter5-frames 0.20s ease 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;transform: scale(1);
+}
+
+@keyframes animate-enter5-frames {
+  from{opacity: 0;transform: scale(1);
+}
+to{opacity: 1;transform: scale(1.2);
+}
+}
+
+.digital-annual-report .group-136 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  left: 1436px;
+  position: absolute;
+  top: 1806px;
+}
+
+.digital-annual-report .overlap-group {
+  height: 104px;
+  margin-top: -31.5px;
+  position: relative;
+  width: 104px;
+}
+
+.digital-annual-report .path-186 {
+  display: block;
+  height: 104px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 104px;
+  opacity: 0;
+}
+
+.digital-annual-report .path-186.animate-enter6 {
+  animation: animate-enter6-frames 2.00s ease 2.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes animate-enter6-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.digital-annual-report .group-76 {
+  height: 13px;
+  left: 46px;
+  position: absolute;
+  top: 46px;
+  width: 13px;
+  opacity: 0;
+}
+
+.digital-annual-report .group-76.animate-enter7 {
+  animation: animate-enter7-frames 2.00s ease 2.00s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-enter7-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.digital-annual-report .overlap-group7 {
+  height: 15px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 15px;
+}
+
+.digital-annual-report .line-12 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 14px;
+}
+
+.digital-annual-report .path-187 {
+  height: 15px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.digital-annual-report .words-from-our-ceo {
+  color: var(--old-brick);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 900;
+  left: 1212px;
+  letter-spacing: 0.18px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 1811px;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+.digital-annual-report .words-from-our-ceo.animate-enter8 {
+  animation: animate-enter8-frames 2.00s ease 2.00s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-enter8-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.digital-annual-report .every-journey-has-a {
+  color: var(--white);
+  font-family: var(--font-family-whitman-roman);
+  font-size: 42px;
+  left: 355px;
+  letter-spacing: -0.42px;
+  line-height: 42px;
+  position: absolute;
+  top: 432px;
+  white-space: nowrap;
+  opacity: 0;transform: translate(45px, 0);
+}
+
+.digital-annual-report .every-journey-has-a.animate-enter9 {
+  animation: animate-enter9-frames 3.50s ease 0.00s 1 normal forwards;
+  opacity: 0;transform: translate(45px, 0);
+}
+
+@keyframes animate-enter9-frames {
+  from{opacity: 0;transform: translate(45px, 0);
+}
+to{opacity: 1;transform: translate(0,0);
+}
+}
+
+.digital-annual-report .turning-point {
+  color: var(--white);
+  font-family: var(--font-family-whitman-roman);
+  font-size: 98px;
+  left: 463px;
+  letter-spacing: -0.98px;
+  line-height: 98px;
+  position: absolute;
+  top: 462px;
+  white-space: nowrap;
+  opacity: 0;transform: translate(75px, 0);
+}
+
+.digital-annual-report .turning-point.animate-enter10 {
+  animation: animate-enter10-frames 3.50s ease 0.30s 1 normal forwards;
+  opacity: 0;transform: translate(75px, 0);
+}
+
+@keyframes animate-enter10-frames {
+  from{opacity: 0;transform: translate(75px, 0);
+}
+to{opacity: 1;transform: translate(0,0);
+}
+}
+
+.digital-annual-report .group-135 {
+  height: 55px;
+  left: 199px;
+  position: absolute;
+  top: 23px;
+  width: 1280px;
+  opacity: 0;
+}
+
+.digital-annual-report .group-135.animate-enter11 {
+  animation: animate-enter11-frames 3.45s ease 0.00s 1 normal forwards;
+  opacity: 0;
+}
+
+@keyframes animate-enter11-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.digital-annual-report .be-a-catalyst {
+  left: 638px;
+  letter-spacing: -0.18px;
+  line-height: 34px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .make-an-impact {
+  left: 773px;
+  letter-spacing: -0.18px;
+  line-height: 34px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .embrace-change {
+  left: 934px;
+  letter-spacing: -0.18px;
+  line-height: 34px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .have-courage {
+  left: 1097px;
+  letter-spacing: -0.18px;
+  line-height: 34px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .path-181 {
+  height: 18px;
+  left: 1257px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 23px;
+}
+
+.digital-annual-report .group-33 {
+  align-items: center;
+  display: flex;
+  height: 55px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.digital-annual-report .group-32 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 55px;
+  padding: 0.0px 0;
+  width: 45px;
+}
+
+.digital-annual-report .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 0.78px;
+  min-width: 29px;
+}
+
+.digital-annual-report .path-119 {
+  align-self: flex-end;
+  height: 7px;
+  object-fit: cover;
+  width: 6px;
+}
+
+.digital-annual-report .path-120 {
+  height: 7px;
+  margin-left: 5px;
+  object-fit: cover;
+  width: 6px;
+}
+
+.digital-annual-report .path-121 {
+  align-self: center;
+  height: 7px;
+  margin-left: 5px;
+  margin-top: 0.08px;
+  object-fit: cover;
+  width: 7px;
+}
+
+.digital-annual-report .overlap-group-1 {
+  height: 48px;
+  position: relative;
+  width: 45px;
+}
+
+.digital-annual-report .path-122 {
+  height: 10px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.digital-annual-report .path-123 {
+  height: 42px;
+  left: 19px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 7px;
+}
+
+.digital-annual-report .path-124 {
+  height: 42px;
+  left: 28px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 9px;
+}
+
+.digital-annual-report .path-125 {
+  height: 42px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 8px;
+}
+
+.digital-annual-report .group-30 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  margin-top: 2.5px;
+  min-height: 48px;
+  width: 406px;
+}
+
+.digital-annual-report .group-28 {
+  height: 24px;
+  object-fit: cover;
+  width: 406px;
+}
+
+.digital-annual-report .group-29 {
+  height: 14px;
+  margin-left: 0.19px;
+  margin-top: 9px;
+  object-fit: cover;
+  width: 282px;
+}
+
+.digital-annual-report .group-103 {
+  align-items: flex-start;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  left: 355px;
+  position: absolute;
+  top: 843px;
+  transform: rotate(90deg);
+}
+
+.digital-annual-report .path-186-1 {
+  height: 104px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transform: rotate(-90deg);
+  width: 104px;
+}
+
+.digital-annual-report .group-76-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  left: 46px;
+  position: absolute;
+  top: 46px;
+}
+
+.digital-annual-report .overlap-group6 {
+  height: 15px;
+  margin-top: -1.4px;
+  position: relative;
+  width: 15px;
+}
+
+.digital-annual-report .line-12-1 {
+  height: 14px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  transform: rotate(-90deg);
+  width: 2px;
+}
+
+.digital-annual-report .path-187-1 {
+  height: 8px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  transform: rotate(-90deg);
+  width: 15px;
+}
+
+.digital-annual-report .text-13 {
+  color: #e943dc;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  left: 1178px;
+  letter-spacing: 0.18px;
+  line-height: 30px;
+  position: absolute;
+  top: 1753px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .line-24 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 1207px;
+  width: 322px;
+}
+
+.digital-annual-report .group-35 {
+  align-items: flex-start;
+  display: flex;
+  height: 950px;
+  left: 174px;
+  position: absolute;
+  top: 951px;
+}
+
+.digital-annual-report .overlap-group-2 {
+  height: 950px;
+  position: relative;
+  width: 96px;
+}
+
+.digital-annual-report .group-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 950px;
+  left: 0;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+}
+
+.digital-annual-report .rectangle-3 {
+  background-color: var(--white);
+  height: 948px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.digital-annual-report .line-1-1 {
+  height: 950px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.digital-annual-report .group-34 {
+  align-items: flex-end;
+  display: flex;
+  height: 30px;
+  left: 38px;
+  position: absolute;
+  top: 876px;
+}
+
+.digital-annual-report .overlap-group7-1 {
+  height: 32px;
+  margin-bottom: -1.88px;
+  position: relative;
+  width: 21px;
+}
+
+.digital-annual-report .rectangle-27 {
+  border: 3px solid var(--old-brick);
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+.digital-annual-report .path-116 {
+  height: 10px;
+  left: 3px;
+  object-fit: cover;
+  position: absolute;
+  top: 23px;
+  width: 15px;
+}
+
+.digital-annual-report .line-8 {
+  height: 21px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 3px;
+}
+
+.digital-annual-report .group-27 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 25px;
+  padding: 0.0px 0;
+  position: absolute;
+  top: 23px;
+  width: 45px;
+}
+
+.digital-annual-report .group-31 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 35px;
+  position: absolute;
+  top: 120px;
+  width: 25px;
+}
+
+.digital-annual-report .line-9 {
+  height: 3px;
+  margin-left: -1.5px;
+  object-fit: cover;
+  width: 28px;
+}
+
+.digital-annual-report .line-1 {
+  height: 3px;
+  margin-left: -1.5px;
+  margin-top: 5px;
+  object-fit: cover;
+  width: 28px;
+}
+
+.digital-annual-report .path-182 {
+  height: 18px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 819px;
+  width: 23px;
+}
+
+.digital-annual-report .overlap-group14 {
+  height: 1903px;
+  margin-left: -174px;
+  position: relative;
+  width: 1701px;
+}
+
+.digital-annual-report .overlap-group5 {
+  height: 951px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1588px;
+}
+
+.digital-annual-report .rectangle-5 {
+  background-color: var(--jaffa);
+  height: 951px;
+  left: 174px;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.digital-annual-report .rectangle-4 {
+  background-color: var(--zambezi);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #00000029;
+  height: 70px;
+  left: 1439px;
+  position: absolute;
+  top: 650px;
+  width: 149px;
+}
+
+.digital-annual-report .group-112 {
+  background-image: url(../img/path-189@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 22px;
+  left: 1471px;
+  position: absolute;
+  top: 677px;
+  width: 21px;
+}
+
+.digital-annual-report .be-a-catalyst-1 {
+  left: 587px;
+  letter-spacing: -0.80px;
+  line-height: 71px;
+  position: absolute;
+  top: 230px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .text-1 {
+  left: 702px;
+  letter-spacing: 0.20px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 303px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .line-32 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 254px;
+  width: 322px;
+}
+
+.digital-annual-report .overlap-group3 {
+  height: 952px;
+  left: 174px;
+  position: absolute;
+  top: 951px;
+  width: 1527px;
+}
+
+.digital-annual-report .gettyimages-130-19327-2048x2048 {
+  height: 952px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.digital-annual-report .text-5 {
+  left: 330px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 188px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .text-6 {
+  left: 464px;
+  letter-spacing: -0.80px;
+  line-height: 87px;
+  position: absolute;
+  top: 222px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .an-unprecedented-cri {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  left: 332px;
+  letter-spacing: -0.17px;
+  line-height: 30px;
+  position: absolute;
+  top: 360px;
+  width: 658px;
+}
+
+.digital-annual-report .line-34 {
+  height: 1px;
+  left: 1205px;
+  object-fit: cover;
+  position: absolute;
+  top: 269px;
+  width: 322px;
+}
+
+.digital-annual-report .overlap-group4 {
+  align-items: flex-end;
+  background-image: url(../img/gettyimages-1309819327-2048x2048-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 952px;
+  padding: 63px 64px;
+  width: 1366px;
+}
+
+.digital-annual-report .overlap-group11 {
+  align-self: center;
+  height: 131px;
+  margin-left: 148.0px;
+  margin-top: 125px;
+  position: relative;
+  width: 850px;
+}
+
+.digital-annual-report .text-7 {
+  left: 0;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.digital-annual-report .text-8 {
+  left: 71px;
+  letter-spacing: -0.80px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 528px;
+  min-width: 1144px;
+}
+
+.digital-annual-report .overlap-group9 {
+  align-items: flex-end;
+  background-color: var(--jaffa);
+  border-radius: 20.5px;
+  box-shadow: 0px 0px 21px #00000022;
+  display: flex;
+  height: 41px;
+  justify-content: flex-end;
+  min-width: 41px;
+  padding: 14.2px 13.5px;
+}
+
+.digital-annual-report .group-78 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  min-width: 13px;
+}
+
+.digital-annual-report .overlap-group6-1 {
+  height: 15px;
+  margin-left: -1px;
+  margin-top: -1.4px;
+  position: relative;
+  width: 15px;
+}
+
+.digital-annual-report .line-12-2 {
+  height: 2px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 14px;
+}
+
+.digital-annual-report .path-187-2 {
+  height: 15px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.digital-annual-report .text-12 {
+  letter-spacing: 0.21px;
+  line-height: 32px;
+  margin-left: 21px;
+  margin-top: 1px;
+  min-height: 30px;
+  min-width: 256px;
+  text-shadow: 0px 2px 2px #00000071;
+  white-space: nowrap;
+}
+
+.digital-annual-report .text-11 {
+  letter-spacing: 0.21px;
+  line-height: 32px;
+  margin-left: 350px;
+  margin-top: 1px;
+  min-height: 30px;
+  min-width: 413px;
+  text-align: right;
+  text-shadow: 0px 2px 2px #00000071;
+  white-space: nowrap;
+}
+
+.digital-annual-report .overlap-group10 {
+  align-items: flex-end;
+  background-color: var(--jaffa);
+  border-radius: 20.5px;
+  box-shadow: 0px 0px 21px #00000022;
+  display: flex;
+  height: 41px;
+  justify-content: flex-end;
+  margin-left: 22px;
+  min-width: 41px;
+  padding: 14.2px 13.5px;
+}
+
+.digital-annual-report .group-86 {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  min-width: 13px;
+}
+
+.digital-annual-report .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/gettyimages-1309819327-2048x2048-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 952px;
+  padding: 228.5px 181px;
+  width: 1366px;
+}
+
+.digital-annual-report .text-9 {
+  letter-spacing: -0.34px;
+  line-height: 36px;
+  min-height: 79px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .text-10 {
+  letter-spacing: -0.80px;
+  line-height: 72px;
+  margin-top: 3px;
+  min-height: 170px;
+  white-space: nowrap;
+}
+
+.digital-annual-report .overlap-group-3 {
+  background-image: url(../img/gettyimages-1309819327-2048x2048@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 952px;
+  position: relative;
+  width: 1366px;
+}
+
+.digital-annual-report .rectangle-76 {
+  background-color: var(--white);
+  height: 459px;
+  left: 181px;
+  opacity: 0.8;
+  position: absolute;
+  top: 121px;
+  width: 457px;
+}
+
+.digital-annual-report .the-people-that-samm {
+  left: 222px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 155px;
+  width: 386px;
+}

@@ -1,0 +1,896 @@
+/* screen - make-an-impact */
+
+.make-an-impact {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 9502px;
+  overflow: hidden;
+  padding: 0.0px 0;
+  width: 1366px;
+}
+
+.make-an-impact .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: -174px;
+  min-height: 4754px;
+  width: 1766px;
+}
+
+.make-an-impact .overlap-group12 {
+  height: 2854px;
+  position: relative;
+  width: 1766px;
+}
+
+.make-an-impact .overlap-group1 {
+  height: 951px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1588px;
+}
+
+.make-an-impact .rectangle-5 {
+  background-color: var(--buddha-gold);
+  height: 951px;
+  left: 174px;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.make-an-impact .rectangle-4 {
+  background-color: var(--zambezi);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #00000029;
+  height: 70px;
+  left: 1439px;
+  position: absolute;
+  top: 650px;
+  width: 149px;
+}
+
+.make-an-impact .group-113 {
+  background-image: url(../img/path-189@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 22px;
+  left: 1471px;
+  position: absolute;
+  top: 677px;
+  width: 21px;
+}
+
+.make-an-impact .make-an-impact-1 {
+  left: 497px;
+  letter-spacing: -0.80px;
+  line-height: 71px;
+  position: absolute;
+  top: 202px;
+  white-space: nowrap;
+}
+
+.make-an-impact .text-38 {
+  left: 648px;
+  letter-spacing: 0.20px;
+  line-height: 38px;
+  position: absolute;
+  text-align: center;
+  top: 280px;
+  white-space: nowrap;
+}
+
+.make-an-impact .line-24 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 237px;
+  width: 322px;
+}
+
+.make-an-impact .overlap-group {
+  height: 1903px;
+  left: 174px;
+  position: absolute;
+  top: 951px;
+  width: 1592px;
+}
+
+.make-an-impact .gettyimages-130-19327-2048x2048-1 {
+  height: 952px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 951px;
+  width: 1366px;
+}
+
+.make-an-impact .gettyimages-130-19327-2048x2048 {
+  height: 952px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.make-an-impact .here-is-the {
+  left: 495px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 230px;
+  white-space: nowrap;
+}
+
+.make-an-impact .impact-we-made {
+  left: 643px;
+  letter-spacing: -0.80px;
+  line-height: 87px;
+  position: absolute;
+  top: 194px;
+  white-space: nowrap;
+}
+
+.make-an-impact .x1-billion-total-ass {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-roboto);
+  font-size: 24px;
+  left: 643px;
+  letter-spacing: -0.18px;
+  line-height: 30px;
+  position: absolute;
+  top: 332px;
+  width: 654px;
+}
+
+.make-an-impact .span {
+  letter-spacing: -0.24px;
+}
+
+.make-an-impact .in-2020 {
+  left: 1033px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 272px;
+  white-space: nowrap;
+}
+
+.make-an-impact .rectangle-67 {
+  background-color: var(--buddha-gold);
+  height: 63px;
+  left: 210px;
+  position: absolute;
+  top: 1711px;
+  width: 1019px;
+}
+
+.make-an-impact .price-1 {
+  left: 376px;
+  letter-spacing: -0.32px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1694px;
+  white-space: nowrap;
+  width: 823px;
+}
+
+.make-an-impact .rectangle-68 {
+  background-color: var(--mulled-wine);
+  height: 63px;
+  left: 700px;
+  position: absolute;
+  top: 1648px;
+  width: 529px;
+}
+
+.make-an-impact .rectangle-69 {
+  background-color: var(--jaffa);
+  height: 63px;
+  left: 717px;
+  position: absolute;
+  top: 1585px;
+  width: 512px;
+}
+
+.make-an-impact .rectangle-70 {
+  background-color: var(--avocado);
+  height: 63px;
+  left: 752px;
+  position: absolute;
+  top: 1522px;
+  width: 477px;
+}
+
+.make-an-impact .rectangle-71 {
+  background-color: var(--calypso);
+  height: 63px;
+  left: 779px;
+  position: absolute;
+  top: 1459px;
+  width: 450px;
+}
+
+.make-an-impact .rectangle-72 {
+  background-color: #384e83;
+  height: 63px;
+  left: 807px;
+  position: absolute;
+  top: 1396px;
+  width: 422px;
+}
+
+.make-an-impact .price-2 {
+  left: 999px;
+  letter-spacing: -0.32px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1630px;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.make-an-impact .price-3 {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 32px;
+  font-weight: 500;
+  left: 951px;
+  letter-spacing: -0.20px;
+  line-height: 27px;
+  position: absolute;
+  text-align: right;
+  top: 1592px;
+  width: 248px;
+}
+
+.make-an-impact .span0-1 {
+  letter-spacing: -0.32px;
+}
+
+.make-an-impact .span1 {
+  font-size: 20px;
+}
+
+.make-an-impact .text-39 {
+  left: 717px;
+  letter-spacing: -0.18px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1506px;
+  white-space: nowrap;
+  width: 298px;
+}
+
+.make-an-impact .price-4 {
+  left: 1024px;
+  letter-spacing: -0.32px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1442px;
+  white-space: nowrap;
+  width: 175px;
+}
+
+.make-an-impact .price-5 {
+  left: 980px;
+  letter-spacing: -0.32px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1378px;
+  white-space: nowrap;
+  width: 219px;
+}
+
+.make-an-impact .text-40 {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  left: 170px;
+  letter-spacing: -0.18px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 1720px;
+  width: 823px;
+}
+
+.make-an-impact .span1-1 {
+  font-style: italic;
+}
+
+.make-an-impact .text-41 {
+  left: 742px;
+  letter-spacing: -0.18px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 1593px;
+  width: 273px;
+}
+
+.make-an-impact .text-42 {
+  left: 791px;
+  letter-spacing: -0.18px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1632px;
+  white-space: nowrap;
+  width: 224px;
+}
+
+.make-an-impact .price-6 {
+  left: 963px;
+  letter-spacing: -0.32px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1504px;
+  white-space: nowrap;
+  width: 236px;
+}
+
+.make-an-impact .scholarships {
+  left: 800px;
+  letter-spacing: -0.18px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1444px;
+  white-space: nowrap;
+  width: 215px;
+}
+
+.make-an-impact .designated {
+  left: 847px;
+  letter-spacing: -0.18px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 1380px;
+  white-space: nowrap;
+  width: 168px;
+}
+
+.make-an-impact .group-37 {
+  align-items: flex-start;
+  display: flex;
+  height: 63px;
+  left: 814px;
+  position: absolute;
+  top: 1333px;
+}
+
+.make-an-impact .overlap-group11 {
+  height: 80px;
+  margin-top: -17.5px;
+  position: relative;
+  width: 415px;
+}
+
+.make-an-impact .rectangle-73 {
+  background-color: var(--old-brick);
+  height: 63px;
+  left: 19px;
+  position: absolute;
+  top: 18px;
+  width: 396px;
+}
+
+.make-an-impact .text-4 {
+  left: 0;
+  letter-spacing: -0.18px;
+  line-height: 20px;
+  position: absolute;
+  text-align: right;
+  top: 26px;
+  width: 201px;
+}
+
+.make-an-impact .price {
+  left: 185px;
+  letter-spacing: -0.32px;
+  line-height: 87px;
+  position: absolute;
+  text-align: right;
+  top: 0;
+  white-space: nowrap;
+  width: 200px;
+}
+
+.make-an-impact .price-7 {
+  color: var(--old-brick);
+  font-family: var(--font-family-whitman-roman);
+  font-size: 225px;
+  left: 210px;
+  letter-spacing: -2.25px;
+  line-height: 87px;
+  position: absolute;
+  top: 1134px;
+  white-space: nowrap;
+}
+
+.make-an-impact .line-24-1 {
+  height: 1px;
+  left: 1270px;
+  object-fit: cover;
+  position: absolute;
+  top: 1156px;
+  width: 322px;
+}
+
+.make-an-impact .line-37 {
+  height: 1px;
+  left: 1270px;
+  object-fit: cover;
+  position: absolute;
+  top: 1747px;
+  width: 322px;
+}
+
+.make-an-impact .overlap-group13 {
+  height: 1900px;
+  margin-right: 52.0px;
+  position: relative;
+  width: 1366px;
+}
+
+.make-an-impact .overlap-group9 {
+  align-items: flex-end;
+  background-color: var(--buddha-gold);
+  border-radius: 20.5px;
+  box-shadow: 0px 0px 21px #00000022;
+  display: flex;
+  height: 41px;
+  left: 1259px;
+  min-width: 41px;
+  padding: 13.7px 13.5px;
+  position: absolute;
+  top: 1809px;
+}
+
+.make-an-impact .group {
+  align-items: flex-start;
+  display: flex;
+  height: 13px;
+  justify-content: flex-end;
+  min-width: 13px;
+}
+
+.make-an-impact .overlap-group11-1 {
+  height: 15px;
+  margin-top: -1.4px;
+  position: relative;
+  width: 15px;
+}
+
+.make-an-impact .line-12 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 14px;
+}
+
+.make-an-impact .path-187 {
+  height: 15px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.make-an-impact .vital-partnerships-1 {
+  left: 1081px;
+  letter-spacing: 0.15px;
+  line-height: 32px;
+  position: absolute;
+  text-align: right;
+  top: 1815px;
+  white-space: nowrap;
+}
+
+.make-an-impact .overlap-group2 {
+  height: 1900px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1366px;
+}
+
+.make-an-impact .group-38 {
+  align-items: flex-start;
+  display: flex;
+  height: 63px;
+  left: 814px;
+  position: absolute;
+  top: 382px;
+}
+
+.make-an-impact .text-45 {
+  left: 318px;
+  letter-spacing: -0.34px;
+  line-height: 34px;
+  position: absolute;
+  top: 176px;
+  white-space: nowrap;
+}
+
+.make-an-impact .bold-leadership {
+  left: 619px;
+  letter-spacing: -0.80px;
+  line-height: 87px;
+  position: absolute;
+  top: 140px;
+  white-space: nowrap;
+}
+
+.make-an-impact .text-46 {
+  color: var(--tundora);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  left: 482px;
+  letter-spacing: -0.17px;
+  line-height: 30px;
+  position: absolute;
+  top: 248px;
+  width: 311px;
+}
+
+.make-an-impact .span1-2 {
+  color: var(--old-brick);
+  font-weight: 900;
+}
+
+.make-an-impact .surname {
+  color: var(--old-brick);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  left: 858px;
+  letter-spacing: -0.17px;
+  line-height: 36px;
+  position: absolute;
+  top: 468px;
+  width: 391px;
+}
+
+.make-an-impact .span0-2 {
+  font-weight: 900;
+}
+
+.make-an-impact .gettyimages-130-19327-2048x2048-2 {
+  height: 952px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 948px;
+  width: 599px;
+}
+
+.make-an-impact .note-all-figures-li {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  left: 858px;
+  letter-spacing: -0.12px;
+  line-height: 15px;
+  position: absolute;
+  top: 716px;
+  width: 365px;
+}
+
+.make-an-impact .text-50 {
+  left: 411px;
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  position: absolute;
+  top: 1842px;
+  white-space: nowrap;
+}
+
+.make-an-impact .x1-cultural-vibrancy {
+  height: 375px;
+  left: 727px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 1311px;
+  width: 355px;
+}
+
+.make-an-impact .span0 {
+  letter-spacing: 0.18px;
+}
+
+.make-an-impact .creative-thinking {
+  height: 146px;
+  left: 639px;
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  position: absolute;
+  top: 1109px;
+  width: 600px;
+}
+
+.make-an-impact .flex-row {
+  align-items: center;
+  display: flex;
+  height: 2853px;
+  min-width: 1300px;
+}
+
+.make-an-impact .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 2853px;
+  width: 599px;
+}
+
+.make-an-impact .overlap-group6 {
+  height: 1901px;
+  position: relative;
+  width: 599px;
+}
+
+.make-an-impact .gettyimages-130-19327-2048x2048-3 {
+  height: 952px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 599px;
+}
+
+.make-an-impact .gettyimages-130-19327-2048x2048-4 {
+  height: 952px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 949px;
+  width: 599px;
+}
+
+.make-an-impact .text-51 {
+  left: 411px;
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  position: absolute;
+  top: 894px;
+  white-space: nowrap;
+}
+
+.make-an-impact .text-52 {
+  left: 411px;
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  position: absolute;
+  top: 1838px;
+  white-space: nowrap;
+}
+
+.make-an-impact .overlap-group3 {
+  align-items: flex-end;
+  background-image: url(../img/gettyimages-1309819327-2048x2048-6@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 952px;
+  min-width: 599px;
+  padding: 34.5px 45px;
+}
+
+.make-an-impact .san-antonio-oasis {
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  min-height: 21px;
+  min-width: 129px;
+  white-space: nowrap;
+}
+
+.make-an-impact .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 83px;
+  margin-top: 80.0px;
+  min-height: 2651px;
+  width: 556px;
+}
+
+.make-an-impact .text-47 {
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  min-height: 168px;
+  width: 528px;
+}
+
+.make-an-impact .x2-livable-and-resil {
+  height: 375px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  margin-left: 44px;
+  margin-top: 54px;
+  width: 355px;
+}
+
+.make-an-impact .vital-partnerships {
+  align-self: flex-end;
+  letter-spacing: 0.15px;
+  line-height: 32px;
+  margin-bottom: -10px;
+  margin-top: 129px;
+  min-height: 22px;
+  min-width: 158px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.make-an-impact .forging-ahead {
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  margin-top: 204px;
+  min-height: 98px;
+  width: 528px;
+}
+
+.make-an-impact .x3-youth-success-th {
+  height: 375px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  margin-left: 44px;
+  margin-top: 124px;
+  width: 355px;
+}
+
+.make-an-impact .text-48 {
+  color: var(--old-brick);
+  font-family: var(--font-family-whitman);
+  font-size: var(--font-size-xxxl);
+  letter-spacing: -0.80px;
+  line-height: 70px;
+  margin-top: 203px;
+  min-height: 200px;
+  width: 533px;
+}
+
+.make-an-impact .span0-3 {
+  letter-spacing: -0.34px;
+}
+
+.make-an-impact .x4-successful-aging {
+  height: 375px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  margin-left: 44px;
+  margin-top: 22px;
+  width: 355px;
+}
+
+.make-an-impact .flex-col-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+  margin-left: 20px;
+  min-height: 1944px;
+  width: 41px;
+}
+
+.make-an-impact .overlap-group5 {
+  align-items: flex-start;
+  background-color: var(--buddha-gold);
+  border-radius: 20.5px;
+  box-shadow: 0px 0px 21px #00000022;
+  display: flex;
+  height: 41px;
+  min-width: 41px;
+  padding: 13.7px 12.5px;
+}
+
+.make-an-impact .overlap-group8 {
+  align-items: flex-start;
+  background-color: var(--buddha-gold);
+  border-radius: 20.5px;
+  box-shadow: 0px 0px 21px #00000022;
+  display: flex;
+  height: 41px;
+  margin-top: 911px;
+  min-width: 41px;
+  padding: 13.7px 13.5px;
+}
+
+.make-an-impact .overlap-group10 {
+  align-items: flex-end;
+  background-color: var(--buddha-gold);
+  border-radius: 20.5px;
+  box-shadow: 0px 0px 21px #00000022;
+  display: flex;
+  height: 41px;
+  margin-top: 910px;
+  min-width: 41px;
+  padding: 13.7px 13.5px;
+}
+
+.make-an-impact .overlap-group4 {
+  background-image: url(../img/gettyimages-1309819327-2048x2048-8@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 952px;
+  position: relative;
+  width: 1366px;
+}
+
+.make-an-impact .rectangle-66 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.51) 100%, rgba(128, 128, 128, 0.51) 100%);
+  height: 638px;
+  left: -157px;
+  opacity: 0.51;
+  position: absolute;
+  top: 157px;
+  transform: rotate(90deg);
+  width: 952px;
+}
+
+.make-an-impact .text-49 {
+  left: 585px;
+  letter-spacing: -0.34px;
+  line-height: 36px;
+  position: absolute;
+  top: 298px;
+  white-space: nowrap;
+}
+
+.make-an-impact .is-not-an-option {
+  left: 585px;
+  letter-spacing: -0.80px;
+  line-height: 72px;
+  position: absolute;
+  top: 336px;
+  white-space: nowrap;
+}
+
+.make-an-impact .overlap-group7 {
+  background-image: url(../img/gettyimages-1309819327-2048x2048-7@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 952px;
+  position: relative;
+  width: 1366px;
+}
+
+.make-an-impact .rectangle-76 {
+  background-color: var(--white);
+  height: 382px;
+  left: 723px;
+  opacity: 0.3;
+  position: absolute;
+  top: 269px;
+  width: 457px;
+}
+
+.make-an-impact .with-the-second-half {
+  left: 764px;
+  letter-spacing: -0.15px;
+  line-height: 25px;
+  position: absolute;
+  top: 303px;
+  width: 384px;
+}

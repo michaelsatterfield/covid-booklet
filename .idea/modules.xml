@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/saaf.iml" filepath="$PROJECT_DIR$/.idea/saaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/saaf-covid-booklet.iml" filepath="$PROJECT_DIR$/.idea/saaf-covid-booklet.iml" />
     </modules>
   </component>
 </project>

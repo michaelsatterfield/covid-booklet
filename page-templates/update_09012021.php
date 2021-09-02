@@ -20,79 +20,80 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <link rel="apple-touch-icon" sizes="57x57"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-57x57.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-60x60.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-72x72.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-76x76.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-114x114.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-120x120.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-120x120.png">
     <link rel="apple-touch-icon" sizes="144x144"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-144x144.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-152x152.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-180x180.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-180x180.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
     <link rel="icon" type="image/png" sizes="228x228"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/coast-228x228.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/coast-228x228.png">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#fff">
     <meta name="application-name" content="ds-webpack-starter">
     <link rel="icon" type="image/png" sizes="32x32"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/favicon-32x32.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/favicon-16x16.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/favicon-16x16.png">
     <link rel="shortcut icon"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/favicon.ico">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="msapplication-config" content="browserconfig.xml">
     <link rel="apple-touch-icon" sizes="57x57"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-57x57.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-60x60.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-72x72.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-76x76.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-114x114.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-120x120.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-120x120.png">
     <link rel="apple-touch-icon" sizes="144x144"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-144x144.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-152x152.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/apple-touch-icon-180x180.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/apple-touch-icon-180x180.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
     <link rel="icon" type="image/png" sizes="228x228"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/coast-228x228.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/coast-228x228.png">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#fff">
     <meta name="application-name" content="ds-webpack-starter">
     <link rel="icon" type="image/png" sizes="32x32"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/favicon-32x32.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/favicon-16x16.png">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/favicon-16x16.png">
     <link rel="shortcut icon"
-          href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/favicon/favicon.ico">
+          href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="msapplication-config" content="browserconfig.xml">
 <!--    <link href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09012021/css/main.css?6c27024468b2af243e6a"-->
 <!--          rel="stylesheet">-->
-    <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/css/main.css"
+    <link href="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/css/main.css"
           rel="stylesheet">
+
 
 </head>
 
@@ -137,7 +138,9 @@
             </defs>
         </symbol>
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-left" fill="none"
-                stroke-linecap="round" stroke-width="2" xmlns:v="https://vecta.io/nano">
+                stroke-linecap="round" stroke-width="2"
+<!--                xmlns:v="https://vecta.io/nano"-->
+        >
             <path d="M14.256 7.744h-12m3.855-6.34L1.259 7.566l4.852 6.52"/>
         </symbol>
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-right" fill="none"
@@ -256,12 +259,26 @@
     <!-- section tag includes by default: .fixed, .flex, .flex-direction__column -->
     <section class="section-1">
         <div class="section-1__image-1__wrapper">
-            <div class="section-9__background"></div>
+
+            <div class="section-1__image-1">
+<!--                dynamic image file-->
+                <img class="section-1__image-1" src="<?php the_field('background_image_1'); ?>" alt="" />
+            </div>
         </div>
+
         <div class="section-1__text">
-            <div class="section-1__text-1">In times of crisis</div>
-            <div class="section-1__text-2">we rely on relationships.</div>
-            <div class="test"><h2 class="test">this is a test to find the css file</h2></div>
+<!--            testing custom field plugin-->
+            <div class="section-1__text-1"
+                <p><?php the_field('main_message'); ?></p>
+            </div>
+        <div class="section-1__text-2">
+            <p><?php the_field('main_message_2_'); ?></p>
+
+        </div>
+<!--        -->
+
+<!--            <div class="section-1__text-1">In times of crisis</div>-->
+<!--            <div class="section-1__text-2">we rely on relationships.</div>-->
         </div>
         <button class="button button-arrow-red button-arrow-red-section-1">
             <div class="icon icon-arrow">
@@ -319,7 +336,7 @@
     <section class="section-2a">
         <div class="section-2a__wrapper">
             <div class="section-2a__foto-wrapper"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/foto-marjie-web.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/foto-marjie-web.jpg"
                         alt=""></div>
             <div class="section-2a__text-wrapper">
                 <!--  <div class="section-2a__text-shadow-before"></div> -->
@@ -542,7 +559,7 @@
     <section class="section-5a">
         <div class="section-5a__wrapper">
             <div class="section-5a__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-5a.jpg">
+                        src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-5a.jpg">
             </div>
             <div class="section-5a__purplebox">One gift card recipient was a single parent who lost her job due to
                 COVID-19. She is raising her 10-year-old son and was concerned about their limited food supply and
@@ -589,7 +606,7 @@
                     larger-than-normal client base. </p>
             </div>
             <div class="section-5b__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-5b.jpg">
+                        src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-5b.jpg">
             </div>
             <div class="section-5b__purplebox">“It is so hard to take the chance to accuse someone when you know their
                 next step is
@@ -743,7 +760,7 @@
     </section>
     <section class="section-12">
         <div class="section-12__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-12.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-12.jpg">
             <div class="section-12__imageshorttext">» San Anto Cultural Arts</div>
         </div>
         <div class="section-12__text-wrapper">
@@ -790,7 +807,7 @@
     </section>
     <section class="section-13">
         <div class="section-13__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-13.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-13.jpg">
             <div class="section-13__imageshorttext">» Habitat for Humanity</div>
         </div>
         <div class="section-12__text-wrapper">
@@ -841,7 +858,7 @@
     </section>
     <section class="section-14">
         <div class="section-14__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-14.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-14.jpg">
             <div class="section-14__imageshorttext">» Good Samaritan Center</div>
         </div>
         <div class="section-14__text-wrapper">
@@ -909,7 +926,7 @@
     </section>
     <section class="section-15">
         <div class="section-15__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-15.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-15.jpg">
             <div class="section-15__imageshorttext">» San Antonio Oasis</div>
         </div>
         <div class="section-14__text-wrapper">
@@ -1052,7 +1069,7 @@
     <section class="section-20a">
         <div class="section-20a__maincontent">
             <div class="section-20a__image"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-20a.jpg"
+                        src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-20a.jpg"
                         alt=""></div>
             <div class="section-20a__text-wrapper">
                 <div class="section-20a__text">
@@ -1123,7 +1140,7 @@
         <div class="section-21__title">community<br>engagement</div>
         <div class="section-21__main-content">
             <div class="section-21__main-content-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-21.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-21.jpg">
                 <div class="section-21__text">
                     <h3>Addressing equity</h3>
                     <br>
@@ -1148,7 +1165,7 @@
         <div class="section-22__title">community<br>engagement</div>
         <div class="section-22__main-content">
             <div class="section-22__main-content-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-22.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-22.jpg">
                 <div class="section-22__text">
                     <h3>Meaningful decisions need meaningful data: The State of the African American Community in Bexar
                         County</h3>
@@ -1228,7 +1245,7 @@
             <div class="section-23a__text-shadow-after"></div>
         </div>
         <div class="section-23a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-23a.jpg">
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-23a.jpg">
         </div>
         <span class="section-23a__imageshorttext">» American Indians in Texas at the Spanish Colonial Missions</span>
         <div class="button-back-slide-section-23a">
@@ -1320,7 +1337,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
         <div class="section-27__title">courage to<br>seize an opportunity.</div>
         <div class="section-27__main-content">
             <div class="section-27__main-content-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-27.jpg">
+                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-27.jpg">
                 <div class="section-27__text">
                     <h3>Former Scholarship Recipient Says Thanks and Pays It Forward</h3>
                     <br>
@@ -1346,7 +1363,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
 <section class="section-27a">
     <div class="section-27a__maincontent">
         <div class="section-27a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-27a.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-27a.jpg"
                     alt=""></div>
         <div class="section-27a__text-wrapper">
             <div class="section-27a__text">
@@ -1405,7 +1422,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     <div class="section-28__title">courage to<br>create an opportunity.</div>
     <div class="section-28__main-content">
         <div class="section-28__main-content-wrapper">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-28.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-28.jpg">
             <div class="section-28__text">
                 <h3>Donor generosity</h3>
                 <br>
@@ -1433,7 +1450,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
 <section class="section-28a">
     <div class="section-28a__maincontent">
         <div class="section-28a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-28a.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-28a.jpg"
                     alt=""><span class="section-28a__imageshorttext">» Alexes Salazar
 Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         <div class="section-28a__text-wrapper">
@@ -1505,7 +1522,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 <section class="section-29a">
     <div class="section-29a__maincontent">
         <div class="section-29a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/images/section-29a.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/images/section-29a.jpg"
                     alt=""></div>
         <div class="section-29a__text-wrapper">
             <div class="section-29a__text">
@@ -1550,7 +1567,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         </div>
     </div>
     <div class="section-29a__quoter">
-        <p>We should love each other — that means caring for our neighbors.
+        <span>We should love each other — that means caring for our neighbors.
             Where those in mourning are comforted. Where the hungry are fed.
             Where the poor hear good news.
             </span>
@@ -1921,7 +1938,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 </div>
 <!-- <script type="text/javascript" src="./js/main.js?6c27024468b2af243e6a"></script> -->
 <script type="text/javascript"
-        src="<?php echo get_template_directory_uri(); ?>/page-templates/09012021/js/main.js"></script>
+        src="<?php echo get_template_directory_uri(); ?>/page-templates/Booklet_Main_Directory/js/main.js"></script>
 </body>
 
 </html>

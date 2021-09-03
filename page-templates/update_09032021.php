@@ -63,7 +63,8 @@
   <meta name="msapplication-TileColor" content="#fff">
   <meta name="msapplication-TileImage" content="mstile-144x144.png">
   <meta name="msapplication-config" content="browserconfig.xml">
-  <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/css/main.css?6c27024468b2af243e6a" rel="stylesheet">
+<!--  <link href="--><?php //echo get_template_directory_uri(); ?><!--/page-templates/09032021/css/main.css?6c27024468b2af243e6a" rel="stylesheet">-->
+  <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/css/main.css" rel="stylesheet">
 </head>
 
 <body class="index-page">

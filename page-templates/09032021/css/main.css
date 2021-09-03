@@ -106,7 +106,7 @@ a {
 }
 
 .flex-direction__column {
-     -webkit-box-orient: vertical;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -121,9 +121,9 @@ a {
     -ms-flex-align: center;
 }
 
-.flex-halign__left,
+.flex-align__left,
 .flex-horizontal-align__left {
-    align-items: left;
+    align-items: flex-start;
 }
 
 .flex-halign__center,
@@ -335,7 +335,7 @@ a {
 }
 
 .button-screen-down {
-    width: 21;
+    width: 21px;
     height: 32px
 }
 
@@ -550,7 +550,8 @@ body.page-loaded .section-1__image-1__wrapper {
 .section-1__image-1 {
     width: 100%;
     height: 100%;
-    background-image: url(../images/section-1-background.jpg);
+    background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.58), rgba(255, 255, 255, 0)),
+    url('../images/section-9-background.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -559,7 +560,7 @@ body.page-loaded .section-1__image-1__wrapper {
     filter: grayscale(1);
     transition: all 4s;
     transform: scale(1.025);
-    opacity: 0;
+
 }
 
 body.page-loaded .section-1__image-1 {
@@ -569,7 +570,7 @@ body.page-loaded .section-1__image-1 {
 }
 
 .section-1__text {
-    
+
 }
 
 /**.active:not(.completed) {
@@ -732,7 +733,15 @@ section.completed .button-next-slide-section-2 {
 .button-ripple-2,
 .button-ripple-5l,
 .button-ripple-5r {
-    position:absolute;top:0%;left:0%;width:100%;height:100%;border-radius: 50%;opacity: 1.0;background:rgba(125,125,125,0.5);transition: all 0.0s;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 1.0;
+    background: rgba(125, 125, 125, 0.5);
+    transition: all 0.0s;
 }
 
 .button-next-slide-section-2.active:not(.completed) button {
@@ -1048,7 +1057,7 @@ section.completed .button-next-slide-section-2 {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.section-4__title, 
+.section-4__title,
 .section-4__pretitle {
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
@@ -1117,7 +1126,7 @@ section.completed .button-next-slide-section-2 {
     font-size: 34px
 }
 
-.section-5__title, 
+.section-5__title,
 .section-5__pretitle {
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
@@ -1199,12 +1208,12 @@ section.completed .button-next-slide-section-2 {
 
 .section-5a__purplebox {
     background: #554361;
-    position:  absolute;
+    position: absolute;
     bottom: 45%;
     left: calc(41.5% + 48px);
     transform: translateX(-50%) translateY(50%);
     width: 374px;
-    padding:  20px;
+    padding: 20px;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 18px;
     color: white;
@@ -1277,12 +1286,12 @@ section.completed .button-next-slide-section-2 {
 
 .section-5b__purplebox {
     background: #554361;
-    position:  absolute;
+    position: absolute;
     bottom: 45%;
     right: calc(41.5% - 48px);
     transform: translateX(50%) translateY(50%);
     width: 374px;
-    padding:  20px;
+    padding: 20px;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 18px;
     color: white;
@@ -1351,8 +1360,8 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-6__title {
-   /* top: 304px;
-    left: calc(50% - 429px);*/
+    /* top: 304px;
+     left: calc(50% - 429px);*/
     width: 475px;
     font-size: 75px;
     line-height: 72px;
@@ -1399,7 +1408,7 @@ section.completed .button-next-slide-section-2 {
     font-size: 15px;
     line-height: 25px;
     color: #4A413A;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .section-8 {
@@ -1446,9 +1455,9 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-8__subtitle {
-   /* top: 312px;
-    left: calc(50% - 72px);*/]
-    display: inline-block;
+    /* top: 312px;
+     left: calc(50% - 72px);*/
+] display: inline-block;
     position: relative;
     left: 220px;
     font-family: Whitman-Roman, Arial, sans-serif;
@@ -1611,7 +1620,7 @@ section.completed .button-next-slide-section-2 {
     position: relative;
     top: 28vh;
     left: 43%;
-    background: rgba(249,240,236,0.75);
+    background: rgba(249, 240, 236, 0.75);
 }
 
 .section-9__stats-block {
@@ -1771,7 +1780,7 @@ section.completed .button-next-slide-section-2 {
 .section-11__pretitle,
 .section-11__title,
 .section-11__text {
-    position:  relative;
+    position: relative;
     font-family: Whitman-Roman, Arial, sans-serif;
     color: #85261E;
 }
@@ -1829,7 +1838,7 @@ section.completed .button-next-slide-section-2 {
 
 .section-11__note {
     width: 363px;
-    position:  relative;
+    position: relative;
     top: 11vh;
     left: 56%;
     font-family: Whitman-Roman, Arial, sans-serif;
@@ -2507,7 +2516,7 @@ section.completed .button-next-slide-section-2 {
     font-size: 15px;
     line-height: 25px;
     color: #4A413A;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .section-18 {
@@ -3291,7 +3300,7 @@ section.completed .button-next-slide-section-2 {
     font-size: 15px;
     line-height: 25px;
     color: #4A413A;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .section-26 {
@@ -3857,7 +3866,7 @@ section.completed .button-next-slide-section-2 {
     transition: margin-left 0.33s;
 }
 
-.section-29a.toggle{
+.section-29a.toggle {
     margin-left: 0%;
 }
 
@@ -4031,11 +4040,11 @@ section.completed .button-next-slide-section-2 {
     height: 100vh;
     pointer-events: none;
     transition: background-color 0.33s;
-    background-color: rgba(0,0,0,0.0);
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 .section-30a.toggle {
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     pointer-events: all;
 }
 
@@ -4121,11 +4130,11 @@ section.completed .button-next-slide-section-2 {
     height: 100vh;
     pointer-events: none;
     transition: background-color 0.33s;
-    background-color: rgba(0,0,0,0.0);
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 .section-30b.toggle {
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     pointer-events: all;
 }
 

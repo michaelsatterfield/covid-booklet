@@ -179,7 +179,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-4__background", "opacity", 1.0, 0.0, 390, 405);
 	new ElementAnimation("section-4", "opacity", 1.0, 0.0, 390, 405);
 
-	new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 245, 500);
+	new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 500);
 	new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
 	new ElementAnimation("button-prev-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
 	new ElementAnimation("button-next-slide-section-5", "opacity", 0.0, 1.0, 405, 415);

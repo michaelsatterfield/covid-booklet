@@ -1043,8 +1043,8 @@ section.completed .button-next-slide-section-2 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #002a54;
-    background-image: url(../images/section-4-background.jpg);
+    background-color: #574261;
+    /*background-image: url(../images/section-4-background.jpg);*/
     background-position: 0 72.5%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1108,8 +1108,8 @@ section.completed .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #002a54;
-    background-image: url(../images/section-5-background.jpg);
+    background-color: #574261;
+    /*background-image: url(../images/section-5-background.jpg);*/
     background-position: 0% 25%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;

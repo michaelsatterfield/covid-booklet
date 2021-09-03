@@ -353,20 +353,17 @@
     <section class="section-4">
       <div class="section-4__background"></div>
       <div class="section-4__title-wrapper">
-        <div class="section-4__pretitle">A crisis compels you to</div>
-        <div class="section-4__title"><span class="section-4__title-1">be a catalyst for </span>change,</div>
+        <div class="section-4__pretitle"></div>
+        <div class="section-4__title">Our work has been relentless.<span class="section-4__title-1"> </span></div>
       </div>
-      <div class="section-4__text">An unprecedented crisis necessitated unprecedented levels of giving. The San Antonio
-          Area Foundation was there to build partnerships, raise funds, and provide data-driven, targeted funding of
-        nearly $6.5 million through the COVID-19 Response Fund. In addition, Donor Advised Funds recommended more than
-        $7 million in direct grants to nonprofits serving on the front lines of the pandemic.</div>
+      <div class="section-4__text"></div>
 
     </section>
     <section class="section-5">
       <div class="section-5__background"></div>
       <div class="section-5__title-wrapper">
-        <div class="section-5__pretitle">while remaining a safety net for those who</div>
-        <div class="section-5__title">can't wait for that change,</div>
+        <div class="section-5__pretitle">Our work has been relentless.</div>
+        <div class="section-5__title">It has been eye opening</div>
       </div>
       <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
         <button class="button button-arrow-red">

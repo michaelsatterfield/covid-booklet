@@ -607,7 +607,7 @@ body.page-loaded .section-1__text-1 {
 .section-1__text-2 {
     padding-left: 7%;
     font-size: 98px;
-    line-height: 118px;
+    line-height: 150px;
     position: relative;
     top: -40px;
     left: 100px;
@@ -636,7 +636,7 @@ body.page-loaded .section-1__text-2 {
 
 .section-2__text {
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 50%;
     width: 850px;
     transform: translateY(-50%) translateX(-50%);
@@ -676,12 +676,13 @@ body.page-loaded .section-1__text-2 {
 .section-2__text-4 {
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
-    color: #85261e;
+    color: #861f1f;
     transition: opacity 0.0667s, margin-left 0.0667s;
 }
 
 .section-2__text-1 {
-    font-size: 36px;
+    font-size: 23px;
+
 }
 
 .section-2__text-2 {
@@ -927,6 +928,7 @@ section.completed .button-next-slide-section-2 {
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 75px;
     line-height: 80px;
+    left: -20px
 }
 
 .section-3__subtitle {

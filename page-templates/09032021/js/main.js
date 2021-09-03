@@ -554,6 +554,8 @@ window.addEventListener("DOMContentLoaded", event =>
 		firstAnimationObject = undefined, activeAnimationObject = undefined, completedAnimationObject = undefined;
 
 	window.addEventListener('scroll', function(e) {
+
+		//numbers in console (scroll position)
 		console.log (window.pageYOffset);
 		
 		var pageScrollPosition = window.pageYOffset;
@@ -702,7 +704,7 @@ window.addEventListener("DOMContentLoaded", event =>
 		for (var i = 0; i < toggleElements.length; i++) {
 			if (!toggleElements[i].classList.contains("toggle")) {
 				toggleElements[i].classList.add("toggle");
-				ElementAnimation.scrollDisabled = true;
+				ElementAnimation.scrollDisabled = false;
 				ElementAnimation.scrollDisabledPosition = window.pageYOffset;
 			}
 			else {

@@ -306,8 +306,8 @@
 
         <div class="section-2__text-4"
              style="
-             top: 87px;
-             left: 817px;
+             top: 105px;
+             left: 661.5px;
 "
         ><span  class="section-2__text-1">The coronavirus pandemic </span>
             prompted all of us to act quickly, depend on each other and encourage innovation. We have prioritized community-led solution,

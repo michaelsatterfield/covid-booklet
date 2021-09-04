@@ -148,7 +148,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	new ElementAnimation("section-2", "opacity", 1.0, 0.0, 175, 190);
 
-	new ElementAnimation("section-3__title", "margin-left", 100, 0, 100, 500);
+	// new ElementAnimation("section-3__title", "margin-left", 100, 0, 100, 500);
 	new ElementAnimation("section-4__title", "margin-left", 100, 0, 100, 500);
 	new ElementAnimation("section-5__title", "margin-left", 100, 0, 100, 500);
 
@@ -179,7 +179,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-4__background", "opacity", 1.0, 0.0, 390, 405);
 	new ElementAnimation("section-4", "opacity", 1.0, 0.0, 390, 405);
 
-	new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 245, 500);
+	new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 500);
 	new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
 	new ElementAnimation("button-prev-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
 	new ElementAnimation("button-next-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
@@ -554,6 +554,8 @@ window.addEventListener("DOMContentLoaded", event =>
 		firstAnimationObject = undefined, activeAnimationObject = undefined, completedAnimationObject = undefined;
 
 	window.addEventListener('scroll', function(e) {
+
+		//numbers in console (scroll position)
 		console.log (window.pageYOffset);
 		
 		var pageScrollPosition = window.pageYOffset;
@@ -702,7 +704,7 @@ window.addEventListener("DOMContentLoaded", event =>
 		for (var i = 0; i < toggleElements.length; i++) {
 			if (!toggleElements[i].classList.contains("toggle")) {
 				toggleElements[i].classList.add("toggle");
-				ElementAnimation.scrollDisabled = true;
+				ElementAnimation.scrollDisabled = false;
 				ElementAnimation.scrollDisabledPosition = window.pageYOffset;
 			}
 			else {

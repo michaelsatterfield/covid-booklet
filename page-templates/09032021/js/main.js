@@ -1,10 +1,11 @@
-window.addEventListener("DOMContentLoaded", event => 
+window.addEventListener("DOMContentLoaded", event =>
 {
+
 	// Revised animation structure
-	class ElementAnimation 
-	{	
+	class ElementAnimation
+	{
 		constructor(_identifier, _property, _propertyInitialValue, _propertyTargetValue, _scrollStartOffset, _scrollStopOffset, _updateCallback = undefined) {
-			
+
 			// Future update to accept hashed id attribute element identifiers
 			// currently accepts only class
 			this.identifier = _identifier;
@@ -25,7 +26,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 			if (ElementAnimation.createdAnimations[this.identifier] == undefined)
 				ElementAnimation.createdAnimations[this.identifier] = {};
-			
+
 			if (ElementAnimation.createdAnimations[this.identifier][this.property] == undefined)
 				ElementAnimation.createdAnimations[this.identifier][this.property] = [];
 
@@ -33,7 +34,7 @@ window.addEventListener("DOMContentLoaded", event =>
 		}
 
 		static setScrollDummyHeight () {
-			document.getElementsByClassName("scroll-dummy-overlay")[0].style.height = 
+			document.getElementsByClassName("scroll-dummy-overlay")[0].style.height =
 				((window.innerHeight * (1 + (getLastScrollAnimation()._scrollStopOffset / 100))) * ElementAnimation.scrollFactor) + "px"; // 1 + adds window height to scrollStopOffset percentage height. scrollStopOffset equally 2000 = 20 window heights or common slide height of (100 vh)
 		}
 
@@ -90,12 +91,34 @@ window.addEventListener("DOMContentLoaded", event =>
 		}
 	}
 
+//get section-2a showing after scroll
+	myID = document.getElementById("section-2a");
+
+	var myScrollFunc = function () {
+		let y = window.scrollY;
+		if (y >= 3500) {
+			myID.className = "bottomMenu show"
+		} else {
+			myID.className = "bottomMenu hide"
+		}
+	};
+
+	window.addEventListener("scroll", myScrollFunc);
+
+
+	continueSection =
+
+
+
+
+
+
 	ElementAnimation.createdAnimations = {};
 	ElementAnimation.scrollFactor = 1.5; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
 	ElementAnimation.scrollDisabled = false;
 
 	/*
-	ElementAnimation.createdAnimations = 
+	ElementAnimation.createdAnimations =
 	{
 		"element-identifier-1": {
 			"property-1": [ElementAnimation(), ElementAnimation()],
@@ -110,17 +133,19 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	// Page scroll animations
 
-	new ElementAnimation("section-1", "opacity", 
+	new ElementAnimation("section-1", "opacity",
 		// initial property at start of animation, target property at stop of animation
-		1.0, 0.0, 
+		1.0, 0.0,
 		// Scroll min, max
 		35, 100
 	);
 	new ElementAnimation("header-top", "opacity", 1.0, 0.0, 35, 100);
-	// new ElementAnimation("section-1__text-1", "opacity",  1.0,  0.0,  0, 100);
-	// new ElementAnimation("section-1__text-1", "margin-left",  50,    0,  0, 100);
-	// new ElementAnimation("section-1__text-2", "opacity",  1.0,  0.0,  0, 100);
-	// new ElementAnimation("section-1__text-2", "margin-left",  50,    0,  0, 100);
+	new ElementAnimation("section-1__text-1", "opacity",  1.0,  0.0,  0, 100);
+	new ElementAnimation("section-1__text-1", "margin-left",  50,    0,  0, 100);
+	new ElementAnimation("section-1__text-2", "opacity",  1.0,  0.0,  0, 100);
+	new ElementAnimation("section-1__text-2", "margin-left",  50,    0,  0, 100);
+
+
 
 	new ElementAnimation("header-left", "opacity", 0.0, 1.0, 100, 120);
 	new ElementAnimation("header-left", "margin-left", -100, 0, 100, 120);
@@ -167,7 +192,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-4__background", "scale", 1.0, 1.05, 245, 500);
 	new ElementAnimation("section-4__pretitle", "opacity", 0.0, 1.0, 300, 315);
 	new ElementAnimation("section-4__text", "opacity", 0.0, 1.0, 300, 340);
-	
+
 	new ElementAnimation("section-4__pretitle", "margin-left", 50, 0, 250, 385);
 	new ElementAnimation("section-4__pretitle", "opacity", 1.0, 0.0, 350, 385);
 	new ElementAnimation("section-4__title-1", "opacity", 1.0, 0.0, 340, 385);
@@ -255,15 +280,15 @@ window.addEventListener("DOMContentLoaded", event =>
 	// Continue here
 	var barTotalTargets = [3199110, 3922681, 4655491, 5168063, 6156827, 6490115, 42309054];
 	var barTotals = [0, 0, 0, 0, 0, 0, 0];
-	//var updateTotalTimeout = undefined; // Prevent updating of total html with every single bar every single pixel scrolled. 
+	//var updateTotalTimeout = undefined; // Prevent updating of total html with every single bar every single pixel scrolled.
 
-	var updateBarCallback = function(barIndex, sp, ssta, ssto) { 
+	var updateBarCallback = function(barIndex, sp, ssta, ssto) {
 		barTotals[barIndex-1] = barTotalTargets[barIndex-1] * ((sp - ssta) / (ssto - ssta));
 
-		//updateTotalTimeout = setTimeout(function() { 
+		//updateTotalTimeout = setTimeout(function() {
 			document.getElementsByClassName("section-10__total-wrapper")[0].innerHTML = '$' + barAmount();
-		
-		//}, 25); 
+
+		//}, 25);
 	};
 
 	var barAmount = function() {
@@ -282,9 +307,9 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
-	
+
 	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
-	
+
 	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
@@ -549,15 +574,15 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	// Update animations on scroll
 
-	var elementPropertyCount = undefined, elementPropertyIndex = undefined, 
-		elementAnimationObject = undefined, 
+	var elementPropertyCount = undefined, elementPropertyIndex = undefined,
+		elementAnimationObject = undefined,
 		firstAnimationObject = undefined, activeAnimationObject = undefined, completedAnimationObject = undefined;
 
 	window.addEventListener('scroll', function(e) {
 
 		//numbers in console (scroll position)
 		console.log (window.pageYOffset);
-		
+
 		var pageScrollPosition = window.pageYOffset;
 
 		if (!ElementAnimation.scrollDisabled) {
@@ -571,13 +596,13 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	function scrollElementAnimations (pageScrollPosition) {
 		for (var elementIdentifier in ElementAnimation.createdAnimations) {
-	        
+
 	        if (ElementAnimation.createdAnimations.hasOwnProperty(elementIdentifier)) {
-	            
+
 	            for (var property in ElementAnimation.createdAnimations[elementIdentifier]) {
-	                
+
 	                if (ElementAnimation.createdAnimations[elementIdentifier].hasOwnProperty(property)) {
-	                	
+
 	                	elementPropertyCount = ElementAnimation.createdAnimations[elementIdentifier][property].length;
 
 	                	firstAnimationObject = undefined, activeAnimationObject = undefined, completedAnimationObject = undefined;
@@ -629,17 +654,17 @@ window.addEventListener("DOMContentLoaded", event =>
 	}
 
 	function getLastScrollAnimation () {
-		
+
 		var lastElement = undefined;
 
 		for (var elementIdentifier in ElementAnimation.createdAnimations) {
-	        
+
 	        if (ElementAnimation.createdAnimations.hasOwnProperty(elementIdentifier)) {
-	            
+
 	            for (var property in ElementAnimation.createdAnimations[elementIdentifier]) {
-	                
+
 	                if (ElementAnimation.createdAnimations[elementIdentifier].hasOwnProperty(property)) {
-	                	
+
 	                	elementPropertyCount = ElementAnimation.createdAnimations[elementIdentifier][property].length;
 
 	                	for (elementPropertyIndex = 0; elementPropertyIndex < elementPropertyCount; elementPropertyIndex++) {
@@ -698,7 +723,7 @@ window.addEventListener("DOMContentLoaded", event =>
 		Comma seperated list of class names. or a single class name
 	*/
 	function toggle (query) {
-		
+
 		var toggleElements = document.querySelectorAll(query);
 
 		for (var i = 0; i < toggleElements.length; i++) {
@@ -720,7 +745,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	    var query = item.getAttribute("data-toggle");
 
 		setTimeout(function() {
-			toggle(item.getAttribute("data-toggle")); 
+			toggle(item.getAttribute("data-toggle"));
 
 		}, 15);
 	  });
@@ -734,7 +759,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	document.querySelectorAll("[data-offset]").forEach(item => {
 		item.addEventListener('click', event => {
 			// (parseInt(event.srcElement.getAttribute("data-section")) - 1)
-			
+
 			var scrollToPosition = (parseInt(event.srcElement.getAttribute("data-offset")) / 100) * window.innerHeight;
 			ElementAnimation.scrollDisabled = false;
 			scrollTo(scrollToPosition, 500);
@@ -751,8 +776,8 @@ window.addEventListener("DOMContentLoaded", event =>
 	        change = to - start,
 	        currentTime = 0,
 	        increment = 20;
-	        
-	    var animateScroll = function(){        
+
+	    var animateScroll = function(){
 	        currentTime += increment;
 	        var val = Math.easeInOutQuad(currentTime, start, change, duration);
 	        window.scroll(0,val); // Edited for use with scroll-dummy-overlay

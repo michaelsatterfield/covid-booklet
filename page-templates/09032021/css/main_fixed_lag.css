@@ -121,12 +121,12 @@ a {
     -ms-flex-align: center;
 }
 
-.flex-halign__left,
+.flex-align__left,
 .flex-horizontal-align__left {
     align-items: left;
 }
 
-.flex-halign__center,
+.flex-align__center,
 .flex-horizontal-align__center {
     align-items: center;
 }
@@ -237,6 +237,7 @@ a {
 
 .button:hover {
     cursor: pointer;
+    border: 20px solid rgba(140, 29, 25, 0.45);
 }
 
 .button-arrow-red {
@@ -244,7 +245,8 @@ a {
     height: 42px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background-color: #85261e
+    background-color: #85261e;
+
 }
 
 .button-arrow-yellow {

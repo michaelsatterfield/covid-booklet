@@ -92,21 +92,43 @@ window.addEventListener("DOMContentLoaded", event =>
 	}
 
 //get section-2a showing after scroll
-	myID = document.getElementById("section-2a");
+	let myID = document.getElementById("section-2a");
 
-	var myScrollFunc = function () {
+	let myScrollFunc =  () =>  {
+
 		let y = window.scrollY;
 		if (y >= 3500) {
 			myID.className = "bottomMenu show"
+			console.log("SHOW")
 		} else {
 			myID.className = "bottomMenu hide"
+			console.log("Not Show!")
 		}
 	};
 
 	window.addEventListener("scroll", myScrollFunc);
 
+//todo: make a dynamic function with 2 arguments for myId and scrollAmt
 
-	continueSection =
+	let myID2 = document.getElementById("section-3a");
+
+	let myScrollFunc2 =  () =>  {
+
+		let y = window.scrollY;
+		if (y >= 6100) {
+			myID2.className = "showSpan-2 show2 "
+			console.log("2 show")
+		} else {
+			myID2.className = "showSpan-2 hide2"
+			console.log("2 hide!")
+		}
+	};
+
+	window.addEventListener("scroll", myScrollFunc2);
+
+
+
+
 
 
 
@@ -139,11 +161,13 @@ window.addEventListener("DOMContentLoaded", event =>
 		// Scroll min, max
 		35, 100
 	);
+
+	//starting and stopping target properties
 	new ElementAnimation("header-top", "opacity", 1.0, 0.0, 35, 100);
 	new ElementAnimation("section-1__text-1", "opacity",  1.0,  0.0,  0, 100);
-	new ElementAnimation("section-1__text-1", "margin-left",  50,    0,  0, 100);
+	new ElementAnimation("section-1__text-1", "margin-left",  50,    50,  0, 100);
 	new ElementAnimation("section-1__text-2", "opacity",  1.0,  0.0,  0, 100);
-	new ElementAnimation("section-1__text-2", "margin-left",  50,    0,  0, 100);
+	new ElementAnimation("section-1__text-2", "margin-left",  50,    50,  0, 100);
 
 
 

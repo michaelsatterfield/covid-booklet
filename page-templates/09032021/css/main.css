@@ -1,7 +1,7 @@
 /*test*/
 .bottomMenu {
-    position: fixed;
-    /*bottom: 60px;*/
+    position: relative;
+    bottom: 0px;
     width: 100%;
     height: 60px;
 
@@ -11,9 +11,9 @@
 }
 
 .showSpan-2{
-    position: fixed;
+    position: relative;
     bottom: 0;
-    font-size: 34px;
+    font-size: 25px;
 
 
     z-index: 1;
@@ -1181,21 +1181,24 @@ section.completed .button-next-slide-section-2 {
 
 .section-5__title-wrapper {
     position: relative;
-    top: 30%;
+    top: 50%;
     left: calc(50% + 66px);
     width: 850px;
     transform: translateX(-50%) translateY(-50%);
 }
 
 .section-5__pretitle {
-    font-size: 34px
+    font-size: 40px;
+
 }
 
 .section-5__title,
 .section-5__pretitle {
+
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
-    color: #fff
+    color: #fff;
+    top: 200px;
 }
 
 /*hidden*/
@@ -1206,7 +1209,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-5__title {
-    font-size: 75px;
+    font-size: 25px;
 }
 
 .button-prev-slide-section-5 {

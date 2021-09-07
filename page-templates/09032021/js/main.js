@@ -90,6 +90,13 @@ window.addEventListener("DOMContentLoaded", event =>
 			}
 		}
 	}
+	// let y = window.scrollY;
+	// const scrollShow = (y, scrollAmy) { myID.className = "bottomMenu show" : myID.className = "bottomMenu hide";
+	//
+	// window.addEventListener('scroll',scrollShow(y,))
+
+
+
 
 //get section-2a showing after scroll
 	let myID = document.getElementById("section-2a");

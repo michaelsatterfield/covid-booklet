@@ -11,12 +11,12 @@
 }
 
 .showSpan-2{
-    position: relative;
-    bottom: 0;
-    font-size: 25px;
-
-
+    font-size: 35px;
     z-index: 1;
+    line-height: .5;
+    position: absolute;
+    top: 100px;
+    left: 300px;
     transition: all 1s;
 }
 
@@ -1188,17 +1188,24 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-5__pretitle {
-    font-size: 40px;
+    font-size: 35px;
+
+}
+#section-3a {
+
 
 }
 
+
 .section-5__title,
-.section-5__pretitle {
+.section-5__pretitle,
+#section-3a
+{
 
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
     color: #fff;
-    top: 200px;
+    /*top: 200px;*/
 }
 
 /*hidden*/
@@ -1209,7 +1216,8 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-5__title {
-    font-size: 25px;
+    font-size: 60px;
+    margin-left: 80px;
 }
 
 .button-prev-slide-section-5 {
@@ -1458,31 +1466,35 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-7__background {
-    position: absolute;
-    top: 0;
-    left: 0;
+
     width: 100%;
     height: 100%;
-    background-image: url(../images/section-7-background.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    transform: scale(1.05);
+    background-color: #ffffff;
+
 }
 
 .section-7__text {
-    position: relative;
+    position: fixed;
     top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 457px;
-    padding: 37.5px;
-    font-family: Roboto-Regular, Arial, sans-serif;
-    font-size: 15px;
-    line-height: 25px;
+    font-family: Roboto-Regular, Aalri, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
     color: #4A413A;
     background: rgba(255, 255, 255, 0.8);
+}
+
+.section-7__signature {
+    font-weight: 100;
+    font-size: 18px;
+
+    position: absolute;
+    top: 700px;
+    left: 600px;
+
 }
 
 .section-8 {
@@ -1503,8 +1515,8 @@ section.completed .button-next-slide-section-2 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: #C3A701;
+    height: 500%;
+    background-color: #ef7930;
 }
 
 .section-8__text-wrapper {
@@ -1515,9 +1527,9 @@ section.completed .button-next-slide-section-2 {
 
 .section-8__title,
 .section-8__subtitle {
-    position: relative;
+    /*position: relative;*/
     line-height: 1;
-    color: #fff;
+    color: #cb2d2d;
     z-index: 93;
 }
 
@@ -1528,11 +1540,16 @@ section.completed .button-next-slide-section-2 {
     font-size: 80px
 }
 
+.section-8__subtitle-wrapper {
+    margin-top: 30px;
+}
 .section-8__subtitle {
+    margin-top: 30px;
     /* top: 312px;
      left: calc(50% - 72px);*/
-] display: inline-block;
+    display: inline-block;
     position: relative;
+
     left: 220px;
     font-family: Whitman-Roman, Arial, sans-serif;
     font-size: 20px;

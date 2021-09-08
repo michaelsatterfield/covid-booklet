@@ -67,7 +67,8 @@
     <!--  <link href="-->
     <?php //echo get_template_directory_uri(); ?><!--/page-templates/09032021/css/main.css?6c27024468b2af243e6a" rel="stylesheet">-->
     <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/css/main.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body class="index-page">
@@ -220,7 +221,7 @@
             <div class="section-1__text-1">In times of crisis,</div>
             <div class="section-1__text-2">we rely on relationships.</div>
         </div>
-        <div class="button-arrow-red-section-1 d-flex justify-content-center" >
+        <div class="button-arrow-red-section-1 d-flex justify-content-center">
             <button class="button button-arrow-red">
                 <div class="icon icon-arrow svg">
                     <svg>
@@ -243,7 +244,7 @@
 
         <div class="section-2__text">
 
-            <div class="section-2__text-4" ><span class="section-2__text-1">The coronavirus pandemic </span>
+            <div class="section-2__text-4"><span class="section-2__text-1">The coronavirus pandemic </span>
                 prompted all of us to act quickly, depend on each other and encourage innovation.
                 <span id="section-2a" class="bottomMenu hide">We have prioritized community-led solution,
                     trusting those on the front lines to do the work they know how to get done, to serve their neighbors who are
@@ -251,87 +252,87 @@
             </div>
 
 
-            </div>
         </div>
-        <div class="section-2__text-2"></div>
-        <div class="section-2__text-3"></div>
+</div>
+<div class="section-2__text-2"></div>
+<div class="section-2__text-3"></div>
 
-        <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a">
-            <button>
-                <div class="button-ripple-2"></div>
-                <div>
-                    <!--      <svg>-->
-                    <!--        <use href="#icon-arrow-right"></use>-->
-                    <!--      </svg>-->
-                </div>
-            </button>
+<div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a">
+    <button>
+        <div class="button-ripple-2"></div>
+        <div>
+            <!--      <svg>-->
+            <!--        <use href="#icon-arrow-right"></use>-->
+            <!--      </svg>-->
         </div>
-    </section>
+    </button>
+</div>
+</section>
 
-    <section class="section-2a">
-        <div class="section-2a__wrapper">
-            <div class="section-2a__foto-wrapper"><img
-                        src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/foto-marjie-web.jpg"
-                        alt=""></div>
-            <div class="section-2a__text-wrapper">
-                <!--  <div class="section-2a__text-shadow-before"></div> -->
-                <div class="section-2a__text">
-                </div>
-                <div class="section-2a__text-shadow-after"></div>
+<section class="section-2a">
+    <div class="section-2a__wrapper">
+        <div class="section-2a__foto-wrapper"><img
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/foto-marjie-web.jpg"
+                    alt=""></div>
+        <div class="section-2a__text-wrapper">
+            <!--  <div class="section-2a__text-shadow-before"></div> -->
+            <div class="section-2a__text">
             </div>
-            <div class="section-2a__quoter">
-                <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn’t influence
-                        most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
+            <div class="section-2a__text-shadow-after"></div>
+        </div>
+        <div class="section-2a__quoter">
+            <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn’t influence
+                    most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
             Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
-                </div>
-                <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and
-                        I have never seen such an
-                        efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>
-                <div class="quote"><p>&#8220;You don’t have to be a millionaire to make an investment in a fund.
-                        Instead, it’s the kind of person who believes in the community and be able to want to assist
-                        others.&#8221;</p><span>&mdash; Janie Barrera</span></div>
             </div>
+            <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and
+                    I have never seen such an
+                    efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>
+            <div class="quote"><p>&#8220;You don’t have to be a millionaire to make an investment in a fund.
+                    Instead, it’s the kind of person who believes in the community and be able to want to assist
+                    others.&#8221;</p><span>&mdash; Janie Barrera</span></div>
         </div>
-        <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.
+    </div>
+    <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.
+    </div>
+    <button class="button button-arrow-red button-prev-red-section-2a" data-toggle=".section-2, .section-2a">
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-left"></use>
+            </svg>
         </div>
-        <button class="button button-arrow-red button-prev-red-section-2a" data-toggle=".section-2, .section-2a">
-            <div class="icon icon-arrow">
-                <svg>
-                    <use href="#icon-arrow-left"></use>
-                </svg>
-            </div>
-        </button>
-    </section>
-    <section class="section-3">
-        <div class="section-3__background"></div>
-        <div class="section-1__image-1__wrapper">
-            <div class="section-1__image-1"></div>
-        </div>
-        <div class="section-1__text">
-            <div class="section-1__text-1">In times of crisis,</div>
-            <div class="section-1__text-2">we rely on relationships.</div>
-        </div>
+    </button>
+</section>
+<section class="section-3">
+    <div class="section-3__background"></div>
+    <div class="section-1__image-1__wrapper">
+        <div class="section-1__image-1"></div>
+    </div>
+    <div class="section-1__text">
+        <div class="section-1__text-1">In times of crisis,</div>
+        <div class="section-1__text-2">we rely on relationships.</div>
+    </div>
 
-        <div class="section-2__text">
+    <div class="section-2__text">
 
-            <div class="section-2__text-4" ><span class="section-2__text-1">The coronavirus pandemic </span>
-                prompted all of us to act quickly, depend on each other and encourage innovation.
-                <span id="section-2a" class="bottomMenu ">We have prioritized <br>community-led solution,
+        <div class="section-2__text-4"><span class="section-2__text-1">The coronavirus pandemic </span>
+            prompted all of us to act quickly, depend on each other and encourage innovation.
+            <span id="section-2a" class="bottomMenu ">We have prioritized <br>community-led solution,
                     trusting<br> those on the front lines to do the <br>work they know how to get done, to serve their <br>neighbors who are
                     in need.</span>
-            </div>
         </div>
-        <div class="section-3__title-wrapper">
+    </div>
+    <div class="section-3__title-wrapper">
 
 
-            <div class="section-3__title"><span class="section-3__title-1">
+        <div class="section-3__title"><span class="section-3__title-1">
 
-            </div>
-            </span><span class="section-3__title-2"></span></div>
-        <div class="section-3__subtitle"></div>
-</div>
-<div class="section-3__icon" data-toggle=".section-3, .section-3a"><span class="section-3__icon__asterisk">*</span>
-    <span class="section-3__icon__read-poem">Read Poem</span></div>
+        </div>
+        </span><span class="section-3__title-2"></span></div>
+    <div class="section-3__subtitle"></div>
+    </div>
+    <div class="section-3__icon" data-toggle=".section-3, .section-3a"><span class="section-3__icon__asterisk">*</span>
+        <span class="section-3__icon__read-poem">Read Poem</span></div>
 </section>
 <section class="section-3a">
     <div class="section-3a__text">
@@ -369,36 +370,35 @@
     <div class="section-4__text"></div>
 
 
-<section class="section-5">
-    <div class="section-5__background"></div>
-    <div class="section-6__title-wrapper">
-        <div class="section-5__pretitle">Our work has been relentless.Hello</div>
-        <div class="section-5__title">It has been eye opening</div>
-<!--        <div id="section-3a" class="section-6__pretitle ">We are proud of the people of San Antonio<br>-->
-<!--            who rose to the challenge,<br> with compassion and without hesitation.</div>-->
-    </div>
-    <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
-        <button class="button button-arrow-red">
-            <div class="button-ripple-5l"></div>
-            <div class="icon icon-arrow">
-                <svg>
-                    <use href="#icon-arrow-left"></use>
-                </svg>
-            </div>
-        </button>
-        <span>merced housing texas</span>
-    </div>
-    <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
-        <button class="button button-arrow-red">
-            <div class="button-ripple-5r"></div>
-            <div class="icon icon-arrow">
-                <svg>
-                    <use href="#icon-arrow-right"></use>
-                </svg>
-            </div>
-        </button>
-    </div>
-</section>
+    <section class="section-5">
+        <div class="section-5__background"></div>
+        <div class="section-6__title-wrapper">
+            <div class="section-5__pretitle">Our work has been relentless.Hello</div>
+            <div class="section-5__title">It has been eye opening</div>
+
+        </div>
+        <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
+            <button class="button button-arrow-red">
+                <div class="button-ripple-5l"></div>
+                <div class="icon icon-arrow">
+                    <svg>
+                        <use href="#icon-arrow-left"></use>
+                    </svg>
+                </div>
+            </button>
+            <span>merced housing texas</span>
+        </div>
+        <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
+            <button class="button button-arrow-red">
+                <div class="button-ripple-5r"></div>
+                <div class="icon icon-arrow">
+                    <svg>
+                        <use href="#icon-arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
+    </section>
 </section>
 <section class="section-5a">
     <div class="section-5a__wrapper">
@@ -478,35 +478,45 @@
         <div class="section-6__pretitle"></div>
         <div class="section-5__title-wrapper">
             <div class="section-5__pretitle">Our work has been relentless.</div>
-            <div class="section-5__title">It has been eye opening
-                <span id="section-3a" >We are proud of the people of San Antonio<br>
-            who rose to the challenge,<br> with compassion and without hesitation.</span>
+            <div class="section-5__title">It has been eye opening</div>
+            <div id="section-3a">We are proud of the people of San <br>Antonio who rose to the challenge, with
+                compassion and without hesitation.
             </div>
-
         </div>
-        <div class="section-6__title"></div>
+
+    </div>
+    <div class="section-6__title"></div>
     </div>
 </section>
 <section class="section-7">
     <div class="section-7__background"></div>
-    <div class="section-7__text">
-        The people that SAMMinistries serves struggle during normal circumstances to maintain stability. The COVID-19
-        pandemic amplified vulnerabilities around such issues as food insecurity, rental assistance, access to hygiene,
-        cleaning supplies, and transportation. Those living in transitional housing lost many outlets to socialize and
-        simply let kids expend their energy. Generous funding helped alleviate these burdens, helping to keep households
-        safe and healthy. It helped pay rent, late fees, and mortgages, making SAMMinistries a one-stop shop to address
-        the housing needs of clients in financial crisis. One hundred percent of homeless prevention and rapid
-        re-housing clients remained housed; 60 percent of transitional clients exited to permanent housing; and 98
-        percent of permanent supportive housing clients remained housed during the worst of the crisis.
+    <div class="section-7__text ">
+        "I think it's safe to say that no one foresaw the extraordinary events of 2020.
+        Each challenge became a turning point, an opportunity ti think critically and act decisively
+        to find new ways to address escalating community needs. The decisions were not easy: the clear
+        path was not always obvious. Fortunately, we were not alone on the journey."
     </div>
+    <div class="section-7__signature ">-Marjie French, CEO San Antonio Area Foundation</div>
+
+
 </section>
 <section class="section-8">
     <div class="section-8__background"></div>
     <div class="section-8__text-wrapper">
-        <div class="section-8__title"><span class="section-8__title-1">[ Make an </span>impact<span
-                    class="section-8__title-2">. ]</span></div>
+        <div class="section-8__title">[COVID-19 Response Timeline]</div>
+
         <div class="section-8__subtitle">
-            <div class="section-8__subtitle-wrapper">Grantmaking by the Numbers</div>
+            <div class="section-8__subtitle-wrapper">Once it became clear in March 2020 that the coronavirus pandemic
+                was just<br/> beginning to halt life as we know it and cause an unprecedented ripple effect across<br/>
+                our community, the San Antonio Area Foundation wasted no time in taking bold and <br/> decisive action.
+                In conjunction with the United Way of San Antonio and Bexar County<br/>  (in close cooperation and coordination with the City of San Antonio),
+                the COVID-19<br/>  Response Fund was created to provide an immediate lifeline to the nonprofit sector.
+            <br><br>
+                A crisis can't wait. We embraced the power of trust-based philanthropy, enabling<br/>  unprecedented progress by prioritizing
+                community led solutions and removing<br/>  procedural barriers. We learned that challenges are best solved by those who face<br/>
+                them every day and live with the consequences of waiting too long for solutions. We<br/>stand proud of how quickly our community mobilized and learned
+                just how much we <br/> can do and just how far we can go if we truly put the community first.
+            </div>
         </div>
     </div>
     <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span class="section-8__icon__asterisk">*</span>
@@ -535,6 +545,9 @@
         </div>
     </div>
 </section>
+
+
+
 <section class="section-9">
     <div class="section-9__background"></div>
     <div class="section-9__text-wrapper">
@@ -1948,7 +1961,9 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
     </div>
 </section>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/js/main.js"></script>
 </body>

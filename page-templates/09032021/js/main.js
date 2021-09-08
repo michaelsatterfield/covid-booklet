@@ -139,7 +139,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	let myScrollFunc2 =  () =>  {
 
 		let y = window.scrollY;
-		if (y >= 6100) {
+		if (y >= 8500) {
 			myID2.className = "showSpan-2 show2 "
 			console.log("2 show")
 		} else {
@@ -160,7 +160,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 
 	ElementAnimation.createdAnimations = {};
-	ElementAnimation.scrollFactor = 1.5; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
+	ElementAnimation.scrollFactor = 2; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
 	ElementAnimation.scrollDisabled = false;
 
 	/*
@@ -278,7 +278,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	new ElementAnimation("section-5", "opacity", 1.0, 0.0, 470, 485);
 
-	new ElementAnimation("section-6__background", "scale", 1.0, 1.05, 470, 700);
+	new ElementAnimation("section-6__background", "scale", 1.0, 1.05, 470, 1000);
 	new ElementAnimation("section-6__pretitle", "margin-left", 50, 0, 470, 585);
 	new ElementAnimation("section-6__pretitle", "opacity", 0.0, 1.0, 470, 500);
 	new ElementAnimation("section-6__title", "margin-left", 50, 0, 480, 585);
@@ -290,20 +290,22 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	new ElementAnimation("section-7__background", "scale", 1.0, 1.05, 470, 700);
 	new ElementAnimation("section-7__text", "opacity", 0.0, 1.0, 585, 600);
+	new ElementAnimation("section-7__signature", "opacity", 0.0, 1.0, 585, 650);
+
 
 	// Section 7 | Closing
 	new ElementAnimation("section-7", "opacity", 1.0, 0.0, 670, 685);
 
 	// Section 8 | Active
-	new ElementAnimation("section-8__title", "margin-left", 150, 0, 670, 850);
-	new ElementAnimation("section-8__subtitle", "margin-left", 100, 0, 670, 750);
-	new ElementAnimation("section-8__subtitle-wrapper", "opacity", 0.0, 1.0, 680, 710);
+	new ElementAnimation("section-8__title", "margin-left", 150, 0, 670, 700);
+	new ElementAnimation("section-8__subtitle", "margin-left", 100, 0, 700, 720);
+	new ElementAnimation("section-8__subtitle-wrapper", "opacity", 0.0, 1.0, 710, 725);
 
 	// Section 8 | Closing
-	new ElementAnimation("section-8__background", "opacity", 1.0, 0.0, 770, 790);
-	new ElementAnimation("section-8__title-1", "opacity", 1.0, 0.0, 700, 760);
-	new ElementAnimation("section-8__title-2", "opacity", 1.0, 0.0, 700, 760);
-	new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.0, 700, 770);
+	new ElementAnimation("section-8__background", "opacity", 1.0, 0.0, 770, 820);
+	// new ElementAnimation("section-8__title-1", "opacity", 1.0, 0.0, 700, 760);
+	// new ElementAnimation("section-8__title-2", "opacity", 1.0, 0.0, 700, 760);
+	new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 700, 770);
 	new ElementAnimation("section-8__icon", "opacity", 1.0, 0.0, 700, 760);
 
 	new ElementAnimation("section-8", "opacity", 1.0, 0.0, 785, 795);

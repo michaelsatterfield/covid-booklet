@@ -90,10 +90,27 @@ window.addEventListener("DOMContentLoaded", event =>
 			}
 		}
 	}
+
+
 	// let y = window.scrollY;
-	// const scrollShow = (y, scrollAmy) { myID.className = "bottomMenu show" : myID.className = "bottomMenu hide";
+	// let scrollShow = (scrollAmt, className, myId) => {
+	// document.getElementById(myId)
+	// 	let y = window.scrollY;
+	// 	if (y >= scrollAmt) {
+	// 		myId.className = className
+	// 		console.log("SHOW")
+	// 	} else {
+	// 		myId.className = "bottomMenu hide"
+	// 		console.log("Not Show!")
+	// 	}
+	// }
 	//
-	// window.addEventListener('scroll',scrollShow(y,))
+	//
+	//
+	// //
+	// // 	let myID = document.getElementById("section-2a");
+	// // window.addEventListener('scroll',scrollShow(3500,"bottomMenu show","section-2a"))
+	// window.addEventListener('scroll',scrollShow(6100,"showSpan-2 show2","section-3a"))
 
 
 

@@ -92,63 +92,66 @@ window.addEventListener("DOMContentLoaded", event =>
 	}
 
 
-	// let y = window.scrollY;
-	// let scrollShow = (scrollAmt, className, myId) => {
-	// document.getElementById(myId)
-	// 	let y = window.scrollY;
-	// 	if (y >= scrollAmt) {
-	// 		myId.className = className
-	// 		console.log("SHOW")
-	// 	} else {
-	// 		myId.className = "bottomMenu hide"
-	// 		console.log("Not Show!")
-	// 	}
-	// }
+//todo: figure this out
+	function scrollShow (scrollAmt, showClass,hiddenClass, myId) {
+
+
+		let y = window.scrollY;
+		if (y >= scrollAmt) {
+			 myId.className = showClass;
+
+			console.log("SHOW")
+		} else {
+			 myId.className = hiddenClass;
+			console.log("Not Show!")
+		}
+
+	}
+
+
+
 	//
-	//
-	//
-	// //
-	// // 	let myID = document.getElementById("section-2a");
-	// // window.addEventListener('scroll',scrollShow(3500,"bottomMenu show","section-2a"))
-	// window.addEventListener('scroll',scrollShow(6100,"showSpan-2 show2","section-3a"))
+	// 	let myID = document.getElementById("section-2a");
+	window.addEventListener('scroll',scrollShow.bind("1000","bottomMenu show", "bottomMenu hide","section-2a"))
+	window.addEventListener('scroll',scrollShow.bind(6100,"showSpan-2 show2","showSpan-2 hide2","section-3a"))
 
 
 
 
 //get section-2a showing after scroll
-	let myID = document.getElementById("section-2a");
-
-	let myScrollFunc =  () =>  {
-
-		let y = window.scrollY;
-		if (y >= 3500) {
-			myID.className = "bottomMenu show"
-			console.log("SHOW")
-		} else {
-			myID.className = "bottomMenu hide"
-			console.log("Not Show!")
-		}
-	};
-
-	window.addEventListener("scroll", myScrollFunc);
+// 	let myID = document.getElementById("section-2a");
+//
+// 	let myScrollFunc =  () =>  {
+//
+// 		let y = window.scrollY;
+// 		if (y >= 3500) {
+// 			myID.className = "bottomMenu show"
+// 			console.log("SHOW")
+// 		} else {
+// 			myID.className = "bottomMenu hide"
+// 			console.log("Not Show!")
+// 		}
+// 	};
+//
+// 	window.addEventListener("scroll", myScrollFunc);
 
 //todo: make a dynamic function with 2 arguments for myId and scrollAmt
 
-	let myID2 = document.getElementById("section-3a");
-
-	let myScrollFunc2 =  () =>  {
-
-		let y = window.scrollY;
-		if (y >= 6100) {
-			myID2.className = "showSpan-2 show2 "
-			console.log("2 show")
-		} else {
-			myID2.className = "showSpan-2 hide2"
-			console.log("2 hide!")
-		}
-	};
-
-	window.addEventListener("scroll", myScrollFunc2);
+	// let myID2 = document.getElementById("section-3a");
+	//
+	// let myScrollFunc2 =  () =>  {
+	//
+	// 	let y = window.scrollY;
+	// 	if (y >= 6100) {
+	// 		myID2.className = "showSpan-2 show2 "
+	// 		console.log("2 show")
+	// 	} else {
+	// 		myID2.className = "showSpan-2 hide2"
+	// 		console.log("2 hide!")
+	// 	}
+	// };
+	//
+	// window.addEventListener("scroll", myScrollFunc2);
 
 
 

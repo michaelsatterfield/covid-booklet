@@ -347,8 +347,8 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 0.5, 900, 970);
 
 	// Continue here
-	var barTotalTargets = [3199110, 3922681, 4655491, 5168063, 6156827, 6490115, 42309054];
-	var barTotals = [0, 0, 0, 0, 0, 0, 0];
+	var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00,839742.44];
+	var barTotals = [0, 0, 0, 0, 0, 0, 0, 0];
 	//var updateTotalTimeout = undefined; // Prevent updating of total html with every single bar every single pixel scrolled.
 
 	var updateBarCallback = function(barIndex, sp, ssta, ssto) {

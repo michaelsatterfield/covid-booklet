@@ -368,33 +368,41 @@ window.addEventListener("DOMContentLoaded", event =>
 
 		return totalString;
 	}
+	new ElementAnimation("section-10__bar bar-8", "opacity", 0.0, 1.0, 890, 900, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 890, 900, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 900, 910, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 900, 910, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 900, 910, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
 
+	new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 980, 1000)
 	new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 980, 1000);
 	new ElementAnimation("section-10__bar bar-6", "opacity", 1.0, 0.0, 980, 1000);
 	new ElementAnimation("section-10__bar bar-5", "opacity", 1.0, 0.0, 980, 1000);
 	new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 980, 1000);
 	new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 980, 1000);
 	new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 980, 1000);
+	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 980, 1000);
+;
+
+
 
 	new ElementAnimation("section-10__total", "opacity", 1.0, 0.0, 975, 1000);
 	new ElementAnimation("section-10__background", "opacity", 1.0, 0.0, 975, 1000, true);

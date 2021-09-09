@@ -616,6 +616,10 @@
         </div>
         <div class="section-10__bar bar-7">
             <div class="section-10__bar-inner"><span class="section-10__bar-title">PARTNER'S SUPPORT</span><span
+                        class="section-10__bar-total">$425,331.00</span></div>
+        </div>
+        <div class="section-10__bar bar-8">
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">MEDICAL SUPPORT</span><span
                         class="section-10__bar-total">$1,210,913.86</span></div>
         </div>
     </div>

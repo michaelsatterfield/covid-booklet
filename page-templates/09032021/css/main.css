@@ -1529,7 +1529,7 @@ section.completed .button-next-slide-section-2 {
 .section-8__subtitle {
     /*position: relative;*/
     line-height: 1;
-    color: #cb2d2d;
+    color: #ffffff;
     z-index: 93;
 }
 
@@ -1657,8 +1657,8 @@ section.completed .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #002a54;
-    background-image: url(../images/section-9-background.jpg);
+    background-color: #f5f5f5;
+
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1747,8 +1747,8 @@ section.completed .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #002a54;
-    background-image: url(../images/section-10-background.jpg);
+    background-color: #ffffff;
+
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1790,7 +1790,7 @@ section.completed .button-next-slide-section-2 {
 
 .section-10__bar .section-10__bar-inner {
     display: inline-block;
-    padding: 0 22.5px;
+    /*padding: 0 22.5px;*/
     font-size: 18px;
     line-height: 20px;
     color: #fff;
@@ -1847,6 +1847,123 @@ section.completed .button-next-slide-section-2 {
     width: 1019px;
 }
 
+
+/*pie chart*/
+
+.pieContainer {
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+
+}
+
+.pieBackground {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /*box-shadow: 0px 0px 8px rgba(0,0,0,0.5);*/
+}
+
+.pie {
+    transition: all 1s;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    clip: rect(0px, 75px, 150px, 0px);
+}
+
+.hold {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    clip: rect(0px, 150px, 150px, 75px);
+}
+.hidePie{
+    visibility: hidden;
+}
+#pieSlice1 .pie {
+    background-color: #1b458b;
+    transform:rotate(70deg);
+}
+
+#pieSlice2 {
+    transform: rotate(70deg);
+}
+
+#pieSlice2 .pie {
+    background-color: #0a0;
+    transform: rotate(60deg);
+}
+
+#pieSlice3 {
+    transform: rotate(90deg);
+}
+
+#pieSlice3 .pie {
+    background-color: #f80;
+    transform: rotate(120deg);
+}
+
+#pieSlice4 {
+    transform: rotate(210deg);
+}
+
+#pieSlice4 .pie {
+    background-color: #08f;
+    transform: rotate(40deg);
+}
+
+#pieSlice5 {
+    transform: rotate(220deg);
+}
+
+#pieSlice5 .pie {
+    background-color: #a04;
+    transform: rotate(70deg);
+}
+
+#pieSlice6 {
+    transform: rotate(290deg);
+}
+
+#pieSlice6 .pie {
+    background-color: #ffd700;
+    transform: rotate(70deg);
+}
+
+.innerCircle {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    top: 15px;
+    left: 15px;
+    /*box-shadow: 0px 0px 8px rgba(0,0,0,0.5) inset;*/
+    color: white;
+}
+.innerCircle .content {
+    position: absolute;
+    display: block;
+    width: 120px;
+    top: 100px;
+    left:200px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 .section-11 {
     z-index: 89;
     width: 100%;
@@ -1859,8 +1976,8 @@ section.completed .button-next-slide-section-2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #002a54;
-    background-image: url(../images/section-11-background.jpg);
+    background-color: #ffffff;
+
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;

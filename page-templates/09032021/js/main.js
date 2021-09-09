@@ -150,10 +150,29 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	window.addEventListener("scroll", myScrollFunc2);
 
+//increment pie chart with scroll
+
+	let pie1 = document.getElementById("pieSlice1");
+	let pie2 = document.getElementById("pieSlice2");
+	let pie3 = document.getElementById("pieSlice3");
+	let pie4 = document.getElementById("pieSlice4");
+	let pie5 = document.getElementById("pieSlice5");
+	let pie6 = document.getElementById("pieSlice6");
 
 
-
-
+ // function pieFunc ()  {
+ //
+	// 	let y = window.scrollY;
+	// 	if (y >= 17000) {
+	// 		pie1.className = "pie"
+	// 		console.log("showpie")
+	// 	} else {
+	// 		pie1.className = "hidePie"
+	// 		console.log("hidePie")
+	// 	}
+	// };
+ //
+	// window.addEventListener("scroll", pieFunc);
 
 
 
@@ -351,16 +370,22 @@ window.addEventListener("DOMContentLoaded", event =>
 	}
 
 	new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 900, 910, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 900, 910, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
 

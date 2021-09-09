@@ -571,35 +571,51 @@
     <div class="section-10__background"></div>
     <div class="section-10__total">
         <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
+
+<div class="pieWrapper">
+        <div class="pieContainer">
+            <div class="pieBackground"></div>
+            <div id="pieSlice1" class="hold pieSlice1"><div class="pie"></div></div>
+            <div id="pieSlice2" class="hold pieSlice2"><div class="pie"></div></div>
+            <div id="pieSlice3" class="hold pieSlice3"><div class="pie"></div></div>
+            <div id="pieSlice4" class="hold pieSlice4"><div class="pie"></div></div>
+            <div id="pieSlice5" class="hold pieSlice5"><div class="pie"></div></div>
+            <div id="pieSlice6" class="hold pieSlice6"><div class="pie"></div></div>
+            <div id="pieSlice7" class="hold pieSlice7"><div class="pie"></div></div>
+            <div id="pieSlice8" class="hold pieSlice8"><div class="pie"></div></div>
+            <div class="innerCircle"></div>
+        </div>
+    </div>
+
     </div>
     <div class="section-10__bars">
         <div class="section-10__bar bar-1">
             <div class="section-10__bar-inner"><span
-                        class="section-10__bar-title">Annual Responsive<br>Grantmaking</span><span
+                        class="section-10__bar-title">FOOD SECURITY<span
                         class="section-10__bar-total">$3,199,110</span></div>
         </div>
         <div class="section-10__bar bar-2">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Designated</span><span
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">FINANCIAL ASSISTANCE</span><span
                         class="section-10__bar-total">$3,922,681</span></div>
         </div>
         <div class="section-10__bar bar-3">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Scholarships</span><span
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">EDUCATION/DIGITAL DIVIDE</span><span
                         class="section-10__bar-total">$4,655,491</span></div>
         </div>
         <div class="section-10__bar bar-4">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Supporting Organizations</span><span
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">CHILDCARE</span><span
                         class="section-10__bar-total">$5,168,063</span></div>
         </div>
         <div class="section-10__bar bar-5">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Other Grants including all<br>hardship and disaster relief grants</span><span
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">WORKFORCE DEVELOPMENT</span><span
                         class="section-10__bar-total">$6,156,827</span></div>
         </div>
         <div class="section-10__bar bar-6">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">COVID-19 Relief Fund</span><span
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">SOCIAL SERVICES</span><span
                         class="section-10__bar-total">$6,490,115</span></div>
         </div>
         <div class="section-10__bar bar-7">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Donor Advised Funds (DAFs)<br>Direct Giving to Nonprofits</span><span
+            <div class="section-10__bar-inner"><span class="section-10__bar-title">PARTNER'S SUPPORT</span><span
                         class="section-10__bar-total">$42,309,054</span></div>
         </div>
     </div>

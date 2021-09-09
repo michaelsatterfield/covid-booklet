@@ -1886,7 +1886,7 @@ section.completed .button-next-slide-section-2 {
     visibility: hidden;
 }
 #pieSlice1 .pie {
-    background-color: #1b458b;
+    background-color: #89946b;
     transform:rotate(70deg);
 }
 
@@ -1895,7 +1895,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 #pieSlice2 .pie {
-    background-color: #0a0;
+    background-color: #e37b41;
     transform: rotate(60deg);
 }
 
@@ -1904,7 +1904,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 #pieSlice3 .pie {
-    background-color: #f80;
+    background-color: #3e4c81;
     transform: rotate(120deg);
 }
 
@@ -1913,7 +1913,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 #pieSlice4 .pie {
-    background-color: #08f;
+    background-color: #009b65;
     transform: rotate(40deg);
 }
 
@@ -1922,7 +1922,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 #pieSlice5 .pie {
-    background-color: #a04;
+    background-color: #9b2c1e;
     transform: rotate(70deg);
 }
 
@@ -1931,7 +1931,25 @@ section.completed .button-next-slide-section-2 {
 }
 
 #pieSlice6 .pie {
-    background-color: #ffd700;
+    background-color: #584561;
+    transform: rotate(70deg);
+}
+
+#pieSlice7 {
+    transform: rotate(290deg);
+}
+
+#pieSlice7 .pie {
+    background-color: #c0a605;
+    transform: rotate(70deg);
+}
+
+#pieSlice8 {
+    transform: rotate(290deg);
+}
+
+#pieSlice8 .pie {
+    background-color: #416d84;
     transform: rotate(70deg);
 }
 

@@ -592,31 +592,31 @@
         <div class="section-10__bar bar-1">
             <div class="section-10__bar-inner"><span
                         class="section-10__bar-title">FOOD SECURITY<span
-                        class="section-10__bar-total">$3,199,110</span></div>
+                        class="section-10__bar-total">$839,742.44</span></div>
         </div>
         <div class="section-10__bar bar-2">
             <div class="section-10__bar-inner"><span class="section-10__bar-title">FINANCIAL ASSISTANCE</span><span
-                        class="section-10__bar-total">$3,922,681</span></div>
+                        class="section-10__bar-total">$614,895.00</span></div>
         </div>
         <div class="section-10__bar bar-3">
             <div class="section-10__bar-inner"><span class="section-10__bar-title">EDUCATION/DIGITAL DIVIDE</span><span
-                        class="section-10__bar-total">$4,655,491</span></div>
+                        class="section-10__bar-total">$602,108.93</span></div>
         </div>
         <div class="section-10__bar bar-4">
             <div class="section-10__bar-inner"><span class="section-10__bar-title">CHILDCARE</span><span
-                        class="section-10__bar-total">$5,168,063</span></div>
+                        class="section-10__bar-total">$1,154,662.86</span></div>
         </div>
         <div class="section-10__bar bar-5">
             <div class="section-10__bar-inner"><span class="section-10__bar-title">WORKFORCE DEVELOPMENT</span><span
-                        class="section-10__bar-total">$6,156,827</span></div>
+                        class="section-10__bar-total">$286,628.00</span></div>
         </div>
         <div class="section-10__bar bar-6">
             <div class="section-10__bar-inner"><span class="section-10__bar-title">SOCIAL SERVICES</span><span
-                        class="section-10__bar-total">$6,490,115</span></div>
+                        class="section-10__bar-total">$1,355,833.32</span></div>
         </div>
         <div class="section-10__bar bar-7">
             <div class="section-10__bar-inner"><span class="section-10__bar-title">PARTNER'S SUPPORT</span><span
-                        class="section-10__bar-total">$42,309,054</span></div>
+                        class="section-10__bar-total">$1,210,913.86</span></div>
         </div>
     </div>
 </section>

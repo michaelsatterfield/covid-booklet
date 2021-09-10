@@ -330,21 +330,21 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-8", "opacity", 1.0, 0.0, 785, 795);
 
 	//Section 9 | Active
-	new ElementAnimation("section-9__background", "scale", 1.0, 1.05, 785, 1100);
+	new ElementAnimation("section-9__background", "scale", 1.0, 1.05, 785, 875);
 	new ElementAnimation("section-9__title", "margin-left", 125, 0, 790, 850);
-	new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 790, 825);
+	new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 790, 800);
 		new ElementAnimation("section-9__pretitle", "margin-left", 50, 0, 790, 850);
-		new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 860);
-			new ElementAnimation("section-9__subtitle", "margin-left", 50, 0, 820, 850);
-			new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 820, 850);
-				new ElementAnimation("section-9__stats", "margin-left", 50, 0, 830, 860);
-				new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 830, 860);
+		new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 900);
+			new ElementAnimation("section-9__subtitle", "margin-left", 50, 0, 820, 825);
+			new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 820, 900);
+				new ElementAnimation("section-9__stats", "margin-left", 50, 0, 830, 825);
+				new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 830, 825);
 
 
-	new ElementAnimation("section-9", "opacity", 1.0, 0.0, 885, 900);
+	new ElementAnimation("section-9", "opacity", 1.0, 0.0, 790, 900);
 
-	new ElementAnimation("section-10__background", "scale", 1.0, 1.05, 785, 1100);
-	new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 0.5, 900, 970);
+	new ElementAnimation("section-10__background", "scale", 1.0, 1.05, 825, 900);
+	new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 825, 900);
 
 	// Continue here
 	var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00,839742.44];
@@ -357,6 +357,7 @@ window.addEventListener("DOMContentLoaded", event =>
 		//updateTotalTimeout = setTimeout(function() {
 			document.getElementsByClassName("section-10__total-wrapper")[0].innerHTML = '$' + barAmount();
 
+
 		//}, 25);
 	};
 
@@ -368,44 +369,45 @@ window.addEventListener("DOMContentLoaded", event =>
 
 		return totalString;
 	}
-	new ElementAnimation("section-10__bar bar-8", "opacity", 0.0, 1.0, 890, 900, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 890, 900, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-8", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(8, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 900, 910, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 900, 910, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 970, 980, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 970, 980, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 980, 990, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 980, 990, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("total-funds-comment", "opacity", 0.0, 1.0, 980, 990, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 980, 1000)
-	new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 980, 1000);
-	new ElementAnimation("section-10__bar bar-6", "opacity", 1.0, 0.0, 980, 1000);
-	new ElementAnimation("section-10__bar bar-5", "opacity", 1.0, 0.0, 980, 1000);
-	new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 980, 1000);
-	new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 980, 1000);
-	new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 980, 1000);
-	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 980, 1000);
+	new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 980, 1090)
+	new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 980, 1090);
+	new ElementAnimation("section-10__bar bar-6", "opacity", 1.0, 0.0, 980, 1090);
+	new ElementAnimation("section-10__bar bar-5", "opacity", 1.0, 0.0, 980, 1090);
+	new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 980, 1090);
+	new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 980, 1090);
+	new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 980, 1090);
+	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 980, 1090);
 ;
 
 
 
-	new ElementAnimation("section-10__total", "opacity", 1.0, 0.0, 975, 1000);
-	new ElementAnimation("section-10__background", "opacity", 1.0, 0.0, 975, 1000, true);
+	new ElementAnimation("section-10__total", "opacity", .0, 1.0, 910, 940);
+	new ElementAnimation("section-10__background", "opacity", 1.0, 1.0, 900, 1000, true);
 
 	new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 785, 1100);
 	new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 995, 1015);
@@ -419,14 +421,16 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1030, 1050);
 	new ElementAnimation("section-11__note", "margin-left", 75, 0, 995, 1010);
 
-	new ElementAnimation("section-10", "opacity", 1.0, 0.0, 1085, 1100);
-	new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1085, 1100);
+
+	//exit opacity for total funds page
+	new ElementAnimation("section-10", "opacity", 5.0, 0.0, 1000, 1050);
+	new ElementAnimation("section-11", "opacity", 1.0, 1.0, 1000, 1050);
 
 
-	new ElementAnimation("section-12__image", "scale", 0.95, 0.975, 1100, 1112);
+	new ElementAnimation("section-12__image", "scale", 0, 0.975, 1100, 1112);
 	new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1112, 1115);
 	new ElementAnimation("section-12__image", "margin-left", -60, 0, 1100, 1110);
-	new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1100, 1115);
+	new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1150, 1175);
 	new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1100, 1130);
 	new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 1110, 1140);
 	new ElementAnimation("section-12__title", "margin-left", 50, 0, 1110, 1140);
@@ -434,7 +438,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-12__text", "margin-left", 50, 0, 1120, 1150);
 	new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1130, 1150);
 
-	new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1165, 1200);
+	new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1150, 1200);
 
 
 	new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1200, 1212);

@@ -114,10 +114,7 @@
                 </clipPath>
             </defs>
         </symbol>
-        <!--      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-left" fill="none"-->
-        <!--        stroke-linecap="round" stroke-width="2" xmlns:v="https://vecta.io/nano">-->
-        <!--        <path d="M14.256 7.744h-12m3.855-6.34L1.259 7.566l4.852 6.52" />-->
-        <!--      </symbol>-->
+
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-right" fill="none"
                 stroke-linecap="round" stroke-width="2">
             <path d="M1 7.744h12m-3.855-6.34l4.852 6.162-4.852 6.52"/>
@@ -278,7 +275,7 @@
                     src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/foto-marjie-web.jpg"
                     alt=""></div>
         <div class="section-2a__text-wrapper">
-            <!--  <div class="section-2a__text-shadow-before"></div> -->
+
             <div class="section-2a__text">
             </div>
             <div class="section-2a__text-shadow-after"></div>

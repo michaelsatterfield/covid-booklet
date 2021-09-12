@@ -67,7 +67,11 @@
     <!--  <link href="-->
     <?php //echo get_template_directory_uri(); ?><!--/page-templates/09032021/css/main.css?6c27024468b2af243e6a" rel="stylesheet">-->
     <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/css/main.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -110,10 +114,7 @@
                 </clipPath>
             </defs>
         </symbol>
-        <!--      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-left" fill="none"-->
-        <!--        stroke-linecap="round" stroke-width="2" xmlns:v="https://vecta.io/nano">-->
-        <!--        <path d="M14.256 7.744h-12m3.855-6.34L1.259 7.566l4.852 6.52" />-->
-        <!--      </symbol>-->
+
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="icon-arrow-right" fill="none"
                 stroke-linecap="round" stroke-width="2">
             <path d="M1 7.744h12m-3.855-6.34l4.852 6.162-4.852 6.52"/>
@@ -220,7 +221,7 @@
             <div class="section-1__text-1">In times of crisis,</div>
             <div class="section-1__text-2">we rely on relationships.</div>
         </div>
-        <div class="button-arrow-red-section-1 d-flex justify-content-center" >
+        <div class="button-arrow-red-section-1 d-flex justify-content-center">
             <button class="button button-arrow-red">
                 <div class="icon icon-arrow svg">
                     <svg>
@@ -243,7 +244,7 @@
 
         <div class="section-2__text">
 
-            <div class="section-2__text-4" ><span class="section-2__text-1">The coronavirus pandemic </span>
+            <div class="section-2__text-4"><span class="section-2__text-1">The coronavirus pandemic </span>
                 prompted all of us to act quickly, depend on each other and encourage innovation.
                 <span id="section-2a" class="bottomMenu hide">We have prioritized community-led solution,
                     trusting those on the front lines to do the work they know how to get done, to serve their neighbors who are
@@ -274,7 +275,7 @@
                     src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/foto-marjie-web.jpg"
                     alt=""></div>
         <div class="section-2a__text-wrapper">
-            <!--  <div class="section-2a__text-shadow-before"></div> -->
+
             <div class="section-2a__text">
             </div>
             <div class="section-2a__text-shadow-after"></div>
@@ -314,7 +315,7 @@
 
     <div class="section-2__text">
 
-        <div class="section-2__text-4" ><span class="section-2__text-1">The coronavirus pandemic </span>
+        <div class="section-2__text-4"><span class="section-2__text-1">The coronavirus pandemic </span>
             prompted all of us to act quickly, depend on each other and encourage innovation.
             <span id="section-2a" class="bottomMenu ">We have prioritized <br>community-led solution,
                     trusting<br> those on the front lines to do the <br>work they know how to get done, to serve their <br>neighbors who are
@@ -372,8 +373,8 @@
     <section class="section-5">
         <div class="section-5__background"></div>
         <div class="section-6__title-wrapper">
-            <div class="section-5__pretitle"></div>
-            <div class="section-5__title"></div>
+            <div class="section-5__pretitle">Our work has been relentless.Hello</div>
+            <div class="section-5__title">It has been eye opening</div>
 
         </div>
         <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
@@ -477,35 +478,49 @@
         <div class="section-6__pretitle"></div>
         <div class="section-5__title-wrapper">
             <div class="section-5__pretitle">Our work has been relentless.</div>
-            <div class="section-5__title">It has been eye opening.
-                <span id="section-3a" >We are proud of the people of San Antonio
-            who rose to the challenge, with compassion and without hesitation.</span>
+            <div class="section-5__title">It has been eye opening</div>
+            <div id="section-3a">We are proud of the people of San <br>Antonio who rose to the challenge, with
+                compassion and without hesitation.
             </div>
-
         </div>
-        <div class="section-6__title"></div>
+
+    </div>
+    <div class="section-6__title"></div>
     </div>
 </section>
 <section class="section-7">
     <div class="section-7__background"></div>
-    <div class="section-7__text">
-        The people that SAMMinistries serves struggle during normal circumstances to maintain stability. The COVID-19
-        pandemic amplified vulnerabilities around such issues as food insecurity, rental assistance, access to hygiene,
-        cleaning supplies, and transportation. Those living in transitional housing lost many outlets to socialize and
-        simply let kids expend their energy. Generous funding helped alleviate these burdens, helping to keep households
-        safe and healthy. It helped pay rent, late fees, and mortgages, making SAMMinistries a one-stop shop to address
-        the housing needs of clients in financial crisis. One hundred percent of homeless prevention and rapid
-        re-housing clients remained housed; 60 percent of transitional clients exited to permanent housing; and 98
-        percent of permanent supportive housing clients remained housed during the worst of the crisis.
+    <div class="section-7__text ">
+        "I think it's safe to say that no one foresaw the extraordinary events of 2020.
+        Each challenge became a turning point, an opportunity ti think critically and act decisively
+        to find new ways to address escalating community needs. The decisions were not easy: the clear
+        path was not always obvious. Fortunately, we were not alone on the journey."
     </div>
+    <div class="section-7__signature ">-Marjie French, CEO San Antonio Area Foundation</div>
+
+
 </section>
 <section class="section-8">
     <div class="section-8__background"></div>
     <div class="section-8__text-wrapper">
-        <div class="section-8__title"><span class="section-8__title-1">[ Make an </span>impact<span
-                    class="section-8__title-2">. ]</span></div>
+        <div class="section-8__title">[COVID-19 Response Timeline]</div>
+
         <div class="section-8__subtitle">
-            <div class="section-8__subtitle-wrapper">Grantmaking by the Numbers</div>
+            <div class="section-8__subtitle-wrapper">Once it became clear in March 2020 that the coronavirus pandemic
+                was just<br/> beginning to halt life as we know it and cause an unprecedented ripple effect across<br/>
+                our community, the San Antonio Area Foundation wasted no time in taking bold and <br/> decisive action.
+                In conjunction with the United Way of San Antonio and Bexar County<br/> (in close cooperation and
+                coordination with the City of San Antonio),
+                the COVID-19<br/> Response Fund was created to provide an immediate lifeline to the nonprofit sector.
+                <br><br>
+                A crisis can't wait. We embraced the power of trust-based philanthropy, enabling<br/> unprecedented
+                progress by prioritizing
+                community led solutions and removing<br/> procedural barriers. We learned that challenges are best
+                solved by those who face<br/>
+                them every day and live with the consequences of waiting too long for solutions. We<br/>stand proud of
+                how quickly our community mobilized and learned
+                just how much we <br/> can do and just how far we can go if we truly put the community first.
+            </div>
         </div>
     </div>
     <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span class="section-8__icon__asterisk">*</span>
@@ -534,111 +549,146 @@
         </div>
     </div>
 </section>
+
+
 <section class="section-9">
     <div class="section-9__background"></div>
     <div class="section-9__text-wrapper">
-        <div class="section-9__pretitle">Here is the</div>
-        <div class="section-9__title">impact<span class="section-9__title-1"> we made</span></div>
-        <div class="section-9__subtitle">in 2020.</div>
+        <div class="section-9__pretitle">Scrolling Month Display</div>
+        <div class="section-9__title">Scrolling Month Display</div>
+        <div class="section-9__subtitle">Scrolling Month Display</div>
     </div>
+
     <div class="section-9__stats">
-        <div class="section-9__stats-block"><span>$1</span> Billion Total Assets Under Management</div>
-        <div class="section-9__stats-block"><span>500+</span> Charitable Funds</div>
-        <div class="section-9__stats-block"><span>$71.9</span> Million Total Grantmaking</div>
-        <div class="section-9__stats-block section-9__stats-subblock">—<span>$66.1</span> Million to nonprofits</div>
-        <div class="section-9__stats-block section-9__stats-subblock">—<span>$4.7</span> Million in scholarships</div>
-        <div class="section-9__stats-block section-9__stats-subblock">—<span>$1.1</span> Million in hardship grants
+        <div class="section-9__stats-block"></div>
+        <div class="section-9__stats-block"></div>
+        <div class="section-9__stats-block"></div>
+        <div class="section-9__stats-block section-9__stats-subblock"></div>
+        <div class="section-9__stats-block section-9__stats-subblock"></div>
+        <div class="section-9__stats-block section-9__stats-subblock">
         </div>
-        <div class="section-9__stats-block"><span>2,342</span> Total Nonprofit Grants</div>
-        <div class="section-9__stats-block"><span>77</span> Nonprofit Programs and Classes Serving 2,016 Trainees</div>
+        <div class="section-9__stats-block"><span></span></div>
+        <div class="section-9__stats-block"><span></span></div>
     </div>
 </section>
+
+
+
 <section class="section-10">
     <div class="section-10__background"></div>
     <div class="section-10__total">
         <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
-    </div>
-    <div class="section-10__bars">
-        <div class="section-10__bar bar-1">
-            <div class="section-10__bar-inner"><span
-                        class="section-10__bar-title">Annual Responsive<br>Grantmaking</span><span
-                        class="section-10__bar-total">$3,199,110</span></div>
+        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
+        <div class="pieWrapper">
+            <div class="pieContainer">
+                <div class="pieBackground "></div>
+                <div id="pieSlice1" class="hold pieSlice1">
+                    <div class="pie"></div>
+                </div>
+                <div id="pieSlice2" class="hold pieSlice2">
+                    <div class="pie"></div>
+                </div>
+                <div id="pieSlice3" class="hold pieSlice3">
+                    <div class="pie"></div>
+                </div>
+                <div id="pieSlice4" class="hold pieSlice4">
+                    <div class="pie"></div>
+                </div>
+                <div id="pieSlice5" class="hold pieSlice5">
+                    <div class="pie"></div>
+                </div>
+                <div id="pieSlice6" class="hold pieSlice6">
+                    <div class="pie"></div>
+                </div>
+                <div id="pieSlice7" class="hold pieSlice7">
+                    <div class="pie"></div>
+                </div>
+                <div id="pieSlice8" class="hold pieSlice8">
+                    <div class="pie"></div>
+                </div>
+                <div class="innerCircle"></div>
+            </div>
         </div>
-        <div class="section-10__bar bar-2">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Designated</span><span
-                        class="section-10__bar-total">$3,922,681</span></div>
+
+
+
+        <div class="section-10__bars">
+
+            <div class="section-10__bar bar-1  d-flex justify-content-start">
+
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">FOOD SECURITY</h2>
+                <h2 class="section-10__bar-total">$839,742.44</h2>
+            </div>
+            <div class="section-10__bar bar-2  d-flex justify-content-start">
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">FINANCIAL ASSISTANCE</h2>
+                <h2 class="section-10__bar-total">$614,895.00</h2>
+            </div>
+            <div class="section-10__bar bar-3  d-flex justify-content-start">
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">EDUCATION/DIGITAL DIVIDE</h2>
+                <h2 class="section-10__bar-total">$602,108.93</h2>
+            </div>
+            <div class="section-10__bar bar-4  d-flex justify-content-start">
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">CHILDCARE</h2>
+                <h2 class="section-10__bar-total">$1,154,662.86</h2>
+            </div>
+            <div class="section-10__bar bar-5  d-flex justify-content-start">
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">WORKFORCE DEVELOPMENT</h2>
+                <h2 class="section-10__bar-total">$286,628.00</h2>
+            </div>
+            <div class="section-10__bar bar-6  d-flex justify-content-start">
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">SOCIAL SERVICES</h2>
+                <h2 class="section-10__bar-total">$1,355,833.32</h2>
+            </div>
+            <div class="section-10__bar bar-7  d-flex justify-content-start">
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">PARTNER'S SUPPORT</h2>
+                <h2 class="section-10__bar-total">$425,331.00</h2>
+            </div>
+            <div class="section-10__bar bar-8  d-flex justify-content-start">
+                <div class="section-10__bar-inner"></div>
+                <h2 class="section-10__bar-title">MEDICAL SUPPORT</h2>
+                <h2 class="section-10__bar-total">$1,210,913.86</h2>
+            </div>
+
         </div>
-        <div class="section-10__bar bar-3">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Scholarships</span><span
-                        class="section-10__bar-total">$4,655,491</span></div>
-        </div>
-        <div class="section-10__bar bar-4">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Supporting Organizations</span><span
-                        class="section-10__bar-total">$5,168,063</span></div>
-        </div>
-        <div class="section-10__bar bar-5">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Other Grants including all<br>hardship and disaster relief grants</span><span
-                        class="section-10__bar-total">$6,156,827</span></div>
-        </div>
-        <div class="section-10__bar bar-6">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">COVID-19 Relief Fund</span><span
-                        class="section-10__bar-total">$6,490,115</span></div>
-        </div>
-        <div class="section-10__bar bar-7">
-            <div class="section-10__bar-inner"><span class="section-10__bar-title">Donor Advised Funds (DAFs)<br>Direct Giving to Nonprofits</span><span
-                        class="section-10__bar-total">$42,309,054</span></div>
-        </div>
-    </div>
 </section>
+
 <section class="section-11">
     <div class="section-11__background"></div>
-    <div class="section-11__pretitle">Turning points require</div>
-    <div class="section-11__title">bold leadership,</div>
+    <div class="section-11__pretitle"></div>
+    <div class="section-11__title"></div>
     <div class="section-11__text">
-        We are proud to have been the bridge between those most able to give and those who most needed to receive. With
-        community input, research and strategic planning, the San Antonio Area Foundation focused grantmaking and relief
-        efforts on <span>four Impact Areas.</span>
+
     </div>
     <div class="section-11__bardetails">
-        <span>Key investment areas:</span><br>
-        1. Cultural Vibrancy $626,000<br>
-        2. Livable and Resilient Communities $741,000<br>
-        3. Youth Success $636,000<br>
-        4. Successful Aging $545,000
     </div>
     <div class="section-11__note">
-        Note: All figures listed are before final audit. Total Giving includes all scholarships, hardship grants,
-        disaster relief grants, supporting organization grants, designated grants, and interfund grants to the Area
-        Foundation to redistribute in alignment with our mission and program initiatives. For the most updated
-        information, visit www.saafdn.org/impact.
     </div>
 </section>
+
+
+
+
+
 <section class="section-12">
-    <div class="section-12__image">
-        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-12.jpg">
-        <div class="section-12__imageshorttext">» San Anto Cultural Arts</div>
+
+    <div class="section-12__image"></div>
+
+    <div class="section-12__imageshorttext"></div>
     </div>
     <div class="section-12__text-wrapper">
-        <div class="section-12__title">creative thinking,</div>
+        <div class="section-12__title">Blue Mural Background</div>
         <div class="section-12__text">
-            <h3>1. cultural vibrancy</h3>
-            <br>
-            <br>
-            <p>Our strategic investments and partnerships with arts and culture organizations in 2020 ensured that the
-                brightness and vitality that makes San Antonio special were not dimmed. Quite the opposite. By keeping
-                arts organizations up and running (often virtually), they could continue to provide emotional,
-                intellectual, and creative lifelines to a broad range of audiences in need of community and cultural
-                celebration.</p>
         </div>
     </div>
-    <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"><span>Vital partnerships</span>
-        <button class="button button-arrow-yellow">
-            <div class="icon icon-arrow">
-                <svg>
-                    <use href="#icon-arrow-right"></use>
-                </svg>
-            </div>
-        </button>
+    <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a">
+
     </div>
 </section>
 <section class="section-12a">
@@ -720,19 +770,72 @@
 </section>
 <section class="section-14">
     <div class="section-14__image">
-        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-14.jpg">
-        <div class="section-14__imageshorttext">» Good Samaritan Center</div>
+
+
+
+
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <ul class="timeline">
+                        <li class="c1">
+                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+                            <a href="#" class="float-right">21 March, 2014</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                        </li>
+                        <li class="c2">
+                            <a href="#">21 000 Job Seekers</a>
+                            <a href="#" class="float-right">4 March, 2014</a>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li class="c3">
+                            <a href="#">Awesome Employers</a>
+                            <a href="#" class="float-right">1 April, 2014</a>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                        <li class="c4">
+                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+                            <a href="#" class="float-right">21 March, 2014</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                        </li>
+                        <li class="c5">
+                            <a href="#">21 000 Job Seekers</a>
+                            <a href="#" class="float-right">4 March, 2014</a>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li >
+                        <li class=c6>
+                            <a href="#">Awesome Employers</a>
+                            <a href="#" class="float-right">1 April, 2014</a>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                        <li class="c7">
+                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+                            <a href="#" class="float-right">21 March, 2014</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                        </li>
+                        <li class="c8">
+                            <a href="#">21 000 Job Seekers</a>
+                            <a href="#" class="float-right">4 March, 2014</a>
+                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                        </li>
+                        <li class="c9">
+                            <a href="#">Awesome Employers</a>
+                            <a href="#" class="float-right">1 April, 2014</a>
+                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section-14__imageshorttext"></div>
     </div>
     <div class="section-14__text-wrapper">
-        <div class="section-14__title">forging ahead,</div>
+        <div class="section-14__title"></div>
         <div class="section-14__text">
-            <h3>3. Youth success</h3>
-            <br>
-            <br>
-            <p>The strength of our community lies in the success of our children. The COVID-19 pandemic, however,
-                exposed the lingering inequities in our education system. In response, the San Antonio Area Foundation
-                has invested in organizations who take on the challenge of giving every child an accessible pathway,
-                from cradle to career, to achieve lifelong academic and personal success.</p>
+
         </div>
     </div>
     <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span>Vital partnerships</span>
@@ -1947,7 +2050,9 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
     </div>
 </section>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 <script type="text/javascript"
         src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/js/main.js"></script>
 </body>

@@ -3,10 +3,17 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	// Revised animation structure
 	class ElementAnimation
+		//consturctor fires when the class is called
 	{
-		constructor(_identifier, _property, _propertyInitialValue, _propertyTargetValue, _scrollStartOffset, _scrollStopOffset, _updateCallback = undefined) {
-
-			// Future update to accept hashed id attribute element identifiers
+		constructor(_identifier,
+					_property,
+					_propertyInitialValue,
+					_propertyTargetValue,
+					_scrollStartOffset,
+					_scrollStopOffset,
+					_updateCallback = undefined)
+	{
+		// Future update to accept hashed id attribute element identifiers
 			// currently accepts only class
 			this.identifier = _identifier;
 			this.container = document.getElementsByClassName(this.identifier)[0];
@@ -15,9 +22,12 @@ window.addEventListener("DOMContentLoaded", event =>
 			this.propertyTargetValue = _propertyTargetValue;
 			this._scrollStartOffset = _scrollStartOffset;
 			this._scrollStopOffset = _scrollStopOffset;
+
+			//height in pixels divided by 100
 			this.scrollStartOffset = (_scrollStartOffset / 100) * window.innerHeight;
-			this.scrollStopOffset = (_scrollStopOffset / 100) * window.innerHeight;
-				// update scroll-dummy-overlay if > overlay height document.getElementsByClassName("scroll-dummy-overlay")[0].style.height = (window.innerHeight * stop/100) + "px";
+			this.scrollStopOffset = (_scrollStopOffset / 100) *  window.innerHeight;
+
+			// update scroll-dummy-overlay if > overlay height document.getElementsByClassName("scroll-dummy-overlay")[0].style.height = (window.innerHeight * stop/100) + "px";
 			this.updateCallback = _updateCallback;
 
 			this.animationPercentage = undefined; // For use in animate()
@@ -69,6 +79,7 @@ window.addEventListener("DOMContentLoaded", event =>
 		animate (pageScrollPosition) {
 			this.animationPercentage = (pageScrollPosition - this.scrollStartOffset) / (this.scrollStopOffset - this.scrollStartOffset);
 			this.animationValue = this.propertyInitialValue + ((this.propertyTargetValue - this.propertyInitialValue) * this.animationPercentage);
+			this.animationString =  this.propertyTargetValue ;
 
 			if (this.lastAnimationValue != this.animationValue) {
 
@@ -84,33 +95,23 @@ window.addEventListener("DOMContentLoaded", event =>
 					case "scale":
 						this.container.style.transform = "scale(" + this.animationValue + ")";
 						break;
+
+
+					case "color":
+						this.container.style.color = this.animationString ;
+						console.log(this.animationString)
+						break;
+
 				}
 
 				this.lastAnimationValue = this.animationValue;
 			}
 		}
 	}
+	//end of class "animation"
 
 
-	// let y = window.scrollY;
-	// let scrollShow = (scrollAmt, className, myId) => {
-	// document.getElementById(myId)
-	// 	let y = window.scrollY;
-	// 	if (y >= scrollAmt) {
-	// 		myId.className = className
-	// 		console.log("SHOW")
-	// 	} else {
-	// 		myId.className = "bottomMenu hide"
-	// 		console.log("Not Show!")
-	// 	}
-	// }
-	//
-	//
-	//
-	// //
-	// // 	let myID = document.getElementById("section-2a");
-	// // window.addEventListener('scroll',scrollShow(3500,"bottomMenu show","section-2a"))
-	// window.addEventListener('scroll',scrollShow(6100,"showSpan-2 show2","section-3a"))
+
 
 
 
@@ -150,29 +151,6 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	window.addEventListener("scroll", myScrollFunc2);
 
-//increment pie chart with scroll
-
-	let pie1 = document.getElementById("pieSlice1");
-	let pie2 = document.getElementById("pieSlice2");
-	let pie3 = document.getElementById("pieSlice3");
-	let pie4 = document.getElementById("pieSlice4");
-	let pie5 = document.getElementById("pieSlice5");
-	let pie6 = document.getElementById("pieSlice6");
-
-
- // function pieFunc ()  {
- //
-	// 	let y = window.scrollY;
-	// 	if (y >= 17000) {
-	// 		pie1.className = "pie"
-	// 		console.log("showpie")
-	// 	} else {
-	// 		pie1.className = "hidePie"
-	// 		console.log("hidePie")
-	// 	}
-	// };
- //
-	// window.addEventListener("scroll", pieFunc);
 
 
 
@@ -206,11 +184,13 @@ window.addEventListener("DOMContentLoaded", event =>
 	);
 
 	//starting and stopping target properties
+	//instances of the created Element Animation Class
 	new ElementAnimation("header-top", "opacity", 1.0, 0.0, 35, 100);
 	new ElementAnimation("section-1__text-1", "opacity",  1.0,  0.0,  0, 100);
 	new ElementAnimation("section-1__text-1", "margin-left",  50,    50,  0, 100);
 	new ElementAnimation("section-1__text-2", "opacity",  1.0,  0.0,  0, 100);
 	new ElementAnimation("section-1__text-2", "margin-left",  50,    50,  0, 100);
+	new ElementAnimation("section-1__text-2", "color",  'white',  'red',  0, 50);
 
 
 

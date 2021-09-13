@@ -551,6 +551,9 @@
 </section>
 
 
+
+
+
 <section class="section-9">
     <div class="section-9__background"></div>
     <div class="section-9__text-wrapper">
@@ -700,17 +703,24 @@
 
 
 
-<section class="section-9.2">
-    <div>
+<section class="section-9 section-9_2_background">
+    <div class="section-9__title">
         <div>
+            <h1>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quaerat repellat temporibus? A ab
+                    adipisci commodi dolore eius enim excepturi facere odit porro sequi! Aperiam officiis rerum sequi
+                    soluta velit.
+                </div>
+                <div>Excepturi, ipsam labore. Cumque deleniti, vitae. Accusamus corporis eligendi expedita nam nemo sunt
+                    tenetur. Asperiores aut autem culpa eaque, facilis, incidunt laboriosam porro quaerat quasi quo
+                    tenetur voluptas voluptates voluptatum?
+                </div></h1>
             Placeholder
         </div>
     </div>
 </section>
 
 
-
-<section class="section-9.3"></section>
 
 <section class="section-10">
     <div class="section-10__background"></div>

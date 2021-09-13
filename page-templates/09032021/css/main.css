@@ -1995,29 +1995,29 @@ opacity:1
 }
 #pieSlice1 .pie {
     background-color: #89946b;
-    transform:rotate(30deg);
+    transform:rotate(60deg);
 }
 
 #pieSlice2 {
-    transform: rotate(30deg);
+    transform: rotate(60deg);
 }
 
 #pieSlice2 .pie {
     background-color: #e37b41;
-    transform: rotate(60deg);
+    transform: rotate(30deg);
 }
 
 #pieSlice3 {
-    transform: rotate(90deg);
+    transform: rotate(88deg);
 }
 
 #pieSlice3 .pie {
     background-color: #3e4c81;
-    transform: rotate(120deg);
+    transform: rotate(30deg);
 }
 
 #pieSlice4 {
-    transform: rotate(210deg);
+    transform: rotate(117deg);
 }
 
 #pieSlice4 .pie {
@@ -2026,7 +2026,7 @@ opacity:1
 }
 
 #pieSlice5 {
-    transform: rotate(220deg);
+    transform: rotate(145deg);
 }
 
 #pieSlice5 .pie {

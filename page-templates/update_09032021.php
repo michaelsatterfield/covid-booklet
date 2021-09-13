@@ -554,9 +554,135 @@
 <section class="section-9">
     <div class="section-9__background"></div>
     <div class="section-9__text-wrapper">
-        <div class="section-9__pretitle">Scrolling Month Display</div>
-        <div class="section-9__title">Scrolling Month Display</div>
-        <div class="section-9__subtitle">Scrolling Month Display</div>
+        <div class="container mt-0 mb-5">
+            <div class="row">
+                <div class="col-md-12 offset-md-3">
+                    <ul class="timeline ">
+
+                        <button class="btn-circle btn-sm btn-secondary ml-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <li class="c2">
+                                <h2 class="month-letter">M</h2>
+<!--                                <a href="#">M</a>-->
+                            </li>
+
+                        </button>
+
+                        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Apri</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                                </div>
+                                <div class="dropdown mt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="c1" >
+                            <a target="_blank" href="https://www.totoprayogo.com/#">xx</a>
+                            <a href="#" class="float-right">xxx</a>
+
+                        </li>
+
+
+
+                        <button class="btn-circle btn-sm btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <li class="c2">
+                                <a href="#">M</a>
+                            </li>
+
+                        </button>
+
+                        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Apri</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                                </div>
+                                <div class="dropdown mt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <li class="c3">
+                            <a href="#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+
+                        <li class="c4">
+                            <a target="_blank" href="https://www.totoprayogo.com/#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+
+                        <li class="c5">
+                            <a href="#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+
+                        <li class=c6>
+                            <a href="#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+
+                        <li class="c7">
+                            <a target="_blank" href="https://www.totoprayogo.com/#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+
+                        <li class="c8">
+                            <a href="#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+
+                        <li class="c9">
+                            <a href="#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+                        <li class="c10">
+                            <a href="#">x</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+                        <li class="c11">
+                            <a href="#">Awesome Employers</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+                        <li class="c12">
+                            <a href="#">Awesome Employers</a>
+                            <a href="#" class="float-right">x</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="section-9__pretitle"></div>
+        <div class="section-9__title"></div>
+        <div class="section-9__subtitle"></div>
     </div>
 
     <div class="section-9__stats">
@@ -573,6 +699,18 @@
 </section>
 
 
+
+<section class="section-9.2">
+    <div>
+        <div>
+            Placeholder
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section-9.3"></section>
 
 <section class="section-10">
     <div class="section-10__background"></div>
@@ -774,59 +912,6 @@
 
 
 
-        <div class="container mt-5 mb-5">
-            <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <ul class="timeline">
-                        <li class="c1">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
-                            <a href="#" class="float-right">21 March, 2014</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                        </li>
-                        <li class="c2">
-                            <a href="#">21 000 Job Seekers</a>
-                            <a href="#" class="float-right">4 March, 2014</a>
-                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
-                        </li>
-                        <li class="c3">
-                            <a href="#">Awesome Employers</a>
-                            <a href="#" class="float-right">1 April, 2014</a>
-                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
-                        </li>
-                        <li class="c4">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
-                            <a href="#" class="float-right">21 March, 2014</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                        </li>
-                        <li class="c5">
-                            <a href="#">21 000 Job Seekers</a>
-                            <a href="#" class="float-right">4 March, 2014</a>
-                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
-                        </li >
-                        <li class=c6>
-                            <a href="#">Awesome Employers</a>
-                            <a href="#" class="float-right">1 April, 2014</a>
-                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
-                        </li>
-                        <li class="c7">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
-                            <a href="#" class="float-right">21 March, 2014</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                        </li>
-                        <li class="c8">
-                            <a href="#">21 000 Job Seekers</a>
-                            <a href="#" class="float-right">4 March, 2014</a>
-                            <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
-                        </li>
-                        <li class="c9">
-                            <a href="#">Awesome Employers</a>
-                            <a href="#" class="float-right">1 April, 2014</a>
-                            <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
 
 

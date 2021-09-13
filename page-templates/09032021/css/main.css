@@ -51,26 +51,45 @@
 ::-webkit-scrollbar-track {
     background: #fff linear-gradient(to right, #201c29, #201c29 1px, rgba(16, 14, 23, 0.67) 1px, #100e17);
 }
+/* a {*/
+/*     pointer-events: none;*/
+/*     text-decoration: none;*/
+/*     font-weight: bold;*/
+/*     font-size: 15px;*/
 
+/*}*/
+
+h2.month-letter {
+   padding-bottom: 5px;
+}
 
 /*vertical timeline 1*/
 
 ul.timeline {
     list-style-type: none;
-    position: relative;
+    position: absolute;
+    right:450px;
+    z-index: 1;
+
 }
+
+.c2{
+    padding-bottom: 10px;
+}
+/*orange timeline*/
+
 ul.timeline:before {
     content: '';
     background: #ef7930;
     display: inline-block;
     position: absolute;
-    left: 29px;
+    left: 37px;
     width: 2px;
     height: 100%;
-    z-index: 400;
+    z-index: -1;
 }
 ul.timeline > li {
-    margin: 20px 0;
+    margin: 20px 0 4.6em;
     padding-left: 20px;
 }
 ul.timeline > li:before {
@@ -81,17 +100,48 @@ ul.timeline > li:before {
     border-radius: 50%;
     border: 3px solid #bf9d00;
     left: 20px;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     z-index: 400;
+    margin-left: 3px;
+    padding-left: .3em;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    pointer-events: all;
+
+}
+a {
+    display:block;
+    padding-right: 50px;
 }
 
-ul.timeline > li.c1:before {
-    content: 'M';
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px 11px 1px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+    z-index: 200;
+    margin-left: 4px;
+    background-color: goldenrod ;
 }
-ul.timeline > li.c2:before {
-    content: 'A';
+ .timeline li:hover:before {
+     display: block;
+     color: black;
+     background-color: #e4e6e8;
 }
+
+
+
+/*ul.timeline > li.c1:before {*/
+
+/*    content: 'M';*/
+/*}*/
+/*ul.timeline > li.c2:before {*/
+/*    content: 'A';*/
+/*}*/
 ul.timeline > li.c3:before {
     content: 'M';
 }
@@ -113,7 +163,16 @@ ul.timeline > li.c8:before {
 ul.timeline > li.c9:before {
     content: 'N';
 }
-varv
+ul.timeline > li.c10:before {
+    content: 'D';
+}
+ul.timeline > li.c11:before {
+    content: 'J';
+}
+ul.timeline > li.c12:before {
+    content: 'F';
+}
+
 
 /*done code*/
 
@@ -1745,8 +1804,8 @@ section.completed .button-next-slide-section-2 {
 
 .section-9__text-wrapper {
     position: relative;
-    top: 22vh;
-    left: 38.3%;
+    top: 0vh;
+    left: 50%;
 }
 
 .section-9__pretitle,
@@ -1971,7 +2030,7 @@ opacity:1
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    /*box-shadow: 0px 0px 8px rgba(0,0,0,0.5);*/
+
 }
 
 .pie {
@@ -1980,7 +2039,7 @@ opacity:1
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    clip: rect(0px, 75px, 150px, 0px);
+    clip: rect(0px, 85px, 150px, 0px);
 }
 
 .hold {
@@ -1993,13 +2052,14 @@ opacity:1
 .hidePie{
     visibility: hidden;
 }
+
 #pieSlice1 .pie {
     background-color: #89946b;
-    transform:rotate(60deg);
+    transform:rotate(298deg);
 }
 
 #pieSlice2 {
-    transform: rotate(60deg);
+    transform: rotate(179deg);
 }
 
 #pieSlice2 .pie {
@@ -2008,57 +2068,57 @@ opacity:1
 }
 
 #pieSlice3 {
-    transform: rotate(88deg);
+    transform: rotate(216deg);
 }
 
 #pieSlice3 .pie {
     background-color: #3e4c81;
-    transform: rotate(30deg);
+    transform: rotate(74deg);
 }
 
 #pieSlice4 {
-    transform: rotate(117deg);
+    transform: rotate(298deg);
 }
 
 #pieSlice4 .pie {
     background-color: #009b65;
-    transform: rotate(40deg);
+    transform: rotate(19deg);
 }
 
 #pieSlice5 {
-    transform: rotate(145deg);
+    transform: rotate(323deg);
 }
 
 #pieSlice5 .pie {
     background-color: #9b2c1e;
-    transform: rotate(70deg);
+    transform: rotate(47deg);
 }
 
 #pieSlice6 {
-    transform: rotate(290deg);
+    transform: rotate(17deg);
 }
 
 #pieSlice6 .pie {
     background-color: #584561;
-    transform: rotate(70deg);
+    transform: rotate(17deg);
 }
 
 #pieSlice7 {
-    transform: rotate(290deg);
+    transform: rotate(41deg);
 }
 
 #pieSlice7 .pie {
     background-color: #c0a605;
-    transform: rotate(70deg);
+    transform: rotate(16deg);
 }
-
+/* 1rst transform = place on wheel*/
 #pieSlice8 {
-    transform: rotate(290deg);
+    transform: rotate(64deg);
 }
-
+/*2nd transform = amount*/
 #pieSlice8 .pie {
     background-color: #416d84;
-    transform: rotate(70deg);
+    transform: rotate(40deg);
 }
 
 .total-funds-comment {
@@ -2396,9 +2456,9 @@ opacity:1
 }
 
 .section-14 {
-    z-index: 86;
-    width: 100%;
-    height: 100vh;
+    /*z-index: 86;*/
+    /*width: 100%;*/
+    /*height: 100vh;*/
     background: #f4f4f4;
 }
 

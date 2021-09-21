@@ -52,10 +52,10 @@ window.addEventListener("DOMContentLoaded", event =>
 		update (pageScrollPosition) {
 			if (pageScrollPosition >= this.scrollStopOffset)
 			{
-				this.container.classList.remove("active");
-
-				// may require a settimeout delay between active and completed for CSS animations
-				this.container.classList.add("completed");
+				// this.container.classList.remove("active");
+				//
+				// // may require a settimeout delay between active and completed for CSS animations
+				// this.container.classList.add("completed");
 			}
 			else {
 				// may require a settimeout delay between completed and active for CSS animations

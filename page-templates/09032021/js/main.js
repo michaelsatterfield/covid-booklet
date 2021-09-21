@@ -12,8 +12,8 @@ window.addEventListener("DOMContentLoaded", event =>
 					_scrollStartOffset,
 					_scrollStopOffset,
 					_updateCallback = undefined)
-		{
-			// Future update to accept hashed id attribute element identifiers
+	{
+		// Future update to accept hashed id attribute element identifiers
 			// currently accepts only class
 			this.identifier = _identifier;
 			this.container = document.getElementsByClassName(this.identifier)[0];
@@ -52,10 +52,17 @@ window.addEventListener("DOMContentLoaded", event =>
 		update (pageScrollPosition) {
 			if (pageScrollPosition >= this.scrollStopOffset)
 			{
+
 				// this.container.classList.remove("active");
 				//
 				// // may require a settimeout delay between active and completed for CSS animations
 				// this.container.classList.add("completed");
+
+				this.container.classList.remove("active");
+
+					// may require a settimeout delay between active and completed for CSS animations
+				this.container.classList.add("completed");
+
 			}
 			else {
 				// may require a settimeout delay between completed and active for CSS animations
@@ -97,10 +104,7 @@ window.addEventListener("DOMContentLoaded", event =>
 						break;
 
 
-					case "color":
-						this.container.style.color = this.animationString ;
-						console.log(this.animationString)
-						break;
+
 
 				}
 
@@ -277,7 +281,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 	new ElementAnimation("section-5", "opacity", 1.0, 0.0, 470, 485);
 
-	new ElementAnimation("section-6__background", "scale", 1.0, 1.05, 470, 1000);
+	new ElementAnimation("section-6__background", "scale", 1.0, 1.05, 470, 585);
 	new ElementAnimation("section-6__pretitle", "margin-left", 50, 0, 470, 585);
 	new ElementAnimation("section-6__pretitle", "opacity", 0.0, 1.0, 470, 500);
 	new ElementAnimation("section-6__title", "margin-left", 50, 0, 480, 585);
@@ -313,18 +317,35 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-9__background", "scale", 1.0, 1.05, 785, 875);
 	new ElementAnimation("section-9__title", "margin-left", 125, 0, 790, 850);
 	new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 790, 800);
-	new ElementAnimation("section-9__pretitle", "margin-left", 50, 0, 790, 850);
-	new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 900);
-	new ElementAnimation("section-9__subtitle", "margin-left", 50, 0, 820, 825);
-	new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 820, 900);
-	new ElementAnimation("section-9__stats", "margin-left", 50, 0, 830, 825);
-	new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 830, 825);
+		new ElementAnimation("section-9__pretitle", "margin-left", 50, 0, 790, 850);
+		new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 900);
+			new ElementAnimation("section-9__subtitle", "margin-left", 50, 0, 820, 825);
+			new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 820, 900);
+				new ElementAnimation("section-9__stats", "margin-left", 50, 0, 830, 825);
+				new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 830, 825);
 
 
 	new ElementAnimation("section-9", "opacity", 1.0, 0.0, 790, 900);
 
-	new ElementAnimation("section-10__background", "scale", 1.0, 1.05, 825, 900);
-	new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 825, 900);
+
+	//new elements
+	//
+	new ElementAnimation("section-9_2_background", "opacity", 0, 1, 900, 920);
+	new ElementAnimation("section-9_2_background", "scale", 0, 1, 900, 920);
+	new ElementAnimation("section-9_2_background", "margin-left", 0, 10, 900, 920);
+	//exit
+	new ElementAnimation("section-9_2_background", "opacity", 1, 0, 980, 990);
+	new ElementAnimation("section-9_2_background", "scale", 1, 0, 980, 990);
+	new ElementAnimation("section-9_2_background", "margin-left", 1, 0, 980, 990);
+
+
+
+
+
+
+
+	new ElementAnimation("section-10__background", "scale", 1.0, 1.05, 1025, 1100);
+	new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 1025, 1100);
 
 	// Continue here
 	var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00,839742.44];
@@ -335,7 +356,7 @@ window.addEventListener("DOMContentLoaded", event =>
 		barTotals[barIndex-1] = barTotalTargets[barIndex-1] * ((sp - ssta) / (ssto - ssta));
 
 		//updateTotalTimeout = setTimeout(function() {
-		document.getElementsByClassName("section-10__total-wrapper")[0].innerHTML = '$' + barAmount();
+			document.getElementsByClassName("section-10__total-wrapper")[0].innerHTML = '$' + barAmount();
 
 
 		//}, 25);
@@ -349,88 +370,89 @@ window.addEventListener("DOMContentLoaded", event =>
 
 		return totalString;
 	}
-	new ElementAnimation("section-10__bar bar-8", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(8, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 910, 920, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	//todo: change pie slices to increment
+	new ElementAnimation("section-10__bar bar-8", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(8, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 920, 930, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 1110, 1120, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 1110, 1120, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 930, 940, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 1120, 1130, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 1120, 1130, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 940, 950, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 1130, 1140, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 1130, 1140, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 950, 960, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 1140, 1150, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 1140, 1150, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 960, 970, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 1150, 1160, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 1150, 1160, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 970, 980, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 970, 980, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 1160, 1170, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 1160, 1170, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 980, 990, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 980, 990, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
-	new ElementAnimation("total-funds-comment", "opacity", 0.0, 1.0, 980, 990, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 1170, 1180, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 1700, 1180, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("total-funds-comment", "opacity", 0.0, 1.0, 1180, 1200, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
 
-	new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 980, 1090)
-	new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 980, 1090);
-	new ElementAnimation("section-10__bar bar-6", "opacity", 1.0, 0.0, 980, 1090);
-	new ElementAnimation("section-10__bar bar-5", "opacity", 1.0, 0.0, 980, 1090);
-	new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 980, 1090);
-	new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 980, 1090);
-	new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 980, 1090);
-	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 980, 1090);
-	;
+	new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 1180, 1200)
+	new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-6", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-5", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1180, 1200);
+;
 
 
 
-	new ElementAnimation("section-10__total", "opacity", .0, 1.0, 910, 940);
-	new ElementAnimation("section-10__background", "opacity", 1.0, 1.0, 900, 1000, true);
+	new ElementAnimation("section-10__total", "opacity", .0, 1.0, 1100, 1120);
+	new ElementAnimation("section-10__background", "opacity", 1.0, 1.0, 1100, 1200, true);
 
-	new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 785, 1100);
-	new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 995, 1015);
-	new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 995, 1010);
-	new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1005, 1025);
-	new ElementAnimation("section-11__title", "margin-left", 50, 0, 995, 1010);
-	new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1005, 1025);
-	new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1015);
-	new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1025, 1045);
-	new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 995, 1010);
-	new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1030, 1050);
-	new ElementAnimation("section-11__note", "margin-left", 75, 0, 995, 1010);
+	new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1200, 1300);
+	new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1200, 1300);
+	new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1200, 1300);
+	new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1200, 1300);
+	new ElementAnimation("section-11__title", "margin-left", 50, 0, 1200, 1300);
+	new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1200, 1300);
+	new ElementAnimation("section-11__text", "margin-left", 50, 0, 1200, 1300);
+	new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1200, 1300);
+	new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1200, 1300);
+	new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1200, 1300);
+	new ElementAnimation("section-11__note", "margin-left", 75, 0, 1200, 1300);
 
 
 	//exit opacity for total funds page
-	new ElementAnimation("section-10", "opacity", 5.0, 0.0, 1000, 1050);
-	new ElementAnimation("section-11", "opacity", 1.0, 1.0, 1000, 1050);
+	new ElementAnimation("section-10", "opacity", 5.0, 0.0, 1100, 1200);
+	new ElementAnimation("section-11", "opacity", 1.0, 1.0, 1100, 1200);
 
 
-	new ElementAnimation("section-12__image", "scale", 0, 0.975, 1100, 1112);
-	new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1112, 1115);
-	new ElementAnimation("section-12__image", "margin-left", -60, 0, 1100, 1110);
-	new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1150, 1175);
-	new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1100, 1130);
-	new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 1110, 1140);
-	new ElementAnimation("section-12__title", "margin-left", 50, 0, 1110, 1140);
-	new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1120, 1150);
-	new ElementAnimation("section-12__text", "margin-left", 50, 0, 1120, 1150);
-	new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1130, 1150);
+	new ElementAnimation("section-12__image", "scale", 0, 0.975, 1300, 1400);
+	new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1300, 1400);
+	new ElementAnimation("section-12__image", "margin-left", -60, 0, 1300, 1400);
+	new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1300, 1400);
+	new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1300, 1400);
+	new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 1300, 1400);
+	new ElementAnimation("section-12__title", "margin-left", 50, 0, 1300, 1400);
+	new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1300, 1400);
+	new ElementAnimation("section-12__text", "margin-left", 50, 0, 1300, 1400);
+	new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1300, 1400);
 
-	new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1150, 1200);
+	new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1300, 1200);
 
-
-	new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1200, 1212);
-	new ElementAnimation("section-13__image", "scale", 0.975, 1.0, 1212, 1215);
-	new ElementAnimation("section-13__image", "margin-left", -60, 0, 1200, 1210);
-	new ElementAnimation("section-13__image", "opacity", 0.0, 1.0, 1200, 1215);
-	new ElementAnimation("section-13__imageshorttext", "opacity", 0.0, 1.0, 1200, 1230);
-	new ElementAnimation("section-13__title", "opacity", 0.0, 1.0, 1210, 1240);
-	new ElementAnimation("section-13__title", "margin-left", 50, 0, 1210, 1240);
-	new ElementAnimation("section-13__text", "opacity", 0.0, 1.0, 1220, 1250);
-	new ElementAnimation("section-13__text", "margin-left", 50, 0, 1220, 1250);
-	new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1250);
+	//todo: adjust scrollStart and stop to page height
+	new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1400, 1500);
+	new ElementAnimation("section-13__image", "scale", 0.975, 1.0, 1400, 1500);
+	new ElementAnimation("section-13__image", "margin-left", -60, 0, 1400, 1500);
+	new ElementAnimation("section-13__image", "opacity", 0.0, 1.0, 1400, 1500);
+	new ElementAnimation("section-13__imageshorttext", "opacity", 0.0, 1.0, 1400, 1500);
+	new ElementAnimation("section-13__title", "opacity", 0.0, 1.0, 1400, 1500);
+	new ElementAnimation("section-13__title", "margin-left", 50, 0, 1400, 1500);
+	new ElementAnimation("section-13__text", "opacity", 0.0, 1.0, 1400, 1500);
+	new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
+	new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
 
 	new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
 
@@ -664,60 +686,60 @@ window.addEventListener("DOMContentLoaded", event =>
 	function scrollElementAnimations (pageScrollPosition) {
 		for (var elementIdentifier in ElementAnimation.createdAnimations) {
 
-			if (ElementAnimation.createdAnimations.hasOwnProperty(elementIdentifier)) {
+	        if (ElementAnimation.createdAnimations.hasOwnProperty(elementIdentifier)) {
 
-				for (var property in ElementAnimation.createdAnimations[elementIdentifier]) {
+	            for (var property in ElementAnimation.createdAnimations[elementIdentifier]) {
 
-					if (ElementAnimation.createdAnimations[elementIdentifier].hasOwnProperty(property)) {
+	                if (ElementAnimation.createdAnimations[elementIdentifier].hasOwnProperty(property)) {
 
-						elementPropertyCount = ElementAnimation.createdAnimations[elementIdentifier][property].length;
+	                	elementPropertyCount = ElementAnimation.createdAnimations[elementIdentifier][property].length;
 
-						firstAnimationObject = undefined, activeAnimationObject = undefined, completedAnimationObject = undefined;
+	                	firstAnimationObject = undefined, activeAnimationObject = undefined, completedAnimationObject = undefined;
 
-						for (elementPropertyIndex = 0; elementPropertyIndex < elementPropertyCount; elementPropertyIndex++) {
-							elementAnimationObject = ElementAnimation.createdAnimations[elementIdentifier][property][elementPropertyIndex];
+	                	for (elementPropertyIndex = 0; elementPropertyIndex < elementPropertyCount; elementPropertyIndex++) {
+	                		elementAnimationObject = ElementAnimation.createdAnimations[elementIdentifier][property][elementPropertyIndex];
 
-							// range greater than stop
-							if (pageScrollPosition > elementAnimationObject.scrollStopOffset) {
-								completedAnimationObject = elementAnimationObject;
-								completedAnimationObject.update(completedAnimationObject.scrollStopOffset); // there may be callback functions from one or more animations of the same property
-							}
-							// range start - stop
-							else if (pageScrollPosition >= elementAnimationObject.scrollStartOffset) {
-								activeAnimationObject = elementAnimationObject;
-								break;
-							}
-						}
+	                 		// range greater than stop
+	 						if (pageScrollPosition > elementAnimationObject.scrollStopOffset) {
+	 							completedAnimationObject = elementAnimationObject;
+	 							completedAnimationObject.update(completedAnimationObject.scrollStopOffset); // there may be callback functions from one or more animations of the same property
+	 						}
+	 						// range start - stop
+	 						else if (pageScrollPosition >= elementAnimationObject.scrollStartOffset) {
+	 							activeAnimationObject = elementAnimationObject;
+	 							break;
+	 						}
+	                    }
 
-						if (activeAnimationObject != undefined) {
-							activeAnimationObject.update(pageScrollPosition);
-						}
-						else {
-							if (completedAnimationObject != undefined) {
-								//completedAnimationObject.update(completedAnimationObject.scrollStopOffset); // there may be callback functions from one or more animations of the same property
-							}
-							else {
-								firstAnimationObject = ElementAnimation.createdAnimations[elementIdentifier][property][0];
-								firstAnimationObject.update(firstAnimationObject.scrollStartOffset);
-							} /* else {
+	                    if (activeAnimationObject != undefined) {
+	                    	activeAnimationObject.update(pageScrollPosition);
+	                    }
+	                    else {
+	                    	if (completedAnimationObject != undefined) {
+		                    	//completedAnimationObject.update(completedAnimationObject.scrollStopOffset); // there may be callback functions from one or more animations of the same property
+		                    }
+		                    else {
+		                    	firstAnimationObject = ElementAnimation.createdAnimations[elementIdentifier][property][0];
+		                    	firstAnimationObject.update(firstAnimationObject.scrollStartOffset);
+		                    } /* else {
 								if (element.active)
 									removeClass
 		                    } */
 
-							// Dirty
-							var inactivePageRangeThreshold = 3;
-							var test = ((window.innerHeight * inactivePageRangeThreshold) * ElementAnimation.scrollFactor);
+		                    // Dirty
+		                    var inactivePageRangeThreshold = 3;
+		                    var test = ((window.innerHeight * inactivePageRangeThreshold) * ElementAnimation.scrollFactor);
 
-							if (Math.abs(elementAnimationObject.scrollStartOffset - pageScrollPosition) < test ||
-								Math.abs(elementAnimationObject.scrollStopOffset - pageScrollPosition) < test)
-								elementAnimationObject.container.classList.remove("inactive"); // display: block
-							else
-								elementAnimationObject.container.classList.add("inactive"); // display: none
-						}
-					}
-				}
-			}
-		}
+		                    if (Math.abs(elementAnimationObject.scrollStartOffset - pageScrollPosition) < test ||
+	                			Math.abs(elementAnimationObject.scrollStopOffset - pageScrollPosition) < test)
+	                				elementAnimationObject.container.classList.remove("inactive"); // display: block
+	                		else
+	                				elementAnimationObject.container.classList.add("inactive"); // display: none
+		                }
+	                }
+	            }
+	        }
+	    }
 	}
 
 	function getLastScrollAnimation () {
@@ -726,29 +748,29 @@ window.addEventListener("DOMContentLoaded", event =>
 
 		for (var elementIdentifier in ElementAnimation.createdAnimations) {
 
-			if (ElementAnimation.createdAnimations.hasOwnProperty(elementIdentifier)) {
+	        if (ElementAnimation.createdAnimations.hasOwnProperty(elementIdentifier)) {
 
-				for (var property in ElementAnimation.createdAnimations[elementIdentifier]) {
+	            for (var property in ElementAnimation.createdAnimations[elementIdentifier]) {
 
-					if (ElementAnimation.createdAnimations[elementIdentifier].hasOwnProperty(property)) {
+	                if (ElementAnimation.createdAnimations[elementIdentifier].hasOwnProperty(property)) {
 
-						elementPropertyCount = ElementAnimation.createdAnimations[elementIdentifier][property].length;
+	                	elementPropertyCount = ElementAnimation.createdAnimations[elementIdentifier][property].length;
 
-						for (elementPropertyIndex = 0; elementPropertyIndex < elementPropertyCount; elementPropertyIndex++) {
-							elementAnimationObject = ElementAnimation.createdAnimations[elementIdentifier][property][elementPropertyIndex];
+	                	for (elementPropertyIndex = 0; elementPropertyIndex < elementPropertyCount; elementPropertyIndex++) {
+	                		elementAnimationObject = ElementAnimation.createdAnimations[elementIdentifier][property][elementPropertyIndex];
 
-							if (lastElement == undefined)
-								lastElement = elementAnimationObject;
+	                		if (lastElement == undefined)
+	                			lastElement = elementAnimationObject;
 
-							else if (lastElement.scrollStopOffset < elementAnimationObject.scrollStopOffset)
-								lastElement = elementAnimationObject;
-						}
-					}
-				}
-			}
-		}
+	                		else if (lastElement.scrollStopOffset < elementAnimationObject.scrollStopOffset)
+	                			lastElement = elementAnimationObject;
+	                	}
+	               	}
+	            }
+	        }
+	    }
 
-		return lastElement;
+	    return lastElement;
 	}
 
 	var quotesContainer = document.getElementsByClassName("section-2a__quoter")[0];
@@ -781,7 +803,7 @@ window.addEventListener("DOMContentLoaded", event =>
 
 			}, 900);
 
-		}, 6100);
+	    }, 6100);
 	}
 
 	cycleQuotesRecursively();
@@ -808,14 +830,14 @@ window.addEventListener("DOMContentLoaded", event =>
 	}
 
 	document.querySelectorAll("[data-toggle]").forEach(item => {
-		item.addEventListener('click', event => {
-			var query = item.getAttribute("data-toggle");
+	  item.addEventListener('click', event => {
+	    var query = item.getAttribute("data-toggle");
 
-			setTimeout(function() {
-				toggle(item.getAttribute("data-toggle"));
+		setTimeout(function() {
+			toggle(item.getAttribute("data-toggle"));
 
-			}, 15);
-		});
+		}, 15);
+	  });
 	});
 
 
@@ -839,20 +861,20 @@ window.addEventListener("DOMContentLoaded", event =>
 	// jQuery scrollTo in vanilla JS
 	// https://gist.github.com/andjosh/6764939
 	function scrollTo(to, duration) {
-		var start = window.pageYOffset,
-			change = to - start,
-			currentTime = 0,
-			increment = 20;
+	    var start = window.pageYOffset,
+	        change = to - start,
+	        currentTime = 0,
+	        increment = 20;
 
-		var animateScroll = function(){
-			currentTime += increment;
-			var val = Math.easeInOutQuad(currentTime, start, change, duration);
-			window.scroll(0,val); // Edited for use with scroll-dummy-overlay
-			if(currentTime < duration) {
-				setTimeout(animateScroll, increment);
-			}
-		};
-		animateScroll();
+	    var animateScroll = function(){
+	        currentTime += increment;
+	        var val = Math.easeInOutQuad(currentTime, start, change, duration);
+	        window.scroll(0,val); // Edited for use with scroll-dummy-overlay
+	        if(currentTime < duration) {
+	            setTimeout(animateScroll, increment);
+	        }
+	    };
+	    animateScroll();
 	}
 
 	//t = current time
@@ -860,10 +882,15 @@ window.addEventListener("DOMContentLoaded", event =>
 	//c = change in value
 	//d = duration
 	Math.easeInOutQuad = function (t, b, c, d) {
-		t /= d/2;
+	  t /= d/2;
 		if (t < 1) return c/2*t*t + b;
 		t--;
 		return -c/2 * (t*(t-2) - 1) + b;
 	};
 
 });
+
+
+
+
+

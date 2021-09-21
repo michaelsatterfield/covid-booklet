@@ -1,4 +1,37 @@
-/*test*/
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@michaelsatterfield
+michaelsatterfield
+/
+saaf-covid-booklet
+Private
+1
+0
+0
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Security
+Insights
+Settings
+saaf-covid-booklet/page-templates/09032021/css/main.css
+@Btace13
+Btace13 this runs properly but need to add page before
+Latest commit 88e1bbb 8 days ago
+History
+2 contributors
+@Btace13@michaelsatterfield
+4790 lines (4072 sloc)  85.9 KB
+
+    /*test*/
 .bottomMenu {
     position: relative;
     bottom: 0px;
@@ -60,7 +93,7 @@
 /*}*/
 
 h2.month-letter {
-   padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 /*vertical timeline 1*/
@@ -127,10 +160,10 @@ a {
     margin-left: 4px;
     background-color: goldenrod ;
 }
- .timeline li:hover:before {
-     display: block;
-     color: black;
-     background-color: #e4e6e8;
+.timeline li:hover:before {
+    display: block;
+    color: black;
+    background-color: #e4e6e8;
 }
 
 
@@ -1910,7 +1943,7 @@ section-9_2_background{
 }
 
 .section-10__total-wrapper {
-opacity:1
+    opacity:1
 }
 
 .section-10__total {
@@ -1959,7 +1992,7 @@ opacity:1
 
 .section-10__bar-title{
     margin-left: 1em;
-     font-family: 'Amatic SC', cursive;;
+    font-family: 'Amatic SC', cursive;;
 }
 
 
@@ -4780,7 +4813,6 @@ opacity:1
 .section-32b__close:hover {
     cursor: pointer;
 }
-
 
 
 

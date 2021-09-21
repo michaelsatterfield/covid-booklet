@@ -1783,6 +1783,11 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-9 {
+    background-image: url(../images/section-29a.jpg);
+
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
     z-index: 91;
     width: 100%;
     height: 100vh;
@@ -1828,6 +1833,7 @@ section.completed .button-next-slide-section-2 {
 .section-9__title {
     /*top: 174px;
     left: calc(50% - 83px);*/
+
     padding-left: 3%;
     font-size: 80px;
     line-height: 87px;
@@ -1875,14 +1881,14 @@ section.completed .button-next-slide-section-2 {
 section-9_2_background{
     positon: absolute;
 
-    /*width: 100%;*/
-    /*height: 100%;*/
+    width: 100%;
+    height: 100%;
 
-    /*background-image: url(../images/section-12__mural.jpg);*/
+    background-image: url(../images/section-29a.jpg);
 
-    /*background-repeat: no-repeat;*/
-    /*-webkit-background-size: cover;*/
-    /*background-size: cover*/
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover
 }
 
 

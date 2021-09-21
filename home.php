@@ -66,7 +66,7 @@
     <meta name="msapplication-config" content="browserconfig.xml">
     <!--  <link href="-->
     <?php //echo get_template_directory_uri(); ?><!--/page-templates/09032021/css/main.css?6c27024468b2af243e6a" rel="stylesheet">-->
-    <link href="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/css/main.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/css/main.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     link rel="preconnect" href="https://fonts.googleapis.com">
@@ -272,7 +272,7 @@
 <section class="section-2a">
     <div class="section-2a__wrapper">
         <div class="section-2a__foto-wrapper"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/foto-marjie-web.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/foto-marjie-web.jpg"
                     alt=""></div>
         <div class="section-2a__text-wrapper">
 
@@ -403,7 +403,7 @@
 <section class="section-5a">
     <div class="section-5a__wrapper">
         <div class="section-5a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-5a.jpg">
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-5a.jpg">
         </div>
         <div class="section-5a__purplebox">One gift card recipient was a single parent who lost her job due to COVID-19.
             She is raising her 10-year-old son and was concerned about their limited food supply and having to wait 12
@@ -449,7 +449,7 @@
                 base. </p>
         </div>
         <div class="section-5b__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-5b.jpg">
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-5b.jpg">
         </div>
         <div class="section-5b__purplebox">“It is so hard to take the chance to accuse someone when you know their next
             step is
@@ -864,7 +864,7 @@
 </section>
 <section class="section-13">
     <div class="section-13__image">
-        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-13.jpg">
+        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-13.jpg">
         <div class="section-13__imageshorttext">» Habitat for Humanity</div>
     </div>
     <div class="section-12__text-wrapper">
@@ -989,7 +989,7 @@
 </section>
 <section class="section-15">
     <div class="section-15__image">
-        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-15.jpg">
+        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-15.jpg">
         <div class="section-15__imageshorttext">» San Antonio Oasis</div>
     </div>
     <div class="section-14__text-wrapper">
@@ -1145,7 +1145,7 @@
 <section class="section-20a">
     <div class="section-20a__maincontent">
         <div class="section-20a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-20a.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-20a.jpg"
                     alt=""></div>
         <div class="section-20a__text-wrapper">
             <div class="section-20a__text">
@@ -1246,7 +1246,7 @@
     <div class="section-21__title">community<br>engagement</div>
     <div class="section-21__main-content">
         <div class="section-21__main-content-wrapper">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-21.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-21.jpg">
             <div class="section-21__text">
                 <h3>Addressing equity</h3>
                 <br>
@@ -1271,7 +1271,7 @@
     <div class="section-22__title">community<br>engagement</div>
     <div class="section-22__main-content">
         <div class="section-22__main-content-wrapper">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-22.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-22.jpg">
             <div class="section-22__text">
                 <h3>Meaningful decisions need meaningful data: The State of the African American Community in Bexar
                     County</h3>
@@ -1358,7 +1358,7 @@
         <div class="section-23a__text-shadow-after"></div>
     </div>
     <div class="section-23a__image"><img
-                src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-23a.jpg"></div>
+                src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-23a.jpg"></div>
     <span class="section-23a__imageshorttext">» American Indians in Texas at the Spanish Colonial Missions</span>
     <div class="button-back-slide-section-23a">
         <button class="button button-arrow-green" data-toggle=".section-23, .section-23a">
@@ -1457,7 +1457,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     <div class="section-27__title">courage to<br>seize an opportunity.</div>
     <div class="section-27__main-content">
         <div class="section-27__main-content-wrapper">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-27.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-27.jpg">
             <div class="section-27__text">
                 <h3>Former Scholarship Recipient Says Thanks and Pays It Forward</h3>
                 <br>
@@ -1483,7 +1483,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
 <section class="section-27a">
     <div class="section-27a__maincontent">
         <div class="section-27a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-27a.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-27a.jpg"
                     alt=""></div>
         <div class="section-27a__text-wrapper">
             <div class="section-27a__text">
@@ -1567,7 +1567,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
     <div class="section-28__title">courage to<br>create an opportunity.</div>
     <div class="section-28__main-content">
         <div class="section-28__main-content-wrapper">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-28.jpg">
+            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-28.jpg">
             <div class="section-28__text">
                 <h3>Donor generosity</h3>
                 <br>
@@ -1595,7 +1595,7 @@ Before the pandemic, the Area Foundation had already begun the transition to tru
 <section class="section-28a">
     <div class="section-28a__maincontent">
         <div class="section-28a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-28a.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-28a.jpg"
                     alt=""><span class="section-28a__imageshorttext">» Alexes Salazar
 Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         <div class="section-28a__text-wrapper">
@@ -1677,7 +1677,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
 <section class="section-29a">
     <div class="section-29a__maincontent">
         <div class="section-29a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/images/section-29a.jpg"
+                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-29a.jpg"
                     alt=""></div>
         <div class="section-29a__text-wrapper">
             <div class="section-29a__text">
@@ -2149,7 +2149,7 @@ Harvey E. Najim Charitable Foundation Scholarship Fund</span></div>
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
 <script type="text/javascript"
-        src="<?php echo get_template_directory_uri(); ?>/page-templates/09032021/js/main.js"></script>
+        src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/js/main.js"></script>
 </body>
 
 </html>

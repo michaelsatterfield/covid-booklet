@@ -114,6 +114,7 @@ ul.timeline > li:before {
 a {
     display:block;
     padding-right: 50px;
+    text-decoration: none!important;
 }
 
 .btn-circle.btn-sm {
@@ -803,8 +804,7 @@ body.page-loaded .section-1__text-1 {
 
 .section-1__text-1,
 .section-1__text-2 {
-    font-family: Whitman-Bold, Arial, sans-serif;
-    color: rgba(24, 14, 3, 0.8)
+    color: rgb(75, 65, 57)
 }
 
 .section-1__text-2 {
@@ -1142,42 +1142,8 @@ section.completed .button-next-slide-section-2 {
     font-weight: 800;
 }
 
-.section-3__icon {
-    width: 149px;
-    height: 70px;
-    position: absolute;
-    right: -38px;
-    padding-right: 12px;
-    /*Dirty*/
-    bottom: 20%;
-    background: #63554F;
-    border-radius: 5px 0 0 5px;
-    color: white;
-    text-align: center;
-    transition: right 0.33s;
-}
 
-.section-3__icon__asterisk {
-    font-size: 57px;
-    line-height: 67px;
-    vertical-align: middle;
-    position: relative;
-    pointer-events: none;
-    top: 10px;
-}
 
-.section-3__icon__read-poem {
-    vertical-align: middle;
-    font-size: 15px;
-    line-height: 25px;
-    margin-left: 6px;
-    opacity: 0.0;
-}
-
-.section-3__icon:hover {
-    right: 0px;
-    cursor: pointer;
-}
 
 .section-3__icon:hover .section-3__icon__read-poem {
     opacity: 1.0;

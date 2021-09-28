@@ -218,7 +218,7 @@
             <div class="section-1__image-1"></div>
         </div>
         <div class="section-1__text">
-            <div class="section-1__text-1">In times of crisis,</div>
+            <div class="section-1__text-1">In times of crisis, </div>
             <div class="section-1__text-2">we rely on relationships.</div>
         </div>
         <div class="button-arrow-red-section-1 d-flex justify-content-center">
@@ -261,9 +261,9 @@
     <button>
         <div class="button-ripple-2"></div>
         <div>
-            <!--      <svg>-->
-            <!--        <use href="#icon-arrow-right"></use>-->
-            <!--      </svg>-->
+                  <svg>
+                    <use href="#icon-arrow-right"></use>
+                  </svg>
         </div>
     </button>
 </div>
@@ -331,28 +331,11 @@
         </span><span class="section-3__title-2"></span></div>
     <div class="section-3__subtitle"></div>
     </div>
-    <div class="section-3__icon" data-toggle=".section-3, .section-3a"><span class="section-3__icon__asterisk">*</span>
-        <span class="section-3__icon__read-poem">Read Poem</span></div>
+    <div class="section-3__icon" ><span class="section-3__icon__asterisk"></span>
+        <span class="section-3__icon__read-poem"></span></div>
 </section>
 <section class="section-3a">
-    <div class="section-3a__text">
-        <h3>Quarantine Is A Cheetah</h3>
-        <br>
-        <p>
-            Quarantine is a cheetah<br>
-            because the cases of people who are<br>
-            getting the virus<br>
-            Are coming in fast. People can’t see<br>
-            Their family because of the virus.<br>
-            Quarantine makes me feel like<br>
-            I can’t do anything anymore.<br>
-            I want to outrun this cheetah,<br>
-            Be grateful for seafood every Friday<br>
-            And for people who recover from Covid.<br>
-            <br>
-            <i>— Olivia S., 5th Grade</i>
-        </p>
-    </div>
+    <div class="section-3a__text"></div>
     <div class="section-3a__close" data-toggle=".section-3, .section-3a">
         <div class="icon icon-close">
             <svg>
@@ -373,7 +356,7 @@
     <section class="section-5">
         <div class="section-5__background"></div>
         <div class="section-6__title-wrapper">
-            <div class="section-5__pretitle">Our work has been relentless.Hello</div>
+            <div class="section-5__pretitle">Our work has been relentless.</div>
             <div class="section-5__title">It has been eye opening</div>
 
         </div>
@@ -490,6 +473,7 @@
 </section>
 <section class="section-7">
     <div class="section-7__background"></div>
+    <div>
     <div class="section-7__text ">
         "I think it's safe to say that no one foresaw the extraordinary events of 2020.
         Each challenge became a turning point, an opportunity ti think critically and act decisively
@@ -498,6 +482,14 @@
     </div>
     <div class="section-7__signature ">-Marjie French, CEO San Antonio Area Foundation</div>
 
+    <button class="button button-arrow-red">
+        <div class="icon icon-arrow">
+            <svg>
+                <use href="#icon-arrow-right"></use>
+            </svg>
+        </div>
+    </button>
+   </div>
 
 </section>
 <section class="section-8">

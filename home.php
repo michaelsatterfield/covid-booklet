@@ -473,7 +473,7 @@
 </section>
 <section class="section-7">
     <div class="section-7__background"></div>
-    <div>
+
     <div class="section-7__text ">
         "I think it's safe to say that no one foresaw the extraordinary events of 2020.
         Each challenge became a turning point, an opportunity ti think critically and act decisively
@@ -482,14 +482,16 @@
     </div>
     <div class="section-7__signature ">-Marjie French, CEO San Antonio Area Foundation</div>
 
-    <button class="button button-arrow-red">
-        <div class="icon icon-arrow">
-            <svg>
-                <use href="#icon-arrow-right"></use>
-            </svg>
-        </div>
-    </button>
-   </div>
+    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-2, .section-2a"><span>words from our ceo</span>
+        <button class="button button-arrow-red">
+            <div class="button-ripple red button-ripple-section-2"></div>
+            <div class="icon icon-arrow">
+                <svg>
+                    <use href="#icon-arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
 
 </section>
 <section class="section-8">

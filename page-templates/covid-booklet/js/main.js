@@ -876,20 +876,34 @@ window.addEventListener("DOMContentLoaded", event =>
 	jQuery(document).ready(function ($) {
 		console.log("working jquery")
 		//open nav and make menu an "x"
-	let initSrc = "/page-templates/covid-booklet/svg/p1.png"
+		let initSrc = "http://localhost:8080/wp-content/uploads/2021/09/p1.png"
 		let scrollSrc = "http://localhost:8080/wp-content/uploads/2021/09/p2.png"
 
 		$(window).scroll(function() {
 			let value = $(this).scrollTop();
-			if (value > 22126) {
-				 $(".pieClass").attr("src", scrollSrc);
-				console.log("more");
-			}
-			else{
-				// $(".pieClass").attr("src", initSrc);
 
-				console.log("less")
+			switch (true){
+				case value >= 20900 || value <= 21100:
+					$(".pieClass").attr("src", scrollSrc);
+					console.log("p1")
+					break;
+				case value >= 20900 || value <= 21100:
+					$(".pieClass").attr("src", initSrc);
+					console.log("p2")
 			}
+			//
+			// if (value > 22126) {
+			// 	 $(".pieClass").attr("src", scrollSrc);
+			// 	console.log("more");
+			// }
+			// else{
+			// 	// $(".pieClass").attr("src", initSrc);
+			//
+			// 	console.log("less")
+			// }
+
+
+
 				// $(".logo").attr("src", initialSrc);
 		});
 

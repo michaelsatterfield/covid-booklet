@@ -117,17 +117,15 @@ window.addEventListener("DOMContentLoaded", event =>
 	let myID = document.getElementById("section-2a");
 
 	let myScrollFunc =  () =>  {
-
 		let y = window.scrollY;
 		if (y >= 3500) {
 			myID.className = "bottomMenu show"
-			console.log("SHOW")
+
 		} else {
 			myID.className = "bottomMenu hide"
-			console.log("Not Show!")
+
 		}
 	};
-
 	window.addEventListener("scroll", myScrollFunc);
 
 //todo: make a dynamic function with 2 arguments for myId and scrollAmt
@@ -135,14 +133,11 @@ window.addEventListener("DOMContentLoaded", event =>
 	let myID2 = document.getElementById("section-3a");
 
 	let myScrollFunc2 =  () =>  {
-
 		let y = window.scrollY;
 		if (y >= 8500) {
 			myID2.className = "showSpan-2 show2 "
-			console.log("2 show")
 		} else {
 			myID2.className = "showSpan-2 hide2"
-			console.log("2 hide!")
 		}
 	};
 
@@ -309,7 +304,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	//Section 9 | Active
 	new ElementAnimation("section-9__background", "scale", 1.0, 1.05, 785, 875);
 	new ElementAnimation("section-9__title", "margin-left", 125, 0, 790, 850);
-	new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 790, 800);
+	new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 750, 790);
 		new ElementAnimation("section-9__pretitle", "margin-left", 50, 0, 790, 850);
 		new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 900);
 			new ElementAnimation("section-9__subtitle", "margin-left", 50, 0, 820, 825);
@@ -318,7 +313,7 @@ window.addEventListener("DOMContentLoaded", event =>
 				new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 830, 825);
 
 
-	new ElementAnimation("section-9", "opacity", 1.0, 0.0, 790, 900);
+	new ElementAnimation("section-9", "opacity", 1.0, 0.0, 800, 810);
 
 
 	//new elements
@@ -364,30 +359,25 @@ window.addEventListener("DOMContentLoaded", event =>
 		return totalString;
 	}
 	//todo: change pie slices to increment
+
+	// new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	// new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 1110, 1120, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
+	// new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 1120, 1130, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
+	// new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 1130, 1140, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
+	// new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 1140, 1150, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
+	// new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 1150, 1160, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
+	// new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 1700, 1180, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	// new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 1160, 1170, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
+	// new ElementAnimation("total-funds-comment", "opacity", 0.0, 1.0, 1180, 1200, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+
 	new ElementAnimation("section-10__bar bar-8", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(8, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-
 	new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 1110, 1120, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 1110, 1120, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-
 	new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 1120, 1130, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 1120, 1130, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
-
 	new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 1130, 1140, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 1130, 1140, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
-
 	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 1140, 1150, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 1140, 1150, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
-
 	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 1150, 1160, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 1150, 1160, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
-
 	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 1160, 1170, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 1160, 1170, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
-
-	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 1170, 1180, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
-	new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 1700, 1180, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
-	new ElementAnimation("total-funds-comment", "opacity", 0.0, 1.0, 1180, 1200, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 1180, 1200)
 	new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 1180, 1200);
@@ -396,7 +386,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 1180, 1200);
 	new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 1180, 1200);
 	new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 1180, 1200);
-	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1200, 1200);
 ;
 
 
@@ -880,6 +870,55 @@ window.addEventListener("DOMContentLoaded", event =>
 		t--;
 		return -c/2 * (t*(t-2) - 1) + b;
 	};
+
+	// all custom jQuery will go here
+
+	jQuery(document).ready(function ($) {
+		console.log("working jquery")
+		//open nav and make menu an "x"
+		let initSrc = "http://localhost:8080/wp-content/uploads/2021/09/p1.png"
+		let scrollSrc = "http://localhost:8080/wp-content/uploads/2021/09/p2.png"
+
+		$(window).scroll(function() {
+			let value = $(this).scrollTop();
+
+			switch (true){
+				case value >= 20900 || value <= 21100:
+					$(".pieClass").attr("src", scrollSrc);
+					console.log("p1")
+					break;
+				case value >= 20900 || value <= 21100:
+					$(".pieClass").attr("src", initSrc);
+					console.log("p2")
+			}
+			//
+			// if (value > 22126) {
+			// 	 $(".pieClass").attr("src", scrollSrc);
+			// 	console.log("more");
+			// }
+			// else{
+			// 	// $(".pieClass").attr("src", initSrc);
+			//
+			// 	console.log("less")
+			// }
+
+
+
+				// $(".logo").attr("src", initialSrc);
+		});
+
+		// if($(".bar-1").hasClass("active")){
+		// 	// $('#p1').attr('href','#icon-heart');
+		// 	console.log("class change")
+		// }
+
+
+
+	});
+
+
+
+
 
 });
 

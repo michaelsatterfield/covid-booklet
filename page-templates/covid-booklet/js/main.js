@@ -377,7 +377,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 1140, 1150, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
 	new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 1150, 1160, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
 	new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 1160, 1170, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
-	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 1170, 1180, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
+	new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
 
 	new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 1180, 1200)
 	new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 1180, 1200);
@@ -386,7 +386,7 @@ window.addEventListener("DOMContentLoaded", event =>
 	new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 1180, 1200);
 	new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 1180, 1200);
 	new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 1180, 1200);
-	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1180, 1200);
+	new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1200, 1200);
 ;
 
 
@@ -876,10 +876,27 @@ window.addEventListener("DOMContentLoaded", event =>
 	jQuery(document).ready(function ($) {
 		console.log("working jquery")
 		//open nav and make menu an "x"
-		if($('.section-10__bar').
-		hasClass("completed")){
-			$()
-		}
+	let initSrc = "/page-templates/covid-booklet/svg/p1.png"
+		let scrollSrc = "http://localhost:8080/wp-content/uploads/2021/09/p2.png"
+
+		$(window).scroll(function() {
+			let value = $(this).scrollTop();
+			if (value > 22126) {
+				 $(".pieClass").attr("src", scrollSrc);
+				console.log("more");
+			}
+			else{
+				// $(".pieClass").attr("src", initSrc);
+
+				console.log("less")
+			}
+				// $(".logo").attr("src", initialSrc);
+		});
+
+		// if($(".bar-1").hasClass("active")){
+		// 	// $('#p1').attr('href','#icon-heart');
+		// 	console.log("class change")
+		// }
 
 
 

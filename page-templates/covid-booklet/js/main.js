@@ -876,20 +876,52 @@ window.addEventListener("DOMContentLoaded", event =>
 	jQuery(document).ready(function ($) {
 		console.log("working jquery")
 		//open nav and make menu an "x"
-		let initSrc = "http://localhost:8080/wp-content/uploads/2021/09/p1.png"
-		let scrollSrc = "http://localhost:8080/wp-content/uploads/2021/09/p2.png"
+		let p1 = "http://localhost:8080/wp-content/uploads/2021/09/p1.png"
+		let p2 = "http://localhost:8080/wp-content/uploads/2021/09/p2.png"
+		let p3 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03.png"
+		let p4 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04.png"
+		let p5 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05.png"
+		let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06.png"
+		let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07.png"
+		let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08.png"
+
 
 		$(window).scroll(function() {
 			let value = $(this).scrollTop();
 
 			switch (true){
-				case value >= 20900 || value <= 21100:
-					$(".pieClass").attr("src", scrollSrc);
+				case value >= 20900 && value <= 21080:
+					$(".pieClass").attr("src", p1);
 					console.log("p1")
 					break;
-				case value >= 20900 || value <= 21100:
-					$(".pieClass").attr("src", initSrc);
+				case value >= 21090 && value <= 21200:
+					$(".pieClass").attr("src", p2);
 					console.log("p2")
+					break;
+				case value >= 21250 && value <= 21400:
+					$(".pieClass").attr("src", p3);
+					console.log("p3")
+					break;
+				case value >= 21401 && value <= 21650:
+					$(".pieClass").attr("src", p4);
+					console.log("p4")
+					break;
+				case value >= 21651 && value <= 21800:
+					$(".pieClass").attr("src", p5);
+					console.log("p5")
+					break;
+				case value >= 21801 && value <= 21950:
+					$(".pieClass").attr("src", p6);
+					console.log("p6")
+					break;
+				case value >= 21950 && value <= 22279:
+					$(".pieClass").attr("src", p7);
+					console.log("p7")
+					break;
+				case value >= 22280 && value <= 22500:
+					$(".pieClass").attr("src", p8);
+					console.log("p8")
+					break;
 			}
 			//
 			// if (value > 22126) {

@@ -575,7 +575,7 @@ body.page-loaded .section-1__image-1 {
 }
 
 .section-1__text {
-    
+
 }
 
 /**.active:not(.completed) {
@@ -1054,7 +1054,7 @@ section.completed .button-next-slide-section-2 {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.section-4__title, 
+.section-4__title,
 .section-4__pretitle {
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
@@ -1123,7 +1123,7 @@ section.completed .button-next-slide-section-2 {
     font-size: 34px
 }
 
-.section-5__title, 
+.section-5__title,
 .section-5__pretitle {
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
@@ -1564,7 +1564,7 @@ section.completed .button-next-slide-section-2 {
     width: 100%;
     height: 100%;
     background-color: #002a54;
-    background-image: url(../images/section-9-background.jpg);
+    background-image: url(page-templates/covid-booklet/images/section-2-background.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     -webkit-background-size: cover;

@@ -189,13 +189,9 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 170, 180);
     new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 180, 190);
     new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 180, 190);
-    // new ElementAnimation("button-ripple-2", "scale", 2.0, 1.5, 131, 135);
-    // new ElementAnimation("button-ripple-2", "scale", 1.5, 2.0, 136, 140);
-    // new ElementAnimation("button-ripple-2", "scale", 2.0, 1.0, 139, 150);
 
     new ElementAnimation("section-2", "opacity", 1.0, 0.0, 175, 190);
 
-    // new ElementAnimation("section-3__title", "margin-left", 100, 0, 100, 500);
     new ElementAnimation("section-4__title", "margin-left", 100, 0, 100, 500);
     new ElementAnimation("section-5__title", "margin-left", 100, 0, 100, 500);
 
@@ -203,8 +199,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-3__subtitle", "margin-left", 100, 0, 195, 300);
     new ElementAnimation("section-3__icon", "opacity", 0.0, 1.0, 195, 210);
 
-    // // //new ElementAnimation("section-3__titlecontainer", "margin-left", 65, 80, 50, 0);
-    // //new ElementAnimation("section-3__icon", "opacity", 240, 265, 0.0, 1.0);
     new ElementAnimation("section-3__icon", "opacity", 1.0, 0.0, 264, 265);
     new ElementAnimation("section-3__background", "opacity", 1.0, 0.0, 265, 300);
     new ElementAnimation("section-3__title-1", "opacity", 1.0, 0.0, 215, 240);
@@ -230,8 +224,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
     new ElementAnimation("button-prev-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
     new ElementAnimation("button-next-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
-    // new ElementAnimation("button-ripple-5", "scale", 1.0, 5, 420, 440);
-    // new ElementAnimation("button-ripple-5", "scale", 5, 1.0, 450, 470);
+
     new ElementAnimation("button-ripple-5l", "opacity", 0.0, 1.0, 410, 415);
     new ElementAnimation("button-ripple-5l", "scale", 1.0, 1.75, 410, 420);
     new ElementAnimation("button-ripple-5l", "scale", 1.75, 1.5, 420, 430);
@@ -258,8 +251,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-6__title", "margin-left", 50, 0, 480, 585);
     new ElementAnimation("section-6__title", "opacity", 0.0, 1.0, 490, 520);
 
-    // new ElementAnimation("section-6__pretitle", "opacity", 1.0, 0.0, 520, 500);
-    // new ElementAnimation("section-6__title", "opacity", 1.0, 0.0, 490, 520);
     new ElementAnimation("section-6", "opacity", 1.0, 0.0, 570, 585);
 
     new ElementAnimation("section-7__background", "scale", 1.0, 1.05, 470, 700);
@@ -276,27 +267,29 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-8__subtitle-wrapper", "opacity", 0.0, 1.0, 710, 725);
 
     // Section 8 | Closing
-    new ElementAnimation("section-8__background", "opacity", 1.0, 0.0, 770, 820);
-    // new ElementAnimation("section-8__title-1", "opacity", 1.0, 0.0, 700, 760);
-    // new ElementAnimation("section-8__title-2", "opacity", 1.0, 0.0, 700, 760);
+    new ElementAnimation("section-8__background", "opacity", 1.0, 0.0, 770, 790);
+
     new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 700, 770);
     new ElementAnimation("section-8__icon", "opacity", 1.0, 0.0, 700, 760);
 
-    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 785, 795);
+    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
 
     //Section 9 | Active
-    new ElementAnimation("section-9__background", "scale", 1.0, 1.05, 785, 875);
-    new ElementAnimation("section-9__title", "margin-left", 125, 0, 790, 850);
-    new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 750, 790);
-    new ElementAnimation("section-9__pretitle", "margin-left", 50, 0, 790, 850);
-    new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 900);
-    new ElementAnimation("section-9__subtitle", "margin-left", 50, 0, 820, 825);
-    new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 820, 900);
-    new ElementAnimation("section-9__stats", "margin-left", 50, 0, 830, 825);
-    new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 830, 825);
+    new ElementAnimation("section-9", "opacity", 0.0, 1.00, 790, 800),
+
+    new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 800, 805),
+    new ElementAnimation("section-9__background", "scale", 1.0, 1.05, 800, 805),
+
+    new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
+
+    new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 810);
+
+    new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
+
+    new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 825);
 
 
-    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 800, 810);
+    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 890, 900);
 
 
     //new elements
@@ -311,7 +304,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
 
     new ElementAnimation("section-10__background", "scale", 1.0, 1.05, 1025, 1100);
-    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 1025, 1100);
+    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 1100, 1105);
 
     // Continue here
     var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00, 839742.44];
@@ -645,7 +638,7 @@ window.addEventListener("DOMContentLoaded", event => {
     window.addEventListener('scroll', function (e) {
 
         //numbers in console (scroll position)
-        console.log(window.pageYOffset);
+        console.log(window.pageYOffset/10);
 
         var pageScrollPosition = window.pageYOffset;
 
@@ -859,7 +852,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     jQuery(document).ready(function ($) {
         console.log("working jquery")
-        //open nav and make menu an "x"
+        //pie chart functionality
         let p1 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
         let p2 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
         let p3 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
@@ -869,14 +862,12 @@ window.addEventListener("DOMContentLoaded", event => {
         let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
         let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
 
-
         $(window).scroll(function () {
             let value = $(this).scrollTop();
 
             switch (true) {
-                case value >= 1900 && value <= 19200:
+                case value >= 19000 && value <= 19200:
                     $(".pieClass").attr("src", p1);
-                    console.log("pie 1")
                     break;
                 case value >= 19200 && value <= 19400:
                     $(".pieClass").attr("src", p2)

@@ -231,8 +231,8 @@
             <div class="section-1__image-1"></div>
         </div>
         <div class="section-1__text">
-            <div class="section-1__text-1">In times of crisis,</div>
-            <div class="section-1__text-2">we rely on relationships.</div>
+            <div class="section-1__text-1"><span>Covid-19 </span>Community Response Fund</div>
+            <div class="section-1__text-2">Impact Report</div>
         </div>
         <div class="button-arrow-red-section-1 d-flex justify-content-center">
             <button class="button button-arrow-red">
@@ -247,12 +247,12 @@
     </section>
     <section class="section-2 ">
         <div class="section-1__image-1__wrapper">
-            <div class="section-1__image-1"></div>
+            <div class="section-2__image"></div>
         </div>
 
-        <div class="section-1__text">
-            <div class="section-1__text-1">In times of crisis,</div>
-            <div class="section-1__text-2">we rely on relationships.</div>
+        <div class="section-1__text-2">
+            <div class="section-2__text-1">In times of crisis,</div>
+            <div class="section-2__text-2">we rely on relationships.</div>
         </div>
 
         <div class="section-2__text">
@@ -282,6 +282,8 @@
 </div>
 </section>
 
+
+<!--words from our CEO-->
 <section class="section-2a">
     <div class="section-2a__wrapper">
         <div class="section-2a__foto-wrapper"><img
@@ -439,10 +441,11 @@
         </div>
     </button>
 </section>
+
 <section class="section-3">
     <div class="section-3__background"></div>
     <div class="section-1__image-1__wrapper">
-        <div class="section-1__image-1"></div>
+        <div class="section-2__image"></div>
     </div>
     <div class="section-1__text">
         <div class="section-1__text-1">In times of crisis,</div>
@@ -682,9 +685,9 @@
 
 
 <section class="section-9">
-    <div class="section-9__background">test</div>
+    <div class="section-9__background"></div>
     <div class="section-9__text-wrapper">
-        <div class="container mt-0 mb-5">
+        <div class="section-9__text-wrapper mt-0 mb-5 ">
             <div class="row">
                 <div class="col-md-12 offset-md-3">
                     <ul class="timeline ">
@@ -697,7 +700,9 @@
                             </li>
 
                         </button>
-
+                        <div class="section-9__pretitle"></div>
+                        <div class="section-9__title"></div>
+                        <div class="section-9__subtitle"></div>
                         <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
                              aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header">
@@ -817,9 +822,7 @@
             </div>
 
         </div>
-        <div class="section-9__pretitle"></div>
-        <div class="section-9__title"></div>
-        <div class="section-9__subtitle"></div>
+
     </div>
 
     <div class="section-9__stats">
@@ -836,7 +839,7 @@
 </section>
 
 
-<section class="section-9 section-9_2_background">
+<section class=" section-9_2_background">
 
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="953" height="543"
          viewBox="0 0 953 543">
@@ -850,6 +853,25 @@
         <rect id="NestedPieChartsCovid_ForDigital-01" width="953" height="543" rx="271.5" fill="url(#pattern)"/>
     </svg>
 
+    <div class="section-9-2__title">
+        <div>
+            <h1>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quaerat repellat temporibus? A ab
+                    adipisci commodi dolore eius enim excepturi facere odit porro sequi! Aperiam officiis rerum sequi
+                    soluta velit.
+                </div>
+                <div>Excepturi, ipsam labore. Cumque deleniti, vitae. Accusamus corporis eligendi expedita nam nemo sunt
+                    tenetur. Asperiores aut autem culpa eaque, facilis, incidunt laboriosam porro quaerat quasi quo
+                    tenetur voluptas voluptates voluptatum?
+                </div>
+            </h1>
+            PlaceholderSection 9-2
+        </div>
+
+    </div>
+</section>
+<section class=" ">
+
     <div class="section-9__title">
         <div>
             <h1>
@@ -862,11 +884,13 @@
                     tenetur voluptas voluptates voluptatum?
                 </div>
             </h1>
-            Placeholder
+            section 9-3
         </div>
 
     </div>
 </section>
+
+
 
 
 <section class="section-10">

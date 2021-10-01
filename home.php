@@ -940,7 +940,7 @@
         <div class="section-10__bars">
 
             <div class="section-10__bar bar-1  d-flex justify-content-start" id="c1">
-                <img class="pieClass" src="http://localhost:8080/wp-content/uploads/2021/09/p1.png"
+                <img class="pieClass" src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
             </div>
             <!--                <div class="section-10__bar-inner"></div>-->
 <!--                <h2 class="section-10__bar-title">FOOD SECURITY</h2>-->
@@ -953,34 +953,22 @@
 <!--                <h2 class="section-10__bar-total">$614,895.00</h2>-->
             </div>
             <div class="section-10__bar bar-3  d-flex justify-content-start">
-                <div class="section-10__bar-inner"></div>
-                <h2 class="section-10__bar-title">EDUCATION/DIGITAL DIVIDE</h2>
-                <h2 class="section-10__bar-total">$602,108.93</h2>
+
             </div>
             <div class="section-10__bar bar-4  d-flex justify-content-start">
-                <div class="section-10__bar-inner"></div>
-                <h2 class="section-10__bar-title">CHILDCARE</h2>
-                <h2 class="section-10__bar-total">$1,154,662.86</h2>
+
             </div>
             <div class="section-10__bar bar-5  d-flex justify-content-start">
-                <div class="section-10__bar-inner"></div>
-                <h2 class="section-10__bar-title">WORKFORCE DEVELOPMENT</h2>
-                <h2 class="section-10__bar-total">$286,628.00</h2>
+
             </div>
             <div class="section-10__bar bar-6  d-flex justify-content-start">
-                <div class="section-10__bar-inner"></div>
-                <h2 class="section-10__bar-title">SOCIAL SERVICES</h2>
-                <h2 class="section-10__bar-total">$1,355,833.32</h2>
+
             </div>
             <div class="section-10__bar bar-7  d-flex justify-content-start">
-                <div class="section-10__bar-inner"></div>
-                <h2 class="section-10__bar-title">PARTNER'S SUPPORT</h2>
-                <h2 class="section-10__bar-total">$425,331.00</h2>
+
             </div>
             <div class="section-10__bar bar-8  d-flex justify-content-start">
-                <div class="section-10__bar-inner"></div>
-                <h2 class="section-10__bar-title">MEDICAL SUPPORT</h2>
-                <h2 class="section-10__bar-total">$1,210,913.86</h2>
+
             </div>
 
         </div>

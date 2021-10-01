@@ -380,8 +380,8 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 1180, 1200);
     new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 1180, 1200);
     new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 1180, 1200);
-    new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1200, 1200);
-    ;
+    new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1180, 1200);
+    // ;
 
 
     new ElementAnimation("section-10__total", "opacity", .0, 1.0, 1100, 1120);
@@ -874,28 +874,29 @@ window.addEventListener("DOMContentLoaded", event => {
             let value = $(this).scrollTop();
 
             switch (true) {
-                case value >= 20900 && value <= 21080:
+                case value >= 1900 && value <= 19200:
                     $(".pieClass").attr("src", p1);
+                    console.log("pie 1")
                     break;
-                case value >= 21090 && value <= 21200:
+                case value >= 19200 && value <= 19400:
                     $(".pieClass").attr("src", p2)
                     break;
-                case value >= 21250 && value <= 21400:
+                case value >= 19400 && value <= 19600:
                     $(".pieClass").attr("src", p3);
                     break;
-                case value >= 21401 && value <= 21650:
+                case value >= 19600 && value <= 19800:
                     $(".pieClass").attr("src", p4);
                     break;
-                case value >= 21651 && value <= 21800:
+                case value >= 19800 && value <= 20000:
                     $(".pieClass").attr("src", p5);
                     break;
-                case value >= 21801 && value <= 21950:
+                case value >= 20000 && value <= 20200:
                     $(".pieClass").attr("src", p6);
                     break;
-                case value >= 21950 && value <= 22279:
+                case value >= 20200 && value <= 20400:
                     $(".pieClass").attr("src", p7);
                     break;
-                case value >= 22280 && value <= 22500:
+                case value >= 20400 && value <= 20600:
                     $(".pieClass").attr("src", p8);
                     break;
             }

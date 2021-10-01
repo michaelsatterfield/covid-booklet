@@ -1902,7 +1902,7 @@ opacity:1
     position: relative;
     top: 1vh;
 
-    width: 1019px;
+    width: 800px;
     transform: translateX(-50%);
     padding-left: 500px;
 }
@@ -1954,57 +1954,58 @@ opacity:1
 }
 
 
-.section-10__bar.bar-1 .section-10__bar-inner {
-    background: #416d84;
-    width: 20px;
-    height: 20px;
+/*.section-10__bar.bar-1 .section-10__bar-inner {*/
+/*    background: #416d84;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
 
-}
+/*}*/
 
-.section-10__bar.bar-2 .section-10__bar-inner {
-    background: #c0a605;
-    width: 20px;
-    height: 20px;
-}
+/*.section-10__bar.bar-2 .section-10__bar-inner {*/
+/*    background: #c0a605;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
-.section-10__bar.bar-3 .section-10__bar-inner {
-    background: #584561;
-    width: 20px;
-    height: 20px;
-}
+/*.section-10__bar.bar-3 .section-10__bar-inner {*/
+/*    background: #584561;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
-.section-10__bar.bar-4 .section-10__bar-inner {
-    background: #9b2c1e;
-    width: 20px;
-    height: 20px;
-}
+/*.section-10__bar.bar-4 .section-10__bar-inner {*/
+/*    background: #9b2c1e;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
-.section-10__bar.bar-5 .section-10__bar-inner {
-    background: #009b65;
-    width: 20px;
-    height: 20px;
-}
+/*.section-10__bar.bar-5 .section-10__bar-inner {*/
+/*    background: #009b65;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
-.section-10__bar.bar-6 .section-10__bar-inner {
-    background: #3e4c81;
-    width: 20px;
-    height: 20px;
-}
+/*.section-10__bar.bar-6 .section-10__bar-inner {*/
+/*    background: #3e4c81;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
-.section-10__bar.bar-7 .section-10__bar-inner {
-    background: #e37b41;
-    width: 20px;
-    height: 20px;
-}
+/*.section-10__bar.bar-7 .section-10__bar-inner {*/
+/*    background: #e37b41;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
-.section-10__bar.bar-8 .section-10__bar-inner {
-    background: #89946b;
-    width: 20px;
-    height: 20px;
-}
+/*.section-10__bar.bar-8 .section-10__bar-inner {*/
+/*    background: #89946b;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*}*/
 
 .pieClass{
     transition: all 1s;
+    width: 5em;
 }
 
 /*pie chart*/

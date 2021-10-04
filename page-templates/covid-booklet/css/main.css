@@ -719,7 +719,7 @@ section {
 /*}*/
 
 section.completed {
-    pointer-events: none !important;
+    /*pointer-events: none !important;*/
 }
 
 section.active {

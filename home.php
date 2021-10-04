@@ -226,6 +226,15 @@
 
     </div>
     <!-- section tag includes by default: .fixed, .flex, .flex-direction__column -->
+
+
+<!--    todo: look at section.completed in the css file, is thst why completed sections dont work?
+-->
+
+
+
+
+
     <section class="section-1 row">
         <div class="section-1__image-1__wrapper">
             <div class="section-1__image-1"></div>

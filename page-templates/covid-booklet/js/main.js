@@ -133,7 +133,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
 
     ElementAnimation.createdAnimations = {};
-    ElementAnimation.scrollFactor = 2; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
+    ElementAnimation.scrollFactor = 1; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
     ElementAnimation.scrollDisabled = false;
 
     /*
@@ -272,10 +272,10 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 700, 770);
     new ElementAnimation("section-8__icon", "opacity", 1.0, 0.0, 700, 760);
 
-    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
+    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 750, 760);
 
     //Section 9 | Active
-    new ElementAnimation("section-9", "opacity", 0.0, 1.00, 790, 800),
+    new ElementAnimation("section-9", "opacity", 0.0, 1.0, 760, 770),
 
     new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 800, 805),
     new ElementAnimation("section-9__background", "scale", 1.0, 1.05, 800, 805),
@@ -289,7 +289,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 825);
 
 
-    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 890, 900);
+    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 850, 870);
 
 
     //new elements

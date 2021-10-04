@@ -633,56 +633,56 @@
     </div>
 
 </section>
-<section class="section-8">
-    <div class="section-8__background"></div>
-    <div class="section-8__text-wrapper">
-        <div class="section-8__title">[COVID-19 Response Timeline]</div>
-
-        <div class="section-8__subtitle">
-            <div class="section-8__subtitle-wrapper">Once it became clear in March 2020 that the coronavirus pandemic
-                was just<br/> beginning to halt life as we know it and cause an unprecedented ripple effect across<br/>
-                our community, the San Antonio Area Foundation wasted no time in taking bold and <br/> decisive action.
-                In conjunction with the United Way of San Antonio and Bexar County<br/> (in close cooperation and
-                coordination with the City of San Antonio),
-                the COVID-19<br/> Response Fund was created to provide an immediate lifeline to the nonprofit sector.
-                <br><br>
-                A crisis can't wait. We embraced the power of trust-based philanthropy, enabling<br/> unprecedented
-                progress by prioritizing
-                community led solutions and removing<br/> procedural barriers. We learned that challenges are best
-                solved by those who face<br/>
-                them every day and live with the consequences of waiting too long for solutions. We<br/>stand proud of
-                how quickly our community mobilized and learned
-                just how much we <br/> can do and just how far we can go if we truly put the community first.
-            </div>
-        </div>
-    </div>
-    <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span class="section-8__icon__asterisk">*</span>
-        <span class="section-8__icon__read-poem">Read Poem</span></div>
-</section>
-<section class="section-8a">
-    <div class="section-8a__text">
-        <h3>This Year</h3>
-        <br>
-        <p>
-            This year is as beautiful as a white rose.<br>
-            This year is as bright as a shining red rose<br>
-            as hot as the sun and as beautiful as a sunset<br>
-            because this year is the most perfect year<br>
-            to start over like a blue bonnet just blooming and<br>
-            waiting to rebloom once again.<br>
-            <br>
-            <i>— Prestine T., 4th Grade</i>
-        </p>
-    </div>
-    <div class="section-8a__close" data-toggle=".section-8, .section-8a">
-        <div class="icon icon-close">
-            <svg>
-                <use href="#icon-close-white"></use>
-            </svg>
-        </div>
-    </div>
-</section>
-
+<!--<section class="section-8">-->
+<!--    <div class="section-8__background"></div>-->
+<!--    <div class="section-8__text-wrapper">-->
+<!--        <div class="section-8__title">[COVID-19 Response Timeline]</div>-->
+<!---->
+<!--        <div class="section-8__subtitle">-->
+<!--            <div class="section-8__subtitle-wrapper">Once it became clear in March 2020 that the coronavirus pandemic-->
+<!--                was just<br/> beginning to halt life as we know it and cause an unprecedented ripple effect across<br/>-->
+<!--                our community, the San Antonio Area Foundation wasted no time in taking bold and <br/> decisive action.-->
+<!--                In conjunction with the United Way of San Antonio and Bexar County<br/> (in close cooperation and-->
+<!--                coordination with the City of San Antonio),-->
+<!--                the COVID-19<br/> Response Fund was created to provide an immediate lifeline to the nonprofit sector.-->
+<!--                <br><br>-->
+<!--                A crisis can't wait. We embraced the power of trust-based philanthropy, enabling<br/> unprecedented-->
+<!--                progress by prioritizing-->
+<!--                community led solutions and removing<br/> procedural barriers. We learned that challenges are best-->
+<!--                solved by those who face<br/>-->
+<!--                them every day and live with the consequences of waiting too long for solutions. We<br/>stand proud of-->
+<!--                how quickly our community mobilized and learned-->
+<!--                just how much we <br/> can do and just how far we can go if we truly put the community first.-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span class="section-8__icon__asterisk">*</span>-->
+<!--        <span class="section-8__icon__read-poem">Read Poem</span></div>-->
+<!--</section>-->
+<!--<section class="section-8a">-->
+<!--    <div class="section-8a__text">-->
+<!--        <h3>This Year</h3>-->
+<!--        <br>-->
+<!--        <p>-->
+<!--            This year is as beautiful as a white rose.<br>-->
+<!--            This year is as bright as a shining red rose<br>-->
+<!--            as hot as the sun and as beautiful as a sunset<br>-->
+<!--            because this year is the most perfect year<br>-->
+<!--            to start over like a blue bonnet just blooming and<br>-->
+<!--            waiting to rebloom once again.<br>-->
+<!--            <br>-->
+<!--            <i>— Prestine T., 4th Grade</i>-->
+<!--        </p>-->
+<!--    </div>-->
+<!--    <div class="section-8a__close" data-toggle=".section-8, .section-8a">-->
+<!--        <div class="icon icon-close">-->
+<!--            <svg>-->
+<!--                <use href="#icon-close-white"></use>-->
+<!--            </svg>-->
+<!--        </div>-->
+<!--    </div>-->
+<!---->
+<!--</section>-->
 
 <section class="section-9">
     <div class="section-9__background"></div>
@@ -870,25 +870,25 @@
 
     </div>
 </section>
-<section class=" ">
-
-    <div class="section-9__title">
-        <div>
-            <h1>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quaerat repellat temporibus? A ab
-                    adipisci commodi dolore eius enim excepturi facere odit porro sequi! Aperiam officiis rerum sequi
-                    soluta velit.
-                </div>
-                <div>Excepturi, ipsam labore. Cumque deleniti, vitae. Accusamus corporis eligendi expedita nam nemo sunt
-                    tenetur. Asperiores aut autem culpa eaque, facilis, incidunt laboriosam porro quaerat quasi quo
-                    tenetur voluptas voluptates voluptatum?
-                </div>
-            </h1>
-            section 9-3
-        </div>
-
-    </div>
-</section>
+<!--<section class=" ">-->
+<!---->
+<!--    <div class="section-9__title">-->
+<!--        <div>-->
+<!--            <h1>-->
+<!--                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quaerat repellat temporibus? A ab-->
+<!--                    adipisci commodi dolore eius enim excepturi facere odit porro sequi! Aperiam officiis rerum sequi-->
+<!--                    soluta velit.-->
+<!--                </div>-->
+<!--                <div>Excepturi, ipsam labore. Cumque deleniti, vitae. Accusamus corporis eligendi expedita nam nemo sunt-->
+<!--                    tenetur. Asperiores aut autem culpa eaque, facilis, incidunt laboriosam porro quaerat quasi quo-->
+<!--                    tenetur voluptas voluptates voluptatum?-->
+<!--                </div>-->
+<!--            </h1>-->
+<!--            section 9-3-->
+<!--        </div>-->
+<!---->
+<!--    </div>-->
+<!--</section>-->
 
 
 

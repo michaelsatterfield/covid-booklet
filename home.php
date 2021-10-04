@@ -826,25 +826,17 @@
 
 </section>
 
-<section class="section-10">
-    <div class="section-10__background"></div>
-    <div class="section-10__total">
-        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
-        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
+<section class="section-10">Test
+    <div class="section-10__background"><h1>Cars</h1></div>
 
-        <div class="section-10__bars">
-            <div class="">
-                <img class="pieClass"
-                     src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png">
-            </div>
-            <div class="section-10__bar bar-1"></div>
-            <div class="section-10__bar bar-2 "></div>
-            <div class="section-10__bar bar-3"></div>
-            <div class="section-10__bar bar-4"></div>
-            <div class="section-10__bar bar-5"></div>
-            <div class="section-10__bar bar-6"></div>
-            <div class="section-10__bar bar-7"></div>
-            <div class="section-10__bar bar-8"></div>
+        <div class="section-10__total-wrapper">
+
+
+
+
+
+
+
         </div>
 </section>
 
@@ -871,27 +863,7 @@
 <!--</section>-->
 
 <!---->
-<!--<section class="section-10">-->
-<!--    <div class="section-10__background"></div>-->
-<!--    <div class="section-10__total">-->
-<!--        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>-->
-<!--        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>-->
-<!---->
-<!--        <div class="section-10__bars">-->
-<!--            <div class="">-->
-<!--                <img class="pieClass"-->
-<!--                     src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png">-->
-<!--            </div>-->
-<!--            <div class="section-10__bar bar-1"></div>-->
-<!--            <div class="section-10__bar bar-2 "></div>-->
-<!--            <div class="section-10__bar bar-3"></div>-->
-<!--            <div class="section-10__bar bar-4"></div>-->
-<!--            <div class="section-10__bar bar-5"></div>-->
-<!--            <div class="section-10__bar bar-6"></div>-->
-<!--            <div class="section-10__bar bar-7"></div>-->
-<!--            <div class="section-10__bar bar-8"></div>-->
-<!--        </div>-->
-<!--</section>-->
+
 
 <section class="section-11">
 
@@ -899,7 +871,7 @@
     <div class="section-11__pretitle"></div>
     <div class="section-11__title"></div>
     <div class="section-11__text">
-
+<h1>section 11</h1>
     </div>
     <div class="section-11__bardetails">
     </div>
@@ -946,34 +918,32 @@
         </button>
     </div>
 </section>
+
+<!--pie chart-->
 <section class="section-13">
-    <div class="section-13__image">
-        <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-13.jpg">
-        <div class="section-13__imageshorttext">» Habitat for Humanity</div>
-    </div>
-    <div class="section-12__text-wrapper">
-        <div class="section-13__title">and committed partners,</div>
-        <div class="section-13__text">
-            <h3>2. Livable and Resilient Communities</h3>
-            <br>
-            <br>
-            <p>The 2019 COSA Poverty Report put numbers to the high economic inequality, racial disparities, and
-                residential segregation that continue to plague our city. The 2020 pandemic put faces and, too often,
-                tragic outcomes to those numbers. As philanthropic leaders, we have taken a hard look at what it takes
-                to build a thriving, connected, and resilient San Antonio where residents in every zip code can enjoy
-                the best quality of life that our city offers.</p>
-        </div>
-    </div>
-    <div class="button-next-slide button-next-slide-section-13" data-toggle=".section-13, .section-13a"><span>Vital partnerships</span>
-        <button class="button button-arrow-yellow">
-            <div class="icon icon-arrow">
-                <svg>
-                    <use href="#icon-arrow-right"></use>
-                </svg>
+    <div class="section-13__background"></div>
+    <div class="section-13__total">
+        <div class="section-13__total-wrapper">$XX,XXX,XXX</div>
+        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
+
+        <div class="section-13__bars">
+            <div class="">
+                <img class="pieClass"
+                     src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png">
             </div>
-        </button>
-    </div>
+            <div class="section-13__bar bar-1"></div>
+            <div class="section-13__bar bar-2 "></div>
+            <div class="section-13__bar bar-3"></div>
+            <div class="section-13__bar bar-4"></div>
+            <div class="section-13__bar bar-5"></div>
+            <div class="section-13__bar bar-6"></div>
+            <div class="section-13__bar bar-7"></div>
+            <div class="section-13__bar bar-8"></div>
+        </div>
 </section>
+
+
+
 <section class="section-13a">
     <div class="section-13a__text">
         <h3>Vital partnerships</h3>

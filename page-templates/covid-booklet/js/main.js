@@ -25,6 +25,7 @@ window.addEventListener("DOMContentLoaded", event => {
             this.scrollStartOffset = (_scrollStartOffset / 100) * window.innerHeight;
             this.scrollStopOffset = (_scrollStopOffset / 100) * window.innerHeight;
 
+
             // update scroll-dummy-overlay if > overlay height document.getElementsByClassName("scroll-dummy-overlay")[0].style.height = (window.innerHeight * stop/100) + "px";
             this.updateCallback = _updateCallback;
 
@@ -89,7 +90,6 @@ window.addEventListener("DOMContentLoaded", event => {
                     case "scale":
                         this.container.style.transform = "scale(" + this.animationValue + ")";
                         break;
-
 
                 }
 
@@ -172,7 +172,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("header-left", "opacity", 0.0, 1.0, 100, 120);
     new ElementAnimation("header-left", "margin-left", -100, 0, 100, 120);
 
-    console.log("margin-left as percent window");
+    // console.log("margin-left as percent window");
     new ElementAnimation("section-2__text-1", "opacity", 0.0, 1.0, 105, 120);
     new ElementAnimation("section-2__text-1", "margin-left", 50, 0, 105, 120);
     new ElementAnimation("section-2__text-2", "opacity", 0.0, 1.0, 110, 125);
@@ -292,23 +292,67 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 885, 900);
 
+    //section 10
+    // new ElementAnimation("section-10", "opacity", 0, 1.0, 900, 920);
+    new ElementAnimation("section-10__background", "opacity", 0, 1.00, 900, 910);
+    // new ElementAnimation("section-10__total", "opacity", 0, 1.00, 900, 920);
+    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 920);
+    // new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 1200, 1300);
+    // new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 1200, 1300);
+    // new ElementAnimation("section-10__title", "margin-left", 50, 0, 1200, 1300);
+    // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
 
-    new ElementAnimation("section-10__background", "scale", 1.0, 1.05, 785, 1100);
-    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 970);
-    new ElementAnimation("section-10", "opacity", 0.0, 1.0, 900, 920);
+    new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
+    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
+    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
+    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
+
+
+    //exit opacity for total funds page
+
+    // new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
+
+
+    new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1300);
+    new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1300);
+    new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__title", "margin-left", 50, 0, 1200, 1300);
+    new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1300);
+    new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1200, 1300);
+
+    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1200, 1300);
+
+
+
+
+
+    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1300, 1310);
+    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1300, 1310);
 
 
     // Continue here
     var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00, 839742.44];
     var barTotals = [0, 0, 0, 0, 0, 0, 0, 0];
-    //var updateTotalTimeout = undefined; // Prevent updating of total html with every single bar every single pixel scrolled.
 
     var updateBarCallback = function (barIndex, sp, ssta, ssto) {
         barTotals[barIndex - 1] = barTotalTargets[barIndex - 1] * ((sp - ssta) / (ssto - ssta));
 
         //updateTotalTimeout = setTimeout(function() {
-        document.getElementsByClassName("section-10__total-wrapper")[0].innerHTML = '$' + barAmount();
+        document.getElementsByClassName("section-13__total-wrapper")[0].innerHTML = '$' + barAmount();
 
 
         //}, 25);
@@ -322,103 +366,62 @@ window.addEventListener("DOMContentLoaded", event => {
 
         return totalString;
     }
-    //todo: change pie slices to increment
 
-    // new ElementAnimation("pieSlice1", "opacity", 0.0, 1.0, 1100, 1110, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-    // new ElementAnimation("pieSlice2", "opacity", 0.0, 1.0, 1110, 1120, function(sp, ssta, ssto) { updateBarCallback(7, sp, ssta, ssto); });
-    // new ElementAnimation("pieSlice3", "opacity", 0.0, 1.0, 1120, 1130, function(sp, ssta, ssto) { updateBarCallback(6, sp, ssta, ssto); });
-    // new ElementAnimation("pieSlice4", "opacity", 0.0, 1.0, 1130, 1140, function(sp, ssta, ssto) { updateBarCallback(5, sp, ssta, ssto); });
-    // new ElementAnimation("pieSlice5", "opacity", 0.0, 1.0, 1140, 1150, function(sp, ssta, ssto) { updateBarCallback(4, sp, ssta, ssto); });
-    // new ElementAnimation("pieSlice6", "opacity", 0.0, 1.0, 1150, 1160, function(sp, ssta, ssto) { updateBarCallback(3, sp, ssta, ssto); });
-    // new ElementAnimation("pieSlice8", "opacity", 0.0, 1.0, 1700, 1180, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
-    // new ElementAnimation("pieSlice7", "opacity", 0.0, 1.0, 1160, 1170, function(sp, ssta, ssto) { updateBarCallback(2, sp, ssta, ssto); });
-    // new ElementAnimation("total-funds-comment", "opacity", 0.0, 1.0, 1180, 1200, function(sp, ssta, ssto) { updateBarCallback(1, sp, ssta, ssto); });
 
-    new ElementAnimation("section-10__bar bar-7", "opacity", 0.0, 1.0, 900, 912, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
         updateBarCallback(7, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-10__bar bar-6", "opacity", 0.0, 1.0, 912, 924, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-6", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
         updateBarCallback(6, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-10__bar bar-5", "opacity", 0.0, 1.0, 924, 936, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-5", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
         updateBarCallback(5, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-10__bar bar-4", "opacity", 0.0, 1.0, 936, 948, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-4", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
         updateBarCallback(4, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-10__bar bar-3", "opacity", 0.0, 1.0, 948, 960, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-3", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
         updateBarCallback(3, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-10__bar bar-2", "opacity", 0.0, 1.0, 960, 972, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
         updateBarCallback(2, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-10__bar bar-1", "opacity", 0.0, 1.0, 972, 984, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
-    new ElementAnimation("section-10__bar bar-8", "opacity", 1.0, 0.0, 1180, 1200)
-    new ElementAnimation("section-10__bar bar-7", "opacity", 1.0, 0.0, 1180, 1200);
-    new ElementAnimation("section-10__bar bar-6", "opacity", 1.0, 0.0, 1180, 1200);
-    new ElementAnimation("section-10__bar bar-5", "opacity", 1.0, 0.0, 1180, 1200);
-    new ElementAnimation("section-10__bar bar-4", "opacity", 1.0, 0.0, 1180, 1200);
-    new ElementAnimation("section-10__bar bar-3", "opacity", 1.0, 0.0, 1180, 1200);
-    new ElementAnimation("section-10__bar bar-2", "opacity", 1.0, 0.0, 1180, 1200);
-    new ElementAnimation("section-10__bar bar-1", "opacity", 1.0, 0.0, 1180, 1200);
-    // ;
+    new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1400, 1410)
+    new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1400, 1410);
 
+    new ElementAnimation("section-13__total", "opacity", 5.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1400, 1410, true);
 
-    new ElementAnimation("section-10__total", "opacity", 5.0, 1.0, 1100, 1120);
-    new ElementAnimation("section-10__background", "opacity", 1.0, 1.0, 1100, 1200, true);
-
-    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1200, 1300);
-    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1200, 1300);
-    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1200, 1300);
-    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1200, 1300);
-    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1200, 1300);
-    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1200, 1300);
-
-
-    //exit opacity for total funds page
-    new ElementAnimation("section-10", "opacity", 5.0, 0.0, 1100, 1200);
-    new ElementAnimation("section-11", "opacity", 1.0, 1.0, 1100, 1200);
-
-
-    new ElementAnimation("section-12__image", "scale", 0, 0.975, 1300, 1400);
-    new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1300, 1400);
-    new ElementAnimation("section-12__image", "margin-left", -60, 0, 1300, 1400);
-    new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1300, 1400);
-    new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1300, 1400);
-    new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 1300, 1400);
-    new ElementAnimation("section-12__title", "margin-left", 50, 0, 1300, 1400);
-    new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1300, 1400);
-    new ElementAnimation("section-12__text", "margin-left", 50, 0, 1300, 1400);
-    new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1300, 1400);
-
-    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1300, 1200);
+    new ElementAnimation("section-13", "opacity", 5.0, 0.0, 1400, 1410);
 
     //todo: adjust scrollStart and stop to page height
-    new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1400, 1500);
-    new ElementAnimation("section-13__image", "scale", 0.975, 1.0, 1400, 1500);
-    new ElementAnimation("section-13__image", "margin-left", -60, 0, 1400, 1500);
-    new ElementAnimation("section-13__image", "opacity", 0.0, 1.0, 1400, 1500);
-    new ElementAnimation("section-13__imageshorttext", "opacity", 0.0, 1.0, 1400, 1500);
-    new ElementAnimation("section-13__title", "opacity", 0.0, 1.0, 1400, 1500);
-    new ElementAnimation("section-13__title", "margin-left", 50, 0, 1400, 1500);
-    new ElementAnimation("section-13__text", "opacity", 0.0, 1.0, 1400, 1500);
-    new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
-    new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
-
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
+    // new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1400, 1500);
+    // new ElementAnimation("section-13__image", "scale", 0.975, 1.0, 1400, 1500);
+    // new ElementAnimation("section-13__image", "margin-left", -60, 0, 1400, 1500);
+    // new ElementAnimation("section-13__image", "opacity", 0.0, 1.0, 1400, 1500);
+    // new ElementAnimation("section-13__imageshorttext", "opacity", 0.0, 1.0, 1400, 1500);
+    // new ElementAnimation("section-13__title", "opacity", 0.0, 1.0, 1400, 1500);
+    // new ElementAnimation("section-13__title", "margin-left", 50, 0, 1400, 1500);
+    // new ElementAnimation("section-13__text", "opacity", 0.0, 1.0, 1400, 1500);
+    // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
+    // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
+    //
+    // new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
 
 
     new ElementAnimation("section-14__image", "scale", 0.95, 0.975, 1300, 1312);
@@ -633,7 +636,7 @@ window.addEventListener("DOMContentLoaded", event => {
     window.addEventListener('scroll', function (e) {
 
         //numbers in console (scroll position)
-        console.log(window.pageYOffset);
+        // console.log(window.pageYOffset);
 
         var pageScrollPosition = window.pageYOffset;
 
@@ -740,7 +743,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // Main cycle duration (not the entire duration though. total duration: cycle duration + transition duration
     function cycleQuotesRecursively() {
         var quotes = quotesContainer.getElementsByClassName("quote");
-        console.log("if quotes visible");
+        // console.log("if quotes visible");
         setTimeout(function () {
             quotesContainer.style.opacity = 0.0;
             quotes[quoteIndex].classList.remove("active");
@@ -811,7 +814,7 @@ window.addEventListener("DOMContentLoaded", event => {
             var scrollToPosition = (parseInt(event.srcElement.getAttribute("data-offset")) / 100) * window.innerHeight;
             ElementAnimation.scrollDisabled = false;
             scrollTo(scrollToPosition, 500);
-            //console.log (window.pageYOffset);
+            console.log (window.pageYOffset);
             event.preventDefault();
         });
 
@@ -859,7 +862,8 @@ window.addEventListener("DOMContentLoaded", event => {
 
         $(window).scroll(function () {
             let value = $(this).scrollTop();
-
+            let height = (Math.round((value/24.6) * 100) / 100).toFixed(0);;
+            console.log(height)
 
             //todo: adjust numbers after pie chart is set in its section
             switch (true) {

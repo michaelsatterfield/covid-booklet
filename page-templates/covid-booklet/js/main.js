@@ -292,7 +292,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     //
     new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
+    new ElementAnimation("section-11__background", "scale", 1.0, 1.0, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
     new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
@@ -415,20 +415,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
 
 
-    new ElementAnimation("section-14__image", "scale", 0.95, 0.975, 1300, 1312);
-    new ElementAnimation("section-14__image", "scale", 0.975, 1.0, 1312, 1315);
-    new ElementAnimation("section-14__image", "margin-left", -60, 0, 1300, 1310);
-    new ElementAnimation("section-14__image", "opacity", 0.0, 1.0, 1300, 1315);
-    new ElementAnimation("section-14__imageshorttext", "opacity", 0.0, 1.0, 1300, 1330);
-    new ElementAnimation("section-14__title", "opacity", 0.0, 1.0, 1310, 1340);
-    new ElementAnimation("section-14__title", "margin-left", 50, 0, 1310, 1340);
-    new ElementAnimation("section-14__text", "opacity", 0.0, 1.0, 1320, 1350);
-    new ElementAnimation("section-14__text", "margin-left", 50, 0, 1320, 1350);
-    new ElementAnimation("button-next-slide-section-14", "opacity", 0.0, 1.0, 1330, 1350);
-
-    new ElementAnimation("section-14", "opacity", 1.0, 0.0, 1365, 1400);
-
-
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1400, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1400, 1410);
@@ -489,122 +475,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1940);
 
     new ElementAnimation("section-20", "opacity", 1.0, 0.0, 1965, 2000);
-
-
-    new ElementAnimation("section-21__pretitle", "opacity", 0.0, 1.0, 2015, 2065);
-    new ElementAnimation("section-21__pretitle", "margin-left", 50, 0, 2020, 2070);
-    new ElementAnimation("section-21__title", "opacity", 0.0, 1.0, 2015, 2075);
-    new ElementAnimation("section-21__title", "margin-left", 50, 0, 2015, 2075);
-    new ElementAnimation("section-21__main-content", "opacity", 0.0, 1.0, 2015, 2085);
-    new ElementAnimation("section-21__quoter", "opacity", 0.0, 1.0, 2020, 2100);
-
-    new ElementAnimation("section-21", "opacity", 1.0, 0.0, 2065, 2100);
-
-
-    new ElementAnimation("section-22__pretitle", "opacity", 0.0, 1.0, 2115, 2165);
-    new ElementAnimation("section-22__pretitle", "margin-left", 50, 0, 2120, 2170);
-    new ElementAnimation("section-22__title", "opacity", 0.0, 1.0, 2115, 2175);
-    new ElementAnimation("section-22__title", "margin-left", 50, 0, 2115, 2175);
-    new ElementAnimation("section-22__main-content", "opacity", 0.0, 1.0, 2115, 2175);
-
-    new ElementAnimation("section-22", "opacity", 1.0, 0.0, 2165, 2200);
-
-
-    new ElementAnimation("section-23__pretitle", "opacity", 0.0, 1.0, 2215, 2235);
-    new ElementAnimation("section-23__pretitle", "margin-left", 50, 0, 2215, 2235);
-    new ElementAnimation("section-23__title", "opacity", 0.0, 1.0, 2215, 2235);
-    new ElementAnimation("section-23__title", "margin-left", 50, 0, 2215, 2235);
-    new ElementAnimation("button-next-slide-section-23", "opacity", 0.0, 1.0, 2215, 2235);
-
-    new ElementAnimation("section-23__sector sector-1", "opacity", 0.0, 1.0, 2225, 2245);
-    new ElementAnimation("section-23__sector sector-2", "opacity", 0.0, 1.0, 2235, 2255);
-    new ElementAnimation("section-23__sector sector-3", "opacity", 0.0, 1.0, 2245, 2265);
-
-    new ElementAnimation("section-23", "opacity", 1.0, 0.0, 2265, 2300);
-
-
-    new ElementAnimation("section-24__background", "scale", 1.0, 1.05, 2265, 2500);
-    new ElementAnimation("section-24__pretitle", "margin-left", 150, 0, 2320, 2330);
-    new ElementAnimation("section-24__pretitle", "opacity", 0.0, 1.0, 2320, 2330);
-    new ElementAnimation("section-24__title", "margin-left", 150, 0, 2320, 2330);
-    new ElementAnimation("section-24__title", "opacity", 0.0, 1.0, 2320, 2330);
-    new ElementAnimation("section-24__subtitle", "margin-left", 100, 0, 2320, 2330);
-    new ElementAnimation("section-24__subtitle", "opacity", 0.0, 1.0, 2320, 2330);
-
-    new ElementAnimation("section-24", "opacity", 1.0, 0.0, 2365, 2400);
-
-
-    new ElementAnimation("section-25__background", "scale", 1.0, 1.05, 2265, 2500);
-    new ElementAnimation("section-25__text", "opacity", 0.0, 1.0, 2450, 2470);
-
-    new ElementAnimation("section-25", "opacity", 1.0, 0.0, 2485, 2500);
-
-
-    new ElementAnimation("section-26__title", "margin-left", 150, 0, 2485, 2530);
-    new ElementAnimation("section-26__title", "opacity", 0.0, 1.0, 2485, 2530);
-    new ElementAnimation("section-26__subtitle", "margin-left", 100, 0, 2485, 2530);
-    new ElementAnimation("section-26__subtitle", "opacity", 0.0, 1.0, 2485, 2530);
-    new ElementAnimation("section-26__icon", "opacity", 0.0, 1.0, 2485, 2530);
-
-    new ElementAnimation("section-26", "opacity", 1.0, 0.0, 2585, 2600);
-
-
-    new ElementAnimation("section-27__pretitle", "opacity", 0.0, 1.0, 2600, 2700);
-    new ElementAnimation("section-27__pretitle", "margin-left", 50, 0, 2600, 2700);
-    new ElementAnimation("section-27__title", "opacity", 0.0, 1.0, 2605, 2700);
-    new ElementAnimation("section-27__title", "margin-left", 50, 0, 2605, 2700);
-    new ElementAnimation("section-27__main-content", "opacity", 0.0, 1.0, 2610, 2630);
-
-    new ElementAnimation("section-27", "opacity", 1.0, 0.0, 2685, 2700);
-
-
-    new ElementAnimation("section-28__main-content", "opacity", 0.0, 1.0, 2710, 2730);
-
-    new ElementAnimation("section-28", "opacity", 1.0, 0.0, 2785, 2800);
-
-
-    new ElementAnimation("section-29__background", "scale", 1.0, 1.05, 2785, 2900);
-    new ElementAnimation("section-29__pretitle", "opacity", 0.0, 1.0, 2800, 2830);
-    new ElementAnimation("section-29__pretitle", "margin-left", 50, 0, 2800, 2830);
-    new ElementAnimation("section-29__title", "opacity", 0.0, 1.0, 2800, 2830);
-    new ElementAnimation("section-29__title", "margin-left", 50, 0, 2800, 2830);
-    new ElementAnimation("section-29__text", "opacity", 0.0, 1.0, 2800, 2830);
-    new ElementAnimation("section-29__text", "margin-left", 50, 0, 2800, 2830);
-
-    new ElementAnimation("section-29", "opacity", 1.0, 0.0, 2885, 2900);
-
-
-    new ElementAnimation("section-30__background", "scale", 1.0, 1.05, 2885, 3000);
-    new ElementAnimation("section-30__pretitle", "opacity", 0.0, 1.0, 2905, 2935);
-    new ElementAnimation("section-30__pretitle", "margin-left", 50, 0, 2905, 2935);
-    new ElementAnimation("section-30__title", "opacity", 0.0, 1.0, 2910, 2940);
-    new ElementAnimation("section-30__title", "margin-left", 50, 0, 2910, 2940);
-    new ElementAnimation("section-30__link-1", "opacity", 0.0, 1.0, 2920, 2950);
-    new ElementAnimation("section-30__link-1", "margin-left", 50, 0, 2920, 2950);
-    new ElementAnimation("section-30__link-2", "opacity", 0.0, 1.0, 2925, 2955);
-    new ElementAnimation("section-30__link-2", "margin-left", 50, 0, 2920, 2950);
-    new ElementAnimation("section-30__note", "opacity", 0.0, 1.0, 2910, 2940);
-
-    new ElementAnimation("section-30", "opacity", 1.0, 0.0, 2985, 3000);
-
-
-    new ElementAnimation("section-31__background", "scale", 1.0, 1.05, 2985, 3100);
-    new ElementAnimation("section-31__title-1", "opacity", 0.0, 1.0, 3020, 3050);
-    new ElementAnimation("section-31__title-1", "margin-left", 50, 0, 3020, 3050);
-    new ElementAnimation("section-31__title-2", "opacity", 0.0, 1.0, 3025, 3055);
-    new ElementAnimation("section-31__title-2", "margin-left", 50, 0, 3025, 3055);
-
-    new ElementAnimation("section-31", "opacity", 1.0, 0.0, 3085, 3100);
-
-
-    new ElementAnimation("section-32__title", "margin-left", 50, 0, 3120, 3150);
-    new ElementAnimation("section-32__title", "opacity", 0.0, 1.0, 3120, 3150);
-    new ElementAnimation("section-32__text", "margin-left", 50, 0, 3125, 3155);
-    new ElementAnimation("section-32__text", "opacity", 0.0, 1.0, 3125, 3155);
-    new ElementAnimation("section-32__donate", "margin-left", 50, 0, 3130, 3160);
-    new ElementAnimation("section-32__donate", "opacity", 0.0, 1.0, 3130, 3160);
-    new ElementAnimation("section-32__links", "margin-left", 50, 0, 3135, 3165);
-    new ElementAnimation("section-32__links", "opacity", 0.0, 1.0, 3135, 3165);
 
     ElementAnimation.setScrollDummyHeight();
 

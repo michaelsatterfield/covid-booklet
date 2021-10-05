@@ -292,7 +292,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     //
     new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__background", "scale", 1.0, 1.0, 1020, 1030);
+    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
     new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
@@ -303,9 +303,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1020, 1030);
     new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1020, 1030);
     new ElementAnimation("section-11__note", "margin-left", 75, 0, 1020, 1030);
-
-
-    //exit opacity for total funds page
 
     new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
     //

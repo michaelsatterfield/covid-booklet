@@ -670,7 +670,7 @@
     </div>
 </section>
 
-<section class="section-9">test</section>
+<section class="section-9"></section>
 
 <section class="section-9__background">
     <div class="section-9__text-wrapper">
@@ -764,7 +764,7 @@
                         </li>
 
                         <li class="c4">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">x</a>
+                            <a target="_blank" href="">x</a>
                             <a href="#" class="float-right">x</a>
                         </li>
 
@@ -779,7 +779,7 @@
                         </li>
 
                         <li class="c7">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">x</a>
+                            <a target="_blank" href="">x</a>
                             <a href="#" class="float-right">x</a>
                         </li>
 
@@ -846,21 +846,6 @@
         </div>
 </section>
 
-
-
-
- <section class="section-11">
-
-    <div class="section-11__background"></div>
-    <div class="section-11__pretitle"></div>
-    <div class="section-11__title"></div>
-    <div class="section-11__text">
-<h1>section 11</h1>
-    </div>
-    <div class="section-11__bardetails">
-    </div>
-    <div class="section-11__note">
-    </div> 
 </section>
 
 
@@ -871,8 +856,22 @@
     <div class="section-12__imageshorttext"></div>
     </div>
     <div class="section-12__text-wrapper">
+
         <div class="section-12__title">Section 12</div>
         <div class="section-12__text"></div>
+
+        <div class="section-12__title">[ Stability in the time of chaos ]</div>
+        <p class="section-12__text">
+            There’s a reason why the San Antonio community, starting with city leadership,
+            looks<br> to the San Antonio Area Foundation for innovation and efficacy in local philanthropy.<br>
+            Whether it was immediately reopening childcare centers, enabling emergency cash<br>assistance,
+            or empowering nonprofits to continue their mission even in the darkest<br> of times, the Area Foundation was there,
+            responding to the crisis with a stabilizing <br>force that united the philanthropic and nonprofit sectors of our community.
+        </p>
+    </div>
+    <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a">
+
+
     </div>
     <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"></div>
 </section>
@@ -952,8 +951,10 @@
         <div class="section-15__imageshorttext"></div>
     </div>
     <div class="section-15__text-wrapper">
+
         <div class="section-15__pretitle"></div>
         <div class="section-15__title">Section 15</div>
+
         <div class="section-15__text">
         </div>
     </div>

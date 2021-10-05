@@ -1,16 +1,8 @@
 window.addEventListener("DOMContentLoaded", event => {
-
     // Revised animation structure
-    class ElementAnimation
-        //consturctor fires when the class is called
-    {
-        constructor(_identifier,
-                    _property,
-                    _propertyInitialValue,
-                    _propertyTargetValue,
-                    _scrollStartOffset,
-                    _scrollStopOffset,
-                    _updateCallback = undefined) {
+    class ElementAnimation {
+        constructor(_identifier, _property, _propertyInitialValue, _propertyTargetValue, _scrollStartOffset, _scrollStopOffset, _updateCallback = undefined) {
+
             // Future update to accept hashed id attribute element identifiers
             // currently accepts only class
             this.identifier = _identifier;
@@ -20,13 +12,12 @@ window.addEventListener("DOMContentLoaded", event => {
             this.propertyTargetValue = _propertyTargetValue;
             this._scrollStartOffset = _scrollStartOffset;
             this._scrollStopOffset = _scrollStopOffset;
-
-            //height in pixels divided by 100
             this.scrollStartOffset = (_scrollStartOffset / 100) * window.innerHeight;
             this.scrollStopOffset = (_scrollStopOffset / 100) * window.innerHeight;
-
-
             // update scroll-dummy-overlay if > overlay height document.getElementsByClassName("scroll-dummy-overlay")[0].style.height = (window.innerHeight * stop/100) + "px";
+
+            this.active = false;
+            this.complete = false;
             this.updateCallback = _updateCallback;
 
             this.animationPercentage = undefined; // For use in animate()
@@ -47,34 +38,57 @@ window.addEventListener("DOMContentLoaded", event => {
                 ((window.innerHeight * (1 + (getLastScrollAnimation()._scrollStopOffset / 100))) * ElementAnimation.scrollFactor) + "px"; // 1 + adds window height to scrollStopOffset percentage height. scrollStopOffset equally 2000 = 20 window heights or common slide height of (100 vh)
         }
 
-        // Consider moving to static
-        update(pageScrollPosition) {
-            if (pageScrollPosition >= this.scrollStopOffset) {
-                this.container.classList.remove("active");
+        setToActive() {
+            this.container.classList.remove("complete"); // setTimeout between class changes to allow for CSS animations or other setTimeouts? not necessary-- not yet...
+            this.complete = false;
+            this.container.classList.add("active");
+            this.active = true;
+        }
 
-                this.container.classList.add("completed");
-                // may require a settimeout delay between active and completed for CSS animations
-            } else {
-                // may require a settimeout delay between completed and active for CSS animations
-                if (pageScrollPosition >= this.scrollStartOffset) {
-                    this.container.classList.add("active");
-                    this.container.classList.remove("completed");
+        setToUnactive() {
+            this.container.classList.remove("active");
+            this.active = false;
+        }
+
+        setToComplete() {
+            this.container.classList.remove("active"); // setTimeout between class changes to allow for CSS animations or other setTimeouts? not necessary-- not yet...
+            this.active = false;
+            this.container.classList.add("complete");
+            this.complete = true;
+        }
+
+        // Consider moving to static
+        update(pageScrollPosition, updateCallbacksOnly = false) {
+
+            // If/what updates
+            if (updateCallbacksOnly == false) {
+                if (pageScrollPosition > this.scrollStopOffset) {
+                    this.setToComplete();
                 } else {
-                    this.container.classList.remove("active");
+                    // may require a settimeout delay between completed and active for CSS animations
+                    if (pageScrollPosition >= this.scrollStartOffset) {
+                        if (pageScrollPosition == this.scrollStopOffset)
+                            this.setToComplete();
+                        else
+                            this.setToActive();
+                    } else {
+                        if (this.active)
+                            this.setToUnactive();
+                    }
                 }
+
+                this.animate(pageScrollPosition);
             }
 
-            this.animate(pageScrollPosition);
-
+            // Update callback function
             if (typeof this.updateCallback == "function")
-                this.updateCallback(pageScrollPosition, this.scrollStartOffset, this.scrollStopOffset);
+                this.updateCallback(this, pageScrollPosition, this.scrollStartOffset, this.scrollStopOffset);
         }
 
         // consider moving to static
         animate(pageScrollPosition) {
             this.animationPercentage = (pageScrollPosition - this.scrollStartOffset) / (this.scrollStopOffset - this.scrollStartOffset);
             this.animationValue = this.propertyInitialValue + ((this.propertyTargetValue - this.propertyInitialValue) * this.animationPercentage);
-            this.animationString = this.propertyTargetValue;
 
             if (this.lastAnimationValue != this.animationValue) {
 
@@ -90,13 +104,16 @@ window.addEventListener("DOMContentLoaded", event => {
                     case "scale":
                         this.container.style.transform = "scale(" + this.animationValue + ")";
                         break;
-
                 }
 
                 this.lastAnimationValue = this.animationValue;
             }
         }
     }
+
+    ElementAnimation.createdAnimations = {};
+    ElementAnimation.scrollFactor = 1.475; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
+    ElementAnimation.scrollDisabled = false;
 
     //end of class "animation"
 
@@ -132,25 +149,7 @@ window.addEventListener("DOMContentLoaded", event => {
     window.addEventListener("scroll", myScrollFunc2);
 
 
-    ElementAnimation.createdAnimations = {};
-    ElementAnimation.scrollFactor = 2; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
-    ElementAnimation.scrollDisabled = false;
 
-    /*
-    ElementAnimation.createdAnimations =
-    {
-        "element-identifier-1": {
-            "property-1": [ElementAnimation(), ElementAnimation()],
-            "property-2": [ElementAnimation(), ElementAnimation()]
-        },
-        "element-identifier-1": {
-            ...
-        }
-    }
-    */
-
-
-    // Page scroll animations
 
     new ElementAnimation("section-1", "opacity",
         // initial property at start of animation, target property at stop of animation
@@ -292,43 +291,43 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 885, 900);
 
-    //section 10
-    // new ElementAnimation("section-10", "opacity", 0, 1.0, 900, 920);
-    new ElementAnimation("section-10__background", "opacity", 0, 1.00, 900, 910);
-    // new ElementAnimation("section-10__total", "opacity", 0, 1.00, 900, 920);
-    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 920);
-    // new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 1200, 1300);
-    // new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 1200, 1300);
-    // new ElementAnimation("section-10__title", "margin-left", 50, 0, 1200, 1300);
-    // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
+    // //section 10
+    // // new ElementAnimation("section-10", "opacity", 0, 1.0, 900, 920);
+    // new ElementAnimation("section-10__background", "opacity", 0, 1.00, 900, 910);
+    // // new ElementAnimation("section-10__total", "opacity", 0, 1.00, 900, 920);
+    // new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 920);
+    // // new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 1200, 1300);
+    // // new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 1200, 1300);
+    // // new ElementAnimation("section-10__title", "margin-left", 50, 0, 1200, 1300);
+    // // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
+    // new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
-
-    new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
-    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
-    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
-    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1000, 1020);
-    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1000, 1020);
-    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1000, 1020);
-    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1000, 1020);
-    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1020);
-    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1000, 1020);
-    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
-    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
-    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
-
-
-    //exit opacity for total funds page
-
+    //
+    // new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
+    // new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
+    // new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
+    // new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1000, 1020);
+    // new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1000, 1020);
+    // new ElementAnimation("section-11__title", "margin-left", 50, 0, 1000, 1020);
+    // new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1000, 1020);
+    // new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1020);
+    // new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1000, 1020);
+    // new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
+    // new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
+    // new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
+    //
+    //
+    // //exit opacity for total funds page
+    //
     // new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
-
-
+    //
+    //
     new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1300);
     new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1300);
     new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1300);
     new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1200, 1300);
     new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 900, 920);
     new ElementAnimation("section-12__title", "margin-left", 50, 0, 1200, 1300);
     new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1300);
     new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1300);

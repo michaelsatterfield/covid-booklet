@@ -670,7 +670,7 @@
     </div>
 </section>
 
-<section class=" section-9">test</section>
+<section class="section-9">test</section>
 
 <section class="section-9__background">
     <div class="section-9__text-wrapper">
@@ -826,19 +826,19 @@
 
 </section>
 
-<section class="section-10">Test
-    <div class="section-10__background"><h1>Cars</h1></div>
-
-        <div class="section-10__total-wrapper">
-
-
-
-
-
-
-
-        </div>
-</section>
+<!--<section class="section-10">Test-->
+<!--    <div class="section-10__background"><h1>Cars</h1></div>-->
+<!---->
+<!--        <div class="section-10__total-wrapper">-->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!---->
+<!--        </div>-->
+<!--</section>-->
 
 <!--<section class="section-10">-->
 <!--    <div class="section-10__background"></div>-->
@@ -865,19 +865,19 @@
 <!---->
 
 
-<section class="section-11">
-
-    <div class="section-11__background"></div>
-    <div class="section-11__pretitle"></div>
-    <div class="section-11__title"></div>
-    <div class="section-11__text">
-<h1>section 11</h1>
-    </div>
-    <div class="section-11__bardetails">
-    </div>
-    <div class="section-11__note">
-    </div>
-</section>
+<!--<section class="section-11">-->
+<!---->
+<!--    <div class="section-11__background"></div>-->
+<!--    <div class="section-11__pretitle"></div>-->
+<!--    <div class="section-11__title"></div>-->
+<!--    <div class="section-11__text">-->
+<!--<h1>section 11</h1>-->
+<!--    </div>-->
+<!--    <div class="section-11__bardetails">-->
+<!--    </div>-->
+<!--    <div class="section-11__note">-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <section class="section-12">

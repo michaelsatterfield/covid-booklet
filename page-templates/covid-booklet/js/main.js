@@ -1,8 +1,16 @@
 window.addEventListener("DOMContentLoaded", event => {
-    // Revised animation structure
-    class ElementAnimation {
-        constructor(_identifier, _property, _propertyInitialValue, _propertyTargetValue, _scrollStartOffset, _scrollStopOffset, _updateCallback = undefined) {
 
+    // Revised animation structure
+    class ElementAnimation
+        //consturctor fires when the class is called
+    {
+        constructor(_identifier,
+                    _property,
+                    _propertyInitialValue,
+                    _propertyTargetValue,
+                    _scrollStartOffset,
+                    _scrollStopOffset,
+                    _updateCallback = undefined) {
             // Future update to accept hashed id attribute element identifiers
             // currently accepts only class
             this.identifier = _identifier;
@@ -12,12 +20,12 @@ window.addEventListener("DOMContentLoaded", event => {
             this.propertyTargetValue = _propertyTargetValue;
             this._scrollStartOffset = _scrollStartOffset;
             this._scrollStopOffset = _scrollStopOffset;
+
+            //height in pixels divided by 100
             this.scrollStartOffset = (_scrollStartOffset / 100) * window.innerHeight;
             this.scrollStopOffset = (_scrollStopOffset / 100) * window.innerHeight;
-            // update scroll-dummy-overlay if > overlay height document.getElementsByClassName("scroll-dummy-overlay")[0].style.height = (window.innerHeight * stop/100) + "px";
 
-            this.active = false;
-            this.complete = false;
+            // update scroll-dummy-overlay if > overlay height document.getElementsByClassName("scroll-dummy-overlay")[0].style.height = (window.innerHeight * stop/100) + "px";
             this.updateCallback = _updateCallback;
 
             this.animationPercentage = undefined; // For use in animate()
@@ -38,57 +46,34 @@ window.addEventListener("DOMContentLoaded", event => {
                 ((window.innerHeight * (1 + (getLastScrollAnimation()._scrollStopOffset / 100))) * ElementAnimation.scrollFactor) + "px"; // 1 + adds window height to scrollStopOffset percentage height. scrollStopOffset equally 2000 = 20 window heights or common slide height of (100 vh)
         }
 
-        setToActive() {
-            this.container.classList.remove("complete"); // setTimeout between class changes to allow for CSS animations or other setTimeouts? not necessary-- not yet...
-            this.complete = false;
-            this.container.classList.add("active");
-            this.active = true;
-        }
-
-        setToUnactive() {
-            this.container.classList.remove("active");
-            this.active = false;
-        }
-
-        setToComplete() {
-            this.container.classList.remove("active"); // setTimeout between class changes to allow for CSS animations or other setTimeouts? not necessary-- not yet...
-            this.active = false;
-            this.container.classList.add("complete");
-            this.complete = true;
-        }
-
         // Consider moving to static
-        update(pageScrollPosition, updateCallbacksOnly = false) {
+        update(pageScrollPosition) {
+            if (pageScrollPosition >= this.scrollStopOffset) {
+                this.container.classList.remove("active");
 
-            // If/what updates
-            if (updateCallbacksOnly == false) {
-                if (pageScrollPosition > this.scrollStopOffset) {
-                    this.setToComplete();
+                // may require a settimeout delay between active and completed for CSS animations
+                this.container.classList.add("completed");
+            } else {
+                // may require a settimeout delay between completed and active for CSS animations
+                if (pageScrollPosition >= this.scrollStartOffset) {
+                    this.container.classList.add("active");
+                    this.container.classList.remove("completed");
                 } else {
-                    // may require a settimeout delay between completed and active for CSS animations
-                    if (pageScrollPosition >= this.scrollStartOffset) {
-                        if (pageScrollPosition == this.scrollStopOffset)
-                            this.setToComplete();
-                        else
-                            this.setToActive();
-                    } else {
-                        if (this.active)
-                            this.setToUnactive();
-                    }
+                    this.container.classList.remove("active");
                 }
-
-                this.animate(pageScrollPosition);
             }
 
-            // Update callback function
+            this.animate(pageScrollPosition);
+
             if (typeof this.updateCallback == "function")
-                this.updateCallback(this, pageScrollPosition, this.scrollStartOffset, this.scrollStopOffset);
+                this.updateCallback(pageScrollPosition, this.scrollStartOffset, this.scrollStopOffset);
         }
 
         // consider moving to static
         animate(pageScrollPosition) {
             this.animationPercentage = (pageScrollPosition - this.scrollStartOffset) / (this.scrollStopOffset - this.scrollStartOffset);
             this.animationValue = this.propertyInitialValue + ((this.propertyTargetValue - this.propertyInitialValue) * this.animationPercentage);
+            this.animationString = this.propertyTargetValue;
 
             if (this.lastAnimationValue != this.animationValue) {
 
@@ -104,6 +89,8 @@ window.addEventListener("DOMContentLoaded", event => {
                     case "scale":
                         this.container.style.transform = "scale(" + this.animationValue + ")";
                         break;
+
+
                 }
 
                 this.lastAnimationValue = this.animationValue;
@@ -111,11 +98,12 @@ window.addEventListener("DOMContentLoaded", event => {
         }
     }
 
+    //end of class "animation"
+
     ElementAnimation.createdAnimations = {};
     ElementAnimation.scrollFactor = 1.475; // 1 normal scroll speed, 2 scrolling takes twice as long, 3 scrolling takes three times as long as normal
     ElementAnimation.scrollDisabled = false;
 
-    //end of class "animation"
 
 
 //get section-2a showing after scroll
@@ -277,7 +265,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-9", "opacity", 0.0, 1.00, 750, 760),
 
     new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
-    new ElementAnimation("section-9__background", "scale", 1.0, 0.0, 880, 890),
+    new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
 
     new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
 
@@ -285,55 +273,55 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
 
-    new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 825);
+    new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
 
-    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 820, 830),
+    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
 
-    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 885, 900);
+    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 
     // //section 10
-    // // new ElementAnimation("section-10", "opacity", 0, 1.0, 900, 920);
-    // new ElementAnimation("section-10__background", "opacity", 0, 1.00, 900, 910);
-    // // new ElementAnimation("section-10__total", "opacity", 0, 1.00, 900, 920);
-    // new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 920);
-    // // new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 1200, 1300);
-    // // new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 1200, 1300);
-    // // new ElementAnimation("section-10__title", "margin-left", 50, 0, 1200, 1300);
-    // // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
-    // new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
+    new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
+    new ElementAnimation("section-10__background", "opacity", 0, 1.00, 890, 900);
+
+    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 890, 900);
+    new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 900, 920);
+    new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 910, 920);
+    new ElementAnimation("section-10__title", "margin-left", 50, 0, 910, 930);
+    new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 930, 940);
+    new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
     //
-    // new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
-    // new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
-    // new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1000, 1020);
-    // new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__title", "margin-left", 50, 0, 1000, 1020);
-    // new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1020);
-    // new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
-    // new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
-    //
-    //
-    // //exit opacity for total funds page
-    //
-    // new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
-    //
-    //
-    new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1300);
-    new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1300);
-    new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1300);
-    new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 900, 920);
-    new ElementAnimation("section-12__title", "margin-left", 50, 0, 1200, 1300);
-    new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1300);
-    new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1300);
-    new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
+    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
+    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
+    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
+    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
+    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1020, 1030);
+    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1020, 1030);
+    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1020, 1030);
+    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1020, 1030);
+    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1020, 1030);
+    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1020, 1030);
+    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1020, 1030);
 
-    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1200, 1300);
+
+    //exit opacity for total funds page
+
+    new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
+    //
+    //
+    new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1210);
+    new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1210);
+    new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1210);
+    new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1200, 1210);
+    new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1200, 1210);
+    new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 1200, 1220);
+    new ElementAnimation("section-12__title", "margin-left", 50, 0, 1200, 1210);
+    new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1210);
+    new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1210);
+    new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1200, 1210);
+
+    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1290, 1300);
 
 
 
@@ -365,43 +353,47 @@ window.addEventListener("DOMContentLoaded", event => {
 
         return totalString;
     }
-
-
-    new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1300, 1320, function (sp, ssta, ssto) {
         updateBarCallback(7, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-6", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-6", "opacity", 0.0, 1.0, 1300, 1320, function (sp, ssta, ssto) {
         updateBarCallback(6, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-5", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-5", "opacity", 0.0, 1.0, 1350, 1360, function (sp, ssta, ssto) {
         updateBarCallback(5, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-4", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-4", "opacity", 0.0, 1.0, 1340, 1350, function (sp, ssta, ssto) {
         updateBarCallback(4, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-3", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-3", "opacity", 0.0, 1.0, 1330, 1340, function (sp, ssta, ssto) {
         updateBarCallback(3, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1320, 1330, function (sp, ssta, ssto) {
         updateBarCallback(2, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1320, function (thisele, sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1320, function (sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
-    new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1400, 1410)
-    new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1400, 1410);
-    new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1400, 1410);
-    new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1400, 1410);
-    new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1400, 1410);
-    new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1400, 1410);
-    new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1400, 1410);
-    new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1400, 1410);
+
+
+
+    // new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1410, function ( sp, ssta, ssto) {
+    //     updateBarCallback(1, sp, ssta, ssto);
+    // });
+    // new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1400, 1410)
+    // new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1400, 1410);
+    // new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1400, 1410);
+    // new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1400, 1410);
+    // new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1400, 1410);
+    // new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1400, 1410);
+    // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1400, 1410);
+    // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1400, 1410);
 
     new ElementAnimation("section-13__total", "opacity", 5.0, 0.0, 1400, 1410);
     new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1400, 1410, true);
@@ -420,7 +412,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    // new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
 
 
     new ElementAnimation("section-14__image", "scale", 0.95, 0.975, 1300, 1312);
@@ -858,42 +850,58 @@ window.addEventListener("DOMContentLoaded", event => {
         let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
         let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
         let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
+        var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00, 839742.44];
+        var barTotals = [0, 0, 0, 0, 0, 0, 0, 0];
+
+
+
 
         $(window).scroll(function () {
             let value = $(this).scrollTop();
-            let height = (Math.round((value/24.6) * 100) / 100).toFixed(0);;
-            console.log(height)
+            let height = (Math.round((value/24.6) * 100) / 100).toFixed(0);
+            console.log(value)
+
 
             //todo: adjust numbers after pie chart is set in its section
             switch (true) {
-                case value >= 19000 && value <= 19200:
+                case value >= 18500 && value <= 18600:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 18000 && value <= 18100:
+                case value >= 18600 && value <= 18700:
                     $(".pieClass").attr("src", p2)
+
                     console.log("p2")
                     break;
-                case value >= 19400 && value <= 19600:
+                case value >= 18700 && value <= 18800:
                     $(".pieClass").attr("src", p3);
+
                     break;
-                case value >= 19600 && value <= 19800:
+                case value >= 18800 && value <= 18900:
                     $(".pieClass").attr("src", p4);
+
                     break;
-                case value >= 19800 && value <= 20000:
+                case value >= 18900 && value <= 19000:
                     $(".pieClass").attr("src", p5);
+
                     break;
-                case value >= 20000 && value <= 20200:
+                case value >= 19000 && value <= 19100:
                     $(".pieClass").attr("src", p6);
+
                     break;
-                case value >= 20200 && value <= 20400:
+                case value >= 19100 && value <= 19200:
                     $(".pieClass").attr("src", p7);
+
+
                     break;
-                case value >= 20400 && value <= 20600:
+                case value >= 19200 && value <= 19300:
                     $(".pieClass").attr("src", p8);
                     break;
+
             }
         });
     });
+
+
 
 
 });

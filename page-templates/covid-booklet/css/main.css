@@ -40,26 +40,6 @@
 }
 
 
-/*::-webkit-scrollbar {*/
-/*    width: 10px;*/
-/*}*/
-
-/*::-webkit-scrollbar-thumb {*/
-/*    border-radius: 0px;*/
-/*    background: -webkit-gradient(linear,left top,left bottom,from(#ff8a00),to(#da1b60));*/
-/*    box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);}*/
-
-/*::-webkit-scrollbar-track {*/
-/*    background: #fff linear-gradient(to right, #201c29, #201c29 1px, rgba(16, 14, 23, 0.67) 1px, #100e17);*/
-/*}*/
-/*!* a {*!*/
-/*!*     pointer-events: none;*!*/
-/*!*     text-decoration: none;*!*/
-/*!*     font-weight: bold;*!*/
-/*!*     font-size: 15px;*!*/
-
-/*!*}*!*/
-
 h2.month-letter {
     padding-bottom: 5px;
 }
@@ -70,7 +50,7 @@ ul.timeline {
     list-style-type: none;
     position: absolute;
     right: 225px;
-    z-index: 1;
+    z-index: 90;
 
 }
 
@@ -87,7 +67,7 @@ ul.timeline:before {
     position: absolute;
     left: 37px;
     width: 2px;
-    height: 100%;
+    height: 140%;
     z-index: -1;
 }
 
@@ -106,7 +86,7 @@ ul.timeline > li:before {
     left: 20px;
     width: 30px;
     height: 30px;
-    z-index: 400;
+    z-index: 88;
     margin-left: 3px;
     padding-left: .3em;
     color: white;
@@ -129,7 +109,7 @@ a {
     border-radius: 15px;
     font-size: 8px;
     text-align: center;
-    z-index: 200;
+    z-index: 88;
     margin-left: 4px;
     background-color: goldenrod;
 }
@@ -735,7 +715,7 @@ section {
 /*}*/
 
 section.completed {
-    pointer-events: none ;
+    pointer-events: none !important;
 
 }
 
@@ -1092,10 +1072,9 @@ section.completed .button-next-slide-section-2 {
 }
 
 
-
 .section-4 {
     display: block;
-    z-index: 97;
+    z-index: 98;
     width: 100%;
     height: 100vh;
 }
@@ -1152,7 +1131,7 @@ section.completed .button-next-slide-section-2 {
 
 .section-5 {
     display: block;
-    z-index: 96;
+    z-index: 97;
     width: 100%;
     height: 100vh;
     background-color: #dfcebc;
@@ -1454,7 +1433,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-7 {
-    z-index: 94;
+    z-index: 95;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;
@@ -1493,7 +1472,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-8 {
-    z-index: 93;
+    z-index: 94;
     width: 100%;
     height: 100vh;
     margin-left: 0;
@@ -1525,7 +1504,7 @@ section.completed .button-next-slide-section-2 {
     /*position: relative;*/
     line-height: 1;
     color: #ffffff;
-    z-index: 93;
+    z-index: 94;
 }
 
 .section-8__title {
@@ -1641,28 +1620,21 @@ section.completed .button-next-slide-section-2 {
     cursor: pointer;
 }
 
-/*.section-9.completed{*/
-/*    opacity*/
-/*}*/
-.section-9_2 {
 
-
+.section-9 {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     z-index: 91;
     width: 100%;
     height: 100vh;
-}
-.section-9 {
-
 
 }
 
 .section-9__background {
 
 
-    z-index: 91;
+    z-index: 93;
     width: 100%;
     height: 100vh;
 }
@@ -1679,7 +1651,7 @@ section.completed .button-next-slide-section-2 {
     position: relative;
     font-family: Whitman-Roman, Arial, sans-serif;
     color: #85261E;
-    z-index: 91;
+    z-index: 93;
 }
 
 .section-9__pretitle {
@@ -1708,62 +1680,109 @@ section.completed .button-next-slide-section-2 {
     line-height: 41px;
 }
 
+.section-10__pretitle {
+    position: fixed;
+    top: 35%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    width: 457px;
+    font-family: Roboto-Regular, Aalri, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
 
+}
+
+.section-10__title {
+
+}
+
+section-10__text {
+
+}
 
 .section-10 {
-    z-index: 89;
+    z-index: 92;
     width: 100%;
     height: 100vh;
 }
 
 .section-10__background {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../images/cars.jpg");
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0)),
+    url("../images/cars.jpg");
 
-    background-position: bottom;
+
+    background-position: top;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    opacity: 0.5;
+
 }
 
 
-.section-11{
-    z-index: 88;
+.section-11 {
+    z-index: 91;
     width: 100%;
     height: 100vh;
-
-    background: #d02424;
+    background-color:#F4F4F4 ;
     -webkit-background-size: cover;
     background-size: cover
 }
+.section-11__title{
+    position: fixed;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 457px;
+    font-family: Roboto-Regular, Aalri, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #4A413A;
 
+}
 
 .section-12 {
-    z-index: 89;
+
+    position: fixed;
+    z-index: 90;
     width: 100%;
     height: 100vh;
-
-    background: #f4f4f4;
+    background: #266c87;
     -webkit-background-size: cover;
     background-size: cover
+}
+
+.section-12__text-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: white;
 }
 
 .section-12__title {
+   position: relative;
+    top: 22%;
+    left: 17%;
     font-size: 80px;
-}
 
-.section-12__image,
-.section-12__text-wrapper {
 
 }
 
-.section-12__image {
+.section-12__text {
 
+    position: relative;
+    top: 24%;
+    left: 28%;
+    font-size: 17px;
+  padding: 10px
 }
 
 
@@ -1820,14 +1839,13 @@ section.completed .button-next-slide-section-2 {
     pointer-events: none;
 }*/
 
-
 .section-13 {
-    z-index: 90;
+    z-index: 89;
     width: 100%;
     height: 100vh;
-    /*padding-top: 10em;*/
-
+    background: #f4f4f4;
 }
+
 
 .section-13__background {
     position: absolute;
@@ -1860,7 +1878,7 @@ section.completed .button-next-slide-section-2 {
 
 }
 
-.section-13__bars {
+.section-13__bar {
 
     position: relative;
     top: 1vh;
@@ -1941,18 +1959,6 @@ section.completed .button-next-slide-section-2 {
 
 }
 
-
-
-
-
-
-
-.section-13 {
-    z-index: 87;
-    width: 100%;
-    height: 100vh;
-    background: #f4f4f4;
-}
 
 .section-13__image,
 .section-13__text-wrapper {
@@ -2078,9 +2084,9 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-14 {
-    /*z-index: 86;*/
-    /*width: 100%;*/
-    /*height: 100vh;*/
+    z-index: 88;
+    width: 100%;
+    height: 100vh;
     background: #f4f4f4;
 }
 
@@ -2229,7 +2235,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-15 {
-    z-index: 85;
+    z-index: 87;
     width: 100%;
     height: 100vh;
     background: #f4f4f4;
@@ -2439,7 +2445,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-17 {
-    z-index: 4;
+    z-index: 83;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;
@@ -2478,7 +2484,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-18 {
-    z-index: 3;
+    z-index: 82;
     width: 100%;
     height: 100vh;
     margin-left: 0;
@@ -2621,7 +2627,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-19 {
-    z-index: 2;
+    z-index: 82;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;
@@ -2681,7 +2687,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-20 {
-    z-index: 1;
+    z-index: 80;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;
@@ -2855,7 +2861,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-21 {
-    z-index: 0;
+    z-index: 79;
     width: 100%;
     height: 100vh;
     background: #f4f4f4;
@@ -2937,7 +2943,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-22 {
-    z-index: -1;
+    z-index: 78;
     width: 100%;
     height: 100vh;
     background: #f4f4f4;
@@ -2995,7 +3001,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-23 {
-    z-index: -2;
+    z-index: 77;
     width: 100%;
     height: 100vh;
     background: #f4f4f4;
@@ -3165,7 +3171,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-24 {
-    z-index: -3;
+    z-index: 75;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;
@@ -3223,7 +3229,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-25 {
-    z-index: -4;
+    z-index: 74;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;

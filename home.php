@@ -670,7 +670,7 @@
     </div>
 </section>
 
-<section class="section-9">test</section>
+<section class="section-9"></section>
 
 <section class="section-9__background">
     <div class="section-9__text-wrapper">
@@ -764,7 +764,7 @@
                         </li>
 
                         <li class="c4">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">x</a>
+                            <a target="_blank" href="">x</a>
                             <a href="#" class="float-right">x</a>
                         </li>
 
@@ -779,7 +779,7 @@
                         </li>
 
                         <li class="c7">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">x</a>
+                            <a target="_blank" href="">x</a>
                             <a href="#" class="float-right">x</a>
                         </li>
 
@@ -826,19 +826,16 @@
 
 </section>
 
-<!--<section class="section-10">Test-->
-<!--    <div class="section-10__background"><h1>Cars</h1></div>-->
-<!---->
-<!--        <div class="section-10__total-wrapper">-->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!--        </div>-->
-<!--</section>-->
+<section class="section-10">
+    <div class="section-10__background"></div>
+    <div class="section-10__pretitle">April 9, 2020<span><br/><br></span>
+        10,000 cars line up for emergency food distribution at Traders Village in the midst of the economic crisis brought on by the COVID-19 pandemic.
+    </div>
+    <div class="section-10__title "></div>
+    <div class="section-10__text"></div>
+
+        <div class="section-10__total-wrapper"></div>
+</section>
 
 <!--<section class="section-10">-->
 <!--    <div class="section-10__background"></div>-->
@@ -865,19 +862,21 @@
 <!---->
 
 
-<!--<section class="section-11">-->
-<!---->
-<!--    <div class="section-11__background"></div>-->
-<!--    <div class="section-11__pretitle"></div>-->
-<!--    <div class="section-11__title"></div>-->
-<!--    <div class="section-11__text">-->
-<!--<h1>section 11</h1>-->
-<!--    </div>-->
-<!--    <div class="section-11__bardetails">-->
-<!--    </div>-->
-<!--    <div class="section-11__note">-->
-<!--    </div>-->
-<!--</section>-->
+<section class="section-11">
+
+    <div class="section-11__background"></div>
+    <div class="section-11__pretitle"></div>
+    <div class="section-11__title">“It would be hard to overstate the importance of nonprofits in our community.
+        By working alongside the City of San Antonio, local businesses, and residents, our nonprofits are a powerful
+        force for good, helping meet community needs, advancing equity and opportunities for all.”</div>
+    <div class="section-11__text">
+        <h1></h1>
+    </div>
+    <div class="section-11__bardetails">
+    </div>
+    <div class="section-11__note">
+    </div>
+</section>
 
 
 <section class="section-12">
@@ -887,9 +886,14 @@
     <div class="section-12__imageshorttext"></div>
     </div>
     <div class="section-12__text-wrapper">
-        <div class="section-12__title">Blue Mural Background</div>
-        <div class="section-12__text">
-        </div>
+        <div class="section-12__title">[ Stability in the time of chaos ]</div>
+        <p class="section-12__text">
+            There’s a reason why the San Antonio community, starting with city leadership,
+            looks<br> to the San Antonio Area Foundation for innovation and efficacy in local philanthropy.<br>
+            Whether it was immediately reopening childcare centers, enabling emergency cash<br>assistance,
+            or empowering nonprofits to continue their mission even in the darkest<br> of times, the Area Foundation was there,
+            responding to the crisis with a stabilizing <br>force that united the philanthropic and nonprofit sectors of our community.
+        </p>
     </div>
     <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a">
 
@@ -1041,7 +1045,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-15.jpg">
         <div class="section-15__imageshorttext">» San Antonio Oasis</div>
     </div>
-    <div class="section-14__text-wrapper">
+    <div class="section-15__text-wrapper">
         <div class="section-15__pretitle">Even when it feels</div>
         <div class="section-15__title">overwhelming to do<br>so.</div>
         <div class="section-15__text">

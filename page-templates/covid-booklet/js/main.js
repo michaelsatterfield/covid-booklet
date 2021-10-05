@@ -291,37 +291,37 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 885, 900);
 
-    // //section 10
-    // // new ElementAnimation("section-10", "opacity", 0, 1.0, 900, 920);
-    // new ElementAnimation("section-10__background", "opacity", 0, 1.00, 900, 910);
-    // // new ElementAnimation("section-10__total", "opacity", 0, 1.00, 900, 920);
-    // new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 920);
-    // // new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 1200, 1300);
-    // // new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 1200, 1300);
-    // // new ElementAnimation("section-10__title", "margin-left", 50, 0, 1200, 1300);
-    // // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
-    // new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
+    //section 10
+    // new ElementAnimation("section-10", "opacity", 0, 1.0, 900, 920);
+    new ElementAnimation("section-10__background", "opacity", 0, 1.00, 900, 910);
+    // new ElementAnimation("section-10__total", "opacity", 0, 1.00, 900, 920);
+    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 920);
+    // new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 1200, 1300);
+    // new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 1200, 1300);
+    // new ElementAnimation("section-10__title", "margin-left", 50, 0, 1200, 1300);
+    // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
-    //
-    // new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
-    // new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
-    // new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1000, 1020);
-    // new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__title", "margin-left", 50, 0, 1000, 1020);
-    // new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1020);
-    // new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
-    // new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
-    // new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
-    //
-    //
-    // //exit opacity for total funds page
-    //
-    // new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
-    //
-    //
+    
+    new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
+    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
+    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
+    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
+    
+    
+    //exit opacity for total funds page
+    
+    new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
+    
+    
     new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1300);
     new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1300);
     new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1300);

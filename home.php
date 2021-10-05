@@ -823,61 +823,45 @@
         <div class="section-9__stats-block"><span></span></div>
         <div class="section-9__stats-block"><span></span></div>
     </div>
-
 </section>
 
-<!--<section class="section-10">Test-->
-<!--    <div class="section-10__background"><h1>Cars</h1></div>-->
-<!---->
-<!--        <div class="section-10__total-wrapper">-->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!---->
-<!--        </div>-->
-<!--</section>-->
-
-<!--<section class="section-10">-->
-<!--    <div class="section-10__background"></div>-->
-<!--    <div class="section-10__total">-->
-<!--        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>-->
-<!--        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>-->
-<!---->
-<!--        <div class="section-10__bars">-->
-<!--            <div class="">-->
-<!--                <img class="pieClass"-->
-<!--                     src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png">-->
-<!--            </div>-->
-<!--            <div class="section-10__bar bar-1"></div>-->
-<!--            <div class="section-10__bar bar-2 "></div>-->
-<!--            <div class="section-10__bar bar-3"></div>-->
-<!--            <div class="section-10__bar bar-4"></div>-->
-<!--            <div class="section-10__bar bar-5"></div>-->
-<!--            <div class="section-10__bar bar-6"></div>-->
-<!--            <div class="section-10__bar bar-7"></div>-->
-<!--            <div class="section-10__bar bar-8"></div>-->
-<!--        </div>-->
-<!--</section>-->
-
-<!---->
+<section class="section-10">
+    <div class="section-10__background"></div>
+    <div class="section-10__total">
+        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
+        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
+        <div class="section-10__bars">
+            <div class="">
+                <img class="pieClass"
+                     src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png">
+            </div>
+            <div class="section-10__bar bar-1"></div>
+            <div class="section-10__bar bar-2 "></div>
+            <div class="section-10__bar bar-3"></div>
+            <div class="section-10__bar bar-4"></div>
+            <div class="section-10__bar bar-5"></div>
+            <div class="section-10__bar bar-6"></div>
+            <div class="section-10__bar bar-7"></div>
+            <div class="section-10__bar bar-8"></div>
+        </div>
+</section>
 
 
-<!--<section class="section-11">-->
-<!---->
-<!--    <div class="section-11__background"></div>-->
-<!--    <div class="section-11__pretitle"></div>-->
-<!--    <div class="section-11__title"></div>-->
-<!--    <div class="section-11__text">-->
-<!--<h1>section 11</h1>-->
-<!--    </div>-->
-<!--    <div class="section-11__bardetails">-->
-<!--    </div>-->
-<!--    <div class="section-11__note">-->
-<!--    </div>-->
-<!--</section>-->
+
+
+ <section class="section-11">
+
+    <div class="section-11__background"></div>
+    <div class="section-11__pretitle"></div>
+    <div class="section-11__title"></div>
+    <div class="section-11__text">
+<h1>section 11</h1>
+    </div>
+    <div class="section-11__bardetails">
+    </div>
+    <div class="section-11__note">
+    </div> 
+</section>
 
 
 <section class="section-12">
@@ -888,12 +872,9 @@
     </div>
     <div class="section-12__text-wrapper">
         <div class="section-12__title">Section 12</div>
-        <div class="section-12__text">
-        </div>
+        <div class="section-12__text"></div>
     </div>
-    <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a">
-
-    </div>
+    <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a"></div>
 </section>
 <section class="section-12a">
     <div class="section-12a__text">

@@ -827,25 +827,30 @@
 
 <section class="section-10">
     <div class="section-10__background"></div>
-    <div class="section-10__total">
-        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>
-        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
-        <div class="section-10__bars">
-            <div class="">
-                <img class="pieClass"
-                     src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png">
-            </div>
-            <div class="section-10__bar bar-1"></div>
-            <div class="section-10__bar bar-2 "></div>
-            <div class="section-10__bar bar-3"></div>
-            <div class="section-10__bar bar-4"></div>
-            <div class="section-10__bar bar-5"></div>
-            <div class="section-10__bar bar-6"></div>
-            <div class="section-10__bar bar-7"></div>
-            <div class="section-10__bar bar-8"></div>
-        </div>
+    <div class="section-10__pretitle">April 9, 2020<span><br/><br></span>
+        10,000 cars line up for emergency food distribution at Traders Village in the midst of the economic crisis brought on by the COVID-19 pandemic.
+    </div>
+    <div class="section-10__title "></div>
+    <div class="section-10__text"></div>
+
+    <div class="section-10__total-wrapper"></div>
 </section>
 
+</section>
+<section class="section-11">
+
+    <div class="section-11__background"></div>
+    <div class="section-11__pretitle"></div>
+    <div class="section-11__title">“It would be hard to overstate the importance of nonprofits in our community.
+        By working alongside the City of San Antonio, local businesses, and residents, our nonprofits are a powerful
+        force for good, helping meet community needs, advancing equity and opportunities for all.”</div>
+    <div class="section-11__text">
+        <h1></h1>
+    </div>
+    <div class="section-11__bardetails">
+    </div>
+    <div class="section-11__note">
+    </div>
 </section>
 
 
@@ -857,7 +862,7 @@
     </div>
     <div class="section-12__text-wrapper">
 
-        <div class="section-12__title">Section 12</div>
+        <div class="section-12__title"></div>
         <div class="section-12__text"></div>
 
         <div class="section-12__title">[ Stability in the time of chaos ]</div>
@@ -970,7 +975,7 @@
 </section>
 <section class="section-15a">
     <div class="section-15a__text-wrapper">
-        <div class="section-15a__text"> 
+        <div class="section-15a__text">
         </div>
         <div class="section-15a__text-shadow-after"></div>
     </div>
@@ -991,7 +996,7 @@
 </section>
 <section class="section-17">
     <div class="section-17__background"></div>
-    <div class="section-17__text">  
+    <div class="section-17__text">
     </div>
 </section>
 <section class="section-18">
@@ -1006,7 +1011,7 @@
 </section>
 <section class="section-18a">
     <div class="section-18a__text">
-        
+
     </div>
     <div class="section-18a__close" data-toggle=".section-18, .section-18a">
         <div class="icon icon-close">
@@ -1020,7 +1025,7 @@
     <div class="section-19__background"></div>
     <div class="section-19__pretitle"></div>
     <div class="section-19__title"><br></div>
-    <div class="section-19__text">   
+    <div class="section-19__text">
     </div>
 </section>
 <section class="section-20">

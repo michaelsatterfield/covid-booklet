@@ -291,7 +291,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
     new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
-    
+
     new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
     new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
     new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
@@ -304,13 +304,13 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
     new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
     new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
-    
-    
+
+
     //exit opacity for total funds page
-    
+
     new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
-    
-    
+
+
     new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1300);
     new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1300);
     new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1300);
@@ -333,20 +333,20 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 930, 940);
     new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
+    // //
+    // new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
+    // new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
+    // new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__title", "margin-left", 50, 0, 1020, 1030);
+    // new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__text", "margin-left", 50, 0, 1020, 1030);
+    // new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1020, 1030);
+    // new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__note", "margin-left", 75, 0, 1020, 1030);
     //
-    new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
-    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
-    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1020, 1030);
-    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1020, 1030);
-    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1020, 1030);
-    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1020, 1030);
-
 
     //exit opacity for total funds page
 
@@ -456,7 +456,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1400, 1410);
 
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1400, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);

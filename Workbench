@@ -1,0 +1,7 @@
+const Values = []
+
+function AddingValues(){
+    var InitValue = parseInt(document.querySelector("section-13__total-wrapper").textContent)
+    InitValue 
+}
+<!-- <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-15.jpg"> -->

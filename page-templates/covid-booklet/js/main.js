@@ -353,19 +353,19 @@ window.addEventListener("DOMContentLoaded", event => {
 
         return totalString;
     }
-    new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1300, 1320, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1380, 1390, function (sp, ssta, ssto) {
         updateBarCallback(7, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-6", "opacity", 0.0, 1.0, 1300, 1320, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-6", "opacity", 0.0, 1.0, 1370, 1380, function (sp, ssta, ssto) {
         updateBarCallback(6, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-5", "opacity", 0.0, 1.0, 1350, 1360, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-5", "opacity", 0.0, 1.0, 1360, 1370, function (sp, ssta, ssto) {
         updateBarCallback(5, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-4", "opacity", 0.0, 1.0, 1340, 1350, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-4", "opacity", 0.0, 1.0, 1340, 1360, function (sp, ssta, ssto) {
         updateBarCallback(4, sp, ssta, ssto);
     });
 
@@ -373,11 +373,11 @@ window.addEventListener("DOMContentLoaded", event => {
         updateBarCallback(3, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1320, 1330, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1310, 1330, function (sp, ssta, ssto) {
         updateBarCallback(2, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1320, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1310, function (sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
 
@@ -386,14 +386,14 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1410, function ( sp, ssta, ssto) {
     //     updateBarCallback(1, sp, ssta, ssto);
     // });
-    // new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1400, 1410)
-    // new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1400, 1410);
-    // new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1400, 1410);
-    // new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1400, 1410);
-    // new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1400, 1410);
-    // new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1400, 1410);
-    // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1400, 1410);
-    // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1400, 1410);
+    // new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1300, 1310)
+    // new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1300, 1310);
+    // new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1300, 1310);
+    // new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1300, 1310);
+    // new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1300, 1310);
+    // new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1300, 1310);
+    // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1300, 1310);
+    // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1300, 1310);
 
     new ElementAnimation("section-13__total", "opacity", 5.0, 0.0, 1400, 1410);
     new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1400, 1410, true);
@@ -412,7 +412,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1265, 1300);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1400, 1410);
 
 
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1400, 1412);
@@ -734,36 +734,36 @@ window.addEventListener("DOMContentLoaded", event => {
 
             //todo: adjust numbers after pie chart is set in its section
             switch (true) {
-                case value >= 18500 && value <= 18600:
+                case value >= 17200 && value <= 17400:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 18600 && value <= 18700:
+                case value >= 17200 && value <= 17450:
                     $(".pieClass").attr("src", p2)
 
                     console.log("p2")
                     break;
-                case value >= 18700 && value <= 18800:
+                case value >= 17450 && value <= 17600:
                     $(".pieClass").attr("src", p3);
 
                     break;
-                case value >= 18800 && value <= 18900:
+                case value >= 17600 && value <= 17750:
                     $(".pieClass").attr("src", p4);
 
                     break;
-                case value >= 18900 && value <= 19000:
+                case value >= 17750 && value <= 17900:
                     $(".pieClass").attr("src", p5);
 
                     break;
-                case value >= 19000 && value <= 19100:
+                case value >= 17900 && value <= 18050:
                     $(".pieClass").attr("src", p6);
 
                     break;
-                case value >= 19100 && value <= 19200:
+                case value >= 18050 && value <= 18250:
                     $(".pieClass").attr("src", p7);
 
 
                     break;
-                case value >= 19200 && value <= 19300:
+                case value >= 18250 && value <= 18400:
                     $(".pieClass").attr("src", p8);
                     break;
 

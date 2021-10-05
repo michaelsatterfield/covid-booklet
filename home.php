@@ -837,31 +837,6 @@
         <div class="section-10__total-wrapper"></div>
 </section>
 
-<!--<section class="section-10">-->
-<!--    <div class="section-10__background"></div>-->
-<!--    <div class="section-10__total">-->
-<!--        <div class="section-10__total-wrapper">$XX,XXX,XXX</div>-->
-<!--        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>-->
-<!---->
-<!--        <div class="section-10__bars">-->
-<!--            <div class="">-->
-<!--                <img class="pieClass"-->
-<!--                     src="http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png">-->
-<!--            </div>-->
-<!--            <div class="section-10__bar bar-1"></div>-->
-<!--            <div class="section-10__bar bar-2 "></div>-->
-<!--            <div class="section-10__bar bar-3"></div>-->
-<!--            <div class="section-10__bar bar-4"></div>-->
-<!--            <div class="section-10__bar bar-5"></div>-->
-<!--            <div class="section-10__bar bar-6"></div>-->
-<!--            <div class="section-10__bar bar-7"></div>-->
-<!--            <div class="section-10__bar bar-8"></div>-->
-<!--        </div>-->
-<!--</section>-->
-
-<!---->
-
-
 <section class="section-11">
 
     <div class="section-11__background"></div>
@@ -899,6 +874,8 @@
 
     </div>
 </section>
+
+
 <section class="section-12a">
     <div class="section-12a__text">
         <h3>Vital partnerships</h3>

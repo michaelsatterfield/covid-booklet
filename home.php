@@ -679,21 +679,20 @@
                 <div class="col-md-12 offset-md-3">
                     <ul class="timeline ">
 
-                        <button class="btn-circle btn-sm btn-secondary ml-1" type="button" data-bs-toggle="offcanvas"
+                        <button class="btn-circle btn-sm btn-secondary " type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                             <li class="c2">
                                 <h2 class="month-letter">M</h2>
-                                <!--                                <a href="#">M</a>-->
                             </li>
 
                         </button>
                         <div class="section-9__pretitle"></div>
                         <div class="section-9__title"></div>
                         <div class="section-9__subtitle"></div>
-                        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
+                        <div class="offcanvas offcanvas-start w-75 slide1" tabindex="-1" id="offcanvasExample"
                              aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Apri</h5>
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">March</h5>
                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                         aria-label="Close"></button>
                             </div>
@@ -716,27 +715,28 @@
                             </div>
                         </div>
 
-                        <li class="c1">
-                            <a target="_blank" href="https://www.totoprayogo.com/#">xx</a>
-                            <a href="#" class="float-right">xxx</a>
-
-                        </li>
+<!--                        <li class="c1">i</li>-->
 
 
-                        <button class="btn-circle btn-sm btn-secondary" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <button class="btn-circle btn-sm btn-secondary btn-A" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#april" aria-controls="offcanvasExample">
                             <li class="c2">
-                                <a href="#">M</a>
+                                <h2 class="month-letter">A</h2>
                             </li>
 
                         </button>
 
-                        <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
+                        <div class="offcanvas offcanvas-start w-75 slide1" tabindex="-1" id="april"
                              aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Apri</h5>
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">April</h5>
                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
+                                        aria-label="Close">
+                                    <li class="c2">
+                                        <a href="#">A</a>
+                                    </li>
+
+                                </button>
                             </div>
                             <div class="offcanvas-body">
                                 <div>
@@ -756,54 +756,16 @@
                                 </div>
                             </div>
                         </div>
-
-
-                        <li class="c3">
-                            <a href="#">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-
-                        <li class="c4">
-                            <a target="_blank" href="">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-
-                        <li class="c5">
-                            <a href="#">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-
-                        <li class=c6>
-                            <a href="#">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-
-                        <li class="c7">
-                            <a target="_blank" href="">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-
-                        <li class="c8">
-                            <a href="#">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-
-                        <li class="c9">
-                            <a href="#">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-                        <li class="c10">
-                            <a href="#">x</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-                        <li class="c11">
-                            <a href="#">Awesome Employers</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
-                        <li class="c12">
-                            <a href="#">Awesome Employers</a>
-                            <a href="#" class="float-right">x</a>
-                        </li>
+                        <li class="c3">x</li>
+                        <li class="c4">x</li>
+                        <li class="c5">x</li>
+                        <li class=c6>x</li>
+                        <li class="c7">x</li>
+                        <li class="c8">x</li>
+                        <li class="c9">x</li>
+                        <li class="c10">x</li>
+                        <li class="c11">x</li>
+                        <li class="c12">x</li>
                     </ul>
                 </div>
             </div>

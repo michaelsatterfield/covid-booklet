@@ -827,7 +827,7 @@
 </section>
 
 <section class="section-10">
-    <div class="section-10__background"></div>
+    <div class="section-10__background backgroundImg"></div>
     <div class="section-10__pretitle">April 9, 2020<span><br/><br></span>
         10,000 cars line up for emergency food distribution at Traders Village in the midst of the economic crisis brought on by the COVID-19 pandemic.
     </div>
@@ -952,13 +952,14 @@
     </div>
 </section>
 <section class="section-15">
-    <div class="section-15__image">
+    <div class="section-15__background backgroundImg"></div>
+    <div class="section-15__image"> </div>
         <div class="section-15__imageshorttext"></div>
-    </div>
+
     <div class="section-15__text-wrapper">
 
         <div class="section-15__pretitle"></div>
-        <div class="section-15__title">Section 15</div>
+        <div class="section-15__title"></div>
 
         <div class="section-15__text">
         </div>
@@ -990,19 +991,25 @@
     </div>
 </section>
 <section class="section-16">
-    <div class="section-16__background"></div>
-    <div class="section-16__pretitle"></div>
-    <div class="section-16__title">\</div>
+    <div class="section-16__background backgroundImg"></div>
+    <div class="section-16__title">A LIFELINE FOR THE COMMUNITY</div>
+    <div class="section-16__pretitle">
+        The San Antonio Area Foundation and the United Way<br>of San Antonio and Bexar County
+        launched the <br>COVID-19 Response Fund to provide immediate relief<br> to those most impacted
+        by the crisis.<br><br> The Fund was established with a set of priorities: the <br>economic impact of reduced/lost work,
+        the immediate needs of vulnerable populations, medical<br> information/support, fear and confusion about the <br>outbreak,
+        and resources for school-aged children.</div>
 </section>
 <section class="section-17">
-    <div class="section-17__background"></div>
+    <div class="section-17__background backgroundImg"></div>
     <div class="section-17__text">
+        YMCA Early Learning<br> Center at Haven for Hope
     </div>
 </section>
 <section class="section-18">
-    <div class="section-18__background"></div>
+    <div class="section-18__background backgroundImg"></div>
     <div class="section-18__text-wrapper">
-        <div class="section-18__title"></div>
+        <div class="section-18__title">Section 18 Map</div>
         <div class="section-18__subtitle"></div>
     </div>
     <div class="section-18__icon" data-toggle=".section-18, .section-18a"><span

@@ -434,25 +434,25 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1530, 1560);
     new ElementAnimation("section-16__title", "margin-left", 50, 0, 1530, 1560);
 
-    new ElementAnimation("section-16", "opacity", 1.0, 0.0, 1565, 1600);
+    new ElementAnimation("section-16", "opacity", 1.0, 0.0, 1580, 1600);
 
 
-    new ElementAnimation("section-17__background", "scale", 1.0, 1.05, 1465, 1700);
-    new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1650);
+    new ElementAnimation("section-17__background", "scale", 1.0, 1.05, 1600, 1610);
+    new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1630);
 
-    new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1665, 1700);
-
-
-    new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1715, 1745);
-    new ElementAnimation("section-18__title", "margin-left", 50, 0, 1720, 1750);
-    new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1750);
-    new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1720, 1750);
-    new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1720, 1750);
-
-    new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1765, 1800);
+    new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1690, 1700);
 
 
-    new ElementAnimation("section-19__background", "scale", 1.0, 1.05, 1765, 1900);
+    new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
+    new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
+    new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
+    new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
+    new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
+
+    new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
+
+
+    new ElementAnimation("section-19__background", "scale", 1.0, 1.05, 1800, 1810);
     new ElementAnimation("section-19__pretitle", "opacity", 0.0, 1.0, 1815, 1845);
     new ElementAnimation("section-19__pretitle", "margin-left", 50, 0, 1815, 1845);
     new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1820, 1850);

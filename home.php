@@ -807,9 +807,7 @@
                     </ul>
                 </div>
             </div>
-
         </div>
-
     </div>
 
     <div class="section-9__stats">
@@ -829,12 +827,13 @@
 <section class="section-10">
     <div class="section-10__background backgroundImg"></div>
     <div class="section-10__pretitle">April 9, 2020<span><br/><br></span>
-        10,000 cars line up for emergency food distribution at Traders Village in the midst of the economic crisis brought on by the COVID-19 pandemic.
+        10,000 cars line up for emergency food distribution at Traders Village in the midst of the economic crisis
+        brought on by the COVID-19 pandemic.
     </div>
     <div class="section-10__title "></div>
     <div class="section-10__text"></div>
 
-        <div class="section-10__total-wrapper"></div>
+    <div class="section-10__total-wrapper"></div>
 </section>
 
 <section class="section-11">
@@ -843,7 +842,8 @@
     <div class="section-11__pretitle"></div>
     <div class="section-11__title">“It would be hard to overstate the importance of nonprofits in our community.
         By working alongside the City of San Antonio, local businesses, and residents, our nonprofits are a powerful
-        force for good, helping meet community needs, advancing equity and opportunities for all.”</div>
+        force for good, helping meet community needs, advancing equity and opportunities for all.”
+    </div>
     <div class="section-11__text">
         <h1></h1>
     </div>
@@ -866,8 +866,10 @@
             There’s a reason why the San Antonio community, starting with city leadership,
             looks<br> to the San Antonio Area Foundation for innovation and efficacy in local philanthropy.<br>
             Whether it was immediately reopening childcare centers, enabling emergency cash<br>assistance,
-            or empowering nonprofits to continue their mission even in the darkest<br> of times, the Area Foundation was there,
-            responding to the crisis with a stabilizing <br>force that united the philanthropic and nonprofit sectors of our community.
+            or empowering nonprofits to continue their mission even in the darkest<br> of times, the Area Foundation was
+            there,
+            responding to the crisis with a stabilizing <br>force that united the philanthropic and nonprofit sectors of
+            our community.
         </p>
     </div>
     <div class="button-next-slide button-next-slide-section-12" data-toggle=".section-12, .section-12a">
@@ -924,7 +926,6 @@
 </section>
 
 
-
 <section class="section-13a">
     <div class="section-13a__text">
         <h3>Vital partnerships</h3>
@@ -953,8 +954,8 @@
 </section>
 <section class="section-15">
     <div class="section-15__background backgroundImg"></div>
-    <div class="section-15__image"> </div>
-        <div class="section-15__imageshorttext"></div>
+    <div class="section-15__image"></div>
+    <div class="section-15__imageshorttext"></div>
 
     <div class="section-15__text-wrapper">
 
@@ -974,38 +975,44 @@
         </button>
     </div>
 </section>
-<section class="section-15a">
-    <div class="section-15a__text-wrapper">
-        <div class="section-15a__text">
-        </div>
-        <div class="section-15a__text-shadow-after"></div>
-    </div>
-    <div class="button-next-slide button-back-section-15a" data-toggle=".section-15, .section-15a">
-        <button class="button button-arrow-yellow">
-            <div class="icon icon-close">
-                <svg>
-                    <use href="#icon-close-white"></use>
-                </svg>
-            </div>
-        </button>
-    </div>
-</section>
+
 <section class="section-16">
     <div class="section-16__background backgroundImg"></div>
     <div class="section-16__title">A LIFELINE FOR THE COMMUNITY</div>
     <div class="section-16__pretitle">
         The San Antonio Area Foundation and the United Way<br>of San Antonio and Bexar County
         launched the <br>COVID-19 Response Fund to provide immediate relief<br> to those most impacted
-        by the crisis.<br><br> The Fund was established with a set of priorities: the <br>economic impact of reduced/lost work,
-        the immediate needs of vulnerable populations, medical<br> information/support, fear and confusion about the <br>outbreak,
-        and resources for school-aged children.</div>
-</section>
-<section class="section-17">
-    <div class="section-17__background backgroundImg"></div>
-    <div class="section-17__text">
-        YMCA Early Learning<br> Center at Haven for Hope
+        by the crisis.<br><br> The Fund was established with a set of priorities: the <br>economic impact of
+        reduced/lost work,
+        the immediate needs of vulnerable populations, medical<br> information/support, fear and confusion about the
+        <br>outbreak,
+        and resources for school-aged children.
     </div>
 </section>
+
+<section class="section-17">
+    <div class="section-17__background backgroundImg"></div>
+        <div class="section-17__text-wrapper">
+            <div class="section-17__text">
+                YMCA Early Learning<br> Center at Haven for Hope
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="timeline-images">
+                <li class="img1">x</li>
+                <li class="img2">x</li>
+                <li class="img3">x</li>
+                <li class="img4">x</li>
+                <li class="img5">x</li>
+                <li class="img6">x</li>
+                <li class="img7">x</li>
+            </ul>
+        </div>
+
+</section>
+
+
 <section class="section-18">
     <div class="section-18__background backgroundImg"></div>
     <div class="section-18__text-wrapper">
@@ -1016,29 +1023,70 @@
                 class="section-18__icon__asterisk">*</span> <span class="section-18__icon__read-poem"></span>
     </div>
 </section>
-<section class="section-18a">
-    <div class="section-18a__text">
 
+
+<section class="section-19">
+    <div class="section-19__background backgroundImg"></div>
+
+    <div class="section-19__title title">[ Funding the </div>
+    <div class="section-19__text title"> frontline] </div>
+    <div class="section-19__pretitle">
+        As the pandemic raged, it was the nonprofit community who stood fast,<br>
+        keeping so many of our vulnerable friends and neighbors from falling<br>
+        further into crisis. We knew our role was to trust these organizations to <br>
+        deliver help quickly and effectively. Yet “trust based” doesn’t mean less<br>
+        accountability. The experts, our nonprofit leaders and their staffs, are<br>
+        more than willing to be held accountable – they’d just rather not get held <br>
+        back from the work they know how to get done.
     </div>
-    <div class="section-18a__close" data-toggle=".section-18, .section-18a">
-        <div class="icon icon-close">
-            <svg>
-                <use href="#icon-close-white"></use>
-            </svg>
+
+        <div class="section-19__links ">
+            <div class="" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasExample">
+            <h3>COVID-19 FUND GRANTEES</h3>
+            </div>
+        </div>
+
+<!--    off canvas click items bootstrap-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header light">
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h4>COVID-19 FUND GRANTEES</h4>
+            <br>
+            <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
+                Acts of Hope Center<br>
+                Adult & Teen Challenge of Texas<br>
+                Alamo Area Mutual Housing Association, Inc.<br>
+                Alamo Area Rape Crisis Center<br>
+                Alamo Center ENT, Inc.<br>
+                Alamo Colleges Foundation<br>
+                Alamo Resource Conservation & Development Area, Inc<br>
+                Alpha Home, Inc<br>
+                Alzheimer’s Disease and Related Disorders Association, Inc.<br>
+                American GI Forum – National Veterans Outreach Program<br>
+                American Indians in Texas at the Spanish Colonial Missions<br>
+                American Kidney Fund, Inc.<br>
+                American Red Cross<br>
+                Antioch Missionary Baptist Church<br>
+                Any Baby Can of San Antonio, Inc.<br>
+                Arc of San Antonio<br>
+                Arthur Nagel Community Clinic<br>
+                Artpace San Antonio<br>
+                Ascension DePaul Services<br>
+                Autism Service Center of San Antonio<br>
+                Autistic Treatment Center, Inc.
+
+            </h5>
         </div>
     </div>
 </section>
-<section class="section-19">
-    <div class="section-19__background"></div>
-    <div class="section-19__pretitle"></div>
-    <div class="section-19__title"><br></div>
-    <div class="section-19__text">
-    </div>
-</section>
 <section class="section-20">
-    <div class="section-20__background"></div>
+    <div class="section-20__background backgroundImg"></div>
     <div class="section-20__pretitle"></div>
-    <div class="section-20__title"><br></div>
+    <div class="section-20__title"> Will you help us
+        continue the battle?<br></div>
     <div class="section-20__text">
     </div>
     <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span></span>
@@ -1051,26 +1099,7 @@
         </button>
     </div>
 </section>
-<section class="section-20a">
-    <div class="section-20a__maincontent">
-        <div class="section-20a__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-20a.jpg" alt="">
-        </div>
-        <div class="section-20a__text-wrapper">
-            <div class="section-20a__text">
-            </div>
-            <div class="section-20a__text-shadow-after"></div>
-        </div>
-    </div>
-    <div class="section-20a__quoter">
-    </div>
-    <button class="button button-arrow-green button-prev-green-section-20a" data-toggle=".section-20, .section-20a">
-        <div class="icon icon-arrow">
-            <svg>
-                <use href="#icon-arrow-left"></use>
-            </svg>
-        </div>
-    </button>
+
 </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"

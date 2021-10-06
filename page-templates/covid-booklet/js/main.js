@@ -423,13 +423,13 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15__title", "margin-left", 50, 0, 1410, 1440);
     new ElementAnimation("section-15__text", "opacity", 0.0, 1.0, 1420, 1450);
     new ElementAnimation("section-15__text", "margin-left", 50, 0, 1420, 1450);
-    new ElementAnimation("button-next-slide-section-15", "opacity", 0.0, 1.0, 1430, 1450);
+    new ElementAnimation("button-next-slide-section-15", "opacity", 0.0, 1.0, 1440, 1450);
 
-    new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1465, 1500);
+    new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1490, 1500);
 
 
-    new ElementAnimation("section-16__background", "scale", 1.0, 1.05, 1465, 1700);
-    new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1515, 1545);
+    // new ElementAnimation("section-16__background", "scale", 1.0, 1.00, 1465, 1700);
+    new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "margin-left", 50, 0, 1515, 1545);
     new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1530, 1560);
     new ElementAnimation("section-16__title", "margin-left", 50, 0, 1530, 1560);
@@ -460,18 +460,21 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1825, 1855);
     new ElementAnimation("section-19__text", "margin-left", 50, 0, 1825, 1855);
 
-    new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1865, 1900);
+    new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1890, 1900);
 
 
-    new ElementAnimation("section-20__background", "scale", 1.0, 1.05, 1865, 2000);
-    new ElementAnimation("section-20__pretitle", "opacity", 0.0, 1.0, 1901, 1930);
-    new ElementAnimation("section-20__pretitle", "margin-left", 50, 0, 1900, 1930);
-    new ElementAnimation("section-20__title", "opacity", 0.0, 1.0, 1905, 1935);
-    new ElementAnimation("section-20__title", "margin-left", 50, 0, 1905, 1935);
-    new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1940);
-    new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1940);
+    new ElementAnimation("section-20__background", "scale", 1.0, 1.05, 1900, 1910);
+    new ElementAnimation("section-20__pretitle", "opacity", 0.0, 1.0, 1901, 1910);
+    new ElementAnimation("section-20__pretitle", "margin-left", 50, 0, 1900, 1910);
+    new ElementAnimation("section-20__title", "opacity", 0.0, 1.0, 1905, 1910);
 
-    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 1965, 2000);
+    new ElementAnimation("section-20__title", "margin-left", 50, 0, 1905, 1915);
+    new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1920);
+    new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1920);
+
+    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2000, 2010);
+
+
 
     ElementAnimation.setScrollDummyHeight();
 
@@ -717,19 +720,10 @@ window.addEventListener("DOMContentLoaded", event => {
         let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
         let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
         let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
-        var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00, 839742.44];
-        var barTotals = [0, 0, 0, 0, 0, 0, 0, 0];
-
-
-
 
         $(window).scroll(function () {
             let value = $(this).scrollTop();
-            let height = (Math.round((value/24.6) * 100) / 100).toFixed(0);
             console.log(value)
-
-
-            //todo: adjust numbers after pie chart is set in its section
             switch (true) {
                 case value >= 17200 && value <= 17400:
                     $(".pieClass").attr("src", p1);
@@ -766,6 +760,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
             }
         });
+
     });
 
 

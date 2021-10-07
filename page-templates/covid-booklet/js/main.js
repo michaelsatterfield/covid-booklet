@@ -111,8 +111,9 @@ window.addEventListener("DOMContentLoaded", event => {
 
     let myScrollFunc = () => {
         let y = window.scrollY;
-        if (y >= 3500) {
+        if (y >= 2800) {
             myID.className = "bottomMenu show"
+            console.log("2a")
 
         } else {
             myID.className = "bottomMenu hide"
@@ -324,7 +325,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
 
 
-    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1300, 1310);
+    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1310);
     new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1300, 1310);
 
 
@@ -392,7 +393,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1300, 1310);
     // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1300, 1310);
 
-    new ElementAnimation("section-13__total", "opacity", 5.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13__total", "opacity", 1.0, 0.0, 1400, 1410);
     new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1400, 1410, true);
 
     new ElementAnimation("section-13", "opacity", 5.0, 0.0, 1400, 1410);
@@ -409,14 +410,14 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1410, 1420);
 
 
-    new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1400, 1412);
+    new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
-    new ElementAnimation("section-15__image", "margin-left", -60, 0, 1400, 1410);
-    new ElementAnimation("section-15__image", "opacity", 0.0, 1.0, 1400, 1415);
-    new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1400, 1470);
+    new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
+    new ElementAnimation("section-15__image", "opacity", 0.0, 1.0, 1410, 1415);
+    new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
     new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
     new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
     new ElementAnimation("section-15__title", "opacity", 0.0, 1.0, 1410, 1440);
@@ -725,36 +726,36 @@ window.addEventListener("DOMContentLoaded", event => {
             let value = $(this).scrollTop();
             console.log(value)
             switch (true) {
-                case value >= 17200 && value <= 17400:
+                case value >= 15300 && value <= 15500:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 17200 && value <= 17450:
+                case value >= 15500 && value <= 15700:
                     $(".pieClass").attr("src", p2)
 
                     console.log("p2")
                     break;
-                case value >= 17450 && value <= 17600:
+                case value >= 15700 && value <= 15800:
                     $(".pieClass").attr("src", p3);
 
                     break;
-                case value >= 17600 && value <= 17750:
+                case value >= 15700 && value <= 15900:
                     $(".pieClass").attr("src", p4);
 
                     break;
-                case value >= 17750 && value <= 17900:
+                case value >= 15900 && value <= 16100:
                     $(".pieClass").attr("src", p5);
 
                     break;
-                case value >= 17900 && value <= 18050:
+                case value >= 16100 && value <= 16300:
                     $(".pieClass").attr("src", p6);
 
                     break;
-                case value >= 18050 && value <= 18250:
+                case value >= 16300 && value <= 16500:
                     $(".pieClass").attr("src", p7);
 
 
                     break;
-                case value >= 18250 && value <= 18400:
+                case value >= 16500 && value <= 16700:
                     $(".pieClass").attr("src", p8);
                     break;
 

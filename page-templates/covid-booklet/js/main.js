@@ -707,6 +707,15 @@ window.addEventListener("DOMContentLoaded", event => {
         return -c / 2 * (t * (t - 2) - 1) + b;
     };
 
+
+
+
+
+
+
+
+
+
     // all custom jQuery will go here
 
     jQuery(document).ready(function ($) {
@@ -761,15 +770,74 @@ window.addEventListener("DOMContentLoaded", event => {
             }
         });
 
-        //toggle backgrounds for section 17
-        $(".img1").click(function(){
-            $('.section-17__background').toggleClass("section-17a__background")
-            console.log("click img1")//you can list several class names
+    $('.bg').click(function(){
+        switch(true) {
+            case $('.img1').hasClass('backgroundImg'):
+                $(".section-16__background").toggleClass('section-18__background');
+                console.log("j1")
+                break;
+            case $('.img2').hasClass('backgroundImg'):
+                $(".section-16__background").toggleClass('section-18__background');
+                console.log("j2")
+                break;
+        }
+    })
+
+
+        $(".timeline-images .bg ").click(function() {
+
+            $('.backgroundImg').not(this).removeClass('backgroundImg');
+            $(this).toggleClass('backgroundImg');
+
+
+            if ($(this).hasClass('backgroundImg')){
+                var section = $(this).attr('id');
+                $("#bg").children().addClass('d-none');
+                //important d-non for other classes
+                $(".section-" + section + "__background backgroundImg").toggleClass('backgroundImg');
+            }
+            else {
+                $("#bg").children().removeClass('d-none');
+            }
         });
-        $(".img2").click(function(){
-            $('.section-17__background').toggleClass("section-16__background")
-            console.log("click img1")//you can list several class names
+
+
+
+        // $(".bg").click(function() {
+        //     $('.active').not(this).removeClass('active');
+        //     $(this).toggleClass('active');
+        //     if ($(this).hasClass('active')){
+        //         var color = $(this).attr('id');
+        //         $("#16").children().addClass('d-none');
+        //         $("." + color + "-marker").toggleClass('d-none');
+        //     }
+        //     else {
+        //         $("#16").children().removeClass('d-none');
+        //     }
+        // });
+
+
+        // $(".img1").click(function(){
+        //     $('.section-17__background').removeClass('section-17__background');
+        //     $(this).addClass("section-17a__background")
+        //     console.log("click img1")//you can list several class names
+        // });
+
+        //
+        //
+        //
+        // $(".img2").click(function(){
+        //     $('.section-17__background').toggleClass("section-16__background")
+        //     console.log("click img1")//you can list several class names
         });
+        // $(".img3").click(function(){
+        //     $('.section-17__background').toggleClass("section-14__background")
+        //     console.log("click img2")//you can list several class names
+        // });
+        // $(".img4").click(function(){
+        //     $('.section-17__background').toggleClass("section-15__background")
+        //     console.log("click img3")//you can list several class names
+        // });
 
 
         //works but doesnt return
@@ -783,7 +851,7 @@ window.addEventListener("DOMContentLoaded", event => {
         //     console.log("click img1")//you can list several class names
         // });
 
-    });
+    // });
 
 
 

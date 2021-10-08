@@ -2505,7 +2505,9 @@ ul.timeline-images > li.img7:before {
     background-color: red;
 }
 
-
+.d-none {
+    visibility:hidden!important
+}
 
 .section-18 {
     z-index: 82;

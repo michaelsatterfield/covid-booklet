@@ -280,6 +280,49 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 
+
+    //section 10
+    // new ElementAnimation("section-10", "opacity", 0, 1.0, 900, 920);
+    new ElementAnimation("section-10__background", "opacity", 0, 1.00, 900, 910);
+    // new ElementAnimation("section-10__total", "opacity", 0, 1.00, 900, 920);
+    new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 900, 920);
+    // new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 1200, 1300);
+    // new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 1200, 1300);
+    // new ElementAnimation("section-10__title", "margin-left", 50, 0, 1200, 1300);
+    // new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
+
+
+    new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1000, 1010);
+    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1000, 1020);
+    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1000, 1020);
+    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1000, 1020);
+    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1000, 1020);
+    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1000, 1020);
+
+
+    //exit opacity for total funds page
+
+    new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
+
+
+    new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1300);
+    new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1300);
+    new ElementAnimation("section-12__image", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__imageshorttext", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__title", "opacity", 0.0, 1.0, 900, 920);
+    new ElementAnimation("section-12__title", "margin-left", 50, 0, 1200, 1300);
+    new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1300);
+    new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1200, 1300);
+
     // //section 10
     new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
     new ElementAnimation("section-10__background", "opacity", 0, 1.00, 890, 900);
@@ -291,19 +334,22 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-10__text", "opacity", 0.0, 1.0, 930, 940);
     new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
+    // //
+    // new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
+    // new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
+    // new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__title", "margin-left", 50, 0, 1020, 1030);
+    // new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__text", "margin-left", 50, 0, 1020, 1030);
+    // new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1020, 1030);
+    // new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11__note", "margin-left", 75, 0, 1020, 1030);
     //
-    new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
-    new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
-    new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__title", "margin-left", 50, 0, 1020, 1030);
-    new ElementAnimation("section-11__text", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__text", "margin-left", 50, 0, 1020, 1030);
-    new ElementAnimation("section-11__bardetails", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__bardetails", "margin-left", 75, 0, 1020, 1030);
-    new ElementAnimation("section-11__note", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__note", "margin-left", 75, 0, 1020, 1030);
+
+    //exit opacity for total funds page
 
     new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
     //
@@ -318,6 +364,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1210);
     new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1210);
     new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1200, 1210);
+
 
     new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1290, 1300);
 
@@ -410,10 +457,9 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1410, 1420);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1400, 1410);
 
-
-    new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
+    new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1400, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
     new ElementAnimation("section-15__image", "opacity", 0.0, 1.0, 1410, 1415);
@@ -461,21 +507,18 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1825, 1855);
     new ElementAnimation("section-19__text", "margin-left", 50, 0, 1825, 1855);
 
-    new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1890, 1900);
+    new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1865, 1900);
 
 
-    new ElementAnimation("section-20__background", "scale", 1.0, 1.05, 1900, 1910);
-    new ElementAnimation("section-20__pretitle", "opacity", 0.0, 1.0, 1901, 1910);
-    new ElementAnimation("section-20__pretitle", "margin-left", 50, 0, 1900, 1910);
-    new ElementAnimation("section-20__title", "opacity", 0.0, 1.0, 1905, 1910);
+    new ElementAnimation("section-20__background", "scale", 1.0, 1.05, 1865, 2000);
+    new ElementAnimation("section-20__pretitle", "opacity", 0.0, 1.0, 1901, 1930);
+    new ElementAnimation("section-20__pretitle", "margin-left", 50, 0, 1900, 1930);
+    new ElementAnimation("section-20__title", "opacity", 0.0, 1.0, 1905, 1935);
+    new ElementAnimation("section-20__title", "margin-left", 50, 0, 1905, 1935);
+    new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1940);
+    new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1940);
 
-    new ElementAnimation("section-20__title", "margin-left", 50, 0, 1905, 1915);
-    new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1920);
-    new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1920);
-
-    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2000, 2010);
-
-
+    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 1965, 2000);
 
     ElementAnimation.setScrollDummyHeight();
 
@@ -768,8 +811,3 @@ window.addEventListener("DOMContentLoaded", event => {
 
 
 });
-
-
-
-
-

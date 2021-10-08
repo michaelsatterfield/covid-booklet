@@ -939,20 +939,18 @@
         </button>
     </div>
 </section>
-<section class="section-15a">
-    <div class="section-15a__text-wrapper">
-        <div class="section-15a__text">
-        </div>
-        <div class="section-15a__text-shadow-after"></div>
-    </div>
-    <div class="button-next-slide button-back-section-15a" data-toggle=".section-15, .section-15a">
-        <button class="button button-arrow-yellow">
-            <div class="icon icon-close">
-                <svg>
-                    <use href="#icon-close-white"></use>
-                </svg>
-            </div>
-        </button>
+
+<section class="section-16" id="16">
+    <div class="section-16__background backgroundImg"></div>
+    <div class="section-16__title">A LIFELINE FOR THE COMMUNITY</div>
+    <div class="section-16__pretitle">
+        The San Antonio Area Foundation and the United Way<br>of San Antonio and Bexar County
+        launched the <br>COVID-19 Response Fund to provide immediate relief<br> to those most impacted
+        by the crisis.<br><br> The Fund was established with a set of priorities: the <br>economic impact of
+        reduced/lost work,
+        the immediate needs of vulnerable populations, medical<br> information/support, fear and confusion about the
+        <br>outbreak,
+        and resources for school-aged children.
     </div>
 </section>
 <section class="section-16">
@@ -962,10 +960,42 @@
 </section>
 
 <section class="section-17">
-    <div class="section-17__background"></div>
-    <div class="section-17__text">
+    <div class="section-17__background backgroundImg"></div>
+        <div class="section-17__text-wrapper">
+            <div class="section-17__text">
+                YMCA Early Learning<br> Center at Haven for Hope
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="timeline-images">
+                <li class="img1"><a href="#16" data-toggle="tab">x</a></li>
+                <li class="img2"><a href="#17" data-toggle="tab">x</a></li>
+                <li class="img3"><a href="#16" data-toggle="tab">x</a></li>
+                <li class="img4"><a href="#16" data-toggle="tab">x</a></li>
+                <li class="img5"><a href="#16" data-togge="tab">x</a></li>
+                <li class="img6">x</li>
+                <li class="img7">x</li>
+            </ul>
+        </div>
+</section>
+
+<section class="section-17a" id="17">
+    <div class="section-17a__background backgroundImg">Test 17a</div>
+    <div class="section-17a__text-wrapper">
+        <div class="section-__title">Section 18 Map</div>
+        <div class="section-18__subtitle"></div>
     </div>
 </section>
+
+
+
+
+
+
+
+
+
 
 
 <section class="section-18">

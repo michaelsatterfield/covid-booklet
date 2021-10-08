@@ -805,6 +805,28 @@ window.addEventListener("DOMContentLoaded", event => {
             }
         });
 
+        //toggle backgrounds for section 17
+        $(".img1").click(function(){
+            $('.section-17__background').toggleClass("section-17a__background")
+            console.log("click img1")//you can list several class names
+        });
+        $(".img2").click(function(){
+            $('.section-17__background').toggleClass("section-16__background")
+            console.log("click img1")//you can list several class names
+        });
+
+
+        //works but doesnt return
+        // $(".img1").click(function(){
+        //     $('.section-17__background').attr("class","section-17a__background ")
+        //     console.log("switch classes")//you can list several class names
+        // });
+
+        // $(".img1").click(function(){
+        //     $(this).toggleClass("section-17a__background").removeClass("section-17__background backgroundImg");
+        //     console.log("click img1")//you can list several class names
+        // });
+
     });
 
 

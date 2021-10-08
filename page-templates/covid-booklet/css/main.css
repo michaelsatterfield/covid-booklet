@@ -2385,10 +2385,10 @@ section-10__text {
 }
 
 .section-17__background {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
-    background-image: url(../images/section-17-ymca.jpg);
+    /*height: 100%;*/
+    /*background-image: url(../images/section-17-ymca.jpg);*/
 }
 
 
@@ -2501,7 +2501,12 @@ ul.timeline-images > li.img7:before {
     background-size: cover;
 }
 
-z
+.section-17a__background{
+    background-color: red;
+}
+
+
+
 .section-18 {
     z-index: 82;
     width: 100%;

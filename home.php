@@ -938,7 +938,7 @@
     </div>
 </section>
 
-<section class="section-16">
+<section class="section-16" id="16">
     <div class="section-16__background backgroundImg"></div>
     <div class="section-16__title">A LIFELINE FOR THE COMMUNITY</div>
     <div class="section-16__pretitle">
@@ -962,17 +962,33 @@
     <div class="row">
         <div class="col-md-12">
             <ul class="timeline-images">
-                <li class="img1">x</li>
-                <li class="img2">x</li>
-                <li class="img3">x</li>
-                <li class="img4">x</li>
-                <li class="img5">x</li>
+                <li class="img1"><a href="#16" data-toggle="tab">x</a></li>
+                <li class="img2"><a href="#17" data-toggle="tab">x</a></li>
+                <li class="img3"><a href="#16" data-toggle="tab">x</a></li>
+                <li class="img4"><a href="#16" data-toggle="tab">x</a></li>
+                <li class="img5"><a href="#16" data-togge="tab">x</a></li>
                 <li class="img6">x</li>
                 <li class="img7">x</li>
             </ul>
         </div>
-
 </section>
+
+<section class="section-17a" id="17">
+    <div class="section-17a__background backgroundImg">Test 17a</div>
+    <div class="section-17a__text-wrapper">
+        <div class="section-__title">Section 18 Map</div>
+        <div class="section-18__subtitle"></div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
 
 
 <section class="section-18">

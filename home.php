@@ -955,8 +955,8 @@
 <section class="section-17" >
 
     <div id="bg">
-        <div class="section-17__background backgroundImg"></div>
-        <div class="section-16__background backgroundImg"></div>
+        <div class="section-17__background backgroundImg" id="s17"></div>
+        <div class="section-16__background backgroundImg" id="s18"></div>
     </div>
 
         <div class="section-17__text-wrapper">

@@ -771,7 +771,7 @@ window.addEventListener("DOMContentLoaded", event => {
         });
 
 
-
+    //
     // $('.bg').click(function(){
     //     switch(true) {
     //         case $('.img1').hasClass('backgroundImg'):
@@ -784,6 +784,18 @@ window.addEventListener("DOMContentLoaded", event => {
     //             break;
     //     }
     // })
+        $('.bg').click(function(){
+            switch(true) {
+                case $('#s17').hasClass('bg'):
+                    $(".section-16__background").addClass('section-18__background');
+                    console.log("#s17")
+                    break;
+                case $('#s18').hasClass('bg'):
+                    $('.section-17__background').toggleClass('section-3__background');
+                    console.log("j2")
+                    break;
+            }
+        })
 
 
         $(".timeline-images .bg ").click(function() {
@@ -796,17 +808,26 @@ window.addEventListener("DOMContentLoaded", event => {
                 let section = $(this).attr('id');
                 $(".backgroundImg").addClass('d-none');
                 //important d-non for other classes
+                $(".section-" + section + "__background").toggleClass('bg');
                 //add case switch here to change class based on id of 'bg' clicked
                 //if clicked on #16 show background 16 etc for each 'bg' case
 
 
-                $(".section-" + section + "__background").toggleClass('backgroundImg');
+                    // switch(true) {
+                    //     case $('.section-16__background').hasClass('bg'):
+                    //         $(".section-16__background").toggleClass('section-18__background');
+                    //         console.log("j1")
+                    //         break;
+                    //     case $('.img2').hasClass('backgroundImg'):
+                    //         $(".section-16__background").toggleClass('section-18__background');
+                    //         console.log("j2")
+                    //         break;
+                    // }
             }
             else {
                 $("#bg").children().removeClass('d-none');
             }
         });
-
 
 
         // $(".bg").click(function() {

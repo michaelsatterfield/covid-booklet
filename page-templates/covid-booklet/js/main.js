@@ -784,50 +784,54 @@ window.addEventListener("DOMContentLoaded", event => {
     //             break;
     //     }
     // })
-        $('.bg').click(function(){
-            switch(true) {
-                case $('#s17').hasClass('bg'):
-                    $(".section-16__background").addClass('section-18__background');
-                    console.log("#s17")
-                    break;
-                case $('#s18').hasClass('bg'):
-                    $('.section-17__background').toggleClass('section-3__background');
-                    console.log("j2")
-                    break;
-            }
-        })
+    //     $('.bg').click(function(){
+    //         switch(true) {
+    //             case $('#s17').hasClass('bg'):
+    //                 $(".section-16__background").addClass('section-18__background');
+    //                 console.log("#s17")
+    //                 break;
+    //             case $('#s18').hasClass('bg'):
+    //                 $('.section-17__background').toggleClass('section-3__background');
+    //                 console.log("j2")
+    //                 break;
+    //         }
+    //     })
+    //
+    //
+    //     $(".timeline-images .bg ").click(function() {
+    //
+    //         $('.bg').not(this).removeClass('bg');
+    //         $(this).toggleClass('bg');
+    //
+    //
+    //         if ($(this).hasClass('bg')){
+    //             let section = $(this).attr('id');
+    //             $(".backgroundImg").addClass('d-none');
+    //             //important d-non for other classes
+    //             $(".section-" + section + "__background").toggleClass('bg');
+    //             //add case switch here to change class based on id of 'bg' clicked
+    //             //if clicked on #16 show background 16 etc for each 'bg' case
+    //
+    //
+    //                 // switch(true) {
+    //                 //     case $('.section-16__background').hasClass('bg'):
+    //                 //         $(".section-16__background").toggleClass('section-18__background');
+    //                 //         console.log("j1")
+    //                 //         break;
+    //                 //     case $('.img2').hasClass('backgroundImg'):
+    //                 //         $(".section-16__background").toggleClass('section-18__background');
+    //                 //         console.log("j2")
+    //                 //         break;
+    //                 // }
+    //         }
+    //         else {
+    //             $("#bg").children().removeClass('d-none');
+    //         }
+    //     });
 
 
-        $(".timeline-images .bg ").click(function() {
-
-            $('.bg').not(this).removeClass('bg');
-            $(this).toggleClass('bg');
 
 
-            if ($(this).hasClass('bg')){
-                let section = $(this).attr('id');
-                $(".backgroundImg").addClass('d-none');
-                //important d-non for other classes
-                $(".section-" + section + "__background").toggleClass('bg');
-                //add case switch here to change class based on id of 'bg' clicked
-                //if clicked on #16 show background 16 etc for each 'bg' case
-
-
-                    // switch(true) {
-                    //     case $('.section-16__background').hasClass('bg'):
-                    //         $(".section-16__background").toggleClass('section-18__background');
-                    //         console.log("j1")
-                    //         break;
-                    //     case $('.img2').hasClass('backgroundImg'):
-                    //         $(".section-16__background").toggleClass('section-18__background');
-                    //         console.log("j2")
-                    //         break;
-                    // }
-            }
-            else {
-                $("#bg").children().removeClass('d-none');
-            }
-        });
 
 
         // $(".bg").click(function() {

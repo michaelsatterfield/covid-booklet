@@ -955,8 +955,8 @@
 <section class="section-17" >
 
     <div id="bg">
-        <div class="section-17__background backgroundImg" id="14"></div>
-        <div class="section-16__background backgroundImg" id="18"></div>
+        <div class="section-17__background backgroundImg"></div>
+        <div class="section-16__background backgroundImg"></div>
     </div>
 
         <div class="section-17__text-wrapper">
@@ -967,10 +967,10 @@
     <div class="row">
         <div class="col-md-12" >
             <ul class="timeline-images">
-                <li class="img1 bg">x</li>
-                <li class="img2 bg">x</li>
-                <li class="img3 bg">x</li>
-                <li class="img4 bg">x</li>
+                <li class="img1 bg" id="16">x</li>
+                <li class="img2 bg" id="17">x</li>
+                <li class="img3 bg" id="17">x</li>
+                <li class="img4 bg" id="18">x</li>
                 <li class="img5 bg">x</li>
                 <li class="img6 bg">x</li>
                 <li class="img7 bg">x</li>

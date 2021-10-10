@@ -955,8 +955,8 @@
 <section class="section-17" >
 
     <div id="bg">
-        <div class="section-17__background backgroundImg" id="14"></div>
-        <div class="section-16__background backgroundImg" id="18"></div>
+        <div class="section-17__background backgroundImg" id="s17"></div>
+        <div class="section-16__background backgroundImg" id="s18"></div>
     </div>
 
         <div class="section-17__text-wrapper">
@@ -965,16 +965,35 @@
             </div>
         </div>
     <div class="row">
-        <div class="col-md-12" >
+        <div class="col-md-12 nav nav-tabs" id="myTab" >
             <ul class="timeline-images">
-                <li class="img1 bg">x</li>
-                <li class="img2 bg">x</li>
-                <li class="img3 bg">x</li>
-                <li class="img4 bg">x</li>
+                <li class="img1 bg nav-item active" id="16">
+                    <a href="#home" class="nav-link active" data-bs-toggle="tab">Home</a>
+                </li>
+
+                <li class="img2 bg nav-item" id="17">
+                    <a href="#profile" class="nav-link" data-bs-toggle="tab">Profile</a>
+                </li>
+                <li class="img3 bg" id="17">x</li>
+                <li class="img4 bg" id="18">x</li>
                 <li class="img5 bg">x</li>
                 <li class="img6 bg">x</li>
                 <li class="img7 bg">x</li>
             </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="home">
+                    <h4 class="mt-2">Home tab content</h4>
+                    <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
+                </div>
+                <div class="tab-pane fade" id="profile">
+                    <h4 class="mt-2">Profile tab content</h4>
+                    <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                </div>
+                <div class="tab-pane fade" id="messages">
+                    <h4 class="mt-2">Messages tab content</h4>
+                    <p>Donec vel placerat quam, ut euismod risus. Sed a mi suscipit, elementum sem a, hendrerit velit. Donec at erat magna. Sed dignissim orci nec eleifend egestas. Donec eget mi consequat massa vestibulum laoreet. Mauris et ultrices nulla, malesuada volutpat ante. Fusce ut orci lorem. Donec molestie libero in tempus imperdiet. Cum sociis natoque penatibus et magnis.</p>
+                </div>
+            </div>
         </div>
 </section>
 

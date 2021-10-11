@@ -940,7 +940,7 @@
 <!--bg1-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="tab-1">
+                <div class="tab-1 tabs">
                 <h1>BackgrouSe</h1>
                     <div class="button-next-slide button-next-slide-section-2"  data-toggle=".section-8, .section-8a"><span>READ MORE</span>
 <!--button-->
@@ -968,27 +968,23 @@
 
 
             <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
-                <div class="tab-2"></div>
+                <div class="tab-2 tabs"></div>
             </div>
             <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
-                Background 3
-            </div>
-            <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
-                Background 4
-            </div>
-            <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/foto-marjie-web.jpg">
-                <h1>Background 5</h1>
+                <div class="tab-3 tabs"></div>
 
             </div>
+            <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
+                <div class="tab-4 tabs"></div>
+            </div>
+            <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
+                <div class="tab-5 tabs"></div>
+            </div>
             <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
-                Background 6
+                <div class="tab-6 tabs"></div>
             </div>
             <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
-                Background 7
-            </div>
-            <div class="tab-pane fade" id="pill8" role="tabpanel" aria-labelledby="v-pills-8">
-                Background 8
+                <div class="tab-7 tabs"></div>
             </div>
         </div>
     </div>

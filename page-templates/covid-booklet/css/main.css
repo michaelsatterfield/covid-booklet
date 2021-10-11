@@ -40,8 +40,6 @@
 }
 
 
-
-
 /*vertical timeline 1*/
 
 ul.timeline {
@@ -50,8 +48,6 @@ ul.timeline {
     right: 225px;
     z-index: 90;
 }
-
-
 
 
 /*orange timeline*/
@@ -110,13 +106,15 @@ a {
     margin-top: 4em;
     background-color: goldenrod;
 }
+
 /*temporary until buttons are set wit bootstrap*/
-.btn-A{
+.btn-A {
     margin-bottom: 2.2em;
 }
 
-.slide1{
-    background-color: white;!important;
+.slide1 {
+    background-color: white;
+!important;
 }
 
 .timeline li:hover:before {
@@ -125,9 +123,10 @@ a {
     background-color: #e4e6e8;
 }
 
-c2{
+c2 {
     margin-top: 2em;
 }
+
 /*ul.timeline > li.c1:before {*/
 
 /*    content: 'M';*/
@@ -1176,10 +1175,6 @@ section.completed .button-next-slide-section-2 {
 
 }
 
-#section-3a {
-
-
-}
 
 
 .section-5__title,
@@ -1487,9 +1482,7 @@ section.completed .button-next-slide-section-2 {
     /*background-color: #ea8243*/
 }
 
-.section-8.toggle {
-    margin-left: -100%;
-}
+
 
 .section-8__background {
     position: absolute;
@@ -1578,6 +1571,7 @@ section.completed .button-next-slide-section-2 {
 .section-8__icon:hover .section-8__icon__read-poem {
     opacity: 1.0;
 }
+
 
 .section-8a {
     z-index: 92;
@@ -1715,7 +1709,8 @@ section-10__text {
     width: 100%;
     height: 100vh;
 }
-.backgroundImg  {
+
+.backgroundImg {
     position: relative;
     top: 0;
     left: 0;
@@ -1728,7 +1723,7 @@ section-10__text {
 }
 
 .section-10__background {
-    background-image:   linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0)),
     url("../images/cars.jpg");
 
 
@@ -1738,11 +1733,12 @@ section-10__text {
     z-index: 91;
     width: 100%;
     height: 100vh;
-    background-color:#F4F4F4 ;
+    background-color: #F4F4F4;
     -webkit-background-size: cover;
     background-size: cover
 }
-.section-11__title{
+
+.section-11__title {
     position: fixed;
     top: 45%;
     left: 35%;
@@ -1767,7 +1763,7 @@ section-10__text {
     background-size: cover
 }
 
-.section-12__text-wrapper{
+.section-12__text-wrapper {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -1775,7 +1771,7 @@ section-10__text {
 }
 
 .section-12__title {
-   position: relative;
+    position: relative;
     top: 22%;
     left: 17%;
     font-size: 80px;
@@ -1789,7 +1785,7 @@ section-10__text {
     top: 24%;
     left: 28%;
     font-size: 17px;
-  padding: 10px
+    padding: 10px
 }
 
 
@@ -2248,6 +2244,7 @@ section-10__text {
     height: 100vh;
     background: #f4f4f4;
 }
+
 .section-15__background {
 
     background-image: url('../images/section-15__blue-mural.jpg');
@@ -2391,8 +2388,6 @@ section-10__text {
 }
 
 
-
-
 /*vertical timeline 1*/
 
 ul.timeline-images {
@@ -2418,10 +2413,9 @@ ul.timeline-images {
 }
 
 
-
 /*orange timeline*/
 
-ul.timeline-images:before {
+.timeline-images:before {
     content: '';
     background: #ffffff;
     display: inline-block;
@@ -2429,91 +2423,91 @@ ul.timeline-images:before {
     left: 42px;
     width: 2px;
     height: 140%;
-    z-index: -1;
+    z-index: 99;
 }
 
-ul.timeline-images > li {
-    margin: 2em 0 8em 0;
-    padding-left: 15px;
-}
-
-
-
-.timeline-images li:hover:before {
-    width: 50px;
-    height: 50px;
-    display: block;
-    color: black;
-    background-color: #e4e6e8;
-    pointer-events: all;
-}
-
-/*overall pseudo class for the timeline selectors*/
-
-ul.timeline-images > li:before{
-    position: absolute;
-    border: 0 solid #8d8d8d;
-    left: 20px;
-    z-index: 88;
-    margin-left: 3px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    content: "";
-    border-radius: 50%;
-    pointer-events: all;
-
-}
 
 .img1 {
-    background: url("../images/section-15__blue-mural.jpg") no-repeat 0 0;
+    background: url("../images/section-17-ymca.jpg") no-repeat 0 0;
     background-size: cover;
 }
+
 .img2 {
     background: url("../images/section-20a.jpg") no-repeat 0 0;
     background-size: cover;
 }
-/*ul.timeline-images > li.img1:before {*/
-/*    background: url("../images/section-15__blue-mural.jpg") no-repeat 0 0;*/
-/*    background-size: cover;*/
-
-/*}*/
-/*ul.timeline-images > li.img2:before {*/
-/*    background: url("../images/section-20a.jpg") no-repeat 0 0;*/
-/*    background-size: cover;*/
-/*}*/
-
-ul.timeline-images > li.img3:before {
-    background: url("../images/murals.jpg") no-repeat 0 0;
+.img3 {
+    background: url("../images/section-17-ymca.jpg") no-repeat 0 0;
     background-size: cover;
 }
 
-ul.timeline-images > li.img4:before {
-    background: url("../images/murals.jpg") no-repeat 0 0;
+.img4 {
+    background: url("../images/section-20a.jpg") no-repeat 0 0;
+    background-size: cover;
+}
+.img5 {
+    background: url("../images/section-17-ymca.jpg") no-repeat 0 0;
     background-size: cover;
 }
 
-ul.timeline-images > li.img5:before {
-    background: url("../images/murals.jpg") no-repeat 0 0;
+.img2 {
+    background: url("../images/section-20a.jpg") no-repeat 0 0;
     background-size: cover;
 }
 
-ul.timeline-images > li.img6:before {
-    background: url("../images/murals.jpg") no-repeat 0 0;
+/*bootstrap overrides*/
+
+.nav-link {
+    height: 5em !important;
+    width: 5em !important;
+    border-radius: 150px !important;
+    margin: 4em 0em 4em 1.5em;
+    z-index: 100 !important;
+    border: none!important;
+    filter: grayscale(100%);
+}
+
+.nav-link:hover {
+   transform: scale(1.3);
+    filter: none!important;
+}
+
+.nav {
+    margin-right: -6.5em !important;
+}
+
+.tab-pane {
+    position: absolute;
+!important;
+}
+
+.tab-1 {
+    z-index: 80;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: url(../images/section-17-ymca.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
-ul.timeline-images > li.img7:before {
-    background: url("../images/murals.jpg") no-repeat 0 0;
+.tab-2 {
+    z-index: 80;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: url(../images/murals.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
-.section-17a__background{
+
+.section-17a__background {
     background-color: red;
-}
-
-.d-none {
-    visibility:hidden!important
 }
 
 .section-18 {
@@ -2524,7 +2518,6 @@ ul.timeline-images > li.img7:before {
     transition: margin-left 0.33s;
     /*background-color: #ea8243*/
 }
-
 
 
 .section-18__background {
@@ -2542,7 +2535,6 @@ ul.timeline-images > li.img7:before {
     top: 27.8vh;
     left: 29.1%;
 }
-
 
 
 .section-19 {
@@ -2567,7 +2559,6 @@ ul.timeline-images > li.img7:before {
 }
 
 
-
 .title {
     top: 85px;
     font-size: 67px;
@@ -2584,6 +2575,7 @@ ul.timeline-images > li.img7:before {
 
 
 }
+
 .section-19__pretitle {
 
     top: 7em;
@@ -2593,12 +2585,14 @@ ul.timeline-images > li.img7:before {
     line-height: 2em;
 
 }
-.section-19__links  {
+
+.section-19__links {
     position: relative;
     top: 19em;
     left: 22em;
     color: whitesmoke;
 }
+
 .canvas-h5 {
     line-height: 1.7em;
     font-size: 12px;
@@ -2606,22 +2600,25 @@ ul.timeline-images > li.img7:before {
 
 }
 
-.offcanvas-end{
+.offcanvas-end {
     left: 87em;
 }
 
-.offcanvas{
-    background-color:#554361!important;
+.offcanvas {
+    background-color: #554361 !important;
 }
+
 .offcanvas-body {
-    color: white!important;
+    color: white !important;
 }
+
 .offcanvas-header {
     display: flex;
-    justify-content: end!important;
+    justify-content: end !important;
 }
+
 .btn-close {
-    color: white!important;
+    color: white !important;
 }
 
 .section-20 {
@@ -2677,7 +2674,6 @@ ul.timeline-images > li.img7:before {
 }
 
 
-
 .section-20 .button-next-slide-section-20 {
     position: absolute;
     right: 10%;
@@ -2688,12 +2684,3 @@ ul.timeline-images > li.img7:before {
     cursor: pointer;
 }
 
-
-/*bootstrap overrides*/
-
-.nav-link {
-    height: 7em!important;
-    border-radius: 150px!important;
-    margin: 1em 0 1em 0;
-
-}

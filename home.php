@@ -460,16 +460,7 @@
         <span class="section-3__icon__read-poem"></span></div>
 </section>
 
-<section class="section-3a">
-    <div class="section-3a__text"></div>
-    <div class="section-3a__close" data-toggle=".section-3, .section-3a">
-        <div class="icon icon-close">
-            <svg>
-                <use href="#icon-close-white"></use>
-            </svg>
-        </div>
-    </div>
-</section>
+
 <section class="section-4">
     <div class="section-4__background"></div>
     <div class="section-4__title-wrapper">
@@ -646,29 +637,7 @@
     <div class="section-8__icon" data-toggle=".section-8, .section-8a"><span class="section-8__icon__asterisk">*</span>
         <span class="section-8__icon__read-poem">Read Poem</span></div>
 </section>
-<section class="section-8a">
-    <div class="section-8a__text">
-        <h3>This Year</h3>
-        <br>
-        <p>
-            This year is as beautiful as a white rose.<br>
-            This year is as bright as a shining red rose<br>
-            as hot as the sun and as beautiful as a sunset<br>
-            because this year is the most perfect year<br>
-            to start over like a blue bonnet just blooming and<br>
-            waiting to rebloom once again.<br>
-            <br>
-            <i>— Prestine T., 4th Grade</i>
-        </p>
-    </div>
-    <div class="section-8a__close" data-toggle=".section-8, .section-8a">
-        <div class="icon icon-close">
-            <svg>
-                <use href="#icon-close-white"></use>
-            </svg>
-        </div>
-    </div>
-</section>
+
 
 <section class="section-9"></section>
 
@@ -956,28 +925,50 @@
 
 <!--buttons-->
     <div class="d-flex align-items-start">
-        <div class="nav flex-column timeline-images me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="nav flex-column timeline-images justify-content-evenly  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1" type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
-            <button class="nav-link img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false">2</button>
-            <button class="nav-link" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="false">3</button>
-            <button class="nav-link" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="false">4</button>
-            <button class="nav-link" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="false"></button>
-            <button class="nav-link" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="false">Profile</button>
-            <button class="nav-link" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="false">Messages</button>
-            <button class="nav-link" id="v-pill-8" data-bs-toggle="pill" data-bs-target="#pill8" type="button" role="tab" aria-controls="v-pills-8" aria-selected="false">Settings</button>
+            <button class="nav-link img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false"></button>
+            <button class="nav-link img3" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="false"></button>
+            <button class="nav-link img4" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="false"></button>
+            <button class="nav-link img5" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="false"></button>
+            <button class="nav-link img6" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="false"></button>
+            <button class="nav-link img7" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="false"></button>
         </div>
 
 
 <!--        content-->
+<!--bg1-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/foto-marjie-web.jpg">
-                <h1>Background</h1>
-
+                <div class="tab-1">
+                <h1>BackgrouSe</h1>
+                    <div class="button-next-slide button-next-slide-section-2"  data-toggle=".section-8, .section-8a"><span>READ MORE</span>
+<!--button-->
+                        <button class="button button-arrow-red">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right"></button>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
             </div>
+<!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text">
+                    <h3>Tab-A</h3>
+                    <br>
+                    <p>
+
+                    </p>
+                </div>
+            </section>
+
+
+
             <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/murals.jpg">
-                Background 2
+                <div class="tab-2"></div>
             </div>
             <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
                 Background 3

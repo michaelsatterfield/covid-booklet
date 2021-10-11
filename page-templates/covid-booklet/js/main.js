@@ -438,11 +438,11 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-16", "opacity", 1.0, 0.0, 1580, 1600);
 
 
-    new ElementAnimation("section-17__background", "scale", 1.0, 1.05, 1600, 1610);
-    new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1630);
+    // new ElementAnimation("section-17__background", "scale", 1.0, 1.05, 1600, 1610);
+    // new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1630);
 
     new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1690, 1700);
-
+    new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1690, 1700);
 
     new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
     new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
@@ -771,129 +771,15 @@ window.addEventListener("DOMContentLoaded", event => {
             }
         });
 
+            $(".nav-link").click(function(){
+                $("section").removeClass("toggle")
+                console.log("toggle removed")
+            })
+
+
         $("#myTab a:last").tab("show"); // show last tab
 
-        //bootstrap example jquery
-        // $("#myTab a").click(function(e){
-        //     e.preventDefault();
-        //     $(this).tab("show");
-        // });
-    //
-    // $('.bg').click(function(){
-    //     switch(true) {
-    //         case $('.img1').hasClass('backgroundImg'):
-    //             $(".section-16__background").toggleClass('section-18__background');
-    //             console.log("j1")
-    //             break;
-    //         case $('.img2').hasClass('backgroundImg'):
-    //             $(".section-16__background").toggleClass('section-18__background');
-    //             console.log("j2")
-    //             break;
-    //     }
-    // })
-    //     $('.bg').click(function(){
-    //         switch(true) {
-    //             case $('#s17').hasClass('bg'):
-    //                 $(".section-16__background").addClass('section-18__background');
-    //                 console.log("#s17")
-    //                 break;
-    //             case $('#s18').hasClass('bg'):
-    //                 $('.section-17__background').toggleClass('section-3__background');
-    //                 console.log("j2")
-    //                 break;
-    //         }
-    //     })
-    //
-    //
-    //     $(".timeline-images .bg ").click(function() {
-    //
-    //         $('.bg').not(this).removeClass('bg');
-    //         $(this).toggleClass('bg');
-    //
-    //
-    //         if ($(this).hasClass('bg')){
-    //             let section = $(this).attr('id');
-    //             $(".backgroundImg").addClass('d-none');
-    //             //important d-non for other classes
-    //             $(".section-" + section + "__background").toggleClass('bg');
-    //             //add case switch here to change class based on id of 'bg' clicked
-    //             //if clicked on #16 show background 16 etc for each 'bg' case
-    //
-    //
-    //                 // switch(true) {
-    //                 //     case $('.section-16__background').hasClass('bg'):
-    //                 //         $(".section-16__background").toggleClass('section-18__background');
-    //                 //         console.log("j1")
-    //                 //         break;
-    //                 //     case $('.img2').hasClass('backgroundImg'):
-    //                 //         $(".section-16__background").toggleClass('section-18__background');
-    //                 //         console.log("j2")
-    //                 //         break;
-    //                 // }
-    //         }
-    //         else {
-    //             $("#bg").children().removeClass('d-none');
-    //         }
-    //     });
-
-
-
-
-
-
-        // $(".bg").click(function() {
-        //     $('.active').not(this).removeClass('active');
-        //     $(this).toggleClass('active');
-        //     if ($(this).hasClass('active')){
-        //         var color = $(this).attr('id');
-        //         $("#16").children().addClass('d-none');
-        //         $("." + color + "-marker").toggleClass('d-none');
-        //     }
-        //     else {
-        //         $("#16").children().removeClass('d-none');
-        //     }
-        // });
-
-
-        // $(".img1").click(function(){
-        //     $('.section-17__background').removeClass('section-17__background');
-        //     $(this).addClass("section-17a__background")
-        //     console.log("click img1")//you can list several class names
-        // });
-
-        //
-        //
-        //
-        // $(".img2").click(function(){
-        //     $('.section-17__background').toggleClass("section-16__background")
-        //     console.log("click img1")//you can list several class names
         });
-        // $(".img3").click(function(){
-        //     $('.section-17__background').toggleClass("section-14__background")
-        //     console.log("click img2")//you can list several class names
-        // });
-        // $(".img4").click(function(){
-        //     $('.section-17__background').toggleClass("section-15__background")
-        //     console.log("click img3")//you can list several class names
-        // });
-
-
-        //works but doesnt return
-        // $(".img1").click(function(){
-        //     $('.section-17__background').attr("class","section-17a__background ")
-        //     console.log("switch classes")//you can list several class names
-        // });
-
-        // $(".img1").click(function(){
-        //     $(this).toggleClass("section-17a__background").removeClass("section-17__background backgroundImg");
-        //     console.log("click img1")//you can list several class names
-        // });
-
-    // });
-
-
-
-
 });
 
 

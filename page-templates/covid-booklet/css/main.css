@@ -2465,16 +2465,24 @@ ul.timeline-images > li:before{
 
 }
 
-ul.timeline-images > li.img1:before {
+.img1 {
     background: url("../images/section-15__blue-mural.jpg") no-repeat 0 0;
     background-size: cover;
-
 }
-
-ul.timeline-images > li.img2:before {
+.img2 {
     background: url("../images/section-20a.jpg") no-repeat 0 0;
     background-size: cover;
 }
+/*ul.timeline-images > li.img1:before {*/
+/*    background: url("../images/section-15__blue-mural.jpg") no-repeat 0 0;*/
+/*    background-size: cover;*/
+
+/*}*/
+/*ul.timeline-images > li.img2:before {*/
+/*    background: url("../images/section-20a.jpg") no-repeat 0 0;*/
+/*    background-size: cover;*/
+/*}*/
+
 ul.timeline-images > li.img3:before {
     background: url("../images/murals.jpg") no-repeat 0 0;
     background-size: cover;
@@ -2681,4 +2689,11 @@ ul.timeline-images > li.img7:before {
 }
 
 
+/*bootstrap overrides*/
 
+.nav-link {
+    height: 7em!important;
+    border-radius: 150px!important;
+    margin: 1em 0 1em 0;
+
+}

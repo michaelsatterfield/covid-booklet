@@ -771,6 +771,8 @@ window.addEventListener("DOMContentLoaded", event => {
             }
         });
 
+        $("#myTab a:last").tab("show"); // show last tab
+
         //bootstrap example jquery
         // $("#myTab a").click(function(e){
         //     e.preventDefault();
@@ -803,36 +805,36 @@ window.addEventListener("DOMContentLoaded", event => {
     //     })
     //
     //
-        $(".timeline-images .bg ").click(function() {
-
-            $('.bg').not(this).removeClass('bg');
-            $(this).toggleClass('bg');
-
-
-            if ($(this).hasClass('bg')){
-                let section = $(this).attr('id');
-                $(".backgroundImg").addClass('d-none');
-                //important d-non for other classes
-                $(".section-" + section + "__background").toggleClass('bg');
-                //add case switch here to change class based on id of 'bg' clicked
-                //if clicked on #16 show background 16 etc for each 'bg' case
-
-
-                    // switch(true) {
-                    //     case $('.section-16__background').hasClass('bg'):
-                    //         $(".section-16__background").toggleClass('section-18__background');
-                    //         console.log("j1")
-                    //         break;
-                    //     case $('.img2').hasClass('backgroundImg'):
-                    //         $(".section-16__background").toggleClass('section-18__background');
-                    //         console.log("j2")
-                    //         break;
-                    // }
-            }
-            else {
-                $("#bg").children().removeClass('d-none');
-            }
-        });
+    //     $(".timeline-images .bg ").click(function() {
+    //
+    //         $('.bg').not(this).removeClass('bg');
+    //         $(this).toggleClass('bg');
+    //
+    //
+    //         if ($(this).hasClass('bg')){
+    //             let section = $(this).attr('id');
+    //             $(".backgroundImg").addClass('d-none');
+    //             //important d-non for other classes
+    //             $(".section-" + section + "__background").toggleClass('bg');
+    //             //add case switch here to change class based on id of 'bg' clicked
+    //             //if clicked on #16 show background 16 etc for each 'bg' case
+    //
+    //
+    //                 // switch(true) {
+    //                 //     case $('.section-16__background').hasClass('bg'):
+    //                 //         $(".section-16__background").toggleClass('section-18__background');
+    //                 //         console.log("j1")
+    //                 //         break;
+    //                 //     case $('.img2').hasClass('backgroundImg'):
+    //                 //         $(".section-16__background").toggleClass('section-18__background');
+    //                 //         console.log("j2")
+    //                 //         break;
+    //                 // }
+    //         }
+    //         else {
+    //             $("#bg").children().removeClass('d-none');
+    //         }
+    //     });
 
 
 

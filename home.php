@@ -954,66 +954,91 @@
 
 <section class="section-17" >
 
-    <div id="bg">
-        <div class="section-17__background backgroundImg" id="s17"></div>
-        <div class="section-16__background backgroundImg" id="s18"></div>
+<!--buttons-->
+    <div class="d-flex align-items-start">
+        <div class="nav flex-column timeline-images me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1" type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
+            <button class="nav-link img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false">2</button>
+            <button class="nav-link" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="false">3</button>
+            <button class="nav-link" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="false">4</button>
+            <button class="nav-link" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="false"></button>
+            <button class="nav-link" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="false">Profile</button>
+            <button class="nav-link" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="false">Messages</button>
+            <button class="nav-link" id="v-pill-8" data-bs-toggle="pill" data-bs-target="#pill8" type="button" role="tab" aria-controls="v-pills-8" aria-selected="false">Settings</button>
+        </div>
+
+
+<!--        content-->
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
+                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/foto-marjie-web.jpg">
+                <h1>Background</h1>
+
+            </div>
+            <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
+                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/murals.jpg">
+                Background 2
+            </div>
+            <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
+                Background 3
+            </div>
+            <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
+                Background 4
+            </div>
+            <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
+                <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/foto-marjie-web.jpg">
+                <h1>Background 5</h1>
+
+            </div>
+            <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
+                Background 6
+            </div>
+            <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
+                Background 7
+            </div>
+            <div class="tab-pane fade" id="pill8" role="tabpanel" aria-labelledby="v-pills-8">
+                Background 8
+            </div>
+        </div>
     </div>
 
-        <div class="section-17__text-wrapper">
-            <div class="section-17__text">
-                YMCA Early Learning<br> Center at Haven for Hope
-            </div>
-        </div>
-    <div class="row">
-        <div class="col-md-12 nav nav-tabs" id="myTab" >
-            <ul class="timeline-images">
-                <li class="img1 bg nav-item active" id="16">
-                    <a href="#home" class="nav-link active" data-bs-toggle="tab">Home</a>
-                </li>
 
-                <li class="img2 bg nav-item" id="17">
-                    <a href="#profile" class="nav-link" data-bs-toggle="tab">Profile</a>
-                </li>
-                <li class="img3 bg" id="17">x</li>
-                <li class="img4 bg" id="18">x</li>
-                <li class="img5 bg">x</li>
-                <li class="img6 bg">x</li>
-                <li class="img7 bg">x</li>
-            </ul>
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="home">
-                    <h4 class="mt-2">Home tab content</h4>
-                    <p>Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth.</p>
-                </div>
-                <div class="tab-pane fade" id="profile">
-                    <h4 class="mt-2">Profile tab content</h4>
-                    <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                </div>
-                <div class="tab-pane fade" id="messages">
-                    <h4 class="mt-2">Messages tab content</h4>
-                    <p>Donec vel placerat quam, ut euismod risus. Sed a mi suscipit, elementum sem a, hendrerit velit. Donec at erat magna. Sed dignissim orci nec eleifend egestas. Donec eget mi consequat massa vestibulum laoreet. Mauris et ultrices nulla, malesuada volutpat ante. Fusce ut orci lorem. Donec molestie libero in tempus imperdiet. Cum sociis natoque penatibus et magnis.</p>
-                </div>
-            </div>
-        </div>
+
+
+
+
+<!--    <div id="bg">-->
+<!--        <div class="section-17__background backgroundImg" id="s17"></div>-->
+<!--    </div>-->
+<!---->
+<!--        <div class="section-17__text-wrapper">-->
+<!--            <div class="section-17__text">-->
+<!--                YMCA Early Learning<br> Center at Haven for Hope-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-12 nav nav-tabs" id="myTab" >-->
+<!--            <ul class="timeline-images">-->
+<!--                <li class="img1 nav-item active" id="16">-->
+<!--                    <a href="#home" class="nav-link active" data-bs-toggle="tab">Home</a>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="img2 bg nav-item" id="17">-->
+<!--                    <a href="#profile" class="nav-link" data-bs-toggle="tab">Profile</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a href="#messages" class="nav-link" data-bs-toggle="tab">Messages</a>-->
+<!--                </li>-->
+<!--                <li class="img3 bg" id="17">x</li>-->
+<!--                <li class="img4 bg" id="18">x</li>-->
+<!--                <li class="img5 bg">x</li>-->
+<!--                <li class="img6 bg">x</li>-->
+<!--                <li class="img7 bg">x</li>-->
+<!--            </ul>-->
+<!--  -->
 </section>
 
-<!--<script>-->
-<!--    function changeImg() {-->
-<!--        let element = document.getElementById("18");-->
-<!--        element.classList.toggle("section-16__background");-->
-<!---->
-<!---->
-<!---->
-<!---->
-<!--        console.log("changeImg")-->
-<!--    }-->
-<!--    function changeImg2() {-->
-<!--        let element = document.getElementById("18");-->
-<!--        element.classList.toggle("section-18__background");-->
-<!--        console.log("changeImg2")-->
-<!--    }-->
-<!---->
-<!--</script>-->
+
 
 <section class="section-17a" id="17">
     <div class="section-17a__background backgroundImg">Test 17a</div>

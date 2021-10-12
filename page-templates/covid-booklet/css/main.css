@@ -58,7 +58,7 @@
     display: inline-block;
     position: absolute;
     left: 37px;
-    width: 2px;
+    width: 3px;
     height: 140%;
     z-index: -1;
 }
@@ -71,7 +71,14 @@
     margin: 5em 0em 2em 1.5em;
     z-index: 100 !important;
     border: none!important;
-    filter: grayscale(100%);
+    background-color: #f2c8b1;
+
+
+}
+
+.nav-link.s9 h1{
+    font-weight: bold;
+    color: white;!important;
 }
 
 .timeline-1 {
@@ -115,11 +122,6 @@ a {
 !important;
 }
 
-.timeline:hover{
-    display: block;
-    color: black;
-    background-color: #e4e6e8;
-}
 
 c2 {
     margin-top: 2em;

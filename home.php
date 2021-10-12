@@ -645,29 +645,29 @@
     <div class="d-flex align-items-start section-9__background">
         <div class="nav flex-column timeline " id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link s9  active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
-                    type="button" role="tab" aria-controls="v-pills-1" aria-selected="true">M</button>
+                    type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"><h1>M</h1></button>
             <button class="nav-link s9" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
-                    role="tab" aria-controls="v-pills-2" aria-selected="false">A</button>
+                    role="tab" aria-controls="v-pills-2" aria-selected="false"><h1>A</h1></button>
             <button class="nav-link s9" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
-                    role="tab" aria-controls="v-pills-3" aria-selected="false">M</button>
+                    role="tab" aria-controls="v-pills-3" aria-selected="false"><h1>M</h1></button>
             <button class="nav-link s9" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
-                    role="tab" aria-controls="v-pills-4" aria-selected="false">J</button>
+                    role="tab" aria-controls="v-pills-4" aria-selected="false"><h1>J</h1</button>
             <button class="nav-link s9" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
-                    role="tab" aria-controls="v-pills-5" aria-selected="false">J</button>
+                    role="tab" aria-controls="v-pills-5" aria-selected="false"><h1>J</h1</button>
             <button class="nav-link s9" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
-                    role="tab" aria-controls="v-pills-6" aria-selected="false">A</button>
+                    role="tab" aria-controls="v-pills-6" aria-selected="false"><h1>A</h1</button>
             <button class="nav-link s9" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button"
-                    role="tab" aria-controls="v-pills-7" aria-selected="false">S</button>
+                    role="tab" aria-controls="v-pills-7" aria-selected="false"><h1>S</h1</button>
             <button class="nav-link s9" id="v-pill-8" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
-                    role="tab" aria-controls="v-pills-8" aria-selected="false">O</button>
+                    role="tab" aria-controls="v-pills-8" aria-selected="false"><h1>O</h1</button>
             <button class="nav-link s9" id="v-pill-9" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
-                    role="tab" aria-controls="v-pills-9" aria-selected="false">N</button>
+                    role="tab" aria-controls="v-pills-9" aria-selected="false"><h1>N</h1</button>
             <button class="nav-link s9" id="v-pill-10" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
-                    role="tab" aria-controls="v-pills-10" aria-selected="false">D</button>
+                    role="tab" aria-controls="v-pills-10" aria-selected="false"><h1>D</h1</button>
             <button class="nav-link s9" id="v-pill-11" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
-                    role="tab" aria-controls="v-pills-11" aria-selected="false">J</button>
+                    role="tab" aria-controls="v-pills-11" aria-selected="false"><h1>J</h1</button>
             <button class="nav-link s9" id="v-pill-12" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
-                    role="tab" aria-controls="v-pills-12" aria-selected="false">F</button>
+                    role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1</button>
         </div>
 
 
@@ -675,28 +675,11 @@
         <!--*****************tab-1*****************-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="timeline-1 ">
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
-                        <span class="yellow-text">READ MORE</span>
-                        <!--button-->
-                        <button class="button button-arrow-yellow">
-                            <div class="button-ripple button-ripple-section-2"></div>
-                            <div class="icon icon-arrow">
-                                <svg>
-                                    <use href="#icon-arrow-right">
-                        </button>
-                        </svg>
-                    </div>
-                    </button>
+                <div class="tab-3 ">
+<h3>S1</h3>
                 </div>
             </div>
-            <!--            side tab-->
-            <section class="section-8a">
-                <div class="section-8a__text">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-A</h3>
-                </div>
-            </section>
+
 
 </section>
 

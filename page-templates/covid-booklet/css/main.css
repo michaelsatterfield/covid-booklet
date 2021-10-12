@@ -43,10 +43,11 @@
 /*vertical timeline 1*/
 
 .timeline {
-    list-style-type: none;
-    position: absolute;
-    right: 225px;
+    resize: none;!important;
+    position: fixed;
+    right: 10%;
     z-index: 94;
+    background-size: cover;
 }
 
 
@@ -56,29 +57,33 @@
     content: '';
     background: #ef7930;
     display: inline-block;
-    position: absolute;
-    left: 37px;
+    position: fixed;
+    right: 6.1%;
     width: 3px;
     height: 140%;
     z-index: -1;
 }
+.timeline-wrapper{
+
+}
 
 .nav-link.s9 {
-    position: relative;
-    height: 5em !important;
-    width: 5em !important;
+
+    height: 4rem !important;
+    width: 4rem !important;
     border-radius: 150px !important;
-    margin: 5em 0em 2em 1.5em;
+    margin: 1.5em 0em 1.5em 0;
     z-index: 100 !important;
-    border: none!important;
+    border: none !important;
     background-color: #f2c8b1;
 
 
 }
 
-.nav-link.s9 h1{
+.nav-link.s9 h1 {
     font-weight: bold;
-    color: white;!important;
+    color: white;
+!important;
 }
 
 .timeline-1 {
@@ -558,6 +563,7 @@ a {
     text-transform: uppercase;
     color: #85261e
 }
+
 .button-next-slide span {
     margin-right: 25px;
     font-family: Roboto-Black, Arial, sans-serif;
@@ -567,8 +573,9 @@ a {
     text-transform: uppercase;
     color: #85261e
 }
-.yellow-text{
-    color: #C3A701!important;
+
+.yellow-text {
+    color: #C3A701 !important;
 }
 
 .header-top {
@@ -1150,7 +1157,6 @@ section.completed .button-next-slide-section-2 {
 }
 
 
-
 .section-5__title,
 .section-5__pretitle,
 #section-3a {
@@ -1457,7 +1463,6 @@ section.completed .button-next-slide-section-2 {
 }
 
 
-
 .section-8__background {
     position: absolute;
     top: 0;
@@ -1600,7 +1605,7 @@ section.completed .button-next-slide-section-2 {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-
+    position: relative;
     width: 100%;
     height: 100vh;
     z-index: 94;
@@ -1609,7 +1614,7 @@ section.completed .button-next-slide-section-2 {
 
 .section-9__background {
 
-
+    position: relative;
     width: 100%;
     height: 100vh;
 }
@@ -2410,6 +2415,7 @@ ul.timeline-images {
     background: url("../images/section-20a.jpg") no-repeat 0 0;
     background-size: cover;
 }
+
 .img3 {
     background: url("../images/corazon.jpg") no-repeat 0 0;
     background-size: cover;
@@ -2419,6 +2425,7 @@ ul.timeline-images {
     background: url("../images/grandfather-grandaugthers.jpg") no-repeat 0 0;
     background-size: cover;
 }
+
 .img5 {
     background: url("../images/liftfund-foodtruck.jpg") no-repeat 0 0;
     background-size: cover;
@@ -2436,7 +2443,6 @@ ul.timeline-images {
 }
 
 
-
 .tabs {
     z-index: 80;
     width: 100%;
@@ -2447,6 +2453,7 @@ ul.timeline-images {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .tab-1 {
     z-index: 80;
     width: 100%;
@@ -2456,7 +2463,7 @@ ul.timeline-images {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
-    background: #574261 url(../images/section-17-ymca.jpg)  no-repeat center center fixed!important;
+    background: #574261 url(../images/section-17-ymca.jpg) no-repeat center center fixed !important;
 }
 
 .tab-2 {
@@ -2464,11 +2471,13 @@ ul.timeline-images {
     background: url(../images/murals.jpg) no-repeat center center fixed;
 
 }
+
 .tab-3 {
 
     background: url(../images/corazon.jpg) no-repeat center center fixed;
 
 }
+
 .tab-4 {
     z-index: 80;
     width: 100%;
@@ -2480,6 +2489,7 @@ ul.timeline-images {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .tab-5 {
     z-index: 80;
     width: 100%;
@@ -2491,6 +2501,7 @@ ul.timeline-images {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .tab-6 {
     z-index: 80;
     width: 100%;
@@ -2502,6 +2513,7 @@ ul.timeline-images {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .tab-7 {
     z-index: 80;
     width: 100%;
@@ -2523,13 +2535,13 @@ ul.timeline-images {
     border-radius: 150px !important;
     margin: 5em 0em 2em 1.5em;
     z-index: 100 !important;
-    border: none!important;
+    border: none !important;
     filter: grayscale(100%);
 }
 
 .nav-link:hover {
     transform: scale(1.3);
-    filter: none!important;
+    filter: none !important;
 }
 
 .nav {
@@ -2539,7 +2551,6 @@ ul.timeline-images {
 .tab-pane {
     /*position: relative;*/
 }
-
 
 
 .section-18 {

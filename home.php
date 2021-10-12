@@ -642,9 +642,11 @@
 <section class="section-9">
 
     <!--buttons-->
-    <div class="d-flex align-items-start section-9__background">
-        <div class="nav flex-column timeline " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <button class="nav-link s9  active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
+    <div class="d-flex align-items-start ">
+        <main class="timeline-wrapper container">
+        <div class="nav flex-column timeline  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            <button class="nav-link s9 active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
                     type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"><h1>M</h1></button>
             <button class="nav-link s9" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
                     role="tab" aria-controls="v-pills-2" aria-selected="false"><h1>A</h1></button>
@@ -670,7 +672,7 @@
                     role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1</button>
         </div>
 
-
+        </main>
         <!--        content-->
         <!--*****************tab-1*****************-->
         <div class="tab-content" id="v-pills-tabContent">

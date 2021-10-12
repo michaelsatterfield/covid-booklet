@@ -643,48 +643,104 @@
 
     <!--buttons-->
     <div class="d-flex align-items-start ">
-        <main class="timeline-wrapper container">
-        <div class="nav flex-column timeline  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <main class="timeline-wrapper ">
+            <div class="nav flex-column timeline  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-            <button class="nav-link s9 active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
-                    type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"><h1>M</h1></button>
-            <button class="nav-link s9" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
-                    role="tab" aria-controls="v-pills-2" aria-selected="false"><h1>A</h1></button>
-            <button class="nav-link s9" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
-                    role="tab" aria-controls="v-pills-3" aria-selected="false"><h1>M</h1></button>
-            <button class="nav-link s9" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
-                    role="tab" aria-controls="v-pills-4" aria-selected="false"><h1>J</h1</button>
-            <button class="nav-link s9" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
-                    role="tab" aria-controls="v-pills-5" aria-selected="false"><h1>J</h1</button>
-            <button class="nav-link s9" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
-                    role="tab" aria-controls="v-pills-6" aria-selected="false"><h1>A</h1</button>
-            <button class="nav-link s9" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button"
-                    role="tab" aria-controls="v-pills-7" aria-selected="false"><h1>S</h1</button>
-            <button class="nav-link s9" id="v-pill-8" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
-                    role="tab" aria-controls="v-pills-8" aria-selected="false"><h1>O</h1</button>
-            <button class="nav-link s9" id="v-pill-9" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
-                    role="tab" aria-controls="v-pills-9" aria-selected="false"><h1>N</h1</button>
-            <button class="nav-link s9" id="v-pill-10" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
-                    role="tab" aria-controls="v-pills-10" aria-selected="false"><h1>D</h1</button>
-            <button class="nav-link s9" id="v-pill-11" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
-                    role="tab" aria-controls="v-pills-11" aria-selected="false"><h1>J</h1</button>
-            <button class="nav-link s9" id="v-pill-12" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
-                    role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1</button>
-        </div>
+                <button class="nav-link s9 active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
+                        type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"><h1>M</h1></button>
+
+                <button class="nav-link s9" id="s9_2" data-bs-toggle="pill" data-bs-target="#s9-2" type="button"
+                        role="tab" aria-controls="s9_2" aria-selected="false"><h1>A</h1></button>
+
+                <button class="nav-link s9" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
+                        role="tab" aria-controls="v-pills-3" aria-selected="false"><h1>M</h1></button>
+
+                <button class="nav-link s9" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
+                        role="tab" aria-controls="v-pills-4" aria-selected="false"><h1>J</h1</button>
+
+                <button class="nav-link s9" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
+                        role="tab" aria-controls="v-pills-5" aria-selected="false"><h1>J</h1</button>
+
+                <button class="nav-link s9" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
+                        role="tab" aria-controls="v-pills-6" aria-selected="false"><h1>A</h1</button>
+
+                <button class="nav-link s9" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button"
+                        role="tab" aria-controls="v-pills-7" aria-selected="false"><h1>S</h1</button>
+
+                <button class="nav-link s9" id="v-pill-8" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
+                        role="tab" aria-controls="v-pills-8" aria-selected="false"><h1>O</h1</button>
+
+                <button class="nav-link s9" id="v-pill-9" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
+                        role="tab" aria-controls="v-pills-9" aria-selected="false"><h1>N</h1</button>
+
+                <button class="nav-link s9" id="v-pill-10" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
+                        role="tab" aria-controls="v-pills-10" aria-selected="false"><h1>D</h1</button>
+
+                <button class="nav-link s9" id="v-pill-11" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
+                        role="tab" aria-controls="v-pills-11" aria-selected="false"><h1>J</h1</button>
+
+                <button class="nav-link s9" id="v-pill-12" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
+                        role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1</button>
+            </div>
 
         </main>
         <!--        content-->
         <!--*****************tab-1*****************-->
-        <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active bg-warning" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="tab-3 ">
-<h3>S1</h3>
+        <div class="tab-content " id="v-pills-tabContent">
+
+            <div class="tab-pane fade show active bg-light" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
+                <div class="section-9__background">
+                    <h1 class="section-9__title">March 2020</h1>
+
+                <div class="section-9__subtitle">
+                    13
+                    Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
+
+                    20
+                    The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
+                    The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+
+                    20
+                    Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+
+                    23
+                    SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+
+                    27
+                    The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                </div>
+
+
                 </div>
             </div>
 
 
-</section>
+                <div class="tab-pane fade show active bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
+                    <div class="section-9__background">
+                        <h1 class="section-9__title">April 2020</h1>
+                        <div class="section-9__subtitle">
+                            13
+                            Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
+                            20
+                            The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
+                            The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+
+                            20
+                            Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+
+                            23
+                            SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+
+                            27
+                            The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+</section>
 
 
 <section class="section-10">
@@ -876,7 +932,7 @@
 
 
         <!--        content-->
-<!--*****************tab-1*****************-->
+        <!--*****************tab-1*****************-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
                 <div class="tab-1 ">
@@ -902,7 +958,7 @@
                 </div>
             </section>
 
-<!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
+            <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
             <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
                 <div class="tab-2 tabs">
 
@@ -928,7 +984,7 @@
                 </div>
             </section>
 
-<!--***************************tab-3*****************-->
+            <!--***************************tab-3*****************-->
             <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
                 <div class="tab-3 tabs">
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
@@ -953,7 +1009,7 @@
                 </div>
             </section>
 
-<!--<--***************************tab-4*****************-->
+            <!--<--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
                 <div class="tab-4 tabs">
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
@@ -978,7 +1034,7 @@
                 </div>
             </section>
 
-<!--*************************tab-5*****************-->
+            <!--*************************tab-5*****************-->
             <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
                 <div class="tab-5 tabs">
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
@@ -1002,7 +1058,7 @@
                     <h3>Tab-A</h3>
                 </div>
             </section>
-<!--**********************tab-6*****************-->
+            <!--**********************tab-6*****************-->
             <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
                 <div class="tab-6 tabs">
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
@@ -1028,7 +1084,7 @@
             </section>
 
 
-<!--************************tab-7*****************-->
+            <!--************************tab-7*****************-->
             <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
                 <div class="tab-7 tabs">
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
@@ -1060,7 +1116,6 @@
     </div>
 
 </section>
-
 
 
 <section class="section-18">

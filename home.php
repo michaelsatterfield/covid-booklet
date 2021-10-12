@@ -232,7 +232,7 @@
     -->
 
 
-    <section class="section-1 row">
+    <section class="section-1">
         <div class="section-1__image-1__wrapper">
             <div class="section-1__image-1"></div>
         </div>
@@ -639,121 +639,68 @@
 </section>
 
 
-<section class="section-9"></section>
+<section class="section-9">
 
-<section class="section-9__background">
-    <div class="section-9__text-wrapper">
-        <div class="section-9__text-wrapper mt-0 mb-5 ">
-            <div class="row">
-                <div class="col-md-12 offset-md-3">
-                    <ul class="timeline ">
+    <!--buttons-->
+    <div class="d-flex align-items-start section-9__background">
+        <div class="nav flex-column timeline " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link s9  active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
+                    type="button" role="tab" aria-controls="v-pills-1" aria-selected="true">M</button>
+            <button class="nav-link s9" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
+                    role="tab" aria-controls="v-pills-2" aria-selected="false">A</button>
+            <button class="nav-link s9" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
+                    role="tab" aria-controls="v-pills-3" aria-selected="false">M</button>
+            <button class="nav-link s9" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
+                    role="tab" aria-controls="v-pills-4" aria-selected="false">J</button>
+            <button class="nav-link s9" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
+                    role="tab" aria-controls="v-pills-5" aria-selected="false">J</button>
+            <button class="nav-link s9" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
+                    role="tab" aria-controls="v-pills-6" aria-selected="false">A</button>
+            <button class="nav-link s9" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button"
+                    role="tab" aria-controls="v-pills-7" aria-selected="false">S</button>
+            <button class="nav-link s9" id="v-pill-8" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
+                    role="tab" aria-controls="v-pills-8" aria-selected="false">O</button>
+            <button class="nav-link s9" id="v-pill-9" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
+                    role="tab" aria-controls="v-pills-9" aria-selected="false">N</button>
+            <button class="nav-link s9" id="v-pill-10" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
+                    role="tab" aria-controls="v-pills-10" aria-selected="false">D</button>
+            <button class="nav-link s9" id="v-pill-11" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
+                    role="tab" aria-controls="v-pills-11" aria-selected="false">J</button>
+            <button class="nav-link s9" id="v-pill-12" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
+                    role="tab" aria-controls="v-pills-12" aria-selected="false">F</button>
+        </div>
 
-                        <button class="btn-circle btn-sm btn-secondary " type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                            <li class="c2">
-                                <h2 class="month-letter">M</h2>
-                            </li>
 
+        <!--        content-->
+        <!--*****************tab-1*****************-->
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active bg-warning" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
+                <div class="timeline-1 ">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
                         </button>
-                        <div class="section-9__pretitle"></div>
-                        <div class="section-9__title"></div>
-                        <div class="section-9__subtitle"></div>
-                        <div class="offcanvas offcanvas-start w-75 slide1" tabindex="-1" id="offcanvasExample"
-                             aria-labelledby="offcanvasExampleLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">March</h5>
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <div>
-                                    Some text as placeholder. In real life you can have the elements you have chosen.
-                                    Like, text, images, lists, etc.
-                                </div>
-                                <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                        Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-<!--                        <li class="c1">i</li>-->
-
-
-                        <button class="btn-circle btn-sm btn-secondary btn-A" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#april" aria-controls="offcanvasExample">
-                            <li class="c2">
-                                <h2 class="month-letter">A</h2>
-                            </li>
-
-                        </button>
-
-                        <div class="offcanvas offcanvas-start w-75 slide1" tabindex="-1" id="april"
-                             aria-labelledby="offcanvasExampleLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">April</h5>
-                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                        aria-label="Close">
-                                    <li class="c2">
-                                        <a href="#">A</a>
-                                    </li>
-
-                                </button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <div>
-                                    Some text as placeholder. In real life you can have the elements you have chosen.
-                                    Like, text, images, lists, etc.
-                                </div>
-                                <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
-                                            id="dropdownMenuButton" data-bs-toggle="dropdown">
-                                        Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <li class="c3">x</li>
-                        <li class="c4">x</li>
-                        <li class="c5">x</li>
-                        <li class=c6>x</li>
-                        <li class="c7">x</li>
-                        <li class="c8">x</li>
-                        <li class="c9">x</li>
-                        <li class="c10">x</li>
-                        <li class="c11">x</li>
-                        <li class="c12">x</li>
-                    </ul>
+                        </svg>
+                    </div>
+                    </button>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="section-9__stats">
-        <div class="section-9__stats-block"></div>
-        <div class="section-9__stats-block"></div>
-        <div class="section-9__stats-block"></div>
-        <div class="section-9__stats-block section-9__stats-subblock"></div>
-        <div class="section-9__stats-block section-9__stats-subblock"></div>
-        <div class="section-9__stats-block section-9__stats-subblock">
-        </div>
-        <div class="section-9__stats-block"><span></span></div>
-        <div class="section-9__stats-block"><span></span></div>
-    </div>
+            <!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text">
+                    <!--                    fill in with template and reuse class for all versions-->
+                    <h3>Tab-A</h3>
+                </div>
+            </section>
 
 </section>
+
+
 
 <section class="section-10">
     <div class="section-10__background backgroundImg"></div>
@@ -907,7 +854,7 @@
     </div>
 </section>
 
-<section class="section-16" >
+<section class="section-16">
     <div class="section-16__background backgroundImg"></div>
     <div class="section-16__title">A LIFELINE FOR THE COMMUNITY</div>
     <div class="section-16__pretitle">
@@ -921,127 +868,213 @@
     </div>
 </section>
 
-<section class="section-17" >
+<section class="section-17">
 
-<!--buttons-->
+    <!--buttons-->
     <div class="d-flex align-items-start">
-        <div class="nav flex-column timeline-images justify-content-evenly  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <button class="nav-link active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1" type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
-            <button class="nav-link img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false"></button>
-            <button class="nav-link img3" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button" role="tab" aria-controls="v-pills-3" aria-selected="false"></button>
-            <button class="nav-link img4" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button" role="tab" aria-controls="v-pills-4" aria-selected="false"></button>
-            <button class="nav-link img5" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button" role="tab" aria-controls="v-pills-5" aria-selected="false"></button>
-            <button class="nav-link img6" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button" role="tab" aria-controls="v-pills-6" aria-selected="false"></button>
-            <button class="nav-link img7" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button" role="tab" aria-controls="v-pills-7" aria-selected="false"></button>
+        <div class="nav flex-column timeline-images  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link s17 active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1"
+                    type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
+            <button class="nav-link s17 img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
+                    role="tab" aria-controls="v-pills-2" aria-selected="false"></button>
+            <button class="nav-link s17 img3" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
+                    role="tab" aria-controls="v-pills-3" aria-selected="false"></button>
+            <button class="nav-link s17 img4" id="v-pill-4" data-bs-toggle="pill" data-bs-target="#pill4" type="button"
+                    role="tab" aria-controls="v-pills-4" aria-selected="false"></button>
+            <button class="nav-link s17 img5" id="v-pill-5" data-bs-toggle="pill" data-bs-target="#pill5" type="button"
+                    role="tab" aria-controls="v-pills-5" aria-selected="false"></button>
+            <button class="nav-link s17 img6" id="v-pill-6" data-bs-toggle="pill" data-bs-target="#pill6" type="button"
+                    role="tab" aria-controls="v-pills-6" aria-selected="false"></button>
+            <button class="nav-link s17 img7" id="v-pill-7" data-bs-toggle="pill" data-bs-target="#pill7" type="button"
+                    role="tab" aria-controls="v-pills-7" aria-selected="false"></button>
         </div>
 
 
-<!--        content-->
-<!--bg1-->
+        <!--        content-->
+<!--*****************tab-1*****************-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="tab-1 tabs">
-                <h1>BackgrouSe</h1>
-                    <div class="button-next-slide button-next-slide-section-2"  data-toggle=".section-8, .section-8a"><span>READ MORE</span>
-<!--button-->
-                        <button class="button button-arrow-red">
+                <div class="tab-1 ">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
                             <div class="button-ripple button-ripple-section-2"></div>
                             <div class="icon icon-arrow">
                                 <svg>
-                                    <use href="#icon-arrow-right"></button>
-                                </svg>
-                            </div>
+                                    <use href="#icon-arrow-right">
                         </button>
+                        </svg>
                     </div>
+                    </button>
+                </div>
             </div>
-<!--            side tab-->
+            <!--            side tab-->
             <section class="section-8a">
                 <div class="section-8a__text">
+                    <!--                    fill in with template and reuse class for all versions-->
                     <h3>Tab-A</h3>
-                    <br>
-                    <p>
+                </div>
+            </section>
 
-                    </p>
+<!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
+            <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
+                <div class="tab-2 tabs">
+
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text">
+                    <!--                    fill in with template and reuse class for all versions-->
+                    <h3>Tab-A</h3>
+                </div>
+            </section>
+
+<!--***************************tab-3*****************-->
+            <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
+                <div class="tab-3 tabs">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text">
+                    <!--                    fill in with template and reuse class for all versions-->
+                    <h3>Tab-A</h3>
+                </div>
+            </section>
+
+<!--<--***************************tab-4*****************-->
+            <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
+                <div class="tab-4 tabs">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text">
+                    <!--                    fill in with template and reuse class for all versions-->
+                    <h3>Tab-A</h3>
+                </div>
+            </section>
+
+<!--*************************tab-5*****************-->
+            <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
+                <div class="tab-5 tabs">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text">
+                    <!--                    fill in with template and reuse class for all versions-->
+                    <h3>Tab-A</h3>
+                </div>
+            </section>
+<!--**********************tab-6*****************-->
+            <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
+                <div class="tab-6 tabs">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text">
+                    <!--                    fill in with template and reuse class for all versions-->
+                    <h3>Tab-A</h3>
                 </div>
             </section>
 
 
-
-            <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
-                <div class="tab-2 tabs"></div>
-            </div>
-            <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
-                <div class="tab-3 tabs"></div>
-
-            </div>
-            <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
-                <div class="tab-4 tabs"></div>
-            </div>
-            <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
-                <div class="tab-5 tabs"></div>
-            </div>
-            <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
-                <div class="tab-6 tabs"></div>
-            </div>
+<!--************************tab-7*****************-->
             <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
-                <div class="tab-7 tabs"></div>
+                <div class="tab-7 tabs">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
             </div>
+            <!--            side tab-->
+            <section class="section-8a">
+                <div class="section-8a__text d-flex justify-content-evenly">
+                    <!--                    fill in with template and reuse class for all versions-->
+                    <h3>Tab-7</h3>
+                </div>
+                <div class="d-flex justify-content-evenly">
+                    <a href="#map">View Map</a>
+                </div>
+            </section>
+
         </div>
     </div>
 
-
-
-
-
-
-<!--    <div id="bg">-->
-<!--        <div class="section-17__background backgroundImg" id="s17"></div>-->
-<!--    </div>-->
-<!---->
-<!--        <div class="section-17__text-wrapper">-->
-<!--            <div class="section-17__text">-->
-<!--                YMCA Early Learning<br> Center at Haven for Hope-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    <div class="row">-->
-<!--        <div class="col-md-12 nav nav-tabs" id="myTab" >-->
-<!--            <ul class="timeline-images">-->
-<!--                <li class="img1 nav-item active" id="16">-->
-<!--                    <a href="#home" class="nav-link active" data-bs-toggle="tab">Home</a>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="img2 bg nav-item" id="17">-->
-<!--                    <a href="#profile" class="nav-link" data-bs-toggle="tab">Profile</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a href="#messages" class="nav-link" data-bs-toggle="tab">Messages</a>-->
-<!--                </li>-->
-<!--                <li class="img3 bg" id="17">x</li>-->
-<!--                <li class="img4 bg" id="18">x</li>-->
-<!--                <li class="img5 bg">x</li>-->
-<!--                <li class="img6 bg">x</li>-->
-<!--                <li class="img7 bg">x</li>-->
-<!--            </ul>-->
-<!--  -->
 </section>
-
-
-
-<section class="section-17a" id="17">
-    <div class="section-17a__background backgroundImg">Test 17a</div>
-    <div class="section-17a__text-wrapper">
-        <div class="section-__title">Section 18 Map</div>
-        <div class="section-18__subtitle"></div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
 
 
 
@@ -1060,8 +1093,8 @@
 <section class="section-19">
     <div class="section-19__background backgroundImg"></div>
 
-    <div class="section-19__title title">[ Funding the </div>
-    <div class="section-19__text title"> frontline] </div>
+    <div class="section-19__title title">[ Funding the</div>
+    <div class="section-19__text title"> frontline]</div>
     <div class="section-19__pretitle">
         As the pandemic raged, it was the nonprofit community who stood fast,<br>
         keeping so many of our vulnerable friends and neighbors from falling<br>
@@ -1072,13 +1105,13 @@
         back from the work they know how to get done.
     </div>
 
-        <div class="section-19__links ">
-            <div class="" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasExample">
+    <div class="section-19__links ">
+        <div class="" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasExample">
             <h3>COVID-19 FUND GRANTEES</h3>
-            </div>
         </div>
+    </div>
 
-<!--    off canvas click items bootstrap-->
+    <!--    off canvas click items bootstrap-->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header light">
 

@@ -250,6 +250,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-7", "opacity", 1.0, 0.0, 670, 685);
 
     // Section 8 | Active
+    new ElementAnimation("section-8", "opacity", 0.0, 1.0, 685, 690);
     new ElementAnimation("section-8__title", "margin-left", 150, 0, 670, 700);
     new ElementAnimation("section-8__subtitle", "margin-left", 100, 0, 700, 720);
     new ElementAnimation("section-8__subtitle-wrapper", "opacity", 0.0, 1.0, 710, 725);
@@ -257,26 +258,26 @@ window.addEventListener("DOMContentLoaded", event => {
     // Section 8 | Closing
     new ElementAnimation("section-8__background", "opacity", 1.0, 0.0, 770, 790);
 
-    new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 700, 770);
-    new ElementAnimation("section-8__icon", "opacity", 1.0, 0.0, 700, 760);
+    new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 760, 770);
+    new ElementAnimation("section-8__icon", "opacity", 1.0, 0.0, 750, 760);
 
-    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 740, 750);
+    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
 
     //Section 9 | Active
-    new ElementAnimation("section-9", "opacity", 0.0, 1.00, 750, 760),
+    new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
 
-    new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
-    new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
-
-    new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
-
-    new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 810);
-
-    new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
-
-    new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
-
-    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
+    // new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
+    // new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
+    //
+    // new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
+    //
+    // new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 810);
+    //
+    // new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
+    //
+    // new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
+    //
+    // new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 

@@ -1566,7 +1566,7 @@ section.completed .button-next-slide-section-2 {
     background: #ef7930;
     display: inline-block;
     position: fixed;
-    right: 6.1%;
+    right: 5.8%;
     width: 3px;
     height: 140%;
     z-index: -1;
@@ -1574,17 +1574,23 @@ section.completed .button-next-slide-section-2 {
 .timeline-wrapper{
 
 }
-
+/*top of circle of timeline*/
+#v-pill-1{
+    margin-top: 4em;
+}
+/*bottom of circle of timeline*/
+#s9-12{
+    margin-bottom: 1em;
+}
 .nav-link.s9 {
-
-    height: 4rem !important;
-    width: 4rem !important;
+    height: 3rem !important;
+    width: 3rem !important;
     border-radius: 150px !important;
-    margin: 1.5em 0em 1.5em 0;
+    margin: 2em 0em 1em 0;
     z-index: 100 !important;
     border: none !important;
     background-color: #f2c8b1;
-
+    padding: 0!important;
 }
 .nav-link.s9:hover {
     transform: scale(1.3);
@@ -1632,13 +1638,6 @@ section.completed .button-next-slide-section-2 {
 }
 
 
-.section-9__title,
-.section-9__subtitle {
-    position: relative;
-    color: #64544d;
-    z-index: 93;
-}
-
 .section-9__pretitle {
     width: 200px;
     /*top: 174px;
@@ -1648,8 +1647,8 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-9__title {
-    /*top: 174px;
-    left: calc(50% - 83px);*/
+    position:absolute;
+    color: #64544d;
     top: 25%;
     width: 6em;
     transform: rotate(270deg);
@@ -1659,12 +1658,19 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-9__subtitle {
-    top: 5%;
-    width: 40%;
+    position: relative;
+    color: #64544d;
+    top: 12%;
+    width: 51%;
     left: 34%;
     padding-left: 2%;
-    font-size: 15px;
-    line-height: 41px;
+    font-size: 13px;
+    line-height: 25px;
+}
+.section-9__subtitle span {
+    font-weight: bold;
+    color: #ef7930;
+    font-size: 20px;
 }
 
 .section-10__pretitle {
@@ -1749,6 +1755,9 @@ section-10__text {
     background-size: cover
 }
 
+.section-12__background{
+
+}
 .section-12__text-wrapper {
     position: relative;
     width: 100%;
@@ -2232,7 +2241,9 @@ section-10__text {
 }
 
 .section-15__background {
-
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-image: url('../images/section-15__blue-mural.jpg');
 
 }

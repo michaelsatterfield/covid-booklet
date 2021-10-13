@@ -641,8 +641,8 @@
 
 <section class="section-9">
 
-    <!--buttons-->
-    <div class="d-flex align-items-start ">
+<!--buttons-->
+    <div class="">
         <main class="timeline-wrapper ">
             <div class="nav flex-column timeline  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
@@ -684,37 +684,40 @@
             </div>
 
         </main>
-        <!--        content-->
-        <!--*****************March*****************-->
+<!--content-->
+<!--*****************March*****************-->
         <div class="tab-content " id="v-pills-tabContent">
 
             <div class="tab-pane fade show active bg-light" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="section-9__background">
-                    <h1 class="section-9__title">March 2020</h1>
+                <div class="section-9__background ">
+                    <h1 class="section-9__title ">March 2020</h1>
 
                 <div class="section-9__subtitle">
-                    13
-                    Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
+                    <span>13</span><br>
+                    Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.<br><br>
 
-                    20
-                    The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                    The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                    <span>20</span><br>
+                    The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response
+                    Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.<br>
+                    The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations,
+                    medical information/support, fear and confusion about the outbreak, and resources for school-aged children.<br><br>
 
-                    20
-                    Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                    <span>20</span><br>
+                    Creation of internal and external review committee comprised of funders and community experts to inform
+                    fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.<br><br>
 
-                    23
-                    SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                    <span>23</span><br>
+                    SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.<br><br>
 
-                    27
-                    The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                    <span>27</span><br>
+                    The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.<br><br>
                 </div>
 
 
                 </div>
             </div>
 
-            <!--*****************April*****************-->
+<!--*****************April*****************-->
                 <div class="tab-pane fade show  bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
                     <div class="section-9__background">
                         <h1 class="section-9__title">April 2020</h1>
@@ -737,7 +740,7 @@
                         </div>
                     </div>
                 </div>
-            <!--*****************May*****************-->
+<!--*****************May*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-3" role="tabpanel" aria-labelledby="s9_3">
                 <div class="section-9__background">
                     <h1 class="section-9__title">May 2020</h1>
@@ -760,7 +763,7 @@
                     </div>
                 </div>
             </div>
-            <!--*****************June*****************-->
+<!--*****************June*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-4" role="tabpanel" aria-labelledby="s9_4">
                 <div class="section-9__background">
                     <h1 class="section-9__title">June 2020</h1>
@@ -968,7 +971,6 @@
                 </div>
             </div>
 
-
 </section>
 
 
@@ -1003,7 +1005,7 @@
 
 
 <section class="section-12">
-
+    <div class="section-12__background"></div>
     <div class="section-12__image"></div>
 
     <div class="section-12__imageshorttext"></div>

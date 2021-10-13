@@ -1553,7 +1553,7 @@ section.completed .button-next-slide-section-2 {
 .timeline {
     resize: none;!important;
     position: fixed;
-    right: 10%;
+    right: 8%;
     z-index: 94;
     background-size: cover;
 }
@@ -1566,17 +1566,20 @@ section.completed .button-next-slide-section-2 {
     background: #ef7930;
     display: inline-block;
     position: fixed;
-    right: 5.8%;
+    right: 3.7%;
     width: 3px;
     height: 140%;
     z-index: -1;
 }
 .timeline-wrapper{
-
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 /*top of circle of timeline*/
 #v-pill-1{
-    margin-top: 4em;
+    margin-top: 5em;
 }
 /*bottom of circle of timeline*/
 #s9-12{
@@ -1586,11 +1589,12 @@ section.completed .button-next-slide-section-2 {
     height: 3rem !important;
     width: 3rem !important;
     border-radius: 150px !important;
-    margin: 2em 0em 1em 0;
+    margin:1.5em 0 1em 0;
     z-index: 100 !important;
     border: none !important;
     background-color: #f2c8b1;
     padding: 0!important;
+
 }
 .nav-link.s9:hover {
     transform: scale(1.3);

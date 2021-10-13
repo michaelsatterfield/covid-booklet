@@ -643,43 +643,43 @@
 
 <!--buttons-->
     <div class="">
-        <main class="timeline-wrapper ">
+        <main class="timeline-wrapper container-fluid ">
             <div class="nav flex-column timeline  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-
-                <button class="nav-link s9 active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
+<div></div>
+                <button class="nav-link s9 col-3 active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
                         type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"><h1>M</h1></button>
-
-                <button class="nav-link s9" id="s9_2" data-bs-toggle="pill" data-bs-target="#s9-2" type="button"
+<div></div>
+                <button class="nav-link s9 row" id="s9_2" data-bs-toggle="pill" data-bs-target="#s9-2" type="button"
                         role="tab" aria-controls="s9_2" aria-selected="false"><h1>A</h1></button>
-
-                <button class="nav-link s9" id="s9_3" data-bs-toggle="pill" data-bs-target="#s9-3" type="button"
+<div></div>
+                <button class="nav-link s9 row-1" id="s9_3" data-bs-toggle="pill" data-bs-target="#s9-3" type="button"
                         role="tab" aria-controls="v-pills-3" aria-selected="false"><h1>M</h1></button>
-
-                <button class="nav-link s9" id="s9_4" data-bs-toggle="pill" data-bs-target="#s9-4" type="button"
+<div></div>
+                <button class="nav-link s9 row-1" id="s9_4" data-bs-toggle="pill" data-bs-target="#s9-4" type="button"
                         role="tab" aria-controls="v-pills-4" aria-selected="false"><h1>J</h1</button>
 
-                <button class="nav-link s9" id="s9_5" data-bs-toggle="pill" data-bs-target="#s9-5" type="button"
+                <button class="nav-link s9 row" id="s9_5" data-bs-toggle="pill" data-bs-target="#s9-5" type="button"
                         role="tab" aria-controls="v-pills-5" aria-selected="false"><h1>J</h1</button>
 
-                <button class="nav-link s9" id="s9_6" data-bs-toggle="pill" data-bs-target="#s9-6" type="button"
+                <button class="nav-link s9 row-1" id="s9_6" data-bs-toggle="pill" data-bs-target="#s9-6" type="button"
                         role="tab" aria-controls="v-pills-6" aria-selected="false"><h1>A</h1</button>
 
-                <button class="nav-link s9" id="s9_7" data-bs-toggle="pill" data-bs-target="#s9-7" type="button"
+                <button class="nav-link s9 row-1" id="s9_7" data-bs-toggle="pill" data-bs-target="#s9-7" type="button"
                         role="tab" aria-controls="v-pills-7" aria-selected="false"><h1>S</h1</button>
 
-                <button class="nav-link s9" id="s9_8" data-bs-toggle="pill" data-bs-target="#s9-8" type="button"
+                <button class="nav-link s9 row-1" id="s9_8" data-bs-toggle="pill" data-bs-target="#s9-8" type="button"
                         role="tab" aria-controls="v-pills-8" aria-selected="false"><h1>O</h1</button>
 
-                <button class="nav-link s9" id="s9_9" data-bs-toggle="pill" data-bs-target="#s9-9" type="button"
+                <button class="nav-link s9 row-1" id="s9_9" data-bs-toggle="pill" data-bs-target="#s9-9" type="button"
                         role="tab" aria-controls="v-pills-9" aria-selected="false"><h1>N</h1</button>
 
-                <button class="nav-link s9" id="s9_10" data-bs-toggle="pill" data-bs-target="#s9-10" type="button"
+                <button class="nav-link s9 row-1" id="s9_10" data-bs-toggle="pill" data-bs-target="#s9-10" type="button"
                         role="tab" aria-controls="v-pills-10" aria-selected="false"><h1>D</h1</button>
 
-                <button class="nav-link s9" id="s9_11" data-bs-toggle="pill" data-bs-target="#s9-11" type="button"
+                <button class="nav-link s9 row-1" id="s9_11" data-bs-toggle="pill" data-bs-target="#s9-11" type="button"
                         role="tab" aria-controls="v-pills-11" aria-selected="false"><h1>J</h1</button>
 
-                <button class="nav-link s9" id="s9_12" data-bs-toggle="pill" data-bs-target="#s9-12" type="button"
+                <button class="nav-link s9 row-1" id="s9_12" data-bs-toggle="pill" data-bs-target="#s9-12" type="button"
                         role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1</button>
             </div>
 

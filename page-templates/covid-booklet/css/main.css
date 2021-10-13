@@ -1495,6 +1495,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 
+
 .section-8a {
     z-index: 92;
     width: 100%;
@@ -1556,6 +1557,7 @@ section.completed .button-next-slide-section-2 {
     right: 8%;
     z-index: 94;
     background-size: cover;
+    pointer-events: all!important;
 }
 
 
@@ -2391,13 +2393,6 @@ section-10__text {
 
 /*vertical timeline 1*/
 
-ul.timeline-images {
-    list-style-type: none;
-    position: absolute;
-    left: 2%;
-    z-index: 90;
-    pointer-events: all;
-}
 
 
 .section-17__text-wrapper {
@@ -2414,14 +2409,23 @@ ul.timeline-images {
 }
 
 
-/*orange timeline*/
 
+timeline-images {
+    resize: none;!important;
+    position: fixed;
+    background-size: cover;
+    left: 2%;
+    z-index: 90;
+    pointer-events: all;
+}
+
+/*gray timeline*/
 .timeline-images:before {
     content: '';
     background: #ffffff;
     display: inline-block;
-    position: absolute;
-    left: 42px;
+    position: fixed;
+    left: 2.9%;
     width: 2px;
     height: 140%;
     z-index: 99;
@@ -2464,7 +2468,7 @@ ul.timeline-images {
     background-size: cover;
 }
 
-
+/*overall main tab properties*/
 .tabs {
     z-index: 80;
     width: 100%;
@@ -2475,78 +2479,91 @@ ul.timeline-images {
     -o-background-size: cover;
     background-size: cover;
 }
-
-.tab-1 {
-    z-index: 80;
+/*overall side tab properties*/
+.tab-a {
+    z-index: 92;
     width: 100%;
     height: 100vh;
-    position: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: contain;
+    margin-left: 100%;
+    transition: margin-left 0.33s;
+    background-color: #63554F;
+}
+.tab-a.toggle{
+    margin-left: 0;
+}
+
+.tab-1 {
     background: #574261 url(../images/section-17-ymca.jpg) no-repeat center center fixed !important;
 }
 
+.tab-1a {
+    z-index: 92;
+    width: 100%;
+    height: 100vh;
+    margin-left: 100%;
+    transition: margin-left 0.33s;
+    background-color: #63554F;
+}
+.tab-1a.toggle {
+    margin-left: 0;
+}
+/***************************************************************************/
 .tab-2 {
-
     background: url(../images/murals.jpg) no-repeat center center fixed;
-
 }
-
+/***************************************************************************/
 .tab-3 {
-
     background: url(../images/corazon.jpg) no-repeat center center fixed;
-
 }
-
+/***************************************************************************/
 .tab-4 {
-    z-index: 80;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
     background: url(../images/grandfather-grandaugthers.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
-
+/***************************************************************************/
 .tab-5 {
-    z-index: 80;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
     background: url(../images/liftfund-foodtruck.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
+/***************************************************************************/
 .tab-6 {
-    z-index: 80;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
     background: url(../images/ymca-1.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
+/***************************************************************************/
 .tab-7 {
-    z-index: 80;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
     background: url(../images/section-7-background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
+
+/*map*/
+.modal-backdrop{
+    z-index: 80!important;
+}
+.modal-header{
+    margin:1em 1em 0 1em!important;
+    border: none!important;
+}
+.modal-content {
+    max-width: 72em;
+    height: 75em;!important;
+    border-radius: 1em!important;
+}
+.map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff url('../images/covid_zip_code_map.png') no-repeat ;
+    background-size: 67em;
+    border-radius: 1em;
+
+}
+
+
 
 /*bootstrap overrides*/
 
@@ -2555,7 +2572,7 @@ ul.timeline-images {
     height: 5em !important;
     width: 5em !important;
     border-radius: 150px !important;
-    margin: 5em 0em 2em 1.5em;
+    margin: 4em 0em 3em 1.2em;
     z-index: 100 !important;
     border: none !important;
     filter: grayscale(100%);

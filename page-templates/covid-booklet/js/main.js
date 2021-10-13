@@ -105,7 +105,6 @@ window.addEventListener("DOMContentLoaded", event => {
     ElementAnimation.scrollDisabled = false;
 
 
-
 //get section-2a showing after scroll
     let myID = document.getElementById("section-2a");
 
@@ -136,8 +135,6 @@ window.addEventListener("DOMContentLoaded", event => {
     };
 
     window.addEventListener("scroll", myScrollFunc2);
-
-
 
 
     new ElementAnimation("section-1", "opacity",
@@ -323,9 +320,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1290, 1300);
 
 
-
-
-
     new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1310);
     new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1300, 1310);
 
@@ -379,7 +373,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1310, function (sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
-
 
 
     // new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1410, function ( sp, ssta, ssto) {
@@ -442,26 +435,25 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-17__background", "scale", 1.0, 1.05, 1600, 1610);
     // new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1630);
 
-    new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1690, 1700);
-    new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1690, 1700);
+    new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1750, 1790);
+    new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1750, 1790);
 
-    new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
-    new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
-    new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
-    new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
-    new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
+    // new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
+    // new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
+    // new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
+    // new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
+    // new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
+    //
+    // new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
 
-    new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
 
-
-    new ElementAnimation("section-19__background", "scale", 1.0, 1.05, 1800, 1810);
-    new ElementAnimation("section-19__pretitle", "opacity", 0.0, 1.0, 1815, 1845);
-    new ElementAnimation("section-19__pretitle", "margin-left", 50, 0, 1815, 1845);
-    new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1820, 1850);
+    new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1790, 1800);
     new ElementAnimation("section-19__title", "margin-left", 50, 0, 1820, 1850);
-    new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1825, 1855);
-    new ElementAnimation("section-19__text", "margin-left", 50, 0, 1825, 1855);
-
+    new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1805, 1812);
+    new ElementAnimation("section-19__text", "margin-left", 50, 0, 1820, 1850);
+    new ElementAnimation("section-19__pretitle", "opacity", 0.0, 1.0, 1815, 1820);
+    new ElementAnimation("section-19__pretitle", "margin-left", 50, 0, 1815, 1850);
+    new ElementAnimation("section-19__links", "opacity", 0.0, 1.0, 1850, 1860);
     new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1890, 1900);
 
 
@@ -475,7 +467,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1920);
 
     new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2000, 2010);
-
 
 
     ElementAnimation.setScrollDummyHeight();
@@ -677,7 +668,7 @@ window.addEventListener("DOMContentLoaded", event => {
             var scrollToPosition = (parseInt(event.srcElement.getAttribute("data-offset")) / 100) * window.innerHeight;
             ElementAnimation.scrollDisabled = false;
             scrollTo(scrollToPosition, 500);
-            console.log (window.pageYOffset);
+            console.log(window.pageYOffset);
             event.preventDefault();
         });
 
@@ -708,14 +699,6 @@ window.addEventListener("DOMContentLoaded", event => {
         t--;
         return -c / 2 * (t * (t - 2) - 1) + b;
     };
-
-
-
-
-
-
-
-
 
 
     // all custom jQuery will go here
@@ -771,16 +754,20 @@ window.addEventListener("DOMContentLoaded", event => {
 
             }
         });
+        //close when clicking off-screen timeline area
+        $(".nav-link").click(function () {
+            $("section").removeClass("toggle")
+        })
 
-            $(".nav-link").click(function(){
-                $("section").removeClass("toggle")
-                console.log("toggle removed")
-            })
+        //close when clicking off-screen map area
+        $(".nav-link").click(function () {
+            $(".modal").removeClass("show")
+        })
 
 
         $("#myTab a:last").tab("show"); // show last tab
 
-        });
+    });
 });
 
 

@@ -1144,7 +1144,7 @@
 
     <!--buttons-->
     <div class="d-flex align-items-start">
-        <div class="nav flex-column timeline-images  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="nav flex-column timeline-images " id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link s17 active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1"
                     type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
             <button class="nav-link s17 img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
@@ -1166,8 +1166,8 @@
         <!--*****************tab-1*****************-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="tab-1 ">
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                <div class="tab-1 tabs">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-1, .tab-1a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1182,18 +1182,31 @@
                 </div>
             </div>
             <!--            side tab-->
-            <section class="section-8a">
-                <div class="section-8a__text">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-A</h3>
+
+            <section class="tab-1a tab-a">
+                <div class="tab-1">
+                    <div class="side-tab">
+                        <div class="side-tab-title"><h1>YMCA EArly Learning Center at haven for hope</h1></div>
+                        <div class="side-tab-text">As the City began shutting down, so did daycare and other childcare centers.
+                            Response Fund partners started linking with nonprofits to reopen childcare centers for first
+                            responders and essential workers.The support provided immediate impact in stabilizing a spiraling
+                            crisis as the pandemic spread exponentially.</div>
+                    </div>
+                    <div class="side-tab-quote">“My daughter enrolled in the distance learning camp, and sending her has been
+                        an absolute lifeline for our family. We work and have no family in town. Without this camp, we’d have
+                        to make some painful decisions for our family, financial and otherwise.”
+
+                        —YMCA Client
+                    </div>
                 </div>
+
             </section>
 
             <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
             <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
                 <div class="tab-2 tabs">
 
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-2, .tab-2a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1208,17 +1221,17 @@
                 </div>
             </div>
             <!--            side tab-->
-            <section class="section-8a">
+            <section class="tab-2a tab-a">
                 <div class="section-8a__text">
                     <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-A</h3>
+                    <h3>Tab-2a</h3>
                 </div>
             </section>
 
             <!--***************************tab-3*****************-->
             <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
                 <div class="tab-3 tabs">
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1233,17 +1246,17 @@
                 </div>
             </div>
             <!--            side tab-->
-            <section class="section-8a">
+            <section class="tab-3a tab-a">
                 <div class="section-8a__text">
                     <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-A</h3>
+                    <h3>Tab-3a</h3>
                 </div>
             </section>
 
             <!--<--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
                 <div class="tab-4 tabs">
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1258,17 +1271,17 @@
                 </div>
             </div>
             <!--            side tab-->
-            <section class="section-8a">
+            <section class="tab-4a tab-a">
                 <div class="section-8a__text">
                     <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-A</h3>
+                    <h3>Tab-4a</h3>
                 </div>
             </section>
 
             <!--*************************tab-5*****************-->
             <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
                 <div class="tab-5 tabs">
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1283,16 +1296,16 @@
                 </div>
             </div>
             <!--            side tab-->
-            <section class="section-8a">
+            <section class="tab-5a tab-a">
                 <div class="section-8a__text">
                     <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-A</h3>
+                    <h3>Tab-5a</h3>
                 </div>
             </section>
             <!--**********************tab-6*****************-->
             <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
                 <div class="tab-6 tabs">
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1307,10 +1320,10 @@
                 </div>
             </div>
             <!--            side tab-->
-            <section class="section-8a">
+            <section class="tab-6a tab-a">
                 <div class="section-8a__text">
                     <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-A</h3>
+                    <h3>Tab-6a</h3>
                 </div>
             </section>
 
@@ -1318,7 +1331,7 @@
             <!--************************tab-7*****************-->
             <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
                 <div class="tab-7 tabs">
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".section-8, .section-8a">
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1333,14 +1346,32 @@
                 </div>
             </div>
             <!--            side tab-->
-            <section class="section-8a">
+            <section class="tab-7a tab-a">
                 <div class="section-8a__text d-flex justify-content-evenly">
                     <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-7</h3>
+                    <h3>Tab-7a</h3>
                 </div>
                 <div class="d-flex justify-content-evenly">
-                    <a href="#map">View Map</a>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mapModal">
+                    View Map
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="mapModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county – Highest level poverty zip code map</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body map"></div>
+                        </div>
+                    </div>
                 </div>
+                </div>
+
+
             </section>
 
         </div>
@@ -1349,16 +1380,16 @@
 </section>
 
 
-<section class="section-18">
-    <div class="section-18__background backgroundImg"></div>
-    <div class="section-18__text-wrapper">
-        <div class="section-18__title">Section 18 Map</div>
-        <div class="section-18__subtitle"></div>
-    </div>
-    <div class="section-18__icon" data-toggle=".section-18, .section-18a"><span
-                class="section-18__icon__asterisk">*</span> <span class="section-18__icon__read-poem"></span>
-    </div>
-</section>
+<!--<section class="section-18">-->
+<!--    <div class="section-18__background backgroundImg"></div>-->
+<!--    <div class="section-18__text-wrapper">-->
+<!--        <div class="section-18__title">Section 18 Map</div>-->
+<!--        <div class="section-18__subtitle"></div>-->
+<!--    </div>-->
+<!--    <div class="section-18__icon" data-toggle=".section-18, .section-18a"><span-->
+<!--                class="section-18__icon__asterisk">*</span> <span class="section-18__icon__read-poem"></span>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <section class="section-19">

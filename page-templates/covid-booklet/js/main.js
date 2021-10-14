@@ -112,7 +112,7 @@ window.addEventListener("DOMContentLoaded", event => {
         let y = window.scrollY;
         if (y >= 2800) {
             myID.className = "bottomMenu show"
-            console.log("2a")
+
 
         } else {
             myID.className = "bottomMenu hide"
@@ -157,7 +157,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("header-left", "opacity", 0.0, 1.0, 100, 120);
     new ElementAnimation("header-left", "margin-left", -100, 0, 100, 120);
 
-    // console.log("margin-left as percent window");
+
     new ElementAnimation("section-2__text-1", "opacity", 0.0, 1.0, 105, 120);
     new ElementAnimation("section-2__text-1", "margin-left", 50, 0, 105, 120);
     new ElementAnimation("section-2__text-2", "opacity", 0.0, 1.0, 110, 125);
@@ -597,7 +597,6 @@ window.addEventListener("DOMContentLoaded", event => {
     // Main cycle duration (not the entire duration though. total duration: cycle duration + transition duration
     function cycleQuotesRecursively() {
         var quotes = quotesContainer.getElementsByClassName("quote");
-        // console.log("if quotes visible");
         setTimeout(function () {
             quotesContainer.style.opacity = 0.0;
             quotes[quoteIndex].classList.remove("active");
@@ -668,7 +667,7 @@ window.addEventListener("DOMContentLoaded", event => {
             var scrollToPosition = (parseInt(event.srcElement.getAttribute("data-offset")) / 100) * window.innerHeight;
             ElementAnimation.scrollDisabled = false;
             scrollTo(scrollToPosition, 500);
-            console.log(window.pageYOffset);
+            // console.log(window.pageYOffset);
             event.preventDefault();
         });
 
@@ -725,7 +724,7 @@ window.addEventListener("DOMContentLoaded", event => {
                 case value >= 15500 && value <= 15700:
                     $(".pieClass").attr("src", p2)
 
-                    console.log("p2")
+
                     break;
                 case value >= 15700 && value <= 15800:
                     $(".pieClass").attr("src", p3);
@@ -763,7 +762,11 @@ window.addEventListener("DOMContentLoaded", event => {
         $(".nav-link").click(function () {
             $(".modal").removeClass("show")
         })
-
+        //keep page from refreshing to top
+        $(window).on('unload', function() {
+            $(window).scrollTop(0);
+            console.log("top")
+        });
 
         $("#myTab a:last").tab("show"); // show last tab
 

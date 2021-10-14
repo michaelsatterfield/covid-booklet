@@ -76,6 +76,7 @@
             src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             crossorigin="anonymous"></script>
+
 </head>
 
 <body class="index-page">
@@ -159,11 +160,11 @@
             </div>
             <nav class="nav-main">
                 <ul class="nav-main__list">
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="320">[Timeline]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1220">[Timeline]</a>
                     </li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1050">[Numbers]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2620">[Stories]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="3800">[Funding]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2000">[Numbers]</a></li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2520">[Stories]</a></li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2850">[Funding]</a>
                     </li>
                     <li class="nav-main__item">
                         <button class="button button-heart button-heart-header-top">
@@ -238,9 +239,6 @@
     </button>
 </div>
 </section>
-
-
-
 
 
 <section class="section-3">
@@ -593,20 +591,20 @@
 
 <section class="section-9">
 
-<!--buttons-->
+    <!--buttons-->
     <div class="">
         <main class="timeline-wrapper container-fluid ">
             <div class="nav flex-column timeline  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-<div></div>
+                <div></div>
                 <button class="nav-link s9 col-3 active " id="v-pill-1" data-bs-toggle="pill" data-bs-target="#s9-1"
                         type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"><h1>M</h1></button>
-<div></div>
+                <div></div>
                 <button class="nav-link s9 row" id="s9_2" data-bs-toggle="pill" data-bs-target="#s9-2" type="button"
                         role="tab" aria-controls="s9_2" aria-selected="false"><h1>A</h1></button>
-<div></div>
+                <div></div>
                 <button class="nav-link s9 row-1" id="s9_3" data-bs-toggle="pill" data-bs-target="#s9-3" type="button"
                         role="tab" aria-controls="v-pills-3" aria-selected="false"><h1>M</h1></button>
-<div></div>
+                <div></div>
                 <button class="nav-link s9 row-1" id="s9_4" data-bs-toggle="pill" data-bs-target="#s9-4" type="button"
                         role="tab" aria-controls="v-pills-4" aria-selected="false"><h1>J</h1</button>
 
@@ -636,63 +634,79 @@
             </div>
 
         </main>
-<!--content-->
-<!--*****************March*****************-->
+        <!--content-->
+        <!--*****************March*****************-->
         <div class="tab-content " id="v-pills-tabContent">
 
             <div class="tab-pane fade show active bg-light" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
                 <div class="section-9__background ">
                     <h1 class="section-9__title ">March 2020</h1>
 
-                <div class="section-9__subtitle">
-                    <span>13</span><br>
-                    Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.<br><br>
+                    <div class="section-9__subtitle">
+                        <span>13</span><br>
+                        Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.<br><br>
 
-                    <span>20</span><br>
-                    The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response
-                    Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.<br>
-                    The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations,
-                    medical information/support, fear and confusion about the outbreak, and resources for school-aged children.<br><br>
+                        <span>20</span><br>
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response
+                        Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to
+                        trusted nonprofits on the frontlines.<br>
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations,
+                        medical information/support, fear and confusion about the outbreak, and resources for
+                        school-aged children.<br><br>
 
-                    <span>20</span><br>
-                    Creation of internal and external review committee comprised of funders and community experts to inform
-                    fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.<br><br>
+                        <span>20</span><br>
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform
+                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
+                        are made available.<br><br>
 
-                    <span>23</span><br>
-                    SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.<br><br>
+                        <span>23</span><br>
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.<br><br>
 
-                    <span>27</span><br>
-                    The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.<br><br>
-                </div>
+                        <span>27</span><br>
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.<br><br>
+                    </div>
 
 
                 </div>
             </div>
 
-<!--*****************April*****************-->
-                <div class="tab-pane fade show  bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
-                    <div class="section-9__background">
-                        <h1 class="section-9__title">April 2020</h1>
-                        <div class="section-9__subtitle">
-                            13
-                            Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
+            <!--*****************April*****************-->
+            <div class="tab-pane fade show  bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
+                <div class="section-9__background">
+                    <h1 class="section-9__title">April 2020</h1>
+                    <div class="section-9__subtitle">
+                        13
+                        Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
-                            20
-                            The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                            The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        20
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
-                            20
-                            Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        20
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
-                            23
-                            SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        23
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
-                            27
-                            The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
-                        </div>
+                        27
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
-<!--*****************May*****************-->
+            </div>
+            <!--*****************May*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-3" role="tabpanel" aria-labelledby="s9_3">
                 <div class="section-9__background">
                     <h1 class="section-9__title">May 2020</h1>
@@ -701,21 +715,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-<!--*****************June*****************-->
+            <!--*****************June*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-4" role="tabpanel" aria-labelledby="s9_4">
                 <div class="section-9__background">
                     <h1 class="section-9__title">June 2020</h1>
@@ -724,21 +746,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************July*****************-->
+            <!--*****************July*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-5" role="tabpanel" aria-labelledby="s9_5">
                 <div class="section-9__background">
                     <h1 class="section-9__title">July 2020</h1>
@@ -747,21 +777,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************August*****************-->
+            <!--*****************August*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-6" role="tabpanel" aria-labelledby="s9_6">
                 <div class="section-9__background">
                     <h1 class="section-9__title">August 2020</h1>
@@ -770,21 +808,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************September*****************-->
+            <!--*****************September*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-7" role="tabpanel" aria-labelledby="s9_7">
                 <div class="section-9__background">
                     <h1 class="section-9__title">September 2020</h1>
@@ -793,21 +839,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************October*****************-->
+            <!--*****************October*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-8" role="tabpanel" aria-labelledby="s9_8">
                 <div class="section-9__background">
                     <h1 class="section-9__title">October 2020</h1>
@@ -816,21 +870,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************November*****************-->
+            <!--*****************November*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-9" role="tabpanel" aria-labelledby="s9_9">
                 <div class="section-9__background">
                     <h1 class="section-9__title">November 2020</h1>
@@ -839,21 +901,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************December*****************-->
+            <!--*****************December*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-10" role="tabpanel" aria-labelledby="s9_10">
                 <div class="section-9__background">
                     <h1 class="section-9__title">December 2020</h1>
@@ -862,21 +932,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************January*****************-->
+            <!--*****************January*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-11" role="tabpanel" aria-labelledby="s9_11">
                 <div class="section-9__background">
                     <h1 class="section-9__title">January 2020</h1>
@@ -885,21 +963,29 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
-  <!--*****************February*****************-->
+            <!--*****************February*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-12" role="tabpanel" aria-labelledby="s9_12">
                 <div class="section-9__background">
                     <h1 class="section-9__title">February 2020</h1>
@@ -908,17 +994,25 @@
                         Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.
 
                         20
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to trusted nonprofits on the frontlines.
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of vulnerable populations, medical information/support, fear and confusion about the outbreak, and resources for school-aged children.
+                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                        COVID-19 Response Fund with nearly $3 million initially seeded by donors, and immediately
+                        release 10 grants to trusted nonprofits on the frontlines.
+                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                        vulnerable populations, medical information/support, fear and confusion about the outbreak, and
+                        resources for school-aged children.
 
                         20
-                        Creation of internal and external review committee comprised of funders and community experts to inform fund efforts during the crisis supporting our community’s greatest needs, before federal funds are made available.
+                        Creation of internal and external review committee comprised of funders and community experts to
+                        inform fund efforts during the crisis supporting our community’s greatest needs, before federal
+                        funds are made available.
 
                         23
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for essential workers.
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
+                        essential workers.
 
                         27
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before the end of March.
+                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
+                        the end of March.
                     </div>
                 </div>
             </div>
@@ -1139,13 +1233,18 @@
                 <div class="tab-1">
                     <div class="side-tab">
                         <div class="side-tab-title"><h1>YMCA EArly Learning Center at haven for hope</h1></div>
-                        <div class="side-tab-text">As the City began shutting down, so did daycare and other childcare centers.
+                        <div class="side-tab-text">As the City began shutting down, so did daycare and other childcare
+                            centers.
                             Response Fund partners started linking with nonprofits to reopen childcare centers for first
-                            responders and essential workers.The support provided immediate impact in stabilizing a spiraling
-                            crisis as the pandemic spread exponentially.</div>
+                            responders and essential workers.The support provided immediate impact in stabilizing a
+                            spiraling
+                            crisis as the pandemic spread exponentially.
+                        </div>
                     </div>
-                    <div class="side-tab-quote">“My daughter enrolled in the distance learning camp, and sending her has been
-                        an absolute lifeline for our family. We work and have no family in town. Without this camp, we’d have
+                    <div class="side-tab-quote">“My daughter enrolled in the distance learning camp, and sending her has
+                        been
+                        an absolute lifeline for our family. We work and have no family in town. Without this camp, we’d
+                        have
                         to make some painful decisions for our family, financial and otherwise.”
 
                         —YMCA Client
@@ -1304,23 +1403,26 @@
                     <h3>Tab-7a</h3>
                 </div>
                 <div class="d-flex justify-content-evenly">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mapModal">
-                    View Map
-                </button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mapModal">
+                        View Map
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="mapModal"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county – Highest level poverty zip code map</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
+                         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county –
+                                        Highest level poverty zip code map</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body map"></div>
                             </div>
-                            <div class="modal-body map"></div>
                         </div>
                     </div>
-                </div>
                 </div>
 
 
@@ -1404,18 +1506,38 @@
 <section class="section-20">
     <div class="section-20__background backgroundImg"></div>
     <div class="section-20__pretitle"></div>
-    <div class="section-20__title"> Will you help us
-        continue the battle?<br></div>
+    <div class="section-20__text-wrapper">
+    <div class="section-20__title"> Will you help us<br>
+        continue the <br>battle?<br></div>
     <div class="section-20__text">
+        Your generosity will help our community pull through the COVID-19 crisis.
+        <br><br>
+        Thank you.
     </div>
-    <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span></span>
-        <button class="button button-arrow-green">
-            <div class="icon icon-arrow">
+    <div class="section-32__donate">
+        <button>
+            <div class="icon icon-heart icon-heart-white">
                 <svg>
-                    <use href="#icon-arrow-right"></use>
+                    <use href="#icon-heart"></use>
                 </svg>
             </div>
+            Donate Now
         </button>
+    </div>
+    </div>
+
+    <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Back to top</span>
+        <a href="">
+            <button class="button button-arrow-yellow">
+
+                <div class="icon icon-arrow arrow-up">
+                    <svg>
+                        <use href="#icon-arrow-right"></use>
+                    </svg>
+                </div>
+
+            </button>
+        </a>
     </div>
 </section>
 

@@ -105,38 +105,6 @@ window.addEventListener("DOMContentLoaded", event => {
     ElementAnimation.scrollDisabled = false;
 
 
-//get section-2a showing after scroll
-    let myID = document.getElementById("section-2a");
-
-    let myScrollFunc = () => {
-        let y = window.scrollY;
-        if (y >= 2800) {
-            myID.className = "bottomMenu show"
-
-
-        } else {
-            myID.className = "bottomMenu hide"
-
-        }
-    };
-    window.addEventListener("scroll", myScrollFunc);
-
-//todo: make a dynamic function with 2 arguments for myId and scrollAmt
-
-    let myID2 = document.getElementById("section-3a");
-
-    let myScrollFunc2 = () => {
-        let y = window.scrollY;
-        if (y >= 8500) {
-            myID2.className = "showSpan-2 show2 "
-        } else {
-            myID2.className = "showSpan-2 hide2"
-        }
-    };
-
-    window.addEventListener("scroll", myScrollFunc2);
-
-
     new ElementAnimation("section-1", "opacity",
         // initial property at start of animation, target property at stop of animation
         1.0, 0.0,
@@ -165,6 +133,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-2__text-3", "opacity", 0.0, 1.0, 110, 125);
     new ElementAnimation("section-2__text-3", "margin-left", 50, 0, 110, 125);
     new ElementAnimation("section-2__text-4", "opacity", 0.0, 1.0, 130, 145);
+    new ElementAnimation("section-2__text-5", "opacity", 0.0, 1.0, 155, 170);
     new ElementAnimation("button-next-slide-section-2", "opacity", 0.0, 1.0, 110, 120);
     new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 110, 115);
     new ElementAnimation("button-ripple-2", "scale", 1.0, 1.75, 110, 120);
@@ -205,28 +174,10 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-4__background", "opacity", 1.0, 0.0, 390, 405);
     new ElementAnimation("section-4", "opacity", 1.0, 0.0, 390, 405);
 
-    new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 500);
+    new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 420);
     new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
-    new ElementAnimation("button-prev-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
-    new ElementAnimation("button-next-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
+    new ElementAnimation("section-5__subtitle", "opacity", 0.0, 1.0, 450, 465);
 
-    new ElementAnimation("button-ripple-5l", "opacity", 0.0, 1.0, 410, 415);
-    new ElementAnimation("button-ripple-5l", "scale", 1.0, 1.75, 410, 420);
-    new ElementAnimation("button-ripple-5l", "scale", 1.75, 1.5, 420, 430);
-    new ElementAnimation("button-ripple-5l", "opacity", 1.0, 0.0, 415, 430);
-    new ElementAnimation("button-ripple-5l", "scale", 1.5, 1.75, 470, 480);
-    new ElementAnimation("button-ripple-5l", "opacity", 0.0, 1.0, 470, 480);
-    new ElementAnimation("button-ripple-5l", "scale", 1.75, 1.5, 480, 490);
-    new ElementAnimation("button-ripple-5l", "opacity", 1.0, 0.0, 480, 490);
-
-    new ElementAnimation("button-ripple-5r", "opacity", 0.0, 1.0, 410, 415);
-    new ElementAnimation("button-ripple-5r", "scale", 1.0, 1.75, 410, 420);
-    new ElementAnimation("button-ripple-5r", "scale", 1.75, 1.5, 420, 430);
-    new ElementAnimation("button-ripple-5r", "opacity", 1.0, 0.0, 415, 430);
-    new ElementAnimation("button-ripple-5r", "scale", 1.5, 1.75, 470, 480);
-    new ElementAnimation("button-ripple-5r", "opacity", 0.0, 1.0, 470, 480);
-    new ElementAnimation("button-ripple-5r", "scale", 1.75, 1.5, 480, 490);
-    new ElementAnimation("button-ripple-5r", "opacity", 1.0, 0.0, 480, 490);
 
     new ElementAnimation("section-5", "opacity", 1.0, 0.0, 470, 485);
 
@@ -718,36 +669,36 @@ window.addEventListener("DOMContentLoaded", event => {
             let value = $(this).scrollTop();
             console.log(value)
             switch (true) {
-                case value >= 15300 && value <= 15500:
+                case value >= 18500 && value <= 18600:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 15500 && value <= 15700:
+                case value >= 18600 && value <= 18800:
                     $(".pieClass").attr("src", p2)
 
 
                     break;
-                case value >= 15700 && value <= 15800:
+                case value >= 18800 && value <= 19000:
                     $(".pieClass").attr("src", p3);
 
                     break;
-                case value >= 15700 && value <= 15900:
+                case value >= 19000 && value <= 19200:
                     $(".pieClass").attr("src", p4);
 
                     break;
-                case value >= 15900 && value <= 16100:
+                case value >= 19200 && value <= 19400:
                     $(".pieClass").attr("src", p5);
 
                     break;
-                case value >= 16100 && value <= 16300:
+                case value >= 19400 && value <= 19600:
                     $(".pieClass").attr("src", p6);
 
                     break;
-                case value >= 16300 && value <= 16500:
+                case value >= 19600 && value <= 19800:
                     $(".pieClass").attr("src", p7);
 
 
                     break;
-                case value >= 16500 && value <= 16700:
+                case value >= 19800 && value <= 20000:
                     $(".pieClass").attr("src", p8);
                     break;
 

@@ -217,7 +217,7 @@
 
             <div class="section-2__text-4"><span class="section-2__text-3">The coronavirus pandemic </span>
                 prompted all of us to act quickly, depend on each other and encourage innovation.
-                <span id="section-2a" class="bottomMenu hide">We have prioritized community-led solution,
+                <span class="section-2__text-5" >We have prioritized community-led solution,
                     trusting those on the front lines to do the work they know how to get done, to serve their neighbors who are
                     in need.</span>
             </div>
@@ -266,102 +266,13 @@
         <div class="section-5__background"></div>
         <div class="section-6__title-wrapper">
             <div class="section-5__pretitle">Our work has been relentless.</div>
-            <div class="section-5__title">It has been eye opening</div>
+            <div class="section-5__title">It has been eye opening.</div>
 
-        </div>
-        <div class="button-prev-slide button-prev-slide-section-5" data-toggle=".section-5, .section-5a">
-            <button class="button button-arrow-red">
-                <div class="button-ripple-5l"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-left"></use>
-                    </svg>
-                </div>
-            </button>
-            <span>merced housing texas</span>
-        </div>
-        <div class="button-next-slide button-next-slide-section-5" data-toggle=".section-5, .section-5b"><span>bexar county family justice center</span>
-            <button class="button button-arrow-red">
-                <div class="button-ripple-5r"></div>
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
         </div>
     </section>
 </section>
-<section class="section-5a">
-    <div class="section-5a__wrapper">
-        <div class="section-5a__image"><img
-                    src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-5a.jpg">
-        </div>
-        <div class="section-5a__purplebox">One gift card recipient was a single parent who lost her job due to COVID-19.
-            She is raising her 10-year-old son and was concerned about their limited food supply and having to wait 12
-            days for their SNAP benefits. When she learned she would be receiving a gift card, she was so appreciative
-            and thanked the Resident Services Coordinator and the agencies involved with helping her family. She stated
-            that with the gift card she would be able to purchase much needed groceries.
-        </div>
-        <span class="section-5a__imageshorttext">» Merced Housing Texas</span>
-        <div class="section-5a__text">
-            <h3>How do you find shelter when it feels like your world is falling apart?</h3>
-            <br>
-            <p>The foundation of our health and safety is a decent place to live. When the COVID-19 crisis pushed many
-                in our community to the brink of homelessness, <span>Merced Housing Texas</span>, which focuses on
-                advocating for and providing affordable housing opportunities, was there to help. And the COVID-19 Fund
-                was there to help Merced by providing a $50,000 grant. Kristin Davila, Merced’s President and Executive
-                Director, reports that the agency used half of the grant to cover its Resident Services Program for
-                April. The other half came in the form of $250 gift cards for residents living at one of the agency’s
-                apartment campuses.</p>
-        </div>
-        <div class="button-back-slide-section-5a" data-toggle=".section-5, .section-5a">
-            <button class="button button-arrow-red">
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-right"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </div>
-</section>
-<section class="section-5b">
-    <div class="section-5b__wrapper">
-        <div class="section-5b__text">
-            <h3>Who do you turn to when you are in personal crisis during a larger community crisis?</h3>
-            <br>
-            <p>One of the many devastating effects of the pandemic has been an increase in domestic violence. The <span>Bexar County Family Justice Center</span>,
-                a critical service provider to victims of domestic violence, had to find a way to remain open. This was
-                no easy feat, given that it is typically an in-person, walk-in program.
-                Before the pandemic, the Area Foundation had already begun the transition to trust-based philanthropy
-                allowing organizations to focus on their mission and adjust or apply the grant dollars where they were
-                needed most. This pivot to operational funding enabled the Bexar County Family Justice Center to apply
-                the needed funds to provide crisis intervention and support services to a larger-than-normal client
-                base. </p>
-        </div>
-        <div class="section-5b__image">
-            <img src="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/images/section-5b.jpg">
-        </div>
-        <div class="section-5b__purplebox">“It is so hard to take the chance to accuse someone when you know their next
-            step is
-            to kill you. You feel powerless and desperate. The Family Justice Center’s services helped me to have
-            courage. Today I am safe. I have been able to carry on with my beautiful life. I am able to see my people
-            without being terrified. I just want to express my gratitude to all of you because you help me feel safe and
-            protected.”
-        </div>
-        <span class="section-5b__imageshorttext">» Bexar County Family Justice Center</span>
-        <div class="button-back-slide-section-5b" data-toggle=".section-5, .section-5b">
-            <button class="button button-arrow-red">
-                <div class="icon icon-arrow">
-                    <svg>
-                        <use href="#icon-arrow-left"></use>
-                    </svg>
-                </div>
-            </button>
-        </div>
-    </div>
-</section>
+
+
 
 
 <section class="section-6">
@@ -370,8 +281,8 @@
         <div class="section-6__pretitle"></div>
         <div class="section-5__title-wrapper">
             <div class="section-5__pretitle">Our work has been relentless.</div>
-            <div class="section-5__title">It has been eye opening</div>
-            <div id="section-3a">We are proud of the people of San <br>Antonio who rose to the challenge, with
+            <div class="section-5__title">It has been eye-<br>opening.</div>
+            <div class="section-5__subtitle" >We are proud of the people of San <br>Antonio who rose to the challenge, with<br>
                 compassion and without hesitation.
             </div>
         </div>
@@ -1516,14 +1427,17 @@
     </div>
     <div class="section-32__donate">
         <button>
-            <div class="icon icon-heart icon-heart-white">
+            <div class="icon icon-heart icon-heart-white heart-button">
                 <svg>
                     <use href="#icon-heart"></use>
                 </svg>
             </div>
-            Donate Now
+           <span class="vl"></span> Donate Now
         </button>
     </div>
+        <div class="section-20__link">
+            View annual impact report
+        </div>
     </div>
 
     <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Back to top</span>

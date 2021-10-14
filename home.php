@@ -1141,7 +1141,7 @@
             <!--            side tab-->
 
             <section class="tab-1a tab-a">
-                <div class="tab-1">
+
                     <div class="side-tab">
                         <div class="side-tab-title"><h1>YMCA EArly Learning Center at haven for hope</h1></div>
                         <div class="side-tab-text">As the City began shutting down, so did daycare and other childcare
@@ -1160,8 +1160,6 @@
 
                         —YMCA Client
                     </div>
-                </div>
-
             </section>
 
             <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->

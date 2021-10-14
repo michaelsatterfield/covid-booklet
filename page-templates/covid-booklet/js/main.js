@@ -207,7 +207,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-8__background", "opacity", 1.0, 0.0, 770, 790);
 
     new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 760, 770);
-    new ElementAnimation("section-8__icon", "opacity", 1.0, 0.0, 750, 760);
 
     new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
 
@@ -669,36 +668,36 @@ window.addEventListener("DOMContentLoaded", event => {
             let value = $(this).scrollTop();
             console.log(value)
             switch (true) {
-                case value >= 18500 && value <= 18600:
+                case value >= 17500 && value <= 17600:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 18600 && value <= 18800:
+                case value >= 17600 && value <= 17800:
                     $(".pieClass").attr("src", p2)
 
 
                     break;
-                case value >= 18800 && value <= 19000:
+                case value >= 17800 && value <= 18000:
                     $(".pieClass").attr("src", p3);
 
                     break;
-                case value >= 19000 && value <= 19200:
+                case value >= 18000 && value <= 18200:
                     $(".pieClass").attr("src", p4);
 
                     break;
-                case value >= 19200 && value <= 19400:
+                case value >= 18200 && value <= 18400:
                     $(".pieClass").attr("src", p5);
 
                     break;
-                case value >= 19400 && value <= 19600:
+                case value >= 18400 && value <= 18600:
                     $(".pieClass").attr("src", p6);
 
                     break;
-                case value >= 19600 && value <= 19800:
+                case value >= 18600 && value <= 18800:
                     $(".pieClass").attr("src", p7);
 
 
                     break;
-                case value >= 19800 && value <= 20000:
+                case value >= 18800 && value <= 19000:
                     $(".pieClass").attr("src", p8);
                     break;
 

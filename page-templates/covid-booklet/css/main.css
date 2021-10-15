@@ -312,11 +312,25 @@ a {
     border-radius: 50%;
     background-color: #85261e;
 }
+.scroll-button-wrapper{
+    position: relative;
+    top: 65%;
+}
 
 .button-arrow-red-section-1 {
+    position: relative;
     animation: glowing 2000ms infinite;
     position: relative;
-    bottom: -56em;
+
+}
+.scroll-text{
+    text-transform: uppercase;
+    position:relative;
+    left: 6.4em;
+    bottom: 2em;
+    color: white;
+    font-family: Roboto-Black;
+    font-size: 15px;
 }
 
 .button-arrow-yellow {
@@ -1226,7 +1240,7 @@ section.completed .button-next-slide-section-2 {
 .section-8__title {
     /*top: 218px;
     left: calc(50% - 337px);*/
-    font-family: Whitman-Roman, Arial, sans-serif;
+
     font-size: 80px
 }
 
@@ -1241,8 +1255,8 @@ section.completed .button-next-slide-section-2 {
     display: inline-block;
     position: relative;
 
-    left: 220px;
-    font-family: Whitman-Roman, Arial, sans-serif;
+    left: 12%;
+    font-family: Roboto-Regluar;!important;
     font-size: 20px;
     font-weight: 800;
 }
@@ -1531,17 +1545,23 @@ section-10__text {
 }
 
 .section-11__title {
-    position: fixed;
+    position: relative;
     top: 45%;
-    left: 35%;
+    left: 52%;
     transform: translate(-50%, -50%);
-    width: 457px;
-    font-family: Roboto-Regular, Aalri, sans-serif;
-    font-size: 30px;
-    line-height: 40px;
-    font-weight: bold;
+    width: 22em;
+    font-size: 36px;
+    line-height: 39px;
+    font-family: Roboto-Bold;!important;
     color: #4A413A;
-
+}
+.section-11__text{
+position: relative;
+    top: 33%;
+    left: 60%;
+    font-size: 18px;
+    font-family: "Roboto Light";!important;
+    color: #63554F;
 }
 
 .section-12 {
@@ -2280,7 +2300,7 @@ timeline-images {
     height: 100vh;
     margin-left: 100%;
     transition: margin-left 0.33s;
-    background-color: #63554F;
+    background-color: #ffffff;
 }
 .tab-a.toggle{
     margin-left: 0;
@@ -2289,6 +2309,7 @@ timeline-images {
     margin-left: 0;
 }
 .tab-1 {
+    z-index: 92;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2297,13 +2318,34 @@ timeline-images {
 }
 
 .tab-1a {
+    position: relative;
     z-index: 92;
     width: 100%;
     height: 100vh;
+
     margin-left: 100%;
 
-    background-image: url(../images/section-7-background.jpg);
+}
+.tab-1a-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
     background-size: 50%;
+    background-image: url(../images/section-17-ymca.jpg) ;
+}
+.side-tab{
+    color: black;
+    top: 30%;
+    right: 20%;
+}
+.side-tab-wrapper{
+    position: absolute;
+    left: 60%;
+    top: 24%;
+}
+.side-tab-text {
+
 }
 
 /***************************************************************************/
@@ -2467,11 +2509,15 @@ timeline-images {
 
 }
 
-.section-19__links {
+.section-19__links-wrapper {
     position: relative;
     top: 19em;
     left: 22em;
+
     color: whitesmoke;
+}
+.section-19__links {
+    margin-bottom: 3em;
 }
 
 .canvas-h5 {

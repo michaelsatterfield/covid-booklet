@@ -265,13 +265,13 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-12__title", "margin-left", 50, 0, 1200, 1210);
     new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1210);
     new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1210);
-    new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1200, 1210);
-
-    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1290, 1300);
 
 
-    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1310);
-    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1300, 1310);
+    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1295, 1300);
+
+
+    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1295, 1295);
+    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1300);
 
 
     // Continue here
@@ -316,11 +316,11 @@ window.addEventListener("DOMContentLoaded", event => {
         updateBarCallback(3, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1310, 1330, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1315, 1330, function (sp, ssta, ssto) {
         updateBarCallback(2, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1310, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1295, 1315, function (sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
 
@@ -339,8 +339,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-13__total", "opacity", 1.0, 0.0, 1400, 1410);
     new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1400, 1410, true);
-
-    new ElementAnimation("section-13", "opacity", 5.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1410, 1420);
 
     //todo: adjust scrollStart and stop to page height
     // new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1400, 1500);
@@ -354,13 +353,26 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1410, 1420);
+    // new ElementAnimation("section-14", "opacity", 0.0, 1.0, 1400, 1401);
+
+    // new ElementAnimation("section-14__image", "scale", 0.95, 0.975, 1390, 1391);
+    // new ElementAnimation("section-14__image", "scale", 0.975, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__image", "margin-left", -60, 0, 1390, 1391);
+    // new ElementAnimation("section-14__image", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__imageshorttext", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__title", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__title", "margin-left", 50, 0, 1390, 1391);
+    // new ElementAnimation("section-14__text", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__text", "margin-left", 50, 0, 1390, 1391);
+    // new ElementAnimation("button-next-slide-section-14", "opacity", 0.0, 1.0, 1390, 1391);
+
+    // new ElementAnimation("section-14", "opacity", 1.0, 0.5, 1401, 1402);
 
 
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
-    new ElementAnimation("section-15__image", "opacity", 0.0, 1.0, 1410, 1415);
+    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1410, 1415);
     new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
     new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
     new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
@@ -369,7 +381,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15__text", "opacity", 0.0, 1.0, 1420, 1450);
     new ElementAnimation("section-15__text", "margin-left", 50, 0, 1420, 1450);
     new ElementAnimation("button-next-slide-section-15", "opacity", 0.0, 1.0, 1440, 1450);
-
+    new ElementAnimation("section-15", "opacity", 0.0, 0.0, 1400, 1410);
     new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1490, 1500);
 
 
@@ -388,13 +400,13 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1750, 1790);
     new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1750, 1790);
 
-    // new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
-    // new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
-    // new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
-    // new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
-    // new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
-    //
-    // new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
+    new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
+    new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
+    new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
+    new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
+    new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
+
+    new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
 
 
     new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1790, 1800);
@@ -655,49 +667,57 @@ window.addEventListener("DOMContentLoaded", event => {
     jQuery(document).ready(function ($) {
         console.log("working jquery")
         //pie chart functionality
-        let p1 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
-        let p2 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
-        let p3 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
-        let p4 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
-        let p5 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
-        let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
-        let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
-        let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
+        // let p1 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
+        // let p2 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
+        // let p3 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
+        // let p4 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
+        // let p5 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
+        // let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
+        // let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
+        // let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
 
+        let p1 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
+        let p2 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
+        let p3 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
+        let p4 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
+        let p5 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
+        let p6 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
+        let p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
+        let p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
         $(window).scroll(function () {
             let value = $(this).scrollTop();
             console.log(value)
             switch (true) {
-                case value >= 17500 && value <= 17600:
+                case value >= 18500 && value <= 18600:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 17600 && value <= 17800:
+                case value >= 18600 && value <= 18800:
                     $(".pieClass").attr("src", p2)
 
 
                     break;
-                case value >= 17800 && value <= 18000:
+                case value >= 18800 && value <= 19000:
                     $(".pieClass").attr("src", p3);
 
                     break;
-                case value >= 18000 && value <= 18200:
+                case value >= 19000 && value <= 19200:
                     $(".pieClass").attr("src", p4);
 
                     break;
-                case value >= 18200 && value <= 18400:
+                case value >= 19200 && value <= 19400:
                     $(".pieClass").attr("src", p5);
 
                     break;
-                case value >= 18400 && value <= 18600:
+                case value >= 19400 && value <= 19600:
                     $(".pieClass").attr("src", p6);
 
                     break;
-                case value >= 18600 && value <= 18800:
+                case value >= 19600 && value <= 19800:
                     $(".pieClass").attr("src", p7);
 
 
                     break;
-                case value >= 18800 && value <= 19000:
+                case value >= 19800 && value <= 20000:
                     $(".pieClass").attr("src", p8);
                     break;
 

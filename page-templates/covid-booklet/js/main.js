@@ -256,6 +256,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
     //
     //
+    new ElementAnimation("section-12", "opacity", 0.0, 1.0, 1200, 1300);
     new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1210);
     new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1210);
     new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1210);
@@ -685,42 +686,106 @@ window.addEventListener("DOMContentLoaded", event => {
         let p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
         let p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
         $(window).scroll(function () {
+            let scroll = scrollElementAnimations()
             let value = $(this).scrollTop();
-            console.log(value)
+            // console.log(value)
+            console.log(scroll)
             switch (true) {
+                case value >= 16500 && value <= 16600:
+                    $(".pieClass").attr("src", p1);
+                    break;
+                case value >= 16600 && value <= 16800:
+                    $(".pieClass").attr("src", p2)
+
+
+                    break;
+                case value >= 16800 && value <= 17000:
+                    $(".pieClass").attr("src", p3);
+
+                    break;
+                case value >= 17000 && value <= 17200:
+                    $(".pieClass").attr("src", p4);
+
+                    break;
+                case value >= 17200 && value <= 17400:
+                    $(".pieClass").attr("src", p5);
+
+                    break;
+                case value >= 17400 && value <= 17600:
+                    $(".pieClass").attr("src", p6);
+
+                    break;
+                case value >= 17600 && value <= 17800:
+                    $(".pieClass").attr("src", p7);
+
+
+                    break;
+                case value >= 17800 && value <= 18000:
+                    $(".pieClass").attr("src", p8);
+                    break;
+
                 case value >= 18500 && value <= 18600:
                     $(".pieClass").attr("src", p1);
                     break;
                 case value >= 18600 && value <= 18800:
                     $(".pieClass").attr("src", p2)
+                //
 
+                //    v2
 
-                    break;
-                case value >= 18800 && value <= 19000:
-                    $(".pieClass").attr("src", p3);
+                //     break;
+                // case value >= 18800 && value <= 19000:
+                //     $(".pieClass").attr("src", p3);
+                //
+                //     break;
+                // case value >= 19000 && value <= 19200:
+                //     $(".pieClass").attr("src", p4);
+                //
+                //     break;
+                // case value >= 19200 && value <= 19400:
+                //     $(".pieClass").attr("src", p5);
+                //
+                //     break;
+                // case value >= 19400 && value <= 19600:
+                //     $(".pieClass").attr("src", p6);
+                //
+                //     break;
+                // case value >= 19600 && value <= 19800:
+                //     $(".pieClass").attr("src", p7);
+                //
+                //
+                //     break;
+                // case value >= 19800 && value <= 20000:
+                //     $(".pieClass").attr("src", p8);
+                //     break;
+                //
 
-                    break;
-                case value >= 19000 && value <= 19200:
-                    $(".pieClass").attr("src", p4);
+                //  **** v3*******
 
-                    break;
-                case value >= 19200 && value <= 19400:
-                    $(".pieClass").attr("src", p5);
-
-                    break;
-                case value >= 19400 && value <= 19600:
-                    $(".pieClass").attr("src", p6);
-
-                    break;
-                case value >= 19600 && value <= 19800:
-                    $(".pieClass").attr("src", p7);
-
-
-                    break;
-                case value >= 19800 && value <= 20000:
-                    $(".pieClass").attr("src", p8);
-                    break;
-
+                // case value >= 24200 && value <= 24400:
+                //     $(".pieClass").attr("src", p3);
+                //
+                //     break;
+                // case value >= 24400 && value <= 24600:
+                //     $(".pieClass").attr("src", p4);
+                //
+                //     break;
+                // case value >= 24600 && value <= 24800:
+                //     $(".pieClass").attr("src", p5);
+                //
+                //     break;
+                // case value >= 24800 && value <= 25000:
+                //     $(".pieClass").attr("src", p6);
+                //
+                //     break;
+                // case value >= 25000 && value <= 25200:
+                //     $(".pieClass").attr("src", p7);
+                //
+                //
+                //     break;
+                // case value >= 25200 && value <= 25400:
+                //     $(".pieClass").attr("src", p8);
+                //     break;
             }
         });
         //close when clicking off-screen timeline area

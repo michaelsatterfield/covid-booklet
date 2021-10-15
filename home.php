@@ -164,7 +164,7 @@
                     </li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2000">[Numbers]</a></li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2520">[Stories]</a></li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2850">[Funding]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2750">[Funding]</a>
                     </li>
                     <li class="nav-main__item">
                         <button class="button button-heart button-heart-header-top">
@@ -216,8 +216,8 @@
         <div class="section-2__paragraph">
 
             <div class="section-2__text-4"><span class="section-2__text-3">The coronavirus pandemic </span>
-                prompted all of us to act quickly, depend on each other and encourage innovation.
-                <span class="section-2__text-5" >We have prioritized community-led solution,
+                prompted all of us to act quickly, depend on each other, and encourage innovation.
+                <span class="section-2__text-5" >We have prioritized community-led solutions -
                     trusting those on the front lines to do the work they know how to get done, to serve their neighbors who are
                     in need.</span>
             </div>
@@ -281,7 +281,7 @@
         <div class="section-6__pretitle"></div>
         <div class="section-5__title-wrapper">
             <div class="section-5__pretitle">Our work has been relentless.</div>
-            <div class="section-5__title">It has been eye-<br>opening.</div>
+            <div class="section-5__title">It has been eye-opening.</div>
             <div class="section-5__subtitle" >We are proud of the people of San <br>Antonio who rose to the challenge, with<br>
                 compassion and without hesitation.
             </div>
@@ -295,10 +295,11 @@
     <div class="section-7__background"></div>
 
     <div class="section-7__text ">
-        "I think it's safe to say that no one foresaw the extraordinary events of 2020.
-        Each challenge became a turning point, an opportunity ti think critically and act decisively
-        to find new ways to address escalating community needs. The decisions were not easy: the clear
-        path was not always obvious. Fortunately, we were not alone on the journey."
+        “I think it is safe to say that no one foresaw the extraordinary events of 2020.
+        Each challenge became a turning point, an opportunity to think critically and act
+        decisively to find new ways to address escalating community needs. The decisions
+        were not always easy; the clear path was not always obvious. Fortunately, we were
+        not alone on our journey.”
     </div>
     <div class="section-7__signature ">-Marjie French, CEO San Antonio Area Foundation</div>
 
@@ -322,120 +323,24 @@
                 <div class="section-2a__text-overlay"></div>
                 <div class="section-2a__text">
                     <p>Dear Friends, Donors, and Partners,</p>
-                    <p>I think it is safe to say that no one foresaw the extraordinary events of 2020. Each challenge
-                        became a
-                        turning point, an opportunity to think critically and act decisively to find new ways to address
-                        escalating community needs. The decisions were not always easy; the clear path was not always
-                        obvious.
-                        Fortunately, we were not alone on our journey.</p>
-                    <p>Here at the Area Foundation, we say Stronger Together all the time. There is a good reason for
-                        it.</p>
-                    <p>In 2020, there was simply no way we could have mobilized the financial resources and human
-                        capital to
-                        respond to the COVID-19 pandemic and social justice without the collaboration of a multitude of
-                        philanthropic partners, both within and beyond the Area Foundation. The generous spirit of the
-                        San Antonio
-                        community was on display during these tumultuous times, and we are humbled and grateful to serve
-                        as
-                        trusted advisor, supporter, and collaborative partner in philanthropy.</p>
-                    <h3>COLLABORATIVE GRANTMAKING</h3>
-                    <p>We were blessed to have a cadre of great leaders interested in helping the community. A special
-                        thanks to
-                        Harvey Najim and the Harvey E. Najim Charitable Foundation, David Rogers and the H. E. Butt
-                        Foundation,
-                        the Nancy Smith Hurd Foundation, and Chris Martin and the United Way of San Antonio and Bexar
-                        County for
-                        their willingness to lead, work, fund, and believe in this transformational relief fund.</p>
-                    <p>The COVID-19 Response Fund was launched on March 20, 2020. Hosted by the Area Foundation and
-                        jointly
-                        managed with United Way of San Antonio and Bexar County, the Fund raised $6.4 million through
-                        the
-                        tremendous generosity of hundreds of individual donors and dozens of foundations, businesses,
-                        and civic
-                        institutions who rallied in support of our community during this crisis.</p>
-                    <p>These funds were distributed to more than 200 regional nonprofits in a rapid-cycle process
-                        advanced by
-                        our Community Engagement and Impact (CEI) team. The average award size was $28,137, and grants
-                        were
-                        prioritized for organizations serving 17 of San Antonios lowest-income zip codes.</p>
-                    <p>The COVID-19 Response Fund focused its grantmaking in the areas of social services, business and
-                        employment, food security, and shelter. We intentionally aligned with Mayor Ron Nirenbergs key
-                        focus areas
-                        to amplify and coordinate philanthropic and public investments to address the critical needs of
-                        San
-                        Antonians. The Area Foundation also jointly invested with the City of San Antonio and United Way
-                        in
-                        providing temporary childcare access subsidies.</p>
-                    <p>Donor Advised Funds (DAFs) hosted at the Area Foundation recommended an additional $7 million in
-                        direct
-                        grants to 248 nonprofits, and 95% of all DAF giving in response to COVID-19 stayed in Bexar
-                        County.</p>
-                    <h3>Just-In-Time Capacity Building AND Online Resources</h3>
-                    <p>Fortunately for the hundreds of nonprofit professionals the Area Foundation serves through our
-                        trainings
-                        and classes, we upgraded our IT infrastructure before the pandemic struck. Working remotely
-                        since March
-                        2020, our Learning and Development Department staff readily pivoted to online learning
-                        opportunities. In
-                        2020, we offered 77 courses and more than 2,000 participants signed up.</p>
-                    <p>We delivered timely programs and free community sessions on topics such as: Leadership in Times
-                        of
-                        Transition, Communicating Effectively in Remote Environments, Lead by Example: Sustaining
-                        Ourselves,
-                        Engaging Employees in Remote Environments, and Brave New World: Returning to Work. Also, through
-                        a
-                        partnership with Candid, the Area Foundation offered free, online access for all area nonprofits
-                        to the
-                        Foundation Directory Online the most exhaustive and up-to-date database on grant makers</p>
-                    <h3>Data-Driven Events and Community Engagement</h3>
-                    <p>The COVID-19 pandemic fostered many opportunities for us to engage more deeply with donors and
-                        supporters
-                        within and beyond the Area Foundation. Throughout the year, we delivered well-attended
-                        philanthropic
-                        briefings to internal donors and volunteers on COVID-19 and on topics such as corporate social
-                        responsibility. We engaged a host of civic and business leaders through strategic conversations
-                        and with
-                        organizations as varied as Rotary, Humana, and Vistage.</p>
-                    <p>The Area Foundation contributed to the Mayors Taskforce on Workforce Development serving as a key
-                        partner. This taskforce was pivotal to the development of and advocacy for Proposition B, which
-                        was
-                        approved by San Antonio voters in the November election. The initiative, SA Ready to Work,
-                        funded by a
-                        one-eighth-cent sales tax, will grow job training programs, scholarships, and emergency
-                        financial
-                        assistance for up to 40,000 residents caught in the wake of the coronavirus pandemic.</p>
-                    <h3>Catalytic Investments</h3>
-                    <p>The Area Foundation provided a start-up grant to the Family Independence Initiative (now
-                        UpTogether)
-                        which fostered partnerships with several local funders to place earned income directly into the
-                        hands of
-                        working families. San Antonio is now one of only a dozen sites across the nation to deploy this
-                        innovative
-                        and proven program which provides access to capital and fuels family-driven solutions. Alongside
-                        other
-                        local partners, the Area Foundation invested in the launch of Get Shift Done for San Antonio and
-                        neighboring communities. The program coordinates, schedules, and pays adversely affected hourly
-                        workers in
-                        the hospitality industry to work paid shifts for organizations such as the San Antonio Food
-                        Bank. It helps
-                        food service workers who lost their paychecks and provides immediate support to nonprofits
-                        stretched in
-                        providing food service to people in need.</p>
-                    <p>The Area Foundation partnered with United Way, H. E. Butt Foundation, and LISC San Antonio on a
-                        weekly
-                        survey to more than 100 nonprofits to assess real-time community needs and engage donors on the
-                        most
-                        impactful investments. Our approach on the highest-level poverty zip codes in Bexar County
-                        illuminated
-                        sound and equitable approaches for our philanthropic partners and influenced their
-                        grantmaking.</p>
-                    <p>These are just a few of the highlights featured in our 2020 impact report. You will learn more
-                        about our
-                        commitment and our work to mobilize philanthropy, lead in the community, and operate with
-                        excellence.
-                        Thanks to your partnership, we can continue to serve our communitys needs today, while building
-                        a better
-                        tomorrow for all who call our region home.</p>
+                    <p>During unprecedented times, the San Antonio Area Foundation was committed to helping the community
+                        respond and recover. .</p>
+                    <p>The COVID-19 Response Fund was created by the Area Foundation and the United Way of San Antonio
+                        and Bexar County, in partnership with multiple funders, to call forth the strengths and resiliency
+                        of our community in response to the COVID-19 health pandemic.</p>
+
+                    <p>Together, the San Antonio Area Foundation and 38 partners established a fund available for general
+                        operating grants for area nonprofit organizations most impacted by the COVID-19 crisis. Our ability
+                        to leverage relationships within our community allowed us to provide support to over 200 organizations
+                        with a community investment totaling $6.4M. </p>
+
+                    <p>While it is impossible to fully capture the awe-inspiring spirit of generosity and compassion that
+                        motivated donors and nonprofit workers throughout this past year, this report will focus on the
+                        collective efforts of the COVID-19 Response Fund.</p>
+
+                    <p>Our gratitude goes to our founding partners and the thousands of other nonprofit organizations, donors,
+                        and leaders who came together to address our community’s needs.</p>
+
                     <p>With gratitude,</p>
                     <img class="section-2a__text__marjie-signature"
                          src="<?php echo get_template_directory_uri(); ?>/page-templates/09082021_v2/images/marjie-signature-web-gray.png"
@@ -448,16 +353,16 @@
                 <div class="section-2a__text-shadow-after"></div>
             </div>
             <div class="section-2a__quoter">
-                <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn’t influence
-                        most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief
-            Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>
-                </div>
-                <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and
-                        I have never seen such an
-                        efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>
-                <div class="quote"><p>&#8220;You don’t have to be a millionaire to make an investment in a fund.
-                        Instead, it’s the kind of person who believes in the community and be able to want to assist
-                        others.&#8221;</p><span>&mdash; Janie Barrera</span></div>
+<!--                <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn’t influence-->
+<!--                        most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief-->
+<!--            Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>-->
+<!--                </div>-->
+<!--                <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and-->
+<!--                        I have never seen such an-->
+<!--                        efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>-->
+<!--                <div class="quote"><p>&#8220;You don’t have to be a millionaire to make an investment in a fund.-->
+<!--                        Instead, it’s the kind of person who believes in the community and be able to want to assist-->
+<!--                        others.&#8221;</p><span>&mdash; Janie Barrera</span></div>-->
             </div>
         </div>
         <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.
@@ -475,11 +380,11 @@
 <section class="section-8">
     <div class="section-8__background"></div>
     <div class="section-8__text-wrapper">
-        <div class="section-8__title">[COVID-19 Response Timeline]</div>
+        <div class="section-8__title">[COVID-19 response timeline]</div>
 
         <div class="section-8__subtitle">
             <div class="section-8__subtitle-wrapper">Once it became clear in March 2020 that the coronavirus pandemic
-                was just<br/> beginning to halt life as we know it and cause an unprecedented ripple effect across<br/>
+                was just<br/> beginning to halt life as we knew it and cause an unprecedented ripple effect across<br/>
                 our community, the San Antonio Area Foundation wasted no time in taking bold and <br/> decisive action.
                 In conjunction with the United Way of San Antonio and Bexar County<br/> (in close cooperation and
                 coordination with the City of San Antonio),
@@ -981,7 +886,7 @@
         10,000 cars line up for emergency food distribution at Traders Village in the midst of the economic crisis
         brought on by the COVID-19 pandemic.
     </div>
-    <div class="section-10__title "></div>
+    <div class="section-10__title ">» Photo by William Luther,<br> San Antonio Express News</div>
     <div class="section-10__text"></div>
 
     <div class="section-10__total-wrapper"></div>
@@ -1064,8 +969,7 @@
         <div class="section-13__bars">
             <div class="">
                 <img class="pieClass"
-                     src="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
-                />
+                     src="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"/>
             </div>
             <div class="section-13__bar bar-1"></div>
             <div class="section-13__bar bar-2 "></div>
@@ -1152,6 +1056,7 @@
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
                 <div class="tab-1 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">YMCA Early Learning<br> Center at Haven for Hope</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-1, .tab-1a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1198,6 +1103,7 @@
                 <div class="tab-2 tabs">
 
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-2, .tab-2a">
+                        <div class="tabs-title d-flex justify-content-center ">Esperanza Peace<br> and Justice Center</div>
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <button class="button button-arrow-yellow">
@@ -1213,6 +1119,7 @@
             </div>
             <!--            side tab-->
             <section class="tab-2a tab-a">
+
                 <div class="section-8a__text">
                     <!--                    fill in with template and reuse class for all versions-->
                     <h3>Tab-2a</h3>
@@ -1222,6 +1129,7 @@
             <!--***************************tab-3*****************-->
             <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
                 <div class="tab-3 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">Corazón<br> Ministries, Inc.</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1247,6 +1155,7 @@
             <!--<--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
                 <div class="tab-4 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls, Inc.)</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1272,6 +1181,7 @@
             <!--*************************tab-5*****************-->
             <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
                 <div class="tab-5 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">LiftFund</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1296,6 +1206,7 @@
             <!--**********************tab-6*****************-->
             <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
                 <div class="tab-6 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">San Antonio Foundation for<br> Excellence in Education,<br> Inc. (SAISD Foundation)</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1322,6 +1233,7 @@
             <!--************************tab-7*****************-->
             <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
                 <div class="tab-7 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">UpTogether</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->

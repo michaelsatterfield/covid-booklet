@@ -712,6 +712,7 @@ body.page-loaded .section-1__text-1 {
 
 .section-1__text-1,
 .section-1__text-2 {
+    font-family: Whitman, Roman;
     color: #ffffff;
 }
 
@@ -745,8 +746,7 @@ body.page-loaded .section-1__text-2 {
 .section-2__image {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.53), rgba(255, 255, 255, 0)),
-    url('../images/section-2-background.jpg');
+    background-image: url('../images/section-2-background.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -762,6 +762,7 @@ body.page-loaded .section-1__text-2 {
 
 .section-2__text-1,
 .section-2__text-2 {
+    font-family: Whitman, Roman;
     color: #4A413A;
 }
 
@@ -807,11 +808,12 @@ body.page-loaded .section-1__text-2 {
 }
 .section-2__text-4,
 .section-2__text-5 {
+    font-family: Whitman, Roman;
     width: 420px;
     font-size: 23px;
     line-height: 33px;
     position: relative;
-    color: #4a413a;
+    color: #4A413A;
 }
 
 
@@ -936,11 +938,12 @@ section.completed .button-next-slide-section-2 {
 .section-2a__text {
     color: #707070;
     height: 100%;
+    padding: 2em;
     overflow: scroll;
 }
 
 .section-2a__text p {
-    font-family: Roboto-Regular, Arial, sans-serif;
+    font-family: Whitman;
     font-size: 15px;
     line-height: 1.6
 }
@@ -1084,14 +1087,16 @@ section.completed .button-next-slide-section-2 {
 
 
 .section-5__subtitle{
-    font-weight: 300;
-    font-size: 30px;
+    font-family: Whitman, Roman;
+    letter-spacing: -0.34px;
+    font-size: 28px;
     z-index: 1;
     line-height: 1.3;
     position: relative;
     top: .3em;
     left: 6em;
     color: #fff;
+
 
     /*transition: all 1s;*/
 }
@@ -1100,6 +1105,7 @@ section.completed .button-next-slide-section-2 {
 .section-5__title,
 .section-5__pretitle
  {
+    font-family: Whitman, Roman;
     line-height: 1;
     color: #fff;
 }
@@ -1176,7 +1182,7 @@ section.completed .button-next-slide-section-2 {
 
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #F4F4F4;
 
 }
 
@@ -1185,13 +1191,13 @@ section.completed .button-next-slide-section-2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 457px;
+    width: 19em;
     font-family: Roboto-Regular, Aalri, sans-serif;
     font-size: 30px;
     line-height: 40px;
     font-weight: bold;
     color: #4A413A;
-    background: rgba(255, 255, 255, 0.8);
+
 }
 
 .section-7__signature {
@@ -1231,7 +1237,7 @@ section.completed .button-next-slide-section-2 {
 
 .section-8__title,
 .section-8__subtitle {
-    /*position: relative;*/
+    font-family: Whitman, Roman;
     line-height: 1;
     color: #ffffff;
     z-index: 95;
@@ -1254,11 +1260,12 @@ section.completed .button-next-slide-section-2 {
      left: calc(50% - 72px);*/
     display: inline-block;
     position: relative;
-
+    line-height: 25px;
+    letter-spacing: -0.17px;
     left: 12%;
-    font-family: Roboto-Regluar;!important;
-    font-size: 20px;
-    font-weight: 800;
+    font-family: Roboto;
+    font-size:17px;
+    font-weight: 400;
 }
 
 .section-8__icon {
@@ -1461,6 +1468,7 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-9__title {
+    font-family: Whitman, Roman;
     position:absolute;
     color: #64544d;
     top: 25%;
@@ -1503,7 +1511,14 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-10__title {
-
+    position: relative;
+    color: #ffffff;
+    top: -27em;
+    width: 51%;
+    left: 9%;
+    padding-left: 2%;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 section-10__text {
@@ -1586,6 +1601,7 @@ position: relative;
 }
 
 .section-12__title {
+    font-family: Whitman, Roman;
     position: relative;
     top: 22%;
     left: 17%;
@@ -1681,6 +1697,7 @@ position: relative;
 }
 
 .section-13__total-wrapper {
+    font-family: Whitman, Roman;
     opacity: 1
 }
 
@@ -2292,6 +2309,16 @@ timeline-images {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.tabs-title{
+    position: relative;
+   font-family: Whitman, Roman;
+    font-size: 61px;
+    color: white;
+    left: 8%;
+    top: 48%;
+    text-shadow: 0px 0px 10px #000000B2;
 }
 /*overall side tab properties*/
 .tab-a {

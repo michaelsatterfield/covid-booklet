@@ -686,10 +686,10 @@ window.addEventListener("DOMContentLoaded", event => {
         let p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
         let p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
         $(window).scroll(function () {
-            let scroll = scrollElementAnimations()
+            // let scroll = scrollElementAnimations()
             let value = $(this).scrollTop();
-            // console.log(value)
-            console.log(scroll)
+            console.log(value)
+            // console.log(scroll)
             switch (true) {
                 case value >= 16500 && value <= 16600:
                     $(".pieClass").attr("src", p1);

@@ -1396,7 +1396,7 @@ section.completed .button-next-slide-section-2 {
 
 /*top of circle of timeline*/
 #v-pill-1{
-    margin-top: 5em;
+    margin-top: 2em;
 }
 /*bottom of circle of timeline*/
 #s9-12{
@@ -2243,7 +2243,8 @@ position: relative;
 
 timeline-images {
     resize: none;!important;
-    position: fixed;
+    height: 100vh;
+    width: 100%;
     background-size: cover;
     left: 2%;
     z-index: 90;
@@ -2440,7 +2441,7 @@ timeline-images {
     height: 5em !important;
     width: 5em !important;
     border-radius: 150px !important;
-    margin: 4em 0em 3em 1.2em;
+    margin: 1em 0em 2em 1.2em;
     z-index: 100 !important;
     border: none !important;
     filter: grayscale(100%);

@@ -146,19 +146,20 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-2", "opacity", 1.0, 0.0, 280, 385);
 
-    new ElementAnimation("section-4__title", "margin-left", 100, 0, 300, 320);
-    new ElementAnimation("section-5__title", "margin-left", 100, 0, 100, 500);
 
     new ElementAnimation("section-3__subtitle", "opacity", 0.0, 1.0, 195, 215);
     new ElementAnimation("section-3__subtitle", "margin-left", 100, 0, 195, 300);
     new ElementAnimation("section-3__icon", "opacity", 0.0, 1.0, 195, 210);
-
     new ElementAnimation("section-3__icon", "opacity", 1.0, 0.0, 264, 265);
     new ElementAnimation("section-3__background", "opacity", 1.0, 0.0, 265, 300);
     new ElementAnimation("section-3__title-1", "opacity", 1.0, 0.0, 215, 240);
     new ElementAnimation("section-3__title-2", "opacity", 1.0, 0.0, 215, 240);
     new ElementAnimation("section-3__subtitle", "opacity", 1.0, 0.0, 245, 270);
+    new ElementAnimation("section-3__title", "opacity", 1.0, 0.0, 340, 385);
+    new ElementAnimation("section-3", "opacity", 1.0, 0.0, 370, 385);
 
+
+    new ElementAnimation("section-4__title", "margin-left", 100, 0, 300, 320);
     new ElementAnimation("section-4__background", "scale", 1.0, 1.05, 245, 500);
     new ElementAnimation("section-4__pretitle", "opacity", 0.0, 1.0, 300, 315);
     new ElementAnimation("section-4__text", "opacity", 0.0, 1.0, 300, 340);
@@ -166,14 +167,13 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-4__pretitle", "margin-left", 50, 0, 250, 385);
     new ElementAnimation("section-4__pretitle", "opacity", 1.0, 0.0, 350, 385);
     new ElementAnimation("section-4__title-1", "opacity", 1.0, 0.0, 340, 385);
-    new ElementAnimation("section-3__title", "opacity", 1.0, 0.0, 340, 385);
     new ElementAnimation("section-4__text", "opacity", 1.0, 0.0, 350, 385);
 
-    new ElementAnimation("section-3", "opacity", 1.0, 0.0, 370, 385);
 
     new ElementAnimation("section-4__background", "opacity", 1.0, 0.0, 390, 405);
     new ElementAnimation("section-4", "opacity", 1.0, 0.0, 390, 405);
 
+    new ElementAnimation("section-5__title", "margin-left", 100, 0, 100, 500);
     new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 420);
     new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
     new ElementAnimation("section-5__subtitle", "opacity", 0.0, 1.0, 450, 465);
@@ -189,8 +189,9 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-6", "opacity", 1.0, 0.0, 570, 585);
 
-    new ElementAnimation("section-7__background", "scale", 1.0, 1.05, 470, 700);
-    new ElementAnimation("section-7__text", "opacity", 0.0, 1.0, 585, 600);
+    new ElementAnimation("section-7", "opacity", 0.0, 1.0, 585, 595);
+    new ElementAnimation("section-7__background", "scale", 1.0, 1.05, 470, 471);
+    new ElementAnimation("section-7__text", "opacity", 0.0, 1.0, 585, 595);
     new ElementAnimation("section-7__signature", "opacity", 0.0, 1.0, 585, 650);
 
 
@@ -211,7 +212,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
 
     //Section 9 | Active
-    new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
+    new ElementAnimation("section-9", "opacity", 0.0, 1.0, 790, 800);
 
     // new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
     // new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
@@ -256,7 +257,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
     //
     //
-    new ElementAnimation("section-12", "opacity", 0.0, 1.0, 1200, 1300);
+    new ElementAnimation("section-12", "opacity", 0.0, 1.0, 1200, 1210);
     new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1210);
     new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1210);
     new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1210);
@@ -271,8 +272,8 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1295, 1300);
 
 
-    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1295, 1295);
-    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1300);
+    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1300, 1310);
+    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1300, 1310);
 
 
     // Continue here
@@ -354,7 +355,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    // new ElementAnimation("section-14", "opacity", 0.0, 1.0, 1400, 1401);
+    new ElementAnimation("section-14", "opacity", 0.0, 1.0, 1400, 1401);
 
     // new ElementAnimation("section-14__image", "scale", 0.95, 0.975, 1390, 1391);
     // new ElementAnimation("section-14__image", "scale", 0.975, 1.0, 1390, 1391);
@@ -367,7 +368,7 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-14__text", "margin-left", 50, 0, 1390, 1391);
     // new ElementAnimation("button-next-slide-section-14", "opacity", 0.0, 1.0, 1390, 1391);
 
-    // new ElementAnimation("section-14", "opacity", 1.0, 0.5, 1401, 1402);
+    new ElementAnimation("section-14", "opacity", 1.0, 0.0, 1401, 1402);
 
 
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
@@ -386,7 +387,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1490, 1500);
 
 
-    // new ElementAnimation("section-16__background", "scale", 1.0, 1.00, 1465, 1700);
+    new ElementAnimation("section-16__background", "scale", 1.0, 1.00, 1465, 1700);
     new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "margin-left", 50, 0, 1515, 1545);
     new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1530, 1560);
@@ -397,17 +398,17 @@ window.addEventListener("DOMContentLoaded", event => {
 
     // new ElementAnimation("section-17__background", "scale", 1.0, 1.05, 1600, 1610);
     // new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1630);
-
+    new ElementAnimation("section-17", "opacity", 0.0, 1.0, 1600, 1610);
     new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1750, 1790);
     new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1750, 1790);
 
-    new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
-    new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
-    new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
-    new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
-    new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
-
-    new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
+    // new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
+    // new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
+    // new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
+    // new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
+    // new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
+    //
+    // new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
 
 
     new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1790, 1800);
@@ -429,7 +430,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1920);
     new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1920);
 
-    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2000, 2010);
+    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2100, 2120);
 
 
     ElementAnimation.setScrollDummyHeight();
@@ -686,6 +687,7 @@ window.addEventListener("DOMContentLoaded", event => {
         let p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
         let p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
         $(window).scroll(function () {
+
             // let scroll = scrollElementAnimations()
             let value = $(this).scrollTop();
             console.log(value)

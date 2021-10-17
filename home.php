@@ -982,20 +982,19 @@
         </div>
 </section>
 
-<!--<section class="section-14">-->
-<!--    <div class="section-14__image">-->
-<!--        <div class="section-14__imageshorttext"></div>-->
-<!--    </div>-->
-<!--    <div class="section-14__text-wrapper">-->
-<!--        <div class="section-14__title"></div>-->
-<!--        <div class="section-14__text">-->
-<!---->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span></span>-->
-<!---->
-<!--    </div>-->
-<!--</section>-->
+<section class="section-14">
+    <div class="section-14__image">
+        <div class="section-14__imageshorttext"></div>
+    </div>
+    <div class="section-14__text-wrapper">
+        <div class="section-14__title"></div>
+        <div class="section-14__text">
+        </div>
+    </div>
+    <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span></span>
+
+    </div>
+</section>
 
 <section class="section-15">
     <div class="section-15__background backgroundImg" id="15"></div>

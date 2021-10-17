@@ -1621,7 +1621,7 @@ position: relative;
 
 
 .section-12a {
-    z-index: 88;
+    /*z-index: 88;*/
     width: 50%;
     height: 100vh;
     margin-left: 100%;
@@ -1870,7 +1870,7 @@ position: relative;
 }
 
 .section-13a {
-    z-index: 87;
+    /*z-index: 87;*/
     width: 50%;
     height: 100vh;
     margin-left: 100%;
@@ -2170,7 +2170,7 @@ position: relative;
 }
 
 .section-16 {
-    z-index: 84;
+    z-index: 86;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;
@@ -2208,7 +2208,7 @@ position: relative;
 }
 
 .section-17 {
-    z-index: 83;
+    z-index: 85;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;
@@ -2489,7 +2489,7 @@ timeline-images {
 
 
 .section-19 {
-    z-index: 82;
+    z-index: 81;
     width: 100%;
     height: 100vh;
 }
@@ -2577,7 +2577,7 @@ timeline-images {
 }
 
 .section-20 {
-    z-index: 80;
+    z-index: 79;
     width: 100%;
     height: 100vh;
     background-color: #f4f4f4;

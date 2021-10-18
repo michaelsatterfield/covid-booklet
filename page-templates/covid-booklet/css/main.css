@@ -254,6 +254,35 @@ a {
 .icon-heart-white {
     fill: #fff
 }
+.icon-heart,
+.icon-heart svg {
+    width: 23px;
+    height: 18px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+
+.icon-heart svg:hover {
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(145, 25, 25, 0.66));
+    filter: drop-shadow( 3px 3px 2px rgba(145, 25, 25, 0.66));
+    fill: rgb(119, 26, 22);
+    /*text-shadow:0px 0px 30px #8c1d19;*/
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    width: 33px;
+    height: 28px;
+    margin-left:-4px;
+    margin-top: -4px;
+    fill-opacity: .8;
+
+    /*z-index:1*/
+    /*opacity: 0.36;*/
+}
 
 .icon-heart-red {
     fill: #85261e
@@ -1247,8 +1276,7 @@ body.page-loaded .section-1__text-2 {
     left: 22.3%;
 }
 
-.section-8__title,
-.section-8__subtitle {
+.section-8__title {
     font-family: Whitman, Roman;
     line-height: 1;
     color: #ffffff;
@@ -1268,6 +1296,7 @@ body.page-loaded .section-1__text-2 {
 
 .section-8__subtitle {
     margin-top: 30px;
+    color: #ffffff;
     /* top: 312px;
      left: calc(50% - 72px);*/
     display: inline-block;
@@ -1275,7 +1304,7 @@ body.page-loaded .section-1__text-2 {
     line-height: 25px;
     letter-spacing: -0.17px;
     left: 12%;
-    font-family: Roboto;
+    font-family: Roboto;!important;
     font-size:17px;
     font-weight: 400;
 }
@@ -1637,7 +1666,7 @@ position: relative;
 }
 
 .section-12__text {
-
+    font-family: Roboto;
     position: relative;
     top: 24%;
     left: 28%;
@@ -2101,11 +2130,15 @@ position: relative;
     background: #f4f4f4;
 }
 
-.section-15__background {
-    position: absolute;
+.section-15__image_wrapper {
+    position: relative;
     width: 100%;
     height: 100%;
-    background-image: url('../images/section-15__blue-mural.jpg');
+}
+.section-15__background {
+    position: relative;
+
+    background-image: url('https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/blue-mural.png');
 
 }
 
@@ -2205,6 +2238,7 @@ position: relative;
     position: absolute;
     width: 100%;
     height: 100%;
+    filter: brightness(.6);
     background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/mural-2.png");
 
 }
@@ -2386,6 +2420,10 @@ timeline-images {
     background-repeat: no-repeat;
     background-size: 50%;
     background-image: url(../images/section-17-ymca.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .side-tab{
     color: black;
@@ -2394,8 +2432,9 @@ timeline-images {
 }
 .side-tab-wrapper{
     position: absolute;
-    left: 60%;
-    top: 24%;
+    left: 50%;
+    height: 100vh;
+    background-color: white;
 }
 .side-tab-text {
 
@@ -2403,20 +2442,36 @@ timeline-images {
 
 /***************************************************************************/
 .tab-2 {
-    background: url(../images/murals.jpg) no-repeat center center fixed;
+    background: url(../images/murals.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /***************************************************************************/
 .tab-3 {
     background: url(../images/corazon.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 /***************************************************************************/
 .tab-4 {
     background: url(../images/grandfather-grandaugthers.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
+
 /***************************************************************************/
 .tab-5 {
     background: url(../images/liftfund-foodtruck.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -2429,6 +2484,9 @@ timeline-images {
 /***************************************************************************/
 .tab-7 {
     background: url(../images/section-7-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 

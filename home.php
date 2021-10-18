@@ -167,7 +167,7 @@
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2750">[Funding]</a>
                     </li>
                     <li class="nav-main__item">
-                        <button class="button button-heart button-heart-header-top">
+                        <button class="button button-heart button-heart-header-top" onclick="window.open('https://saafdn.fcsuite.com/erp/donate/', '_blank')">
                             <div class="icon icon-heart icon-heart-white">
                                 <svg>
                                     <use href="#icon-heart"></use>
@@ -1026,6 +1026,7 @@
 <!--</section>-->
 
 <section class="section-15">
+    <div class="section-15__image_wrapper">
     <div class="section-15__background backgroundImg" id="15"></div>
     <div class="section-15__image"></div>
     <div class="section-15__imageshorttext"></div>
@@ -1106,15 +1107,16 @@
             <section class="tab-1a tab-a">
                 <div class="tab-1a-image"></div>
                 <div class="side-tab">
-                    <div class="side-tab-wrapper col-6">
-                        <div class="side-tab-title col-4"><h1>YMCA Early Learning Center at haven for hope</h1></div>
-                        <div class="side-tab-text col-3">As the City began shutting down, so did daycare and other
+                    <div class="side-tab-wrapper col-6 d-flex align-items-evenly justify-content-start">
+                        <div class="side-tab-title col-6"><h1>YMCA Early Learning Center at haven for hope</h1>
+                        <div class="side-tab-text col-12">As the City began shutting down, so did daycare and other
                             childcare
                             centers.
                             Response Fund partners started linking with nonprofits to reopen childcare centers for first
                             responders and essential workers.The support provided immediate impact in stabilizing a
                             spiraling
                             crisis as the pandemic spread exponentially.
+                        </div>
                         </div>
                     </div>
                     <div class="side-tab-quote col-3">“My daughter enrolled in the distance learning camp, and sending
@@ -1139,13 +1141,14 @@
                         </div>
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
+                        <div class="button-ripple button-ripple-section-2">
                         <button class="button button-arrow-yellow">
-                            <div class="button-ripple button-ripple-section-2"></div>
                             <div class="icon icon-arrow">
                                 <svg>
                                     <use href="#icon-arrow-right">
-                        </button>
                         </svg>
+                        </button>
+                            </div>
                     </div>
                     </button>
                 </div>
@@ -1580,7 +1583,7 @@
             Thank you.
         </div>
         <div class="section-32__donate">
-            <button onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
+            <button onclick="window.open('https://saafdn.fcsuite.com/erp/donate/', '_blank')">
                 <div class="icon icon-heart icon-heart-white heart-button">
                     <svg>
                         <use href="#icon-heart"></use>

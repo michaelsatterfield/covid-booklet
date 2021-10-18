@@ -240,7 +240,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-10", "opacity", 1.0, 0, 1000, 1020);
 
     //
-    new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
+    // new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
     new ElementAnimation("section-11__background", "opacity", 0.0, 1.00, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
@@ -258,7 +258,7 @@ window.addEventListener("DOMContentLoaded", event => {
     //
 
 
-    new ElementAnimation("section-12", "opacity", 0.0, 1.0, 1200, 1210);
+    new ElementAnimation("section-12__background", "opacity", 0.0, 1.0, 1200, 1210);
     new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1210);
     new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1210);
     new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1210);
@@ -375,7 +375,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
-    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1410, 1415);
+    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1420, 1430);
     new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
     new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
     new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
@@ -384,7 +384,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15__text", "opacity", 0.0, 1.0, 1420, 1450);
     new ElementAnimation("section-15__text", "margin-left", 50, 0, 1420, 1450);
     new ElementAnimation("button-next-slide-section-15", "opacity", 0.0, 1.0, 1440, 1450);
-    new ElementAnimation("section-15", "opacity", 0.0, 1.0, 1400, 1410);
+    // new ElementAnimation("section-15", "opacity", 0.0, 1.0, 1400, 1410);
     new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1500, 1510);
 
 

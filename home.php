@@ -1379,7 +1379,7 @@
         Thank you.
     </div>
     <div class="section-32__donate">
-        <button>
+        <button onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
             <div class="icon icon-heart icon-heart-white heart-button">
                 <svg>
                     <use href="#icon-heart"></use>
@@ -1394,8 +1394,8 @@
     </div>
 
     <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Back to top</span>
-        <a href="https://saafdn.fcsuite.com/erp/donate/">
-            <button class="button button-arrow-yellow" onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
+        <a href="#">
+            <button class="button button-arrow-yellow" >
 
                 <div class="icon icon-arrow arrow-up">
                     <svg>

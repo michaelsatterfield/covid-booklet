@@ -883,7 +883,8 @@
 <section class="section-10">
     <div class="section-10__background backgroundImg"></div>
     <div class="section-10__pretitle">April 9, 2020<span><br/><br></span>
-        10,000 cars line up for emergency food distribution at Traders Village in the midst of the economic crisis
+        10,000 cars line up for<br> emergency food distribution at<br>
+        Traders Village in the midst of <br> the economic crisis
         brought on by the COVID-19 pandemic.
     </div>
     <div class="section-10__title ">» Photo by William Luther,<br> San Antonio Express News</div>
@@ -982,19 +983,19 @@
         </div>
 </section>
 
-<section class="section-14">
-    <div class="section-14__image">
-        <div class="section-14__imageshorttext"></div>
-    </div>
-    <div class="section-14__text-wrapper">
-        <div class="section-14__title"></div>
-        <div class="section-14__text">
-        </div>
-    </div>
-    <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span></span>
-
-    </div>
-</section>
+<!--<section class="section-14">-->
+<!--    <div class="section-14__image">-->
+<!--        <div class="section-14__imageshorttext"></div>-->
+<!--    </div>-->
+<!--    <div class="section-14__text-wrapper">-->
+<!--        <div class="section-14__title"></div>-->
+<!--        <div class="section-14__text">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span></span>-->
+<!---->
+<!--    </div>-->
+<!--</section>-->
 
 <section class="section-15">
     <div class="section-15__background backgroundImg" id="15"></div>
@@ -1029,9 +1030,9 @@
 </section>
 
 <section class="section-17">
-
+<!--<div class="section-17__background"></div>-->
     <!--buttons-->
-    <div class="d-flex align-items-start">
+    <div class="d-flex align-items-start ">
         <div class="nav flex-column timeline-images " id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link s17 active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1"
                     type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
@@ -1284,17 +1285,17 @@
 
 </section>
 
-
-<section class="section-18">
-    <div class="section-18__background backgroundImg"></div>
-    <div class="section-18__text-wrapper">
-        <div class="section-18__title">Section 18 Map</div>
-        <div class="section-18__subtitle"></div>
-    </div>
-    <div class="section-18__icon" data-toggle=".section-18, .section-18a"><span
-                class="section-18__icon__asterisk">*</span> <span class="section-18__icon__read-poem"></span>
-    </div>
-</section>
+<!---->
+<!--<section class="section-18">-->
+<!--    <div class="section-18__background backgroundImg"></div>-->
+<!--    <div class="section-18__text-wrapper">-->
+<!--        <div class="section-18__title">Section 18 Map</div>-->
+<!--        <div class="section-18__subtitle"></div>-->
+<!--    </div>-->
+<!--    <div class="section-18__icon" data-toggle=".section-18, .section-18a"><span-->
+<!--                class="section-18__icon__asterisk">*</span> <span class="section-18__icon__read-poem"></span>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <section class="section-19">

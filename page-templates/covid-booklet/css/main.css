@@ -77,9 +77,7 @@ c2 {
     src: url(../fonts/Roboto-Black.woff2) format("woff2"), url(../fonts/Roboto-Black.woff) format("woff")
 }
 
-html{
-    scroll-behavior: smooth;
-}
+
 body,
 html {
     margin: 0;
@@ -629,17 +627,22 @@ section {
 /*}*/
 
 section.completed {
-    pointer-events: none !important;
-
+    /*visibility: visible;*/
+    pointer-events: none
 }
 
 section.active {
     visibility: visible;
 }
 
-/*section.completed.section-2__text-4 {*/
-/*    visibility: visible!important;*/
+.section-17.completed {
+    pointer-events: all;
+}
+
+/*.section-17.tab-content.completed{*/
+/*    pointer-events: all;*/
 /*}*/
+
 
 section.inactive {
     visibility: visible;
@@ -828,9 +831,6 @@ body.page-loaded .section-1__text-2 {
     cursor: pointer;
 }
 
-section.completed .button-next-slide-section-2 {
-    pointer-events: none;
-}
 
 .button-next-slide-section-2 button {
     transition: transform 0.33s;
@@ -851,9 +851,9 @@ section.completed .button-next-slide-section-2 {
     transition: all 0.0s;
 }
 
-.button-next-slide-section-2.active:not(.completed) button {
-    transform: scale(0.9);
-}
+/*.button-next-slide-section-2.active:not(.completed) button {*/
+/*    transform: scale(0.9);*/
+/*}*/
 
 /*.button-next-slide-section-2.active .button-ripple {
     top:-75%;left:-75%;width:250%;height:250%;opacity: 0.0;
@@ -1496,11 +1496,10 @@ section.completed .button-next-slide-section-2 {
 }
 
 .section-10__pretitle {
-    position: fixed;
-    top: 35%;
-    left: 29%;
+    position: relative;
+    top: -58%;
+    left: 62%;
     transform: translate(-50%, -50%);
-    width: 457px;
     font-family: Roboto-Regular, Aalri, sans-serif;
     font-size: 30px;
     line-height: 40px;
@@ -1513,10 +1512,10 @@ section.completed .button-next-slide-section-2 {
 .section-10__title {
     position: relative;
     color: #ffffff;
-    top: -27em;
-    width: 51%;
-    left: 9%;
-    padding-left: 2%;
+    top: -71%;
+    /*width: 51%;*/
+    left: 12%;
+    /*padding-left: 2%;*/
     font-size: 14px;
     line-height: 25px;
 }
@@ -1669,9 +1668,7 @@ position: relative;
     bottom: 20px;
 }
 
-/*section.completed .button-next-slide-section-2 {
-    pointer-events: none;
-}*/
+
 
 .section-13 {
     z-index: 89;
@@ -2208,6 +2205,7 @@ position: relative;
 }
 
 .section-17 {
+    position: absolute;
     z-index: 85;
     width: 100%;
     height: 100vh;
@@ -2217,8 +2215,8 @@ position: relative;
 .section-17__background {
     position: absolute;
     width: 100%;
-    /*height: 100%;*/
-    /*background-image: url(../images/section-17-ymca.jpg);*/
+    height: 100%;
+    background-image: url(../images/section-17-ymca.jpg);
 }
 
 
@@ -2530,7 +2528,7 @@ timeline-images {
 .section-19__pretitle {
 
     top: 7em;
-    left: 19em;
+    left: calc(50% - 445px);
     font-family: Roboto;
     font-size: 14px;
     line-height: 2em;

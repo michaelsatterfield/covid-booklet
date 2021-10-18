@@ -1236,9 +1236,8 @@
 
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
+        <div class="offcanvas-body d-flex flex-column justify-content-center">
             <h4>COVID-19 FUND GRANTEES</h4>
-
             <br>
             <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
                 Acts of Hope Center<br>

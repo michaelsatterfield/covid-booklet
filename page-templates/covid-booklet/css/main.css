@@ -2526,6 +2526,11 @@ timeline-images {
 
 }
 
+.section-19__text-wrapper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
 .section-19__pretitle,
 .section-19__title,
 .section-19__text {
@@ -2553,7 +2558,6 @@ timeline-images {
 }
 
 .section-19__pretitle {
-
     top: 7em;
     left: calc(50% - 445px);
     font-family: Roboto;
@@ -2564,15 +2568,20 @@ timeline-images {
 
 .section-19__links-wrapper {
     position: relative;
-    top: 19em;
-    left: 22em;
-
+    top: 24%;
+    left: calc(50% - 445px);
     color: whitesmoke;
 }
 .section-19__links {
     margin-bottom: 3em;
 }
 
+.section-19__donors{
+    line-height: 2em;
+    overflow: scroll;
+    font-size: 15px;
+
+}
 .canvas-h5 {
     line-height: 1.7em;
     font-size: 12px;

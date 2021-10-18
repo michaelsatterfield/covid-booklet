@@ -1339,6 +1339,7 @@
 <section class="section-19">
     <div class="section-19__background backgroundImg"></div>
 
+    <div class="section-19__text-wrapper">
     <div class="section-19__title title">[ Funding the</div>
     <div class="section-19__text title"> frontline]</div>
     <div class="section-19__pretitle">
@@ -1352,33 +1353,33 @@
     </div>
 
     <div class="section-19__links-wrapper section-19__links ">
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button"
+        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight1" role="button"
              aria-controls="offcanvasExample">
-            <h3>COVID-19 FUND GRANTEES →</h3>
+            <h3>COVID-19 FUND GRANTEES →<br></h3>
         </div>
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button"
+        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight2" role="button"
              aria-controls="offcanvasExample">
-            <h3>THANK YOU, SAN ANTONIO →</h3>
+            <h3>THANK YOU, SAN ANTONIO →<br></h3>
         </div>
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button"
+        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight3" role="button"
              aria-controls="offcanvasExample">
-            <h3>2020 BOARD MEMBERS →</h3>
+            <h3>2020 BOARD MEMBERS →<br></h3>
         </div>
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button"
+        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight4" role="button"
              aria-controls="offcanvasExample">
-            <h3>EXTERNAL REVIEW COMMITTEE →</h3>
+            <h3>EXTERNAL REVIEW COMMITTEE →<br></h3>
         </div>
-
+    </div>
     </div>
 
     <!--    off canvas click items bootstrap-->
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header light">
 
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h4>COVID-19 FUND GRANTEES →</h4>
+            <h4>COVID-19 FUND GRANTEES</h4>
 
             <br>
             <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
@@ -1407,6 +1408,165 @@
             </h5>
         </div>
     </div>
+
+    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header light">
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-2">
+            <h4>THANK YOU, SAN ANTONIO</h4>
+
+            <br>
+            <h5 class="canvas-h5">
+                We are grateful to all the individuals, families, organizations,<br>
+                and business that have come together to support San<br>
+                Antonians in need through the San Antonio COVID-19<br>
+                Response Fund. The list below recognizes those donors:<br><br>
+                <div class="section-19__donors">
+                John L. Santikos Charitable Foundation, a Fund of the San Antonio Area Foundation<br>
+                The Najim Charitable Foundation<br>
+                Harvey E. Najim Charitable Fund of the San Antonio Area Foundation<br>
+                H. E. Butt Foundation<br>
+                The Nancy Smith Hurd Foundation<br>
+                80|20 Foundation<br>
+                Alamo Cement Company<br>
+                Albert and Bessie Mae Kronkosky Charitable Foundation<br>
+                Alice Kleberg Reynolds Meyer Foundation<br>
+                Amini Family Foundation<br>
+                Anonymous<br>
+                Armstrong Giving Fund<br>
+                Arnim Family Foundation<br>
+                Bank of America Charitable Gift Fund<br>
+                Bank of San Antonio<br>
+                Baptist Health Foundation of San Antonio<br>
+                Benson Family Fund of the San Antonio Area Foundation<br>
+                Bexar County<br>
+                Richard and Ruth Butler<br>
+                Casey Family Foundation<br>
+                Childcare Collaborative Fund of the San Antonio Area Foundation<br>
+                Adam Ciarella<br>
+                City of San Antonio<br>
+                Petra Claflin<br>
+                CVS Health<br>
+                Dominion Senior PGA<br>
+                Ewing Halsell Foundation<br>
+                Ellinor and Marvin Forland Charitable Fund of the San Antonio Area Foundation<br>
+                General Dynamics Mission Systems, Inc.<br>
+                Gloria Galt Fund of the San Antonio Area Foundation<br>
+                Greehey Family Foundation<br>
+                Houston H. and Carolyn H. Harte Fund of the San Antonio Area Foundation<br>
+                Holt Family Foundation<br>
+                Humana Foundation<br>
+                JP Morgan Chase & Co.<br>
+                Jo and Kae Kaneko<br>
+                Leonard Contracting, Inc.<br>
+                Masters Leadership Program Alumni<br>
+                Peter F. Maddox<br>
+                Mays Family Foundation<br>
+                McClure Charitable Foundation of 2007<br>
+                Meadows Foundation<br>
+                Nationwide Foundation<br>
+                NuStar Energy<br>
+                Patel Gaines, PLLC<br>
+                Petty Hefte Family Foundation<br>
+                Edward and Helenan Polansky Charitable Fund of the San Antonio Area Foundation<br>
+                Dr. Ed Reed and Peggy Reed<br>
+                Semmes Foundation Fund of the San Antonio Area Foundation<br>
+                Shield-Ayres Foundation<br>
+                Spellman Charitable Fund of the San Antonio Area Foundation<br>
+                Annie and Tim Swan Fund of the San Antonio Area Foundation<br>
+                Bernard and Kathy Swift<br>
+                Texas Capital Bank<br>
+                Texas Mutual Insurance Company<br>
+                The Brown Foundation, Inc.<br>
+                The Tobin Endowment<br>
+                Toyota Manufacturing Company<br>
+                USAA<br>
+                United Way of San Antonio and Bexar County<br>
+                Jill and George Vassar<br>
+                Verizon<br>
+                VT SEVA<br>
+                Wells Fargo Foundation<br>
+                Tom White Charitable Fund of the San Antonio Area Foundation<br>
+                </div>
+
+            </h5>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header light">
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h4>2020 BOARD MEMBERS</h4>
+
+            <br>
+            <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
+                Acts of Hope Center<br>
+                Adult & Teen Challenge of Texas<br>
+                Alamo Area Mutual Housing Association, Inc.<br>
+                Alamo Area Rape Crisis Center<br>
+                Alamo Center ENT, Inc.<br>
+                Alamo Colleges Foundation<br>
+                Alamo Resource Conservation & Development Area, Inc<br>
+                Alpha Home, Inc<br>
+                Alzheimer’s Disease and Related Disorders Association, Inc.<br>
+                American GI Forum – National Veterans Outreach Program<br>
+                American Indians in Texas at the Spanish Colonial Missions<br>
+                American Kidney Fund, Inc.<br>
+                American Red Cross<br>
+                Antioch Missionary Baptist Church<br>
+                Any Baby Can of San Antonio, Inc.<br>
+                Arc of San Antonio<br>
+                Arthur Nagel Community Clinic<br>
+                Artpace San Antonio<br>
+                Ascension DePaul Services<br>
+                Autism Service Center of San Antonio<br>
+                Autistic Treatment Center, Inc.
+
+            </h5>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header light">
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h4>EXTERNAL REVIEW COMMITTEE</h4>
+
+            <br>
+            <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
+                Acts of Hope Center<br>
+                Adult & Teen Challenge of Texas<br>
+                Alamo Area Mutual Housing Association, Inc.<br>
+                Alamo Area Rape Crisis Center<br>
+                Alamo Center ENT, Inc.<br>
+                Alamo Colleges Foundation<br>
+                Alamo Resource Conservation & Development Area, Inc<br>
+                Alpha Home, Inc<br>
+                Alzheimer’s Disease and Related Disorders Association, Inc.<br>
+                American GI Forum – National Veterans Outreach Program<br>
+                American Indians in Texas at the Spanish Colonial Missions<br>
+                American Kidney Fund, Inc.<br>
+                American Red Cross<br>
+                Antioch Missionary Baptist Church<br>
+                Any Baby Can of San Antonio, Inc.<br>
+                Arc of San Antonio<br>
+                Arthur Nagel Community Clinic<br>
+                Artpace San Antonio<br>
+                Ascension DePaul Services<br>
+                Autism Service Center of San Antonio<br>
+                Autistic Treatment Center, Inc.
+
+            </h5>
+        </div>
+    </div>
+
 </section>
 <section class="section-20">
     <div class="section-20__background backgroundImg"></div>

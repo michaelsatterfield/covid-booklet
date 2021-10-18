@@ -1030,7 +1030,7 @@
 </section>
 
 <section class="section-17">
-<!--<div class="section-17__background"></div>-->
+<div class="section-17__background"></div>
     <!--buttons-->
     <div class="d-flex align-items-start ">
         <div class="nav flex-column timeline-images " id="v-pills-tab" role="tablist" aria-orientation="vertical">

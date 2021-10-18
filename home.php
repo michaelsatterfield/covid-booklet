@@ -1030,7 +1030,7 @@
 </section>
 
 <section class="section-17">
-<!--<div class="section-17__background"></div>-->
+<div class="section-17__background"></div>
     <!--buttons-->
     <div class="d-flex align-items-start ">
         <div class="nav flex-column timeline-images " id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -1286,6 +1286,8 @@
 </section>
 
 <!---->
+
+
 <!--<section class="section-18">-->
 <!--    <div class="section-18__background backgroundImg"></div>-->
 <!--    <div class="section-18__text-wrapper">-->
@@ -1296,7 +1298,6 @@
 <!--                class="section-18__icon__asterisk">*</span> <span class="section-18__icon__read-poem"></span>-->
 <!--    </div>-->
 <!--</section>-->
-
 
 <section class="section-19">
     <div class="section-19__background backgroundImg"></div>
@@ -1378,7 +1379,7 @@
         Thank you.
     </div>
     <div class="section-32__donate">
-        <button>
+        <button onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
             <div class="icon icon-heart icon-heart-white heart-button">
                 <svg>
                     <use href="#icon-heart"></use>
@@ -1393,8 +1394,8 @@
     </div>
 
     <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Back to top</span>
-        <a href="">
-            <button class="button button-arrow-yellow">
+        <a href="#">
+            <button class="button button-arrow-yellow" >
 
                 <div class="icon icon-arrow arrow-up">
                     <svg>

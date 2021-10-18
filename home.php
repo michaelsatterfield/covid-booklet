@@ -167,7 +167,8 @@
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2750">[Funding]</a>
                     </li>
                     <li class="nav-main__item">
-                        <button class="button button-heart button-heart-header-top" onclick="window.open('https://saafdn.fcsuite.com/erp/donate/', '_blank')">
+                        <button class="button button-heart button-heart-header-top"
+                                onclick="window.open('https://saafdn.fcsuite.com/erp/donate/', '_blank')">
                             <div class="icon icon-heart icon-heart-white">
                                 <svg>
                                     <use href="#icon-heart"></use>
@@ -457,6 +458,8 @@
 
                 <button class="nav-link s9 row-1" id="s9_12" data-bs-toggle="pill" data-bs-target="#s9-12" type="button"
                         role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1</button>
+                <button class="nav-link s9 row-1" id="s9_12" data-bs-toggle="pill" data-bs-target="#s9-13" type="button"
+                        role="tab" aria-controls="v-pills-13" aria-selected="false"><h1>M</h1</button>
             </div>
 
         </main>
@@ -492,10 +495,12 @@
                         are made available.<br><br>
 
                         <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare for essential workers</span>.<br><br>
+                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span
+                                class="section-9__span"> childcare for essential workers</span>.<br><br>
 
                         <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
+                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are
+                        awarded before
                         the end of March.<br><br>
                     </div>
 
@@ -507,34 +512,34 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">April 2020</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        <span class="date-span">1</span><br>
+                        <span class="section-9__span">Contributions to the COVID-19 Response Fund include: </span>80|20
+                        Foundation, Bank of San Antonio, Bexar County, Greehey Family Foundation, H. E. Butt Foundation,
+                        John L. Santikos Charitable Foundation, JPMorgan Chase & Co., Kronkosky Charitable Foundation,
+                        Mays Family Foundation, Harvey E. Najim and The Najim Charitable Foundation, NuStar Energy, The
+                        Tobin Endowment, and the Wells Fargo Foundation.<br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
+                        <span class="date-span">2</span><br>
+                        Additional grants are awarded to help with <span class="section-9__span">emergency child assistance</span>
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
+                        <span class="date-span">21</span><br>
+                        Two new donations bring the COVID-19 Response Fund to a total <span class="section-9__span">$5.3 million.</span>
+                        A $500,000 challenge grant from San Antonio philanthropist <span class="section-9__span">Harvey E. Najim</span>
+                        spurs the <span class="section-9__span">John L. Santikos Charitable Foundation</span> to match
+                        Najim's contribution.
+                        <br><br>
 
                         <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
+                        <span class="section-9__span">UpTogether</span> serves as a vital pathway for the City of San
+                        Antonio to distribute their newly created <span class="section-9__span">$25 million assistance program</span>
+                        for residents impacted by COVID-19.
+                        <br><br>
 
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">29</span><br>
+                        The COVID-19 Response Fund awards <span
+                                class="section-9__span">125 grants totaling $3,621,453</span> by the end of April.
+                        <br><br>
                     </div>
 
                 </div>
@@ -544,34 +549,24 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">May 2020</h1>
                     <div class="section-9__subtitle">
+                        <span class="date-span">11</span><br>
+                        In response to laid-off restaurant workers, SAAFdn and other funders collaborate to support the
+                        use of a program called <span class="section-9__span">Get Shift Done</span>, which connects
+                        local workers with temporary jobs at the San Antonio Food Bank.
+                        <br><br>
+
                         <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        Responding to the changing needs of the community, additional investments of <span
+                                class="section-9__span">$500,000 from the H. E. Butt Foundation and $300,000 from the Humana Foundation</span>,
+                        bringing the COVID-19 Response Fund total to $6.3 million.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
+                        <span class="date-span">31</span><br>
+                        Fund grants total over <span class="section-9__span">$5 million to 162 local nonprofits</span>,
+                        providing much needed food, shelter, security, and critical social services for marginalized
+                        communities.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
-
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
                     </div>
                 </div>
             </div>
@@ -580,34 +575,15 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">June 2020</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        <span class="date-span">1</span><br>
+                        <span class="section-9__span">SAAFdn joins community foundations from across the country</span>
+                        for monthly
+                        virtual peer learning on the COVID-19 response titled “COVID-19 – Respond, Recover, Rebuild.”
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
-
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">4</span><br>
+                        The fund provides <span class="section-9__span">12 additional grants totaling $278,850</span>
+                        <br><br>
                     </div>
                 </div>
             </div>
@@ -616,34 +592,20 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">July 2020</h1>
                     <div class="section-9__subtitle">
+                        <span class="date-span">1</span><br>
+                        <span class="section-9__span">SAAFdn’s CEO, Marjie French, joins San Antonio Mayor Ron Nirenberg’s
+                        Workforce and Education Leadership Taskforce</span> to reassess community workforce development
+                        priorities and identify strategies beyond the immediate crisis.
+                        <br><br>
+
                         <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        The City of San Antonio launches the <span class="section-9__span">COVID-19 Recovery Grant Program</span>
+                        for small businesses and nonprofits, in partnership with LiftFund.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
-
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">25</span><br>
+                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of the San Antonio Area Foundation, Texas Public Radio (TPR) initiates Vital Conversations,</span>
+                        a series of community conversations centered on priority impact areas.
                     </div>
 
                 </div>
@@ -653,36 +615,27 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">August 2020</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        <span class="date-span">3</span><br>
+                        <span class="section-9__span">San Antonio Workforce and Education Leadership Taskforce</span>
+                        releases recommendations for workforce recovery.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
+                        <span class="date-span">6</span><br>
+                        <span class="section-9__span">SAAFdn presents to national philanthropic leaders</span> on San
+                        Antonio’s COVID
+                        relief efforts, highlighting the community’s collaborative response fund
+                        prioritizing recovering equitably.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
+                        <span class="date-span">25</span><br>
+                        Fund grants total over <span class="section-9__span">$6.4 million.</span> With an additional $7
+                        million in grants
+                        from Donor Advised Funds hosted at SAAFdn, <span class="section-9__span">total grants in response to the
+                        pandemic reach $13.4 million</span> to help over 200 local nonprofits make an
+                        impact in marginalized communities.
 
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <br><br>
                     </div>
-
                 </div>
             </div>
             <!--*****************September*****************-->
@@ -690,36 +643,39 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">September 2020</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        <span class="date-span">1</span><br>
+                        <span class="section-9__span">SAAFdn joins over 40 Arts organizations</span> to advocate for and
+                        encourage City
+                        Council to allocate a portion of the COVID-19 Community Recovery and
+                        Resiliency Plan to support arts recovery.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
+                        <span class="date-span">1</span><br>
+                        <span class="section-9__span">SAAFdn launches its annual responsive grant process</span>
+                        prioritizing trust-based
+                        philanthropy in the form of general operating grants to provide much-needed
+                        additional funding in the field.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
+                        <span class="date-span">3</span><br>
+                        <span class="section-9__span">SAAFdn starts an early-stage capacity building program with the H. E. Butt
+                        Foundation</span> to ensure support for smaller nonprofits with deep roots in
+                        marginalized communities.
+                        <br><br>
 
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
+                        <span class="date-span">5</span><br>
+                        SAAFdn partners with leaders from across our community in the <span class="section-9__span"> Count Me In
+                        Census 2020</span> by investing in strategic and collaborative grants.
+                        <br><br>
 
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">11</span><br>
+                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
+                        the San Antonio Area Foundation, Texas Public Radio (TPR) presents Vital
+                        Conversations: “Youth Success”</span> addressing root causes of our city’s
+                        education inequities and improving education outcomes for all San Antonio
+                        youth as we recover from the pandemic.
+                        <br><br>
                     </div>
-
                 </div>
             </div>
             <!--*****************October*****************-->
@@ -727,34 +683,12 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">October 2020</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
-
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">1</span><br>
+                        SAAFdn joins other local funders to launch <span class="section-9__span">Catchafire</span>, a
+                        national online
+                        capacity building platform with a community of over 100,000 skilled
+                        volunteers to support over 100 local nonprofit organizations in their recovery.
+                        <br><br>
                     </div>
                 </div>
             </div>
@@ -763,34 +697,25 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">November 2020</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        <span class="date-span">3</span><br>
+                        <span class="section-9__span">Both Proposition A: Sales & Use Tax for Pre-K 4 SA and Proposition B: Ready
+                        to Work SA Workforce program pass</span> with voter support ensuring sustained
+                        investment in key impact areas.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
+                        <span class="date-span">6</span><br>
+                        <span class="section-9__span">SAAFdn partnered with LISC San Antonio to launch Leading to Change:
+                        Building Equity</span> in Community to support leaders in affordable housing and
+                        economic development who will play a critical role in an equitable recovery.
+                        <br><br>
 
                         <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
+                        the San Antonio Area Foundation, Texas Public Radio (TPR) presents Vital
+                        Conversations: “Aging Strong Through COVID-19 And Beyond”</span> detailing how
+                        the pandemic has severely affected older adults facing challenges with
+                        health outcomes, isolation, transportation, food security, and mental health.
+                        <br><br>
                     </div>
 
                 </div>
@@ -800,68 +725,41 @@
                 <div class="section-9__background">
                     <h1 class="section-9__title">December 2020</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+                        <span class="date-span">3</span><br>
+                        <span class="section-9__span">SAAFdn, in coordination with UP Partnership, secures an $8 million grant</span>
+                        from a national grant program through <span
+                                class="section-9__span">Blue Meridian Partners</span> to address
+                        disparities, scale up work on racial equity, and advance economic mobility for
+                        our youth to provide youth leadership development.
+                        <br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
-
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">10</span><br>
+                        <span class="section-9__span">SAAFdn hosts a panel of local funders</span> titled Looking Back
+                        and Looking
+                        Forward Lessons Learned through the COVID-19 Response Fund and
+                        Implications for Philanthropy in 2021.
+                        <br><br>
                     </div>
                 </div>
             </div>
             <!--*****************January*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-11" role="tabpanel" aria-labelledby="s9_11">
                 <div class="section-9__background">
-                    <h1 class="section-9__title">January 2020</h1>
+                    <h1 class="section-9__title">January 2021</h1>
                     <div class="section-9__subtitle">
-                        <span>13</span><br>
-                        Bexar County officials declare State of Emergency in response to the COVID-19 pandemic.<br><br>
+                        <span class="date-span">1</span><br>
+                        <span class="section-9__span">SAAFdn collaborates with the City of San Antonio’s Metro Health to distribute
+                        mini grants to nonprofits</span> to help address health disparities in communities
+                        with the most need.
+                        <br><br>
 
-                        <span>20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        COVID-19 Response
-                        Fund with nearly $3 million initially seeded by donors, and immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
-
-                        <span>20</span><br>
-                        Creation of internal and external review committee comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
-
-                        <span>23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund childcare for
-                        essential workers.<br><br>
-
-                        <span>27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling $1.45 million are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">19</span><br>
+                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
+                        the San Antonio Area Foundation, Texas Public Radio (TPR) presents Vital
+                        Conversations “Cultural Vibrancy - A Conversation About the Future of Arts &
+                        Culture in San Antonio”</span> highlighting the impact of lockdowns on museums,
+                        theaters, art galleries, music venues, and cultural events.
+                        <br><br>
                     </div>
 
                 </div>
@@ -869,41 +767,34 @@
             <!--*****************February*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-12" role="tabpanel" aria-labelledby="s9_12">
                 <div class="section-9__background">
-                    <h1 class="section-9__title">February 2020</h1>
+                    <h1 class="section-9__title">February 2021</h1>
                     <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
-
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
-
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span class="section-9__span"> childcare foressential workers</span>.<br><br>
-
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are awarded before
-                        the end of March.<br><br>
+                        <span class="date-span">1</span><br>
+                        Assessing the challenges with the rollout of the vaccine, <span class="section-9__span">SAAFdn provides
+                        mini grants to older adult-serving organizations</span> who experienced
+                        unexpected costs associated with reaching those populations.
+                        <br><br>
                     </div>
 
                 </div>
             </div>
+            <!--*****************March*****************-->
+            <div class="tab-pane fade show  bg-light" id="s9-13" role="tabpanel" aria-labelledby="s9_13">
+                <div class="section-9__background">
+                    <h1 class="section-9__title">March 2021</h1>
+                    <div class="section-9__subtitle">
+                        <span class="date-span">1</span><br>
+                        <span class="section-9__span">SAAFdn partners with The Ewing Hassel Foundation</span> via the
+                        COVID-19
+                        Response Fund to assess the current and growing needs of youth and
+                        <span class="section-9__span">distributes $125,000 to seven youth-serving organizations</span>
+                        working on
+                        creative solutions in recovery.
+                        <br><br>
+                    </div>
 
+                </div>
+            </div>
 </section>
 
 
@@ -1027,21 +918,22 @@
 
 <section class="section-15">
     <div class="section-15__image_wrapper">
-    <div class="section-15__background backgroundImg" id="15"></div>
-    <div class="section-15__image"></div>
-    <div class="section-15__imageshorttext"></div>
+        <div class="section-15__background backgroundImg" id="15"></div>
+        <div class="section-15__image"></div>
+        <div class="section-15__imageshorttext"></div>
 
-    <div class="section-15__text-wrapper">
+        <div class="section-15__text-wrapper">
 
-        <div class="section-15__pretitle"></div>
-        <div class="section-15__title"></div>
+            <div class="section-15__pretitle"></div>
+            <div class="section-15__title"></div>
 
-        <div class="section-15__text">
+            <div class="section-15__text">
+            </div>
         </div>
-    </div>
-    <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a"><span></span>
+        <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a">
+            <span></span>
 
-    </div>
+        </div>
 </section>
 
 <section class="section-16">
@@ -1105,31 +997,55 @@
             <!--            side tab-->
 
             <section class="tab-1a tab-a">
-                <div class="tab-1a-image"></div>
-                <div class="side-tab">
-                    <div class="side-tab-wrapper col-6 d-flex align-items-evenly justify-content-start">
-                        <div class="side-tab-title col-6"><h1>YMCA Early Learning Center at haven for hope</h1>
-                        <div class="side-tab-text col-12">As the City began shutting down, so did daycare and other
-                            childcare
-                            centers.
-                            Response Fund partners started linking with nonprofits to reopen childcare centers for first
-                            responders and essential workers.The support provided immediate impact in stabilizing a
-                            spiraling
-                            crisis as the pandemic spread exponentially.
-                        </div>
-                        </div>
-                    </div>
-                    <div class="side-tab-quote col-3">“My daughter enrolled in the distance learning camp, and sending
-                        her has
-                        been
-                        an absolute lifeline for our family. We work and have no family in town. Without this camp, we’d
-                        have
-                        to make some painful decisions for our family, financial and otherwise.”
+                <div class="timeline-section-1"></div>
+                <div class="timeline-section-1a">
+                    <div class="timeline-section-1a-background">
+                        <div class="timeline-section-1-text-container d-flex ">
+                            <div class="timeline-section-1a-ymca-container  px-2">
+                                <h1 class="timeline-section-1a-title col-8">
+                                    YMCA EARLY LEARNING CENTER AT HAVEN FOR HOPE
+                                </h1>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-1 col-8">
+                                    As the City began shutting down, so did daycare and other childcare centers.
+                                    Response Fund partners started linking with nonprofits to reopen childcare centers
+                                    for first responders and essential workers.The support provided immediate impact in
+                                    stabilizing a spiraling crisis as the pandemic spread exponentially.
+                                </p>
+                            </div>
 
+                            <div class="timeline-section-1a-amount-container d-flex flex-column  px-2">
+                                <p class="timeline-section-1a-amount col-5">
+                                    TOTAL AMOUNT: $200,000
+                                </p>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                    The learning center was able to stay open during the early months of COVID-19,
+                                    providing full-day childcare to 269 children of essential workers when schools and
+                                    other childcare centers closed.
+                                </p>
+                                <p class="timeline-section-1a-paragraph-part-2 col-8">
+                                    Later, in August, the YMCA transitioned to offering e-Learning camps that gave 423
+                                    children boosted WiFi and support as they navigated their school’s distance learning
+                                    programs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-section-1a-quote-container">
+                            <p class="timeline-section-1a-quote">
+                                “My daughter enrolled in the distance learning camp, and sending her has been an
+                                absolute lifeline for our family. We work and have no family in town. Without this camp,
+                                we’d have to make some painful decisions for our family, financial and otherwise.”
+                                </br></br>
+                                <span class="timeline-section-1a-quote-author">
                         —YMCA Client
+                    </span>
+                            </p>
+
+                        </div>
+
                     </div>
                 </div>
-
             </section>
 
             <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
@@ -1142,185 +1058,229 @@
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <div class="button-ripple button-ripple-section-2">
-                        <button class="button button-arrow-yellow">
-                            <div class="icon icon-arrow">
-                                <svg>
-                                    <use href="#icon-arrow-right">
-                        </svg>
-                        </button>
-                            </div>
+                            <button class="button button-arrow-yellow">
+                                <div class="icon icon-arrow">
+                                    <svg>
+                                        <use href="#icon-arrow-right">
+                                    </svg>
+                            </button>
+                        </div>
                     </div>
                     </button>
                 </div>
             </div>
             <!--            side tab-->
             <section class="tab-2a tab-a">
-
-                <div class="section-8a__text">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-2a</h3>
-                </div>
-            </section>
-
-            <!--***************************tab-3*****************-->
-            <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
-                <div class="tab-3 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">Corazón<br> Ministries, Inc.</div>
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
-                        <span class="yellow-text">READ MORE</span>
-                        <!--button-->
-                        <button class="button button-arrow-yellow">
-                            <div class="button-ripple button-ripple-section-2"></div>
-                            <div class="icon icon-arrow">
-                                <svg>
-                                    <use href="#icon-arrow-right">
-                        </button>
-                        </svg>
-                    </div>
-                    </button>
-                </div>
-            </div>
-            <!--            side tab-->
-            <section class="tab-3a tab-a">
-                <div class="section-8a__text">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-3a</h3>
-                </div>
-            </section>
-
-            <!--<--***************************tab-4*****************-->
-            <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
-                <div class="tab-4 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
-                        Inc.)
-                    </div>
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
-                        <span class="yellow-text">READ MORE</span>
-                        <!--button-->
-                        <button class="button button-arrow-yellow">
-                            <div class="button-ripple button-ripple-section-2"></div>
-                            <div class="icon icon-arrow">
-                                <svg>
-                                    <use href="#icon-arrow-right">
-                        </button>
-                        </svg>
-                    </div>
-                    </button>
-                </div>
-            </div>
-            <!--            side tab-->
-            <section class="tab-4a tab-a">
-                <div class="section-8a__text">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-4a</h3>
-                </div>
-            </section>
-
-            <!--*************************tab-5*****************-->
-            <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
-                <div class="tab-5 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">LiftFund</div>
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
-                        <span class="yellow-text">READ MORE</span>
-                        <!--button-->
-                        <button class="button button-arrow-yellow">
-                            <div class="button-ripple button-ripple-section-2"></div>
-                            <div class="icon icon-arrow">
-                                <svg>
-                                    <use href="#icon-arrow-right">
-                        </button>
-                        </svg>
-                    </div>
-                    </button>
-                </div>
-            </div>
-            <!--            side tab-->
-            <section class="tab-5a tab-a">
-                <div class="section-8a__text">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-5a</h3>
-                </div>
-            </section>
-            <!--**********************tab-6*****************-->
-            <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
-                <div class="tab-6 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">San Antonio Foundation for<br> Excellence in
-                        Education,<br> Inc. (SAISD Foundation)
-                    </div>
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
-                        <span class="yellow-text">READ MORE</span>
-                        <!--button-->
-                        <button class="button button-arrow-yellow">
-                            <div class="button-ripple button-ripple-section-2"></div>
-                            <div class="icon icon-arrow">
-                                <svg>
-                                    <use href="#icon-arrow-right">
-                        </button>
-                        </svg>
-                    </div>
-                    </button>
-                </div>
-            </div>
-            <!--            side tab-->
-            <section class="tab-6a tab-a">
-                <div class="section-8a__text">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-6a</h3>
-                </div>
-            </section>
-
-
-            <!--************************tab-7*****************-->
-            <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
-                <div class="tab-7 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">UpTogether</div>
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
-                        <span class="yellow-text">READ MORE</span>
-                        <!--button-->
-                        <button class="button button-arrow-yellow">
-                            <div class="button-ripple button-ripple-section-2"></div>
-                            <div class="icon icon-arrow">
-                                <svg>
-                                    <use href="#icon-arrow-right">
-                        </button>
-                        </svg>
-                    </div>
-                    </button>
-                </div>
-            </div>
-            <!--            side tab-->
-            <section class="tab-7a tab-a">
-                <div class="section-8a__text d-flex justify-content-evenly">
-                    <!--                    fill in with template and reuse class for all versions-->
-                    <h3>Tab-7a</h3>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mapModal">
-                        View Map
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
-                         aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county –
-                                        Highest level poverty zip code map</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body map"></div>
+                <div class="timeline-section-1"></div>
+                <div class="timeline-section-1a">
+                    <div class="timeline-section-1a-background">
+                        <div class="timeline-section-1-text-container d-flex ">
+                            <div class="timeline-section-1a-ymca-container  px-2">
+                                <h1 class="timeline-section-1a-title col-8">
+                                    YMCA EARLY LEARNING CENTER AT HAVEN FOR HOPE
+                                </h1>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-1 col-8">
+                                    As the City began shutting down, so did daycare and other childcare centers.
+                                    Response Fund partners started linking with nonprofits to reopen childcare centers
+                                    for first responders and essential workers.The support provided immediate impact in
+                                    stabilizing a spiraling crisis as the pandemic spread exponentially.
+                                </p>
                             </div>
+
+                            <div class="timeline-section-1a-amount-container d-flex flex-column  px-2">
+                                <p class="timeline-section-1a-amount col-5">
+                                    TOTAL AMOUNT: $200,000
+                                </p>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                    The learning center was able to stay open during the early months of COVID-19,
+                                    providing full-day childcare to 269 children of essential workers when schools and
+                                    other childcare centers closed.
+                                </p>
+                                <p class="timeline-section-1a-paragraph-part-2 col-8">
+                                    Later, in August, the YMCA transitioned to offering e-Learning camps that gave 423
+                                    children boosted WiFi and support as they navigated their school’s distance learning
+                                    programs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-section-1a-quote-container">
+                            <p class="timeline-section-1a-quote">
+                                “My daughter enrolled in the distance learning camp, and sending her has been an
+                                absolute lifeline for our family. We work and have no family in town. Without this camp,
+                                we’d have to make some painful decisions for our family, financial and otherwise.”
+                                </br></br>
+                                <span class="timeline-section-1a-quote-author">
+                        —YMCA Client
+                    </span>
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+
+        <!--***************************tab-3*****************-->
+        <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
+            <div class="tab-3 tabs">
+                <div class="tabs-title d-flex justify-content-center ">Corazón<br> Ministries, Inc.</div>
+                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
+                    <span class="yellow-text">READ MORE</span>
+                    <!--button-->
+                    <button class="button button-arrow-yellow">
+                        <div class="button-ripple button-ripple-section-2"></div>
+                        <div class="icon icon-arrow">
+                            <svg>
+                                <use href="#icon-arrow-right">
+                    </button>
+                    </svg>
+                </div>
+                </button>
+            </div>
+        </div>
+        <!--            side tab-->
+        <section class="tab-3a tab-a">
+            <div class="section-8a__text">
+                <!--                    fill in with template and reuse class for all versions-->
+                <h3>Tab-3a</h3>
+            </div>
+        </section>
+
+        <!--<--***************************tab-4*****************-->
+        <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
+            <div class="tab-4 tabs">
+                <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
+                    Inc.)
+                </div>
+                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
+                    <span class="yellow-text">READ MORE</span>
+                    <!--button-->
+                    <button class="button button-arrow-yellow">
+                        <div class="button-ripple button-ripple-section-2"></div>
+                        <div class="icon icon-arrow">
+                            <svg>
+                                <use href="#icon-arrow-right">
+                    </button>
+                    </svg>
+                </div>
+                </button>
+            </div>
+        </div>
+        <!--            side tab-->
+        <section class="tab-4a tab-a">
+            <div class="section-8a__text">
+                <!--                    fill in with template and reuse class for all versions-->
+                <h3>Tab-4a</h3>
+            </div>
+        </section>
+
+        <!--*************************tab-5*****************-->
+        <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
+            <div class="tab-5 tabs">
+                <div class="tabs-title d-flex justify-content-center ">LiftFund</div>
+                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
+                    <span class="yellow-text">READ MORE</span>
+                    <!--button-->
+                    <button class="button button-arrow-yellow">
+                        <div class="button-ripple button-ripple-section-2"></div>
+                        <div class="icon icon-arrow">
+                            <svg>
+                                <use href="#icon-arrow-right">
+                    </button>
+                    </svg>
+                </div>
+                </button>
+            </div>
+        </div>
+        <!--            side tab-->
+        <section class="tab-5a tab-a">
+            <div class="section-8a__text">
+                <!--                    fill in with template and reuse class for all versions-->
+                <h3>Tab-5a</h3>
+            </div>
+        </section>
+        <!--**********************tab-6*****************-->
+        <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
+            <div class="tab-6 tabs">
+                <div class="tabs-title d-flex justify-content-center ">San Antonio Foundation for<br> Excellence in
+                    Education,<br> Inc. (SAISD Foundation)
+                </div>
+                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
+                    <span class="yellow-text">READ MORE</span>
+                    <!--button-->
+                    <button class="button button-arrow-yellow">
+                        <div class="button-ripple button-ripple-section-2"></div>
+                        <div class="icon icon-arrow">
+                            <svg>
+                                <use href="#icon-arrow-right">
+                    </button>
+                    </svg>
+                </div>
+                </button>
+            </div>
+        </div>
+        <!--            side tab-->
+        <section class="tab-6a tab-a">
+            <div class="section-8a__text">
+                <!--                    fill in with template and reuse class for all versions-->
+                <h3>Tab-6a</h3>
+            </div>
+        </section>
+
+
+        <!--************************tab-7*****************-->
+        <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
+            <div class="tab-7 tabs">
+                <div class="tabs-title d-flex justify-content-center ">UpTogether</div>
+                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
+                    <span class="yellow-text">READ MORE</span>
+                    <!--button-->
+                    <button class="button button-arrow-yellow">
+                        <div class="button-ripple button-ripple-section-2"></div>
+                        <div class="icon icon-arrow">
+                            <svg>
+                                <use href="#icon-arrow-right">
+                    </button>
+                    </svg>
+                </div>
+                </button>
+            </div>
+        </div>
+        <!--            side tab-->
+        <section class="tab-7a tab-a">
+            <div class="section-8a__text d-flex justify-content-evenly">
+                <!--                    fill in with template and reuse class for all versions-->
+                <h3>Tab-7a</h3>
+            </div>
+            <div class="d-flex justify-content-evenly">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mapModal">
+                    View Map
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
+                     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county –
+                                    Highest level poverty zip code map</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body map"></div>
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-            </section>
+        </section>
 
-        </div>
+    </div>
     </div>
 
 </section>
@@ -1343,36 +1303,36 @@
     <div class="section-19__background backgroundImg"></div>
 
     <div class="section-19__text-wrapper">
-    <div class="section-19__title title">[ Funding the</div>
-    <div class="section-19__text title"> frontline]</div>
-    <div class="section-19__pretitle">
-        As the pandemic raged, it was the nonprofit community who stood fast,<br>
-        keeping so many of our vulnerable friends and neighbors from falling<br>
-        further into crisis. We knew our role was to trust these organizations to <br>
-        deliver help quickly and effectively. Yet “trust based” doesn’t mean less<br>
-        accountability. The experts, our nonprofit leaders and their staffs, are<br>
-        more than willing to be held accountable – they’d just rather not get held <br>
-        back from the work they know how to get done.
-    </div>
+        <div class="section-19__title title">[ Funding the</div>
+        <div class="section-19__text title"> frontline]</div>
+        <div class="section-19__pretitle">
+            As the pandemic raged, it was the nonprofit community who stood fast,<br>
+            keeping so many of our vulnerable friends and neighbors from falling<br>
+            further into crisis. We knew our role was to trust these organizations to <br>
+            deliver help quickly and effectively. Yet “trust based” doesn’t mean less<br>
+            accountability. The experts, our nonprofit leaders and their staffs, are<br>
+            more than willing to be held accountable – they’d just rather not get held <br>
+            back from the work they know how to get done.
+        </div>
 
-    <div class="section-19__links-wrapper section-19__links ">
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight1" role="button"
-             aria-controls="offcanvasExample">
-            <h3>COVID-19 FUND GRANTEES →<br></h3>
+        <div class="section-19__links-wrapper section-19__links ">
+            <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight1" role="button"
+                 aria-controls="offcanvasExample">
+                <h3>COVID-19 FUND GRANTEES →<br></h3>
+            </div>
+            <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight2" role="button"
+                 aria-controls="offcanvasExample">
+                <h3>THANK YOU, SAN ANTONIO →<br></h3>
+            </div>
+            <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight3" role="button"
+                 aria-controls="offcanvasExample">
+                <h3>2020 BOARD MEMBERS →<br></h3>
+            </div>
+            <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight4" role="button"
+                 aria-controls="offcanvasExample">
+                <h3>EXTERNAL REVIEW COMMITTEE →<br></h3>
+            </div>
         </div>
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight2" role="button"
-             aria-controls="offcanvasExample">
-            <h3>THANK YOU, SAN ANTONIO →<br></h3>
-        </div>
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight3" role="button"
-             aria-controls="offcanvasExample">
-            <h3>2020 BOARD MEMBERS →<br></h3>
-        </div>
-        <div class="section-19__links" data-bs-toggle="offcanvas" href="#offcanvasRight4" role="button"
-             aria-controls="offcanvasExample">
-            <h3>EXTERNAL REVIEW COMMITTEE →<br></h3>
-        </div>
-    </div>
     </div>
 
     <!--    off canvas click items bootstrap-->
@@ -1427,71 +1387,71 @@
                 Antonians in need through the San Antonio COVID-19<br>
                 Response Fund. The list below recognizes those donors:<br><br>
                 <div class="section-19__donors">
-                John L. Santikos Charitable Foundation, a Fund of the San Antonio Area Foundation<br>
-                The Najim Charitable Foundation<br>
-                Harvey E. Najim Charitable Fund of the San Antonio Area Foundation<br>
-                H. E. Butt Foundation<br>
-                The Nancy Smith Hurd Foundation<br>
-                80|20 Foundation<br>
-                Alamo Cement Company<br>
-                Albert and Bessie Mae Kronkosky Charitable Foundation<br>
-                Alice Kleberg Reynolds Meyer Foundation<br>
-                Amini Family Foundation<br>
-                Anonymous<br>
-                Armstrong Giving Fund<br>
-                Arnim Family Foundation<br>
-                Bank of America Charitable Gift Fund<br>
-                Bank of San Antonio<br>
-                Baptist Health Foundation of San Antonio<br>
-                Benson Family Fund of the San Antonio Area Foundation<br>
-                Bexar County<br>
-                Richard and Ruth Butler<br>
-                Casey Family Foundation<br>
-                Childcare Collaborative Fund of the San Antonio Area Foundation<br>
-                Adam Ciarella<br>
-                City of San Antonio<br>
-                Petra Claflin<br>
-                CVS Health<br>
-                Dominion Senior PGA<br>
-                Ewing Halsell Foundation<br>
-                Ellinor and Marvin Forland Charitable Fund of the San Antonio Area Foundation<br>
-                General Dynamics Mission Systems, Inc.<br>
-                Gloria Galt Fund of the San Antonio Area Foundation<br>
-                Greehey Family Foundation<br>
-                Houston H. and Carolyn H. Harte Fund of the San Antonio Area Foundation<br>
-                Holt Family Foundation<br>
-                Humana Foundation<br>
-                JP Morgan Chase & Co.<br>
-                Jo and Kae Kaneko<br>
-                Leonard Contracting, Inc.<br>
-                Masters Leadership Program Alumni<br>
-                Peter F. Maddox<br>
-                Mays Family Foundation<br>
-                McClure Charitable Foundation of 2007<br>
-                Meadows Foundation<br>
-                Nationwide Foundation<br>
-                NuStar Energy<br>
-                Patel Gaines, PLLC<br>
-                Petty Hefte Family Foundation<br>
-                Edward and Helenan Polansky Charitable Fund of the San Antonio Area Foundation<br>
-                Dr. Ed Reed and Peggy Reed<br>
-                Semmes Foundation Fund of the San Antonio Area Foundation<br>
-                Shield-Ayres Foundation<br>
-                Spellman Charitable Fund of the San Antonio Area Foundation<br>
-                Annie and Tim Swan Fund of the San Antonio Area Foundation<br>
-                Bernard and Kathy Swift<br>
-                Texas Capital Bank<br>
-                Texas Mutual Insurance Company<br>
-                The Brown Foundation, Inc.<br>
-                The Tobin Endowment<br>
-                Toyota Manufacturing Company<br>
-                USAA<br>
-                United Way of San Antonio and Bexar County<br>
-                Jill and George Vassar<br>
-                Verizon<br>
-                VT SEVA<br>
-                Wells Fargo Foundation<br>
-                Tom White Charitable Fund of the San Antonio Area Foundation<br>
+                    John L. Santikos Charitable Foundation, a Fund of the San Antonio Area Foundation<br>
+                    The Najim Charitable Foundation<br>
+                    Harvey E. Najim Charitable Fund of the San Antonio Area Foundation<br>
+                    H. E. Butt Foundation<br>
+                    The Nancy Smith Hurd Foundation<br>
+                    80|20 Foundation<br>
+                    Alamo Cement Company<br>
+                    Albert and Bessie Mae Kronkosky Charitable Foundation<br>
+                    Alice Kleberg Reynolds Meyer Foundation<br>
+                    Amini Family Foundation<br>
+                    Anonymous<br>
+                    Armstrong Giving Fund<br>
+                    Arnim Family Foundation<br>
+                    Bank of America Charitable Gift Fund<br>
+                    Bank of San Antonio<br>
+                    Baptist Health Foundation of San Antonio<br>
+                    Benson Family Fund of the San Antonio Area Foundation<br>
+                    Bexar County<br>
+                    Richard and Ruth Butler<br>
+                    Casey Family Foundation<br>
+                    Childcare Collaborative Fund of the San Antonio Area Foundation<br>
+                    Adam Ciarella<br>
+                    City of San Antonio<br>
+                    Petra Claflin<br>
+                    CVS Health<br>
+                    Dominion Senior PGA<br>
+                    Ewing Halsell Foundation<br>
+                    Ellinor and Marvin Forland Charitable Fund of the San Antonio Area Foundation<br>
+                    General Dynamics Mission Systems, Inc.<br>
+                    Gloria Galt Fund of the San Antonio Area Foundation<br>
+                    Greehey Family Foundation<br>
+                    Houston H. and Carolyn H. Harte Fund of the San Antonio Area Foundation<br>
+                    Holt Family Foundation<br>
+                    Humana Foundation<br>
+                    JP Morgan Chase & Co.<br>
+                    Jo and Kae Kaneko<br>
+                    Leonard Contracting, Inc.<br>
+                    Masters Leadership Program Alumni<br>
+                    Peter F. Maddox<br>
+                    Mays Family Foundation<br>
+                    McClure Charitable Foundation of 2007<br>
+                    Meadows Foundation<br>
+                    Nationwide Foundation<br>
+                    NuStar Energy<br>
+                    Patel Gaines, PLLC<br>
+                    Petty Hefte Family Foundation<br>
+                    Edward and Helenan Polansky Charitable Fund of the San Antonio Area Foundation<br>
+                    Dr. Ed Reed and Peggy Reed<br>
+                    Semmes Foundation Fund of the San Antonio Area Foundation<br>
+                    Shield-Ayres Foundation<br>
+                    Spellman Charitable Fund of the San Antonio Area Foundation<br>
+                    Annie and Tim Swan Fund of the San Antonio Area Foundation<br>
+                    Bernard and Kathy Swift<br>
+                    Texas Capital Bank<br>
+                    Texas Mutual Insurance Company<br>
+                    The Brown Foundation, Inc.<br>
+                    The Tobin Endowment<br>
+                    Toyota Manufacturing Company<br>
+                    USAA<br>
+                    United Way of San Antonio and Bexar County<br>
+                    Jill and George Vassar<br>
+                    Verizon<br>
+                    VT SEVA<br>
+                    Wells Fargo Foundation<br>
+                    Tom White Charitable Fund of the San Antonio Area Foundation<br>
                 </div>
 
             </h5>
@@ -1593,7 +1553,9 @@
             </button>
         </div>
         <div class="section-20__link">
-            View annual impact report
+            <a href="https://impact.saafdn.org/" target="_blank">
+                View annual impact report
+            </a>
         </div>
     </div>
 

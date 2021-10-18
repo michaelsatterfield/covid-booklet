@@ -539,8 +539,7 @@ a {
     z-index: 1000;
     width: 100%;
     opacity: 0.0;
-    transition: opacity 1s;
-    transition-delay: 1s;
+
 }
 
 body.page-loaded .header-top {
@@ -2725,7 +2724,7 @@ timeline-images {
     top: 6%;
     left: 13%;
 }
-.section-20__link {
+.section-20__link a {
     font-weight: 900;
     width: 322px;
     position: relative;
@@ -2733,7 +2732,12 @@ timeline-images {
     left: 93%;
     font-family: Roboto;
     font-size: 14px;
-    color: #85261E
+    color: #85261E;
+    text-decoration: none;
+}
+.section-20__link a:hover {
+    color: #cc2e26;
+
 }
 
 .section-20 .button-next-slide-section-20 {
@@ -2783,3 +2787,173 @@ timeline-images {
     left: 2px;
 
 }
+
+/*drew timeline*/
+.timeline-section-1 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/section-17-ymca.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.timeline-section-1-text {
+    position: relative;
+    top: 63vh;
+    left: 40%;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 70px/70px Whitman;
+    text-align: left;
+    font: normal normal normal 70px/70px Whitman;
+    letter-spacing: -0.7px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #000000B2;
+    opacity: 1;
+}
+
+.timeline-section-1-read-more {
+    position: relative;
+    top: 65vh;
+    left: 85%;
+    margin: auto;
+}
+
+.timeline-section-1-read-more span{
+    position: relative;
+    text-align: right;
+    font: normal normal 900 15px/23px Roboto;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/*.body{*/
+/*    border-color: black;*/
+/*}*/
+
+.timeline-section-1a {
+    margin-left: 49%;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+.timeline-section-1-text-container{
+    height: 50%;
+    /*flex-direction: column;*/
+    /*flex-direction: row;*/
+}
+
+.timeline-section-1a-ymca-container{
+    margin-top: 3em;
+    padding: 2em;
+    float: left;
+}
+
+
+.timeline-section-1a-YMCA-Early-Learning{
+    flex-direction: row;
+}
+
+.timeline-section-1a-quote-container{
+    height: 50%;
+
+}
+
+.timeline-section-1a-title {
+    position: relative;
+    left: 8%;
+    width: 350px;
+    float: left;
+    text-align: left;
+    font: normal normal 900 22px/25px Roboto;
+    letter-spacing: 0.22px;
+    color: #1C2D5A;
+    text-transform: uppercase;
+}
+
+.timeline-section-1a-paragraph-1{
+    position: relative;
+    left: 8%;
+    width: 350px;
+    text-align: left;
+    font: normal normal normal 15px/25px Roboto;
+    letter-spacing: -0.15px;
+    color: #4A413A;
+}
+.timeline-section-1a-amount{
+    /*position: relative;*/
+    /*left: 50%;*/
+    /*width: 200px;*/
+    /*text-align: left;*/
+    font: normal normal 900 18px/25px Roboto;
+    letter-spacing: 0.18px;
+    color: #87946B;
+    text-transform: uppercase;
+}
+
+
+.timeline-section-1a-amount-container{
+    position: relative;
+    top: 5vh;
+    /*right: 27%;*/
+    /*!* padding-bottom: 50vh; *!*/
+    /*float: right;*/
+}
+
+.timeline-section-1a-paragraph-part-1{
+    /*position: relative;*/
+
+    /*left: 49%;*/
+    /*width: 180px;*/
+    /*height: 20px;*/
+    /*text-align: left;*/
+    font: italic normal normal 15px/25px Roboto;
+    letter-spacing: -0.15px;
+    color: #4A413A;
+}
+.timeline-section-1a-paragraph-part-2{
+    /*position: relative;*/
+    /*float: right;*/
+
+
+    /*width: 180px;*/
+    /*height: 20px;*/
+    /*text-align: left;*/
+    font: italic normal normal 15px/25px Roboto;
+    letter-spacing: -0.15px;
+    color: #4A413A;
+}
+.timeline-section-1a-quote{
+    position: relative;
+    top: -7em;
+    left: 6%;
+    width: 150px;
+    text-align: left;
+    font: normal normal bold 18px/20px Roboto;
+    letter-spacing: 0.18px;
+    color: #E98243;
+}
+.timeline-section-1a-quote-author{
+    position: relative;
+    text-align: left;
+    font: normal normal bold 18px/20px Roboto;
+    letter-spacing: 0.18px;
+    color: #E98243;
+}
+.timeline-section-1a-next-story {
+    position: relative;
+    top: 10vh;
+    margin: auto;
+}
+
+.timeline-section-1a-next-story span{
+    position: relative;
+    text-align: right;
+    font: normal normal 900 15px/23px Roboto;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+

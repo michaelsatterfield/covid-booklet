@@ -1286,6 +1286,8 @@
 </section>
 
 <!---->
+
+
 <!--<section class="section-18">-->
 <!--    <div class="section-18__background backgroundImg"></div>-->
 <!--    <div class="section-18__text-wrapper">-->
@@ -1296,7 +1298,6 @@
 <!--                class="section-18__icon__asterisk">*</span> <span class="section-18__icon__read-poem"></span>-->
 <!--    </div>-->
 <!--</section>-->
-
 
 <section class="section-19">
     <div class="section-19__background backgroundImg"></div>
@@ -1393,8 +1394,8 @@
     </div>
 
     <div class="button-next-slide button-next-slide-section-20" data-toggle=".section-20, .section-20a"><span>Back to top</span>
-        <a href="">
-            <button class="button button-arrow-yellow">
+        <a href="https://saafdn.fcsuite.com/erp/donate/">
+            <button class="button button-arrow-yellow" onclick="window.location.href='https://saafdn.fcsuite.com/erp/donate/';">
 
                 <div class="icon icon-arrow arrow-up">
                     <svg>

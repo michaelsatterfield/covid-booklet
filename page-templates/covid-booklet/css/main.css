@@ -635,10 +635,16 @@ section.active {
     visibility: visible;
 }
 
-.section-17.completed {
-    pointer-events: all;
-}
+/*.section-17.completed {*/
+/*    pointer-events: all;*/
+/*}*/
 
+/*.section-19.completed {*/
+/*    pointer-events: all!important;*/
+/*}*/
+/*.section-20.completed {*/
+/*    pointer-events: all;*/
+/*}*/
 /*.section-17.tab-content.completed{*/
 /*    pointer-events: all;*/
 /*}*/

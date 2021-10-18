@@ -404,7 +404,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("tab-1", "opacity", 0.0, 1.0, 1600, 1610);
     new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1780, 1790);
 
-    // new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
+    // new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1790, 1795);
     // new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
     // new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
     // new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);

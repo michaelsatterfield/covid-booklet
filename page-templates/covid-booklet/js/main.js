@@ -105,41 +105,6 @@ window.addEventListener("DOMContentLoaded", event => {
     ElementAnimation.scrollDisabled = false;
 
 
-
-//get section-2a showing after scroll
-    let myID = document.getElementById("section-2a");
-
-    let myScrollFunc = () => {
-        let y = window.scrollY;
-        if (y >= 2800) {
-            myID.className = "bottomMenu show"
-            console.log("2a")
-
-        } else {
-            myID.className = "bottomMenu hide"
-
-        }
-    };
-    window.addEventListener("scroll", myScrollFunc);
-
-//todo: make a dynamic function with 2 arguments for myId and scrollAmt
-
-    let myID2 = document.getElementById("section-3a");
-
-    let myScrollFunc2 = () => {
-        let y = window.scrollY;
-        if (y >= 8500) {
-            myID2.className = "showSpan-2 show2 "
-        } else {
-            myID2.className = "showSpan-2 hide2"
-        }
-    };
-
-    window.addEventListener("scroll", myScrollFunc2);
-
-
-
-
     new ElementAnimation("section-1", "opacity",
         // initial property at start of animation, target property at stop of animation
         1.0, 0.0,
@@ -160,7 +125,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("header-left", "opacity", 0.0, 1.0, 100, 120);
     new ElementAnimation("header-left", "margin-left", -100, 0, 100, 120);
 
-    // console.log("margin-left as percent window");
+
     new ElementAnimation("section-2__text-1", "opacity", 0.0, 1.0, 105, 120);
     new ElementAnimation("section-2__text-1", "margin-left", 50, 0, 105, 120);
     new ElementAnimation("section-2__text-2", "opacity", 0.0, 1.0, 110, 125);
@@ -168,6 +133,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-2__text-3", "opacity", 0.0, 1.0, 110, 125);
     new ElementAnimation("section-2__text-3", "margin-left", 50, 0, 110, 125);
     new ElementAnimation("section-2__text-4", "opacity", 0.0, 1.0, 130, 145);
+    new ElementAnimation("section-2__text-5", "opacity", 0.0, 1.0, 155, 170);
     new ElementAnimation("button-next-slide-section-2", "opacity", 0.0, 1.0, 110, 120);
     new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 110, 115);
     new ElementAnimation("button-ripple-2", "scale", 1.0, 1.75, 110, 120);
@@ -208,28 +174,10 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-4__background", "opacity", 1.0, 0.0, 390, 405);
     new ElementAnimation("section-4", "opacity", 1.0, 0.0, 390, 405);
 
-    new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 500);
+    new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 420);
     new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
-    new ElementAnimation("button-prev-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
-    new ElementAnimation("button-next-slide-section-5", "opacity", 0.0, 1.0, 405, 415);
+    new ElementAnimation("section-5__subtitle", "opacity", 0.0, 1.0, 450, 465);
 
-    new ElementAnimation("button-ripple-5l", "opacity", 0.0, 1.0, 410, 415);
-    new ElementAnimation("button-ripple-5l", "scale", 1.0, 1.75, 410, 420);
-    new ElementAnimation("button-ripple-5l", "scale", 1.75, 1.5, 420, 430);
-    new ElementAnimation("button-ripple-5l", "opacity", 1.0, 0.0, 415, 430);
-    new ElementAnimation("button-ripple-5l", "scale", 1.5, 1.75, 470, 480);
-    new ElementAnimation("button-ripple-5l", "opacity", 0.0, 1.0, 470, 480);
-    new ElementAnimation("button-ripple-5l", "scale", 1.75, 1.5, 480, 490);
-    new ElementAnimation("button-ripple-5l", "opacity", 1.0, 0.0, 480, 490);
-
-    new ElementAnimation("button-ripple-5r", "opacity", 0.0, 1.0, 410, 415);
-    new ElementAnimation("button-ripple-5r", "scale", 1.0, 1.75, 410, 420);
-    new ElementAnimation("button-ripple-5r", "scale", 1.75, 1.5, 420, 430);
-    new ElementAnimation("button-ripple-5r", "opacity", 1.0, 0.0, 415, 430);
-    new ElementAnimation("button-ripple-5r", "scale", 1.5, 1.75, 470, 480);
-    new ElementAnimation("button-ripple-5r", "opacity", 0.0, 1.0, 470, 480);
-    new ElementAnimation("button-ripple-5r", "scale", 1.75, 1.5, 480, 490);
-    new ElementAnimation("button-ripple-5r", "opacity", 1.0, 0.0, 480, 490);
 
     new ElementAnimation("section-5", "opacity", 1.0, 0.0, 470, 485);
 
@@ -250,6 +198,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-7", "opacity", 1.0, 0.0, 670, 685);
 
     // Section 8 | Active
+    new ElementAnimation("section-8", "opacity", 0.0, 1.0, 685, 690);
     new ElementAnimation("section-8__title", "margin-left", 150, 0, 670, 700);
     new ElementAnimation("section-8__subtitle", "margin-left", 100, 0, 700, 720);
     new ElementAnimation("section-8__subtitle-wrapper", "opacity", 0.0, 1.0, 710, 725);
@@ -257,26 +206,25 @@ window.addEventListener("DOMContentLoaded", event => {
     // Section 8 | Closing
     new ElementAnimation("section-8__background", "opacity", 1.0, 0.0, 770, 790);
 
-    new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 700, 770);
-    new ElementAnimation("section-8__icon", "opacity", 1.0, 0.0, 700, 760);
+    new ElementAnimation("section-8__subtitle", "opacity", 1.0, 0.8, 760, 770);
 
-    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 740, 750);
+    new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
 
     //Section 9 | Active
-    new ElementAnimation("section-9", "opacity", 0.0, 1.00, 750, 760),
+    new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
 
-    new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
-    new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
-
-    new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
-
-    new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 810);
-
-    new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
-
-    new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
-
-    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
+    // new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
+    // new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
+    //
+    // new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
+    //
+    // new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 810);
+    //
+    // new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
+    //
+    // new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
+    //
+    // new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 
@@ -293,7 +241,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     //
     new ElementAnimation("section-11", "opacity", 0.0, 1.0, 1020, 1030);
-    new ElementAnimation("section-11__background", "scale", 1.0, 1.05, 1020, 1030);
+    new ElementAnimation("section-11__background", "opacity", 0.0, 1.00, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "opacity", 0.0, 1.0, 1020, 1030);
     new ElementAnimation("section-11__pretitle", "margin-left", 50, 0, 1020, 1030);
     new ElementAnimation("section-11__title", "opacity", 0.0, 1.0, 1020, 1030);
@@ -308,6 +256,9 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-11", "opacity", 1.0, 0.0, 1190, 1200);
     //
     //
+
+
+    new ElementAnimation("section-12", "opacity", 0.0, 1.0, 1200, 1210);
     new ElementAnimation("section-12__image", "scale", 0, 0.975, 1200, 1210);
     new ElementAnimation("section-12__image", "scale", 0.975, 1.0, 1200, 1210);
     new ElementAnimation("section-12__image", "margin-left", -60, 0, 1200, 1210);
@@ -317,16 +268,13 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-12__title", "margin-left", 50, 0, 1200, 1210);
     new ElementAnimation("section-12__text", "opacity", 0.0, 1.0, 1200, 1210);
     new ElementAnimation("section-12__text", "margin-left", 50, 0, 1200, 1210);
-    new ElementAnimation("button-next-slide-section-12", "opacity", 0.0, 1.0, 1200, 1210);
-
-    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1290, 1300);
 
 
+    new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1295, 1300);
 
 
-
-    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1310);
-    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1300, 1310);
+    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1295, 1300);
+    new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1300);
 
 
     // Continue here
@@ -371,14 +319,13 @@ window.addEventListener("DOMContentLoaded", event => {
         updateBarCallback(3, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1310, 1330, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1315, 1330, function (sp, ssta, ssto) {
         updateBarCallback(2, sp, ssta, ssto);
     });
 
-    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1310, function (sp, ssta, ssto) {
+    new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1295, 1315, function (sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
-
 
 
     // new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1410, function ( sp, ssta, ssto) {
@@ -395,8 +342,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-13__total", "opacity", 1.0, 0.0, 1400, 1410);
     new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1400, 1410, true);
-
-    new ElementAnimation("section-13", "opacity", 5.0, 0.0, 1400, 1410);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1410, 1420);
 
     //todo: adjust scrollStart and stop to page height
     // new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1400, 1500);
@@ -410,13 +356,26 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__text", "margin-left", 50, 0, 1400, 1500);
     // new ElementAnimation("button-next-slide-section-13", "opacity", 0.0, 1.0, 1230, 1500);
     //
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1410, 1420);
+    // new ElementAnimation("section-14", "opacity", 0.0, 1.0, 1400, 1401);
+
+    // new ElementAnimation("section-14__image", "scale", 0.95, 0.975, 1390, 1391);
+    // new ElementAnimation("section-14__image", "scale", 0.975, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__image", "margin-left", -60, 0, 1390, 1391);
+    // new ElementAnimation("section-14__image", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__imageshorttext", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__title", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__title", "margin-left", 50, 0, 1390, 1391);
+    // new ElementAnimation("section-14__text", "opacity", 0.0, 1.0, 1390, 1391);
+    // new ElementAnimation("section-14__text", "margin-left", 50, 0, 1390, 1391);
+    // new ElementAnimation("button-next-slide-section-14", "opacity", 0.0, 1.0, 1390, 1391);
+
+    // new ElementAnimation("section-14", "opacity", 1.0, 0.5, 1401, 1402);
 
 
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
-    new ElementAnimation("section-15__image", "opacity", 0.0, 1.0, 1410, 1415);
+    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1410, 1415);
     new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
     new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
     new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
@@ -425,11 +384,12 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15__text", "opacity", 0.0, 1.0, 1420, 1450);
     new ElementAnimation("section-15__text", "margin-left", 50, 0, 1420, 1450);
     new ElementAnimation("button-next-slide-section-15", "opacity", 0.0, 1.0, 1440, 1450);
+    new ElementAnimation("section-15", "opacity", 0.0, 1.0, 1400, 1410);
+    new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1500, 1510);
 
-    new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1490, 1500);
 
-
-    // new ElementAnimation("section-16__background", "scale", 1.0, 1.00, 1465, 1700);
+    new ElementAnimation("section-16__background", "scale", 1.0, 1.00, 1490, 1500);
+    new ElementAnimation("section-16__background", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "margin-left", 50, 0, 1515, 1545);
     new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1530, 1560);
@@ -438,43 +398,45 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-16", "opacity", 1.0, 0.0, 1580, 1600);
 
 
-    new ElementAnimation("section-17__background", "scale", 1.0, 1.05, 1600, 1610);
-    new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1630);
+    // new ElementAnimation("section-17", "opacity", 0.0, 1.0, 1600, 1610);
+    new ElementAnimation("section-17__background", "opacity", 0.0, 1.0, 1600, 1610);
+    // new ElementAnimation("section-17__text", "opacity", 0.0, 1.0, 1620, 1630);
 
-    new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1690, 1700);
+    new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1780, 1790);
+    new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1780, 1790);
+
+    // new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
+    // new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
+    // new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
+    // new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
+    // new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
+    //
+    // new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
 
 
-    new ElementAnimation("section-18__title", "opacity", 0.0, 1.0, 1700, 1710);
-    new ElementAnimation("section-18__title", "margin-left", 50, 0, 1700, 1710);
-    new ElementAnimation("section-18__subtitle", "opacity", 0.0, 1.0, 1720, 1730);
-    new ElementAnimation("section-18__subtitle", "margin-left", 100, 0, 1710, 1720);
-    new ElementAnimation("section-18__icon", "opacity", 0.0, 1.0, 1700, 1710);
-
-    new ElementAnimation("section-18", "opacity", 1.0, 0.0, 1790, 1800);
-
-
-    new ElementAnimation("section-19__background", "scale", 1.0, 1.05, 1800, 1810);
-    new ElementAnimation("section-19__pretitle", "opacity", 0.0, 1.0, 1815, 1845);
-    new ElementAnimation("section-19__pretitle", "margin-left", 50, 0, 1815, 1845);
-    new ElementAnimation("section-19__title", "opacity", 0.0, 1.0, 1820, 1850);
+    new ElementAnimation("section-19__background", "opacity", 0.0, 1.0, 1780, 1790);
     new ElementAnimation("section-19__title", "margin-left", 50, 0, 1820, 1850);
-    new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1825, 1855);
-    new ElementAnimation("section-19__text", "margin-left", 50, 0, 1825, 1855);
-
+    new ElementAnimation("section-19__text", "opacity", 0.0, 1.0, 1805, 1812);
+    new ElementAnimation("section-19__text", "margin-left", 50, 0, 1820, 1850);
+    new ElementAnimation("section-19__pretitle", "opacity", 0.0, 1.0, 1815, 1820);
+    new ElementAnimation("section-19__pretitle", "margin-left", 50, 0, 1815, 1850);
+    new ElementAnimation("section-19__links", "opacity", 0.0, 1.0, 1850, 1860);
     new ElementAnimation("section-19", "opacity", 1.0, 0.0, 1890, 1900);
 
 
-    new ElementAnimation("section-20__background", "scale", 1.0, 1.05, 1900, 1910);
+    new ElementAnimation("section-20__background", "opacity", 0.0, 1.0, 1900, 1910);
     new ElementAnimation("section-20__pretitle", "opacity", 0.0, 1.0, 1901, 1910);
     new ElementAnimation("section-20__pretitle", "margin-left", 50, 0, 1900, 1910);
     new ElementAnimation("section-20__title", "opacity", 0.0, 1.0, 1905, 1910);
+    new ElementAnimation("section-32__donate", "opacity", 0.0, 1.0, 1920, 1930);
+    new ElementAnimation("section-20__link", "opacity", 0.0, 1.0, 1920, 1930);
+    new ElementAnimation("button-next-slide-section-20", "opacity", 0.0, 1.0, 1920, 1930);
 
     new ElementAnimation("section-20__title", "margin-left", 50, 0, 1905, 1915);
     new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1920);
     new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1920);
 
     new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2000, 2010);
-
 
 
     ElementAnimation.setScrollDummyHeight();
@@ -605,7 +567,6 @@ window.addEventListener("DOMContentLoaded", event => {
     // Main cycle duration (not the entire duration though. total duration: cycle duration + transition duration
     function cycleQuotesRecursively() {
         var quotes = quotesContainer.getElementsByClassName("quote");
-        // console.log("if quotes visible");
         setTimeout(function () {
             quotesContainer.style.opacity = 0.0;
             quotes[quoteIndex].classList.remove("active");
@@ -676,7 +637,7 @@ window.addEventListener("DOMContentLoaded", event => {
             var scrollToPosition = (parseInt(event.srcElement.getAttribute("data-offset")) / 100) * window.innerHeight;
             ElementAnimation.scrollDisabled = false;
             scrollTo(scrollToPosition, 500);
-            console.log (window.pageYOffset);
+            // console.log(window.pageYOffset);
             event.preventDefault();
         });
 
@@ -709,191 +670,148 @@ window.addEventListener("DOMContentLoaded", event => {
     };
 
 
-
-
-
-
-
-
-
-
     // all custom jQuery will go here
 
     jQuery(document).ready(function ($) {
         console.log("working jquery")
         //pie chart functionality
-        let p1 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
-        let p2 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
-        let p3 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
-        let p4 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
-        let p5 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
-        let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
-        let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
-        let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
+        // let p1 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
+        // let p2 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
+        // let p3 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
+        // let p4 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
+        // let p5 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
+        // let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
+        // let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
+        // let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
 
+        let p1 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
+        let p2 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
+        let p3 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
+        let p4 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
+        let p5 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
+        let p6 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
+        let p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
+        let p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
         $(window).scroll(function () {
             let value = $(this).scrollTop();
             console.log(value)
             switch (true) {
-                case value >= 15300 && value <= 15500:
+//                 case value >= 16500 && value <= 16600:
+//                     $(".pieClass").attr("src", p1);
+//                     break;
+//                 case value >= 16600 && value <= 16800:
+//                     $(".pieClass").attr("src", p2)
+
+
+//                     break;
+//                 case value >= 16800 && value <= 17000:
+//                     $(".pieClass").attr("src", p3);
+
+//                     break;
+//                 case value >= 17000 && value <= 17200:
+//                     $(".pieClass").attr("src", p4);
+
+//                     break;
+//                 case value >= 17200 && value <= 17400:
+//                     $(".pieClass").attr("src", p5);
+
+//                     break;
+//                 case value >= 17400 && value <= 17600:
+//                     $(".pieClass").attr("src", p6);
+
+//                     break;
+//                 case value >= 17600 && value <= 17800:
+//                     $(".pieClass").attr("src", p7);
+
+
+//                     break;
+//                 case value >= 17800 && value <= 18000:
+//                     $(".pieClass").attr("src", p8);
+//                     break;
+
+
+
+                case value >= 18500 && value <= 18600:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 15500 && value <= 15700:
+                case value >= 18600 && value <= 18800:
                     $(".pieClass").attr("src", p2)
-
-                    console.log("p2")
                     break;
-                case value >= 15700 && value <= 15800:
+
+                case value >= 18800 && value <= 19000:
                     $(".pieClass").attr("src", p3);
 
                     break;
-                case value >= 15700 && value <= 15900:
+                case value >= 19000 && value <= 19200:
                     $(".pieClass").attr("src", p4);
 
                     break;
-                case value >= 15900 && value <= 16100:
+                case value >= 19200 && value <= 19400:
                     $(".pieClass").attr("src", p5);
 
                     break;
-                case value >= 16100 && value <= 16300:
+                case value >= 19400 && value <= 19600:
                     $(".pieClass").attr("src", p6);
 
                     break;
-                case value >= 16300 && value <= 16500:
+                case value >= 19600 && value <= 19800:
                     $(".pieClass").attr("src", p7);
 
 
                     break;
-                case value >= 16500 && value <= 16700:
+                case value >= 19800 && value <= 20000:
                     $(".pieClass").attr("src", p8);
                     break;
 
+//
+//
+//
+//
+//                 case value >= 24200 && value <= 24400:
+//                     $(".pieClass").attr("src", p3);
+
+//                     break;
+//                 case value >= 24400 && value <= 24600:
+//                     $(".pieClass").attr("src", p4);
+
+//                     break;
+//                 case value >= 24600 && value <= 24800:
+//                     $(".pieClass").attr("src", p5);
+
+//                     break;
+//                 case value >= 24800 && value <= 25000:
+//                     $(".pieClass").attr("src", p6);
+
+//                     break;
+//                 case value >= 25000 && value <= 25200:
+//                     $(".pieClass").attr("src", p7);
+
+
+//                     break;
+//                 case value >= 25200 && value <= 25400:
+//                     $(".pieClass").attr("src", p8);
+//                     break;
+
             }
+        });
+        //close when clicking off-screen timeline area
+        $(".nav-link").click(function () {
+            $("section").removeClass("toggle")
+        })
+
+        //close when clicking off-screen map area
+        $(".nav-link").click(function () {
+            $(".modal").removeClass("show")
+        })
+        //keep page from refreshing to top
+        $(window).on('unload', function() {
+            $(window).scrollTop(0);
+            console.log("top")
         });
 
         $("#myTab a:last").tab("show"); // show last tab
 
-        //bootstrap example jquery
-        // $("#myTab a").click(function(e){
-        //     e.preventDefault();
-        //     $(this).tab("show");
-        // });
-    //
-    // $('.bg').click(function(){
-    //     switch(true) {
-    //         case $('.img1').hasClass('backgroundImg'):
-    //             $(".section-16__background").toggleClass('section-18__background');
-    //             console.log("j1")
-    //             break;
-    //         case $('.img2').hasClass('backgroundImg'):
-    //             $(".section-16__background").toggleClass('section-18__background');
-    //             console.log("j2")
-    //             break;
-    //     }
-    // })
-    //     $('.bg').click(function(){
-    //         switch(true) {
-    //             case $('#s17').hasClass('bg'):
-    //                 $(".section-16__background").addClass('section-18__background');
-    //                 console.log("#s17")
-    //                 break;
-    //             case $('#s18').hasClass('bg'):
-    //                 $('.section-17__background').toggleClass('section-3__background');
-    //                 console.log("j2")
-    //                 break;
-    //         }
-    //     })
-    //
-    //
-    //     $(".timeline-images .bg ").click(function() {
-    //
-    //         $('.bg').not(this).removeClass('bg');
-    //         $(this).toggleClass('bg');
-    //
-    //
-    //         if ($(this).hasClass('bg')){
-    //             let section = $(this).attr('id');
-    //             $(".backgroundImg").addClass('d-none');
-    //             //important d-non for other classes
-    //             $(".section-" + section + "__background").toggleClass('bg');
-    //             //add case switch here to change class based on id of 'bg' clicked
-    //             //if clicked on #16 show background 16 etc for each 'bg' case
-    //
-    //
-    //                 // switch(true) {
-    //                 //     case $('.section-16__background').hasClass('bg'):
-    //                 //         $(".section-16__background").toggleClass('section-18__background');
-    //                 //         console.log("j1")
-    //                 //         break;
-    //                 //     case $('.img2').hasClass('backgroundImg'):
-    //                 //         $(".section-16__background").toggleClass('section-18__background');
-    //                 //         console.log("j2")
-    //                 //         break;
-    //                 // }
-    //         }
-    //         else {
-    //             $("#bg").children().removeClass('d-none');
-    //         }
-    //     });
-
-
-
-
-
-
-        // $(".bg").click(function() {
-        //     $('.active').not(this).removeClass('active');
-        //     $(this).toggleClass('active');
-        //     if ($(this).hasClass('active')){
-        //         var color = $(this).attr('id');
-        //         $("#16").children().addClass('d-none');
-        //         $("." + color + "-marker").toggleClass('d-none');
-        //     }
-        //     else {
-        //         $("#16").children().removeClass('d-none');
-        //     }
-        // });
-
-
-        // $(".img1").click(function(){
-        //     $('.section-17__background').removeClass('section-17__background');
-        //     $(this).addClass("section-17a__background")
-        //     console.log("click img1")//you can list several class names
-        // });
-
-        //
-        //
-        //
-        // $(".img2").click(function(){
-        //     $('.section-17__background').toggleClass("section-16__background")
-        //     console.log("click img1")//you can list several class names
-        });
-        // $(".img3").click(function(){
-        //     $('.section-17__background').toggleClass("section-14__background")
-        //     console.log("click img2")//you can list several class names
-        // });
-        // $(".img4").click(function(){
-        //     $('.section-17__background').toggleClass("section-15__background")
-        //     console.log("click img3")//you can list several class names
-        // });
-
-
-        //works but doesnt return
-        // $(".img1").click(function(){
-        //     $('.section-17__background').attr("class","section-17a__background ")
-        //     console.log("switch classes")//you can list several class names
-        // });
-
-        // $(".img1").click(function(){
-        //     $(this).toggleClass("section-17a__background").removeClass("section-17__background backgroundImg");
-        //     console.log("click img1")//you can list several class names
-        // });
-
-    // });
-
-
-
-
+    });
 });
 
 

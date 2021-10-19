@@ -190,7 +190,7 @@
             <div class="section-1__image-1"></div>
         </div>
         <div class="section-1__text">
-            <div class="section-1__text-1"><span>Covid-19 </span>Community Response Fund</div>
+            <div class="section-1__text-1"><span>COVID-19 </span>Community Response Fund</div>
             <div class="section-1__text-2">Impact Report</div>
         </div>
         <div class="d-flex justify-content-center scroll-button-wrapper">
@@ -217,9 +217,9 @@
         <div class="section-2__paragraph">
 
             <div class="section-2__text-4"><span class="section-2__text-3">The coronavirus pandemic </span>
-                prompted all of us to act quickly, depend on each other, and encourage innovation.
-                <span class="section-2__text-5">We have prioritized community-led solutions -
-                    trusting those on the front lines to do the work they know how to get done, to serve their neighbors who are
+                prompted all of us<br> to act quickly, depend on each other, and <br> encourage innovation.
+                <span class="section-2__text-5">We have prioritized<br> community-led solutions -
+                    trusting those on the<br>  front lines to do the work they know how to get<br>  done, to serve their neighbors who are
                     in need.</span>
             </div>
 
@@ -1636,83 +1636,83 @@
 
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body p-2">
+        <div class="offcanvas-body p-3">
             <h4 class="p-3">THANK YOU, SAN ANTONIO</h4>
 
             <br>
-            <h5 class="canvas-h5">
+            <h5 class="canvas-h5 p-2">
                 We are grateful to all the individuals, families, organizations,<br>
                 and business that have come together to support San<br>
                 Antonians in need through the San Antonio COVID-19<br>
                 Response Fund. The list below recognizes those donors:<br><br>
             </h5>
-                <div class="section-19__donors p-3">
-                    John L. Santikos Charitable Foundation, a Fund of the San<br> Antonio Area Foundation<br><br>
-                    The Najim Charitable Foundation<br><br>
-                    Harvey E. Najim Charitable Fund of the San <br> Antonio Area Foundation<br><br>
-                    H. E. Butt Foundation<br><br>
-                    The Nancy Smith Hurd Foundation<br><br>
-                    80|20 Foundation<br><br>
-                    Alamo Cement Company<br><br>
-                    Albert and Bessie Mae Kronkosky Charitable Foundation<br><br>
-                    Alice Kleberg Reynolds Meyer Foundation<br><br>
-                    Amini Family Foundation<br><br>
-                    Anonymous<br><br>
-                    Armstrong Giving Fund<br><br>
-                    Arnim Family Foundation<br><br>
-                    Bank of America Charitable Gift Fund<br><br>
-                    Bank of San Antonio<br><br>
-                    Baptist Health Foundation of San Antonio<br><br>
-                    Benson Family Fund of the San Antonio Area Foundation<br><br>
-                    Bexar County<br><br>
-                    Richard and Ruth Butler<br><br>
-                    Casey Family Foundation<br><br>
-                    Childcare Collaborative Fund of the San Antonio <br> Area Foundation<br><br>
-                    Adam Ciarella<br><br>
-                    City of San Antonio<br><br>
-                    Petra Claflin<br><br>
-                    CVS Health<br><br>
-                    Dominion Senior PGA<br><br>
-                    Ewing Halsell Foundation<br><br>
-                    Ellinor and Marvin Forland Charitable Fund of the San Antonio <br> Area Foundation<br><br>
-                    General Dynamics Mission Systems, Inc.<br><br>
-                    Gloria Galt Fund of the San Antonio Area Foundation<br><br>
-                    Greehey Family Foundation<br><br>
-                    Houston H. and Carolyn H. Harte Fund of the San Antonio <br> Area Foundation<br><br>
-                    Holt Family Foundation<br><br>
-                    Humana Foundation<br><br>
-                    JP Morgan Chase & Co.<br><br>
-                    Jo and Kae Kaneko<br><br>
-                    Leonard Contracting, Inc.<br><br>
-                    Masters Leadership Program Alumni<br><br>
-                    Peter F. Maddox<br><br>
-                    Mays Family Foundation<br><br>
-                    McClure Charitable Foundation of 2007<br><br>
-                    Meadows Foundation<br><br>
-                    Nationwide Foundation<br><br>
-                    NuStar Energy<br><br>
-                    Patel Gaines, PLLC<br><br>
-                    Petty Hefte Family Foundation<br><br>
-                    Edward and Helenan Polansky Charitable Fund of the San<br>  Antonio Area Foundation<br><br>
-                    Dr. Ed Reed and Peggy Reed<br><br>
-                    Semmes Foundation Fund of the San Antonio Area Foundation<br><br>
-                    Shield-Ayres Foundation<br><br>
-                    Spellman Charitable Fund of the San Antonio Area Foundation<br><br>
-                    Annie and Tim Swan Fund of the San Antonio Area Foundation<br><br>
-                    Bernard and Kathy Swift<br><br>
-                    Texas Capital Bank<br><br>
-                    Texas Mutual Insurance Company<br><br>
-                    The Brown Foundation, Inc.<br><br>
-                    The Tobin Endowment<br><br>
-                    Toyota Manufacturing Company<br><br>
-                    USAA<br><br>
-                    United Way of San Antonio and Bexar County<br><br>
-                    Jill and George Vassar<br><br>
-                    Verizon<br><br>
-                    VT SEVA<br><br>
-                    Wells Fargo Foundation<br><br>
-                    Tom White Charitable Fund of the San Antonio<br> Area Foundation<br><br>
-                </div>
+            <div class="section-19__donors p-3">
+                John L. Santikos Charitable Foundation, a Fund of the San<br> Antonio Area Foundation<br><br>
+                The Najim Charitable Foundation<br><br>
+                Harvey E. Najim Charitable Fund of the San <br> Antonio Area Foundation<br><br>
+                H. E. Butt Foundation<br><br>
+                The Nancy Smith Hurd Foundation<br><br>
+                80|20 Foundation<br><br>
+                Alamo Cement Company<br><br>
+                Albert and Bessie Mae Kronkosky Charitable Foundation<br><br>
+                Alice Kleberg Reynolds Meyer Foundation<br><br>
+                Amini Family Foundation<br><br>
+                Anonymous<br><br>
+                Armstrong Giving Fund<br><br>
+                Arnim Family Foundation<br><br>
+                Bank of America Charitable Gift Fund<br><br>
+                Bank of San Antonio<br><br>
+                Baptist Health Foundation of San Antonio<br><br>
+                Benson Family Fund of the San Antonio Area Foundation<br><br>
+                Bexar County<br><br>
+                Richard and Ruth Butler<br><br>
+                Casey Family Foundation<br><br>
+                Childcare Collaborative Fund of the San Antonio <br> Area Foundation<br><br>
+                Adam Ciarella<br><br>
+                City of San Antonio<br><br>
+                Petra Claflin<br><br>
+                CVS Health<br><br>
+                Dominion Senior PGA<br><br>
+                Ewing Halsell Foundation<br><br>
+                Ellinor and Marvin Forland Charitable Fund of the San Antonio <br> Area Foundation<br><br>
+                General Dynamics Mission Systems, Inc.<br><br>
+                Gloria Galt Fund of the San Antonio Area Foundation<br><br>
+                Greehey Family Foundation<br><br>
+                Houston H. and Carolyn H. Harte Fund of the San Antonio <br> Area Foundation<br><br>
+                Holt Family Foundation<br><br>
+                Humana Foundation<br><br>
+                JP Morgan Chase & Co.<br><br>
+                Jo and Kae Kaneko<br><br>
+                Leonard Contracting, Inc.<br><br>
+                Masters Leadership Program Alumni<br><br>
+                Peter F. Maddox<br><br>
+                Mays Family Foundation<br><br>
+                McClure Charitable Foundation of 2007<br><br>
+                Meadows Foundation<br><br>
+                Nationwide Foundation<br><br>
+                NuStar Energy<br><br>
+                Patel Gaines, PLLC<br><br>
+                Petty Hefte Family Foundation<br><br>
+                Edward and Helenan Polansky Charitable Fund of the San<br> Antonio Area Foundation<br><br>
+                Dr. Ed Reed and Peggy Reed<br><br>
+                Semmes Foundation Fund of the San Antonio Area Foundation<br><br>
+                Shield-Ayres Foundation<br><br>
+                Spellman Charitable Fund of the San Antonio Area Foundation<br><br>
+                Annie and Tim Swan Fund of the San Antonio Area Foundation<br><br>
+                Bernard and Kathy Swift<br><br>
+                Texas Capital Bank<br><br>
+                Texas Mutual Insurance Company<br><br>
+                The Brown Foundation, Inc.<br><br>
+                The Tobin Endowment<br><br>
+                Toyota Manufacturing Company<br><br>
+                USAA<br><br>
+                United Way of San Antonio and Bexar County<br><br>
+                Jill and George Vassar<br><br>
+                Verizon<br><br>
+                VT SEVA<br><br>
+                Wells Fargo Foundation<br><br>
+                Tom White Charitable Fund of the San Antonio<br> Area Foundation<br><br>
+            </div>
 
             </h5>
         </div>
@@ -1747,7 +1747,7 @@
                 R. Bruce Tilley<br>
                 Harry W. Wolff, Jr.<br>
             </h5>
-            <br><br><br><br>
+            <br><br><br>
             <h5 class="canvas-h5">
                 <i>The San Antonio Area Foundation would like to thank<br>
                     outgoing directors for their outstanding service
@@ -1771,32 +1771,40 @@
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h4>COVID-19 RESPONSE FUND EXTERNAL REVIEW COMMITTEE</h4>
+            <h4>COVID-19 RESPONSE FUND EXTERNAL<br>
+                REVIEW COMMITTEE</h4>
 
             <br>
-            <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
-                Acts of Hope Center<br>
-                Adult & Teen Challenge of Texas<br>
-                Alamo Area Mutual Housing Association, Inc.<br>
-                Alamo Area Rape Crisis Center<br>
-                Alamo Center ENT, Inc.<br>
-                Alamo Colleges Foundation<br>
-                Alamo Resource Conservation & Development Area, Inc<br>
-                Alpha Home, Inc<br>
-                Alzheimer’s Disease and Related Disorders Association, Inc.<br>
-                American GI Forum – National Veterans Outreach Program<br>
-                American Indians in Texas at the Spanish Colonial Missions<br>
-                American Kidney Fund, Inc.<br>
-                American Red Cross<br>
-                Antioch Missionary Baptist Church<br>
-                Any Baby Can of San Antonio, Inc.<br>
-                Arc of San Antonio<br>
-                Arthur Nagel Community Clinic<br>
-                Artpace San Antonio<br>
-                Ascension DePaul Services<br>
-                Autism Service Center of San Antonio<br>
-                Autistic Treatment Center, Inc.
+            <h5 class="canvas-h5">
+                Mary Rose Brown<br>
+                <i>Executive Vice President and Chief Administrative Officer,
+                    <br>NuStar Energy L.P.</i>
+                <br><br>
 
+                Laura Cabanilla<br>
+                <i>SVP Community Relations, Wells Fargo</i>
+                <br><br>
+
+                Michelle Lugalia-Hollon<br>
+                <i>Director of Initiatives and Partnerships,<br>
+                    Kronkosky Charitable Foundation</i>
+                <br><br>
+
+                Patricia Mejia<br>
+                <i> Vice President of Community Engagement and Impact,<br>
+                    San Antonio Area Foundation</i>
+                <br><br>
+
+                Lady Romano<br>
+                <i>Senior Vice President, Community Investments, <br>
+                    United Way
+                    of San Antonio and Bexar County</i>
+                <br><br>
+
+                Perri Rosheger<br>
+                <i> Vice President of Community Engagement and<br>
+                    Communications, H. E. Butt Foundation</i>
+                <br><br>
             </h5>
         </div>
     </div>

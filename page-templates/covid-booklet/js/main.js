@@ -116,9 +116,9 @@ window.addEventListener("DOMContentLoaded", event => {
     //instances of the created Element Animation Class
     new ElementAnimation("header-top", "opacity", 1.0, 0.0, 35, 100);
     new ElementAnimation("section-1__text-1", "opacity", 1.0, 0.0, 0, 100);
-    new ElementAnimation("section-1__text-1", "margin-left", 50, 50, 0, 100);
+    new ElementAnimation("section-1__text-1", "margin-left", 30, 30, 0, 100);
     new ElementAnimation("section-1__text-2", "opacity", 1.0, 0.0, 0, 100);
-    new ElementAnimation("section-1__text-2", "margin-left", 50, 50, 0, 100);
+    new ElementAnimation("section-1__text-2", "margin-left", 30, 30, 0, 100);
     new ElementAnimation("section-1__text-2", "color", 'white', 'red', 0, 50);
 
 
@@ -211,9 +211,9 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
 
     //Section 9 | Active
-    // new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
+    new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
 
-    new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 780, 790),
+    // new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
     // new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
     //
     // new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
@@ -224,13 +224,13 @@ window.addEventListener("DOMContentLoaded", event => {
     //
     // new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
     //
-    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
+    // new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 
     // //section 10
-    // new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
-    new ElementAnimation("section-10__background", "opacity", 0, 1.00, 880, 900);
+    new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
+    new ElementAnimation("section-10__background", "opacity", 0, 1.00, 890, 900);
 
     new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 890, 900);
     new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 900, 920);

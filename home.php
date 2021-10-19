@@ -281,7 +281,7 @@
         <div class="section-5__title-wrapper">
             <div class="section-5__pretitle">Our work has been relentless.</div>
             <div class="section-5__title">It has been eye-opening.</div>
-            <div class="section-5__subtitle">We are proud of the people of San <br>Antonio who rose to the challenge,
+            <div class="section-5__subtitle">We are proud of the people of San Antonio<br> who rose to the challenge,
                 with<br>
                 compassion and without hesitation.
             </div>
@@ -295,10 +295,10 @@
     <div class="section-7__background"></div>
 
     <div class="section-7__text ">
-        “I think it is safe to say that no one foresaw the extraordinary events of 2020.
-        Each challenge became a turning point, an opportunity to think critically and act
-        decisively to find new ways to address escalating community needs. The decisions
-        were not always easy; the clear path was not always obvious. Fortunately, we were
+        “I think it is safe to say that no one<br> foresaw the extraordinary events of 2020.<br>
+        Each challenge became a turning point,<br> an opportunity to think critically and act<br>
+        decisively to find new ways to address<br>  escalating community needs. The<br>  decisions
+        were not always easy; the clear<br>  path was not always obvious. Fortunately,<br>  we were
         not alone on our journey.”
     </div>
     <div class="section-7__signature ">-Marjie French, CEO San Antonio Area Foundation</div>
@@ -478,8 +478,8 @@
 
                         <span class="date-span">20</span><br>
                         The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response</span>
-                        Fund with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
+                        <span class="section-9__span">COVID-19 Response  Fund </span>
+                        with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
                         immediately release 10 grants to
                         trusted nonprofits on the frontlines.<br>
                         The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
@@ -520,7 +520,7 @@
                         Tobin Endowment, and the Wells Fargo Foundation.<br><br>
 
                         <span class="date-span">2</span><br>
-                        Additional grants are awarded to help with <span class="section-9__span">emergency child assistance</span>
+                        Additional grants are awarded to help with <span class="section-9__span">emergency child assistance.</span>
                         <br><br>
 
                         <span class="date-span">21</span><br>
@@ -770,12 +770,14 @@
                     <h1 class="section-9__title">February 2021</h1>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
-                        Assessing the challenges with the rollout of the vaccine, <span class="section-9__span">SAAFdn provides
-                        mini grants to older adult-serving organizations</span> who experienced
-                        unexpected costs associated with reaching those populations.
+                        <span class="section-9__span">SAAFdn partners with The Ewing Hassel Foundation</span> via the
+                        COVID-19
+                        Response Fund to assess the current and growing needs of youth and
+                        <span class="section-9__span">distributes $125,000 to seven youth-serving organizations</span>
+                        working on
+                        creative solutions in recovery.
                         <br><br>
                     </div>
-
                 </div>
             </div>
             <!--*****************March*****************-->
@@ -784,12 +786,9 @@
                     <h1 class="section-9__title">March 2021</h1>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
-                        <span class="section-9__span">SAAFdn partners with The Ewing Hassel Foundation</span> via the
-                        COVID-19
-                        Response Fund to assess the current and growing needs of youth and
-                        <span class="section-9__span">distributes $125,000 to seven youth-serving organizations</span>
-                        working on
-                        creative solutions in recovery.
+                        Assessing the challenges with the rollout of the vaccine, <span class="section-9__span">SAAFdn provides
+                        mini grants to older adult-serving organizations</span> who experienced
+                        unexpected costs associated with reaching those populations.
                         <br><br>
                     </div>
 
@@ -803,9 +802,9 @@
     <div class="section-10__pretitle">April 9, 2020<span><br/><br></span>
         10,000 cars line up for<br> emergency food distribution at<br>
         Traders Village in the midst of <br> the economic crisis
-        brought on by the COVID-19 pandemic.
+        brought on by the <br>COVID-19 pandemic.
     </div>
-    <div class="section-10__title ">» Photo by William Luther,<br> San Antonio Express News</div>
+    <div class="section-10__title mt-5">» Photo by William Luther,<br> San Antonio Express News</div>
     <div class="section-10__text"></div>
 
     <div class="section-10__total-wrapper"></div>
@@ -815,10 +814,12 @@
 
     <div class="section-11__background"></div>
     <div class="section-11__pretitle"></div>
-    <div class="section-11__title">“It would be hard to overstate the<br> importance of nonprofits in our community.<br><br>
+    <div class="section-11__title">“It would be hard to overstate the<br> importance of nonprofits in our community.
+
+        <div class="section-11__title s2" >
         By working alongside the City of San <br>Antonio, local businesses, and residents,<br> our nonprofits are a
         powerful
-        force for<br> good, helping meet community needs,<br> advancing equity and opportunities for all.”
+        force for<br> good, helping meet community needs,<br> advancing equity and opportunities for all.”</div>
     </div>
     <div class="section-11__text">
         -Mayor Ron Nirenberg

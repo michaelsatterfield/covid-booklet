@@ -1127,7 +1127,7 @@ body.page-loaded .section-1__text-2 {
 
 
 .section-5__subtitle{
-    font-family: Whitman, Roman;
+    font-family: Whitman;
     letter-spacing: -0.34px;
     font-size: 28px;
     z-index: 1;
@@ -1246,7 +1246,7 @@ body.page-loaded .section-1__text-2 {
 
     position: absolute;
     top: 700px;
-    left: 600px;
+    left: 47%;
 
 }
 
@@ -1621,14 +1621,19 @@ section-10__text {
     left: 52%;
     transform: translate(-50%, -50%);
     width: 22em;
+    font-weight: bold;
     font-size: 36px;
-    line-height: 39px;
-    font-family: Roboto-Bold;!important;
+    line-height: 1.4em;
+    font-family: Roboto;!important;
     color: #4A413A;
+}
+.s2{
+    margin-top: 4em;
+    margin-left: -.5em;
 }
 .section-11__text{
 position: relative;
-    top: 33%;
+    top: 5%;
     left: 60%;
     font-size: 18px;
     font-family: "Roboto Light";!important;
@@ -2375,10 +2380,10 @@ timeline-images {
 .tabs-title{
     position: relative;
    font-family: Whitman, Roman;
-    font-size: 61px;
+    font-size: 77px;
     color: white;
-    left: 8%;
-    top: 48%;
+    left: 6%;
+    top: 63%;
     text-shadow: 0px 0px 10px #000000B2;
 }
 /*overall side tab properties*/
@@ -2462,9 +2467,11 @@ timeline-images {
 }
 
 .tab-2-main{
-    overflow: scroll;
+    overflow-y: scroll;
     height: 73em;
+    /*width: 20em;*/
     margin-left: 3em;
+
 }
 
 

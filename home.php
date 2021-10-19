@@ -997,7 +997,7 @@
             <!--            side tab-->
 
             <section class="tab-1a tab-a">
-                <div class="timeline-section-1"></div>
+                <div class="timeline-section-1 t1"></div>
                 <div class="timeline-section-1a">
                     <div class="timeline-section-1a-background">
                         <div class="timeline-section-1-text-container d-flex ">
@@ -1014,7 +1014,7 @@
                                 </p>
                             </div>
 
-                            <div class="timeline-section-1a-amount-container d-flex flex-column  px-2">
+                            <div class="timeline-section-1a-amount-container d-flex flex-column mt-5 px-2">
                                 <p class="timeline-section-1a-amount col-5">
                                     TOTAL AMOUNT: $200,000
                                 </p>
@@ -1037,13 +1037,9 @@
                                 absolute lifeline for our family. We work and have no family in town. Without this camp,
                                 we’d have to make some painful decisions for our family, financial and otherwise.”
                                 </br></br>
-                                <span class="timeline-section-1a-quote-author">
-                        —YMCA Client
-                    </span>
-                            </p>
+                                <span class="timeline-section-1a-quote-author">—YMCA Client</span></p>
 
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -1071,32 +1067,62 @@
             </div>
             <!--            side tab-->
             <section class="tab-2a tab-a">
-                <div class="timeline-section-1"></div>
+                <div class="timeline-section-1 t2"></div>
                 <div class="timeline-section-1a">
                     <div class="timeline-section-1a-background">
                         <div class="timeline-section-1-text-container d-flex ">
-                            <div class="timeline-section-1a-ymca-container  px-2">
-                                <h1 class="timeline-section-1a-title col-8">
-                                    YMCA EARLY LEARNING CENTER AT HAVEN FOR HOPE
+                            <div class="timeline-section-1a-ymca-container  tab-2-main pl-5">
+                                <h1 class="timeline-section-1a-title mb-5 col-8">
+                                    Esperanza Peace and Justice Center
                                 </h1>
                                 <br>
-                                <p class="timeline-section-1a-paragraph-1 col-8">
-                                    As the City began shutting down, so did daycare and other childcare centers.
-                                    Response Fund partners started linking with nonprofits to reopen childcare centers
-                                    for first responders and essential workers.The support provided immediate impact in
-                                    stabilizing a spiraling crisis as the pandemic spread exponentially.
-                                </p>
+                                <div class="">
+                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-8">
+                                        The grant provided by the COVID-19 Response Fund allowed this venerable
+                                        community
+                                        organization to keep programs going when it would otherwise have had to suspend
+                                        or
+                                        terminate them. For example, contributing artists still collected fees for their
+                                        work, and members of the MujerArtes Women’s Clay Cooperative continued to
+                                        receive
+                                        their regular stipends.<br>
+                                        As social distancing and quarantine affected its
+                                        programming, Esperanza staff had to walk the tightrope of providing quality
+                                        virtual
+                                        programming while remaining cognizant of our community’s lingering digital
+                                        divide.
+                                        <br>
+                                        Wellness and outreach opportunities traditionally held in-person, such as
+                                        neighborhood canvassing and visiting clients in their homes, could not be
+                                        switched
+                                        to a digital format.
+                                        <br>
+                                        Educational programming, however, saw a significant bump, as
+                                        other clients appreciated the flexibility and logistical ease of online
+                                        workshops.
+                                        <br>
+                                        As virtual programming took hold, Esperanza found success with its virtual event
+                                        held on Oct. 10, in celebration of the national observations of Hispanic
+                                        Heritage
+                                        Month and National Coming Out Month. The online event was a much-needed showcase
+                                        for
+                                        talented artists, not just from San Antonio but from across the country, and an
+                                        opportunity for the Latinx LGBTQ+ community to bond in times of crisis and
+                                        despair.
+                                    <div class="space"><br></div>
+                                    </p>
+                                    <div class="tab-2__text-shadow-after"></div>
+                                </div>
                             </div>
 
-                            <div class="timeline-section-1a-amount-container d-flex flex-column  px-2">
+                            <div class="timeline-section-1a-amount-container d-flex flex-column col-4 px-1 mt-1">
                                 <p class="timeline-section-1a-amount col-5">
-                                    TOTAL AMOUNT: $200,000
+                                    TOTAL GRANT: $20,000
                                 </p>
                                 <br>
                                 <p class="timeline-section-1a-paragraph-part-1 col-8 ">
-                                    The learning center was able to stay open during the early months of COVID-19,
-                                    providing full-day childcare to 269 children of essential workers when schools and
-                                    other childcare centers closed.
+                                    Esperanza put grant funds to good use providing basic needs for its clients – with
+                                    nearly 500 meals served, including almost 200 food box deliveries.
                                 </p>
                                 <p class="timeline-section-1a-paragraph-part-2 col-8">
                                     Later, in August, the YMCA transitioned to offering e-Learning camps that gave 423
@@ -1105,182 +1131,415 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="timeline-section-1a-quote-container">
-                            <p class="timeline-section-1a-quote">
-                                “My daughter enrolled in the distance learning camp, and sending her has been an
-                                absolute lifeline for our family. We work and have no family in town. Without this camp,
-                                we’d have to make some painful decisions for our family, financial and otherwise.”
-                                </br></br>
-                                <span class="timeline-section-1a-quote-author">
-                        —YMCA Client
-                    </span>
-                            </p>
-
-                        </div>
 
                     </div>
                 </div>
-        </div>
+            </section>
 
-        <!--***************************tab-3*****************-->
-        <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
-            <div class="tab-3 tabs">
-                <div class="tabs-title d-flex justify-content-center ">Corazón<br> Ministries, Inc.</div>
-                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
-                    <span class="yellow-text">READ MORE</span>
-                    <!--button-->
-                    <button class="button button-arrow-yellow">
-                        <div class="button-ripple button-ripple-section-2"></div>
-                        <div class="icon icon-arrow">
-                            <svg>
-                                <use href="#icon-arrow-right">
+
+            <!--***************************tab-3*****************-->
+            <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
+                <div class="tab-3 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">Corazón<br> Ministries, Inc.</div>
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
                     </button>
-                    </svg>
                 </div>
-                </button>
             </div>
-        </div>
-        <!--            side tab-->
-        <section class="tab-3a tab-a">
-            <div class="section-8a__text">
-                <!--                    fill in with template and reuse class for all versions-->
-                <h3>Tab-3a</h3>
-            </div>
-        </section>
-
-        <!--<--***************************tab-4*****************-->
-        <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
-            <div class="tab-4 tabs">
-                <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
-                    Inc.)
-                </div>
-                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
-                    <span class="yellow-text">READ MORE</span>
-                    <!--button-->
-                    <button class="button button-arrow-yellow">
-                        <div class="button-ripple button-ripple-section-2"></div>
-                        <div class="icon icon-arrow">
-                            <svg>
-                                <use href="#icon-arrow-right">
-                    </button>
-                    </svg>
-                </div>
-                </button>
-            </div>
-        </div>
-        <!--            side tab-->
-        <section class="tab-4a tab-a">
-            <div class="section-8a__text">
-                <!--                    fill in with template and reuse class for all versions-->
-                <h3>Tab-4a</h3>
-            </div>
-        </section>
-
-        <!--*************************tab-5*****************-->
-        <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
-            <div class="tab-5 tabs">
-                <div class="tabs-title d-flex justify-content-center ">LiftFund</div>
-                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
-                    <span class="yellow-text">READ MORE</span>
-                    <!--button-->
-                    <button class="button button-arrow-yellow">
-                        <div class="button-ripple button-ripple-section-2"></div>
-                        <div class="icon icon-arrow">
-                            <svg>
-                                <use href="#icon-arrow-right">
-                    </button>
-                    </svg>
-                </div>
-                </button>
-            </div>
-        </div>
-        <!--            side tab-->
-        <section class="tab-5a tab-a">
-            <div class="section-8a__text">
-                <!--                    fill in with template and reuse class for all versions-->
-                <h3>Tab-5a</h3>
-            </div>
-        </section>
-        <!--**********************tab-6*****************-->
-        <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
-            <div class="tab-6 tabs">
-                <div class="tabs-title d-flex justify-content-center ">San Antonio Foundation for<br> Excellence in
-                    Education,<br> Inc. (SAISD Foundation)
-                </div>
-                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
-                    <span class="yellow-text">READ MORE</span>
-                    <!--button-->
-                    <button class="button button-arrow-yellow">
-                        <div class="button-ripple button-ripple-section-2"></div>
-                        <div class="icon icon-arrow">
-                            <svg>
-                                <use href="#icon-arrow-right">
-                    </button>
-                    </svg>
-                </div>
-                </button>
-            </div>
-        </div>
-        <!--            side tab-->
-        <section class="tab-6a tab-a">
-            <div class="section-8a__text">
-                <!--                    fill in with template and reuse class for all versions-->
-                <h3>Tab-6a</h3>
-            </div>
-        </section>
-
-
-        <!--************************tab-7*****************-->
-        <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
-            <div class="tab-7 tabs">
-                <div class="tabs-title d-flex justify-content-center ">UpTogether</div>
-                <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
-                    <span class="yellow-text">READ MORE</span>
-                    <!--button-->
-                    <button class="button button-arrow-yellow">
-                        <div class="button-ripple button-ripple-section-2"></div>
-                        <div class="icon icon-arrow">
-                            <svg>
-                                <use href="#icon-arrow-right">
-                    </button>
-                    </svg>
-                </div>
-                </button>
-            </div>
-        </div>
-        <!--            side tab-->
-        <section class="tab-7a tab-a">
-            <div class="section-8a__text d-flex justify-content-evenly">
-                <!--                    fill in with template and reuse class for all versions-->
-                <h3>Tab-7a</h3>
-            </div>
-            <div class="d-flex justify-content-evenly">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mapModal">
-                    View Map
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
-                     aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county –
-                                    Highest level poverty zip code map</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+            <!--            side tab-->
+            <section class="tab-3a tab-a">
+                <div class="timeline-section-1 t3"></div>
+                <div class="timeline-section-1a">
+                    <div class="timeline-section-1a-background">
+                        <div class="timeline-section-1-text-container d-flex ">
+                            <div class="timeline-section-1a-ymca-container col-8 px-2">
+                                <h1 class="timeline-section-1a-title col-8 my-5">
+                                    CORAZÓN MINISTRIES, INC.
+                                </h1>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-1 col-8">
+                                    Corazón has been serving downtown San Antonio’s homeless population for more than
+                                    two decades. The pandemic immediately impacted its homelessness service work since
+                                    clients could no longer congregate in large groups. No longer able to host
+                                    gatherings, the agency went mobile thanks to its $5,000 grant.
+                                    Staffers used an “ice cream truck” model to distribute meals in the five largest
+                                    public parks in the downtown area. Corazón then teamed up with Centro SA and the
+                                    City of San Antonio to operate in a gymnasium following appropriate social
+                                    distancing and safety protocols.
+                                    They were able to hire a kitchen assistant to help prepare more meals to meet
+                                    increasing demand. Corazón maintained services crucial for keeping poverty in check,
+                                    including ID recovery, a cooling center during hot summer days, voter registration,
+                                    and medical services.
+                                    In addition, they partnered with Sichuan House and Pharm Table for six months, using
+                                    the Area Foundation grant to provide meals for the homeless, keeping small
+                                    businesses afloat.
+                                </p>
                             </div>
-                            <div class="modal-body map"></div>
+
+                            <div class="timeline-section-1a-amount-container d-flex flex-column mt-5 px-2">
+                                <p class="timeline-section-1a-amount col-5">
+                                    TOTAL GRANT: $5,000
+                                </p>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                    In all, services expanded from four to seven days a week with the average weekly
+                                    meal count doubling from 420 to 840. Since the pandemic hit, more than 21,000 meals
+                                    have been served.
+                                </p>
+
+                                <p class="timeline-section-1a-quote quote-3 col-8">
+                                    “It was a great opportunity to provide meals to people in need while at the same
+                                    time doing our part to provide jobs by keeping those restaurant employees on the
+                                    job.”
+
+
+                                    </br></br>
+                                    <span class="timeline-section-1a-quote-author author-3"> —Gavin Rogers, Executive Director at Corazón Ministries, Inc.</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <!--<--***************************tab-4*****************-->
+            <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
+                <div class="tab-4 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
+                        Inc.)
+                    </div>
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
             </div>
+            <!--            side tab-->
+            <section class="tab-4a tab-a">
+                <div class="timeline-section-1 t4"></div>
+                <div class="timeline-section-1a">
+                    <div class="timeline-section-1a-background">
+                        <div class="timeline-section-1-text-container d-flex ">
+                            <div class="timeline-section-1a-ymca-container  tab-2-main pl-5">
+                                <h1 class="timeline-section-1a-title mb-5 col-8">
+                                    Girls Incorporated of San Antonio (Girls, Inc.)
+                                </h1>
+                                <br>
+                                <div class="">
+                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-8">
+                                        Girls Inc. was able to maintain its strong connection with the many girls whom
+                                        they inspire “to be strong, smart, and bold.”
+                                        <br>
+                                        Academic programming did not stop – the organization was able to shift to
+                                        virtual
+                                        programs and administrators were able to increase bandwidth, actually expanding
+                                        the client base as a result.
+                                        <br>
+                                        Essential wellness services did not stop either. The Girl Pad Grab & Go Program
+                                        was created to keep offering feminine hygiene products to girls in the
+                                        community. It quickly proved successful. On just its second distribution event,
+                                        staff recounted many people showing up on bicycles and on foot –– in the middle
+                                        of a downpour.
+                                        <br>
+                                        One mother and daughter even walked over after having car trouble
+                                        (though fearing they could be turned away since it was a drive-through event).
+                                        They were eternally grateful to learn they would still receive their products.
+                                        <br>
+                                        Once it became safe enough to do so, Girls Inc. used grant funding to open its
+                                        doors to girls and their families who could not access virtual programs,
+                                        offering after-school, socially distanced programming.
+                                    <div class="space"><br></div>
+                                    </p>
+                                    <!--                                    <div class="tab-2__text-shadow-after "></div>-->
+                                </div>
+                            </div>
+
+                            <div class="timeline-section-1a-amount-container d-flex flex-column col-4 px-1 mt-1">
+                                <p class="timeline-section-1a-amount col-5">
+                                    TOTAL GRANT: $20,000
+                                </p>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                    Academic programming did not stop – the organization was able to shift to virtual
+                                    programs. Additionally, given the increased demand for digital offerings,
+                                    administrators were able to increase bandwidth. As a result, the client base
+                                    expanded.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+            </section>
+
+            <!--*************************tab-5*****************-->
+            <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
+                <div class="tab-5 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">LiftFund</div>
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="tab-5a tab-a">
+                <div class="timeline-section-1 t5"></div>
+                <div class="timeline-section-1a">
+                    <div class="timeline-section-1a-background">
+                        <div class="timeline-section-1-text-container d-flex ">
+                            <div class="timeline-section-1a-ymca-container col-7 pr-2">
+                                <h1 class="timeline-section-1a-title col-8 my-5">
+                                    LIFTFUND
+                                </h1>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-1 col-8">
+                                    With their doors shuttered, many small businesses faced dire, if not outright fatal,
+                                    consequences as they struggled to stay afloat.
+                                    <br><br>
+                                    Fortunately, many small businesses were able to keep their heads above water with a
+                                    lifeline from LiftFund, a microlending agency that received a $75,000 grant from the
+                                    COVID-19 Response Fund.
+                                    <br><br>
+                                    LiftFund immediately instituted a four-month loan deferral process for high-risk
+                                    industries and distributed grants of up to $5,000 to small business owners. Through
+                                    its business support centers, LiftFund also provided COVID-specific coaching
+                                    one-on-one and for larger audiences through webinars.
+                                </p>
+                            </div>
+
+                            <div class="timeline-section-1a-amount-container d-flex flex-column mt-5  ">
+                                <p class="timeline-section-1a-amount col-8">
+                                    TOTAL GRANT: $75,000
+                                </p>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 mb-5 ">
+                                    In all, LiftFund utilized its COVID-19 Response Fund grant to help more than 500
+                                    clients and save nearly 2,000 jobs.
+                                </p>
+
+                                <p class="timeline-section-1a-quote quote-3 col-8">
+                                    “I have people depending on me and it has been my motivation to keep going and avoid
+                                    layoffs. This grant is literally saving lives and families.”
 
 
-        </section>
+                                    </br></br>
+                                    <span class="timeline-section-1a-quote-author author-3">— Kela Nabors, owner of Organically Bath & Beauty</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!--**********************tab-6*****************-->
+            <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
+                <div class="tab-6 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">San Antonio Foundation for<br> Excellence in
+                        Education,<br> Inc. (SAISD Foundation)
+                    </div>
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="tab-6a tab-a">
+                <div class="timeline-section-1 t6"></div>
+                <div class="timeline-section-1a">
+                    <div class="timeline-section-1a-background">
+                        <div class="timeline-section-1-text-container d-flex ">
+                            <div class="timeline-section-1a-ymca-container  tab-2-main col-7 pr-2">
+                                <h1 class="timeline-section-1a-title col-8 my-5">
+                                    San Antonio Foundation for Excellence in Education, Inc. (SAISD Foundation)
+                                </h1>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-1 col-8 mb-5">
+                                    Perhaps no sector across our community most acutely felt the wrath and disastrous
+                                    impact of the coronavirus pandemic more than schools. San Antonio Independent School
+                                    District, serving the largest proportion of low-income and at-risk students, knew it
+                                    faced one of its most menacing challenges.
+                                    <br><br>
+                                    Thanks to its philanthropic arm, SAISD
+                                    Foundation, the district’s grant assured the rapid purchase and distribution of
+                                    4,000 internet connectivity (hotspot) devices in the early days of the pandemic.
+                                    This was crucial as students and staff quickly shifted to remote learning protocols.
+                                    <br><br>
+                                    As the pandemic persisted, additional devices had to be bought and distributed to
+                                    students who were either new to the district or whose families faced financial
+                                    hardship from lost wages.
+                                    <br><br>
+                                    Sadly, the experience highlighted how far San Antonio
+                                    still must go to bridge its digital divide. The district was already aware that it
+                                    served a large low-income and at-risk student population, but the need for remote
+                                    learning made it clear many never had WiFi at home.
+                                    <br>
+                                <div class="space"><br></div>
 
-    </div>
+                                </p>
+                            </div>
+                            <div class="tab-2__text-shadow-after"></div>
+
+                            <div class="timeline-section-1a-amount-container d-flex flex-column mt-5  ">
+                                <p class="timeline-section-1a-amount col-8">
+                                    TOTAL GRANT: $50,000
+                                </p>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 mb-5 ">
+                                    SAISD was able to purchase and distribute over 4,000 hotspot devices for low-income
+                                    and at-risk students to participate in remote learning due to the COVID-19 Response
+                                    Fund.
+                                </p>
+
+                                <p class="timeline-section-1a-quote quote-3 col-8">
+                                    SAISD was able to purchase and distribute over 4,000 hotspot devices for low-income
+                                    and at-risk students to participate in remote learning due to the COVID-19 Response
+                                    Fund.
+
+
+                                    </br></br>
+                                    <span class="timeline-section-1a-quote-author author-3">
+                                        — Dina Toland, Second Grade Teacher at SAISD’s Advanced Learning Academy
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+            </section>
+
+
+            <!--************************tab-7*****************-->
+            <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
+                <div class="tab-7 tabs">
+                    <div class="tabs-title d-flex justify-content-center ">UpTogether</div>
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
+                        <span class="yellow-text">READ MORE</span>
+                        <!--button-->
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
+                                <svg>
+                                    <use href="#icon-arrow-right">
+                        </button>
+                        </svg>
+                    </div>
+                    </button>
+                </div>
+            </div>
+            <!--            side tab-->
+            <section class="tab-7a tab-a">
+                <div class="timeline-section-1 t7"></div>
+                <div class="timeline-section-1a">
+                    <div class="timeline-section-1a-background">
+                        <div class="timeline-section-1-text-container d-flex ">
+                            <div class="timeline-section-1a-ymca-container  tab-2-main pl-5">
+                                <h1 class="timeline-section-1a-title mb-5 col-8">
+                                    UPTOGETHER
+                                </h1>
+                                <br>
+                                <div class="">
+                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-8">
+                                        In many respects, the Area Foundation was ready and able to provide immediate
+                                        assistance for childcare providers. An example of that is a program put in place
+                                        in 2019 which proved to be visionary in helping needy families during the
+                                        pandemic.
+                                        Along with the H. E. Butt Foundation and other key partners, the Area Foundation
+                                        helped establish Family Independence Initiative, now known as UpTogether. The
+                                        program is unique in its simplicity: it identifies eligible families in
+                                        high-level poverty areas of Bexar County
+                                        for direct emergency cash assistance.
+                                        “COVID-19 caught all of us off-guard, but we were uniquely prepared to join our
+                                        partners and quickly get money to families, well before the first federal
+                                        stimulus payments,” said Ivanna Neri, Partnership Director at UpTogether. “One
+                                        mom had to stop working because schools closed, and she needed to care for her
+                                        children. Another person told us she used part of the money to help her
+                                        neighbors buy groceries.”
+
+                                        <!--********************map***********-->
+                                    <div class=" viewMap">
+
+                                        <button type="button" class="btnMap" data-bs-toggle="modal"
+                                                data-bs-target="#mapModal">
+                                            <a class="mapAnchor" data-toggle="modal" href="#mapModal">View Map</a>
+                                        </button>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-section-1a-amount-container d-flex flex-column col-4 px-1 mt-1">
+                                <p class="timeline-section-1a-amount col-5">
+                                    TOTAL GRANT: $200,000
+                                </p>
+                                <br>
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                    The COVID-19 Response Fund invested in UpTogether so they could quickly get cash
+                                    into households desperate to make ends meet, with one or both parents suddenly out
+                                    of work and bills mounting.
+                                </p>
+                                <p class="timeline-section-1a-paragraph-part-2 col-8">
+                                    In all, UpTogether raised more than $12 million, giving more than 31,000 San Antonio
+                                    households a direct cash infusion (on average, $150 to $500 each).
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Button trigger modal -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
+                         aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county –
+                                        Highest level poverty zip code map</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body map"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+        </div>
     </div>
 
 </section>

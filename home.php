@@ -1525,7 +1525,7 @@
                         <div class="modal-dialog modal-lg modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">San Antonio and bexar county –
+                                    <h5 class="modal-title" id="staticBackdropLabel">San Antonio and Bexar county –
                                         Highest level poverty zip code map</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
@@ -1637,7 +1637,7 @@
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body p-2">
-            <h4>THANK YOU, SAN ANTONIO</h4>
+            <h4 class="p-3">THANK YOU, SAN ANTONIO</h4>
 
             <br>
             <h5 class="canvas-h5">
@@ -1645,72 +1645,73 @@
                 and business that have come together to support San<br>
                 Antonians in need through the San Antonio COVID-19<br>
                 Response Fund. The list below recognizes those donors:<br><br>
-                <div class="section-19__donors">
-                    John L. Santikos Charitable Foundation, a Fund of the San Antonio Area Foundation<br>
-                    The Najim Charitable Foundation<br>
-                    Harvey E. Najim Charitable Fund of the San Antonio Area Foundation<br>
-                    H. E. Butt Foundation<br>
-                    The Nancy Smith Hurd Foundation<br>
-                    80|20 Foundation<br>
-                    Alamo Cement Company<br>
-                    Albert and Bessie Mae Kronkosky Charitable Foundation<br>
-                    Alice Kleberg Reynolds Meyer Foundation<br>
-                    Amini Family Foundation<br>
-                    Anonymous<br>
-                    Armstrong Giving Fund<br>
-                    Arnim Family Foundation<br>
-                    Bank of America Charitable Gift Fund<br>
-                    Bank of San Antonio<br>
-                    Baptist Health Foundation of San Antonio<br>
-                    Benson Family Fund of the San Antonio Area Foundation<br>
-                    Bexar County<br>
-                    Richard and Ruth Butler<br>
-                    Casey Family Foundation<br>
-                    Childcare Collaborative Fund of the San Antonio Area Foundation<br>
-                    Adam Ciarella<br>
-                    City of San Antonio<br>
-                    Petra Claflin<br>
-                    CVS Health<br>
-                    Dominion Senior PGA<br>
-                    Ewing Halsell Foundation<br>
-                    Ellinor and Marvin Forland Charitable Fund of the San Antonio Area Foundation<br>
-                    General Dynamics Mission Systems, Inc.<br>
-                    Gloria Galt Fund of the San Antonio Area Foundation<br>
-                    Greehey Family Foundation<br>
-                    Houston H. and Carolyn H. Harte Fund of the San Antonio Area Foundation<br>
-                    Holt Family Foundation<br>
-                    Humana Foundation<br>
-                    JP Morgan Chase & Co.<br>
-                    Jo and Kae Kaneko<br>
-                    Leonard Contracting, Inc.<br>
-                    Masters Leadership Program Alumni<br>
-                    Peter F. Maddox<br>
-                    Mays Family Foundation<br>
-                    McClure Charitable Foundation of 2007<br>
-                    Meadows Foundation<br>
-                    Nationwide Foundation<br>
-                    NuStar Energy<br>
-                    Patel Gaines, PLLC<br>
-                    Petty Hefte Family Foundation<br>
-                    Edward and Helenan Polansky Charitable Fund of the San Antonio Area Foundation<br>
-                    Dr. Ed Reed and Peggy Reed<br>
-                    Semmes Foundation Fund of the San Antonio Area Foundation<br>
-                    Shield-Ayres Foundation<br>
-                    Spellman Charitable Fund of the San Antonio Area Foundation<br>
-                    Annie and Tim Swan Fund of the San Antonio Area Foundation<br>
-                    Bernard and Kathy Swift<br>
-                    Texas Capital Bank<br>
-                    Texas Mutual Insurance Company<br>
-                    The Brown Foundation, Inc.<br>
-                    The Tobin Endowment<br>
-                    Toyota Manufacturing Company<br>
-                    USAA<br>
-                    United Way of San Antonio and Bexar County<br>
-                    Jill and George Vassar<br>
-                    Verizon<br>
-                    VT SEVA<br>
-                    Wells Fargo Foundation<br>
-                    Tom White Charitable Fund of the San Antonio Area Foundation<br>
+            </h5>
+                <div class="section-19__donors p-3">
+                    John L. Santikos Charitable Foundation, a Fund of the San<br> Antonio Area Foundation<br><br>
+                    The Najim Charitable Foundation<br><br>
+                    Harvey E. Najim Charitable Fund of the San <br> Antonio Area Foundation<br><br>
+                    H. E. Butt Foundation<br><br>
+                    The Nancy Smith Hurd Foundation<br><br>
+                    80|20 Foundation<br><br>
+                    Alamo Cement Company<br><br>
+                    Albert and Bessie Mae Kronkosky Charitable Foundation<br><br>
+                    Alice Kleberg Reynolds Meyer Foundation<br><br>
+                    Amini Family Foundation<br><br>
+                    Anonymous<br><br>
+                    Armstrong Giving Fund<br><br>
+                    Arnim Family Foundation<br><br>
+                    Bank of America Charitable Gift Fund<br><br>
+                    Bank of San Antonio<br><br>
+                    Baptist Health Foundation of San Antonio<br><br>
+                    Benson Family Fund of the San Antonio Area Foundation<br><br>
+                    Bexar County<br><br>
+                    Richard and Ruth Butler<br><br>
+                    Casey Family Foundation<br><br>
+                    Childcare Collaborative Fund of the San Antonio <br> Area Foundation<br><br>
+                    Adam Ciarella<br><br>
+                    City of San Antonio<br><br>
+                    Petra Claflin<br><br>
+                    CVS Health<br><br>
+                    Dominion Senior PGA<br><br>
+                    Ewing Halsell Foundation<br><br>
+                    Ellinor and Marvin Forland Charitable Fund of the San Antonio <br> Area Foundation<br><br>
+                    General Dynamics Mission Systems, Inc.<br><br>
+                    Gloria Galt Fund of the San Antonio Area Foundation<br><br>
+                    Greehey Family Foundation<br><br>
+                    Houston H. and Carolyn H. Harte Fund of the San Antonio <br> Area Foundation<br><br>
+                    Holt Family Foundation<br><br>
+                    Humana Foundation<br><br>
+                    JP Morgan Chase & Co.<br><br>
+                    Jo and Kae Kaneko<br><br>
+                    Leonard Contracting, Inc.<br><br>
+                    Masters Leadership Program Alumni<br><br>
+                    Peter F. Maddox<br><br>
+                    Mays Family Foundation<br><br>
+                    McClure Charitable Foundation of 2007<br><br>
+                    Meadows Foundation<br><br>
+                    Nationwide Foundation<br><br>
+                    NuStar Energy<br><br>
+                    Patel Gaines, PLLC<br><br>
+                    Petty Hefte Family Foundation<br><br>
+                    Edward and Helenan Polansky Charitable Fund of the San<br>  Antonio Area Foundation<br><br>
+                    Dr. Ed Reed and Peggy Reed<br><br>
+                    Semmes Foundation Fund of the San Antonio Area Foundation<br><br>
+                    Shield-Ayres Foundation<br><br>
+                    Spellman Charitable Fund of the San Antonio Area Foundation<br><br>
+                    Annie and Tim Swan Fund of the San Antonio Area Foundation<br><br>
+                    Bernard and Kathy Swift<br><br>
+                    Texas Capital Bank<br><br>
+                    Texas Mutual Insurance Company<br><br>
+                    The Brown Foundation, Inc.<br><br>
+                    The Tobin Endowment<br><br>
+                    Toyota Manufacturing Company<br><br>
+                    USAA<br><br>
+                    United Way of San Antonio and Bexar County<br><br>
+                    Jill and George Vassar<br><br>
+                    Verizon<br><br>
+                    VT SEVA<br><br>
+                    Wells Fargo Foundation<br><br>
+                    Tom White Charitable Fund of the San Antonio<br> Area Foundation<br><br>
                 </div>
 
             </h5>
@@ -1726,29 +1727,40 @@
             <h4>2020 BOARD MEMBERS</h4>
 
             <br>
-            <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
-                Acts of Hope Center<br>
-                Adult & Teen Challenge of Texas<br>
-                Alamo Area Mutual Housing Association, Inc.<br>
-                Alamo Area Rape Crisis Center<br>
-                Alamo Center ENT, Inc.<br>
-                Alamo Colleges Foundation<br>
-                Alamo Resource Conservation & Development Area, Inc<br>
-                Alpha Home, Inc<br>
-                Alzheimer’s Disease and Related Disorders Association, Inc.<br>
-                American GI Forum – National Veterans Outreach Program<br>
-                American Indians in Texas at the Spanish Colonial Missions<br>
-                American Kidney Fund, Inc.<br>
-                American Red Cross<br>
-                Antioch Missionary Baptist Church<br>
-                Any Baby Can of San Antonio, Inc.<br>
-                Arc of San Antonio<br>
-                Arthur Nagel Community Clinic<br>
-                Artpace San Antonio<br>
-                Ascension DePaul Services<br>
-                Autism Service Center of San Antonio<br>
-                Autistic Treatment Center, Inc.
-
+            <h5 class="canvas-h5">
+                Theo Guidry, Board Chair<br>
+                Gen. James T. (Tom) Hill, 2021 Chair Elect<br>
+                Michelle R. Scarver, CPA/PFS, Treasurer<br>
+                Alex Perez, Secretary<br>
+                James D. (Darryl) Byrd<br>
+                Luis de la Garza<br>
+                Laura Ehrenberg-Chesler<br>
+                Lorenzo Gomez, III<br>
+                Sarah Harte, Past Board Chair<br>
+                Blake Hastings<br>
+                John Hayes, Past Board Chair<br>
+                David Komet<br>
+                Adena Williams Loston, Ph.D.<br>
+                Brad Parman<br>
+                Jane Phipps<br>
+                Marie Smith, Past Board Chair<br>
+                R. Bruce Tilley<br>
+                Harry W. Wolff, Jr.<br>
+            </h5>
+            <br><br><br><br>
+            <h5 class="canvas-h5">
+                <i>The San Antonio Area Foundation would like to thank<br>
+                    outgoing directors for their outstanding service
+                    on <br>our board through 2020:</i>
+            </h5>
+            <br>
+            <h5 class="canvas-h5">
+                Laura Ehrenberg-Chesler<br>
+                Luis de la Garza<br>
+                Theo Guidry<br>
+                John Hayes<br>
+                Jane Phipps<br>
+                Marie Smith<br>
             </h5>
         </div>
     </div>
@@ -1759,7 +1771,7 @@
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h4>EXTERNAL REVIEW COMMITTEE</h4>
+            <h4>COVID-19 RESPONSE FUND EXTERNAL REVIEW COMMITTEE</h4>
 
             <br>
             <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>

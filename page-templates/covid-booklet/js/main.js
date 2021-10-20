@@ -116,9 +116,9 @@ window.addEventListener("DOMContentLoaded", event => {
     //instances of the created Element Animation Class
     new ElementAnimation("header-top", "opacity", 1.0, 0.0, 35, 100);
     new ElementAnimation("section-1__text-1", "opacity", 1.0, 0.0, 0, 100);
-    new ElementAnimation("section-1__text-1", "margin-left", 30, 30, 0, 100);
+    new ElementAnimation("section-1__text-1", "margin-left", 0, 0, 0, 100);
     new ElementAnimation("section-1__text-2", "opacity", 1.0, 0.0, 0, 100);
-    new ElementAnimation("section-1__text-2", "margin-left", 30, 30, 0, 100);
+    new ElementAnimation("section-1__text-2", "margin-left", 0, 0, 0, 100);
     new ElementAnimation("section-1__text-2", "color", 'white', 'red', 0, 50);
 
 
@@ -340,9 +340,9 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1300, 1310);
     // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1300, 1310);
 
-    new ElementAnimation("section-13__total", "opacity", 1.0, 0.0, 1400, 1410);
-    new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1400, 1410, true);
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1410, 1420);
+    new ElementAnimation("section-13__total", "opacity", 1.0, 0.0, 1428, 1430);
+    // new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1410, 1425, true);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1428, 1430);
 
     //todo: adjust scrollStart and stop to page height
     // new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1400, 1500);
@@ -375,7 +375,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
-    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1420, 1430);
+    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1428, 1430);
     new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
     new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
     new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
@@ -696,72 +696,72 @@ window.addEventListener("DOMContentLoaded", event => {
             let value = $(this).scrollTop();
             console.log(value)
             switch (true) {
-//                 case value >= 16500 && value <= 16600:
-//                     $(".pieClass").attr("src", p1);
-//                     break;
-//                 case value >= 16600 && value <= 16800:
-//                     $(".pieClass").attr("src", p2)
-
-
-//                     break;
-//                 case value >= 16800 && value <= 17000:
-//                     $(".pieClass").attr("src", p3);
-
-//                     break;
-//                 case value >= 17000 && value <= 17200:
-//                     $(".pieClass").attr("src", p4);
-
-//                     break;
-//                 case value >= 17200 && value <= 17400:
-//                     $(".pieClass").attr("src", p5);
-
-//                     break;
-//                 case value >= 17400 && value <= 17600:
-//                     $(".pieClass").attr("src", p6);
-
-//                     break;
-//                 case value >= 17600 && value <= 17800:
-//                     $(".pieClass").attr("src", p7);
-
-
-//                     break;
-//                 case value >= 17800 && value <= 18000:
-//                     $(".pieClass").attr("src", p8);
-//                     break;
-
-
-
-                case value >= 18500 && value <= 18600:
+                case value >= 17000 && value <= 17200:
                     $(".pieClass").attr("src", p1);
                     break;
-                case value >= 18600 && value <= 18800:
+                case value >= 17200 && value <= 17400:
                     $(".pieClass").attr("src", p2)
-                    break;
 
-                case value >= 18800 && value <= 19000:
+
+                    break;
+                case value >= 17400 && value <= 17600:
                     $(".pieClass").attr("src", p3);
 
                     break;
-                case value >= 19000 && value <= 19200:
+                case value >= 17600 && value <= 17800:
                     $(".pieClass").attr("src", p4);
 
                     break;
-                case value >= 19200 && value <= 19400:
+                case value >= 17800 && value <= 18000:
                     $(".pieClass").attr("src", p5);
 
                     break;
-                case value >= 19400 && value <= 19600:
+                case value >= 18000 && value <= 18100:
                     $(".pieClass").attr("src", p6);
 
                     break;
-                case value >= 19600 && value <= 19800:
+                case value >= 18100 && value <= 18300:
                     $(".pieClass").attr("src", p7);
 
 
                     break;
-                case value >= 19800 && value <= 20000:
+                case value >= 18200 && value <= 18600:
                     $(".pieClass").attr("src", p8);
                     break;
+
+
+
+                // case value >= 18500 && value <= 18600:
+                //     $(".pieClass").attr("src", p1);
+                //     break;
+                // case value >= 18600 && value <= 18800:
+                //     $(".pieClass").attr("src", p2)
+                //     break;
+                //
+                // case value >= 18800 && value <= 19000:
+                //     $(".pieClass").attr("src", p3);
+                //
+                //     break;
+                // case value >= 19000 && value <= 19200:
+                //     $(".pieClass").attr("src", p4);
+                //
+                //     break;
+                // case value >= 19200 && value <= 19400:
+                //     $(".pieClass").attr("src", p5);
+                //
+                //     break;
+                // case value >= 19400 && value <= 19600:
+                //     $(".pieClass").attr("src", p6);
+                //
+                //     break;
+                // case value >= 19600 && value <= 19800:
+                //     $(".pieClass").attr("src", p7);
+                //
+                //
+                //     break;
+                // case value >= 19800 && value <= 20000:
+                //     $(".pieClass").attr("src", p8);
+                //     break;
 
 //
 //
@@ -808,6 +808,20 @@ window.addEventListener("DOMContentLoaded", event => {
             $(window).scrollTop(0);
             console.log("top")
         });
+
+
+        //keep hover state on timelime images
+        const $timelineImg = $(".nav-link.s9");
+
+        $timelineImg.click(function(){
+            $timelineImg.css("transform", "scale(1");
+            $timelineImg.css("background-color", "#f2c8b1");
+            $(this).css("transform", "scale(1.3");
+            $(this).css("background-color", "#ef7930");
+
+        })
+
+
 
         $("#myTab a:last").tab("show"); // show last tab
 

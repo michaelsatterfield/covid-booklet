@@ -20,15 +20,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
+<!--    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">-->
+<!--    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">-->
+<!--    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">-->
+<!--    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">-->
+<!--    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">-->
+<!--    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">-->
+<!--    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">-->
+<!--    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">-->
+<!--    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
+    <link rel="icon" type="image/png" sizes="228x228" href="favicon/coast-228x228.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fff">
+    <meta name="application-name" content="ds-webpack-starter">
+    <link rel="shortcut icon"
+          href="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/saaf-favicon.png">
+<!--    <link rel="shortcut icon"-->
+<!--          href="--><?php //echo get_template_directory_uri(); ?><!--https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/saaf-favicon.png">-->
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="msapplication-config" content="browserconfig.xml">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
@@ -42,30 +56,6 @@
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="msapplication-config" content="browserconfig.xml">
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
-    <link rel="icon" type="image/png" sizes="228x228" href="favicon/coast-228x228.png">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#fff">
-    <meta name="application-name" content="ds-webpack-starter">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="shortcut icon" href="favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#fff">
-    <meta name="msapplication-TileImage" content="mstile-144x144.png">
-    <meta name="msapplication-config" content="browserconfig.xml">
-    <!--  <link href="-->
-    <?php //echo get_template_directory_uri(); ?><!--/page-templates/09032021/css/main.css?6c27024468b2af243e6a" rel="stylesheet">-->
     <link href="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/css/main.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -182,9 +172,6 @@
     </div>
     <div class="header-left"></div>
 
-
-    <!--    todo: look at section.completed in the css file, is thst why completed sections dont work?-->
-
     <section class="section-1">
         <div class="section-1__image-1__wrapper">
             <div class="section-1__image-1"></div>
@@ -195,10 +182,10 @@
         </div>
         <div class="d-flex justify-content-center scroll-button-wrapper">
             <span class="scroll-text text-center">Scroll to explore</span>
-            <button class="button button-arrow-red button-arrow-red-section-1">
+            <button class="button button-arrow-red button-arrow-red-section-1  ">
                 <div class="icon icon-arrow svg">
                     <svg>
-                        <use href="#icon-arrow-bottom"></use>
+                        <use href="#icon-arrow-right"></use>
                     </svg>
                 </div>
             </button>
@@ -364,16 +351,7 @@
                 <div class="section-2a__text-shadow-after"></div>
             </div>
             <div class="section-2a__quoter">
-                <!--                <div class="quote active"><p>&#8220;There is very little that the…Foundation does that doesn’t influence-->
-                <!--                        most of our lives…and certainly mine.&#8221;</p><span>&mdash; Mary Rose Brown, Executive Vice President and Chief-->
-                <!--            Administrative Officer at NuStar Energy, who served on the COVID-19 Response Fund advisory committee.</span>-->
-                <!--                </div>-->
-                <!--                <div class="quote"><p>&#8220;I have volunteered in the nonprofit space for more than three decades, and-->
-                <!--                        I have never seen such an-->
-                <!--                        efficient operation.&#8221;</p><span>&mdash; Aaronetta Pierce</span></div>-->
-                <!--                <div class="quote"><p>&#8220;You don’t have to be a millionaire to make an investment in a fund.-->
-                <!--                        Instead, it’s the kind of person who believes in the community and be able to want to assist-->
-                <!--                        others.&#8221;</p><span>&mdash; Janie Barrera</span></div>-->
+
             </div>
         </div>
         <div class="button-next-description button-next-description-section-2a">Click arrow: New screen slides left.
@@ -469,8 +447,9 @@
 
             <div class="tab-pane fade show active bg-light" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
                 <div class="section-9__background ">
-                    <h1 class="section-9__title ">March 2020</h1>
-
+<!--                    <div class="d-flex justify-content-start">-->
+                    <div class="section-9__title ">March 2020</div>
+<!--                    </div>-->
                     <div class="section-9__subtitle">
                         <span class="date-span">13</span><br>
                         Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
@@ -510,7 +489,7 @@
             <!--*****************April*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
                 <div class="section-9__background">
-                    <h1 class="section-9__title">April 2020</h1>
+                    <h1 class="section-9__title ">April 2020</h1>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         <span class="section-9__span">Contributions to the COVID-19 Response Fund include: </span>80|20
@@ -802,7 +781,7 @@
     <div class="section-10__pretitle">April 9, 2020<span><br/><br></span>
         10,000 cars line up for<br> emergency food distribution at<br>
         Traders Village in the midst of <br> the economic crisis
-        brought on by the <br>COVID-19 pandemic.
+        brought on <br>by the COVID-19 pandemic.
     </div>
     <div class="section-10__title mt-5">» Photo by William Luther,<br> San Antonio Express News</div>
     <div class="section-10__text"></div>
@@ -821,9 +800,9 @@
             powerful
             force for<br> good, helping meet community needs,<br> advancing equity and opportunities for all.”
         </div>
-    </div>
     <div class="section-11__text">
         -Mayor Ron Nirenberg
+    </div>
     </div>
     <div class="section-11__bardetails">
     </div>
@@ -945,7 +924,7 @@
         The San Antonio Area Foundation and the United Way<br>of San Antonio and Bexar County
         launched the <br>COVID-19 Response Fund to provide immediate relief<br> to those most impacted
         by the crisis.<br><br> The Fund was established with a set of priorities: the <br>economic impact of
-        reduced/lost work,
+        reduced/lost work,<br>
         the immediate needs of vulnerable populations, medical<br> information/support, fear and confusion about the
         <br>outbreak,
         and resources for school-aged children.
@@ -1001,9 +980,9 @@
             <section class="tab-1a tab-a">
                 <div class="timeline-section-1 t1"></div>
                 <div class="timeline-section-1a">
-                    <div class="timeline-section-1a-background">
-                        <div class="timeline-section-1-text-container d-flex ">
-                            <div class="timeline-section-1a-ymca-container  px-2">
+
+                        <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
+                            <div class="side-tab-1 col-7">
                                 <h1 class="timeline-section-1a-title col-8">
                                     YMCA EARLY LEARNING CENTER AT HAVEN FOR HOPE
                                 </h1>
@@ -1013,15 +992,24 @@
                                     Response Fund partners started linking with nonprofits to reopen childcare centers
                                     for first responders and essential workers.The support provided immediate impact in
                                     stabilizing a spiraling crisis as the pandemic spread exponentially.
+
+                                <div class="timeline-section-1a-quote-container tab1 quote-3 col-8 mt-5">
+                                    <p class="timeline-section-1a-quote">
+                                        “My daughter enrolled in the distance learning camp, and sending her has been an
+                                        absolute lifeline for our family. We work and have no family in town. Without this camp,
+                                        we’d have to make some painful decisions for our family, financial and otherwise.”
+                                        </br></br>
+                                        <span class="timeline-section-1a-quote-author">—YMCA Client</span></p>
+                                </div>
                                 </p>
                             </div>
 
-                            <div class="timeline-section-1a-amount-container d-flex flex-column mt-5 px-2">
-                                <p class="timeline-section-1a-amount col-5">
+                            <div class=" d-flex flex-column col-6">
+                                <p class="timeline-section-1a-amount col-8">
                                     TOTAL AMOUNT: $200,000
                                 </p>
                                 <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                <p class="timeline-section-1a-paragraph-part-1 col-8 mt-2">
                                     The learning center was able to stay open during the early months of COVID-19,
                                     providing full-day childcare to 269 children of essential workers when schools and
                                     other childcare centers closed.
@@ -1031,19 +1019,10 @@
                                     children boosted WiFi and support as they navigated their school’s distance learning
                                     programs.
                                 </p>
+
                             </div>
                         </div>
-                        <div class="timeline-section-1a-quote-container">
-                            <p class="timeline-section-1a-quote">
-                                “My daughter enrolled in the distance learning camp, and sending her has been an
-                                absolute lifeline for our family. We work and have no family in town. Without this camp,
-                                we’d have to make some painful decisions for our family, financial and otherwise.”
-                                </br></br>
-                                <span class="timeline-section-1a-quote-author">—YMCA Client</span></p>
-
-                        </div>
                     </div>
-                </div>
             </section>
 
             <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
@@ -1216,7 +1195,7 @@
                 </div>
             </section>
 
-            <--***************************tab-4*****************-->
+<!--            <--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
                 <div class="tab-4 tabs">
                     <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
@@ -1386,7 +1365,7 @@
                                     San Antonio Foundation for Excellence in Education, Inc. (SAISD Foundation)
                                 </h1>
                                 <br>
-                                <p class="timeline-section-1a-paragraph-1 col-8 mb-5">
+                                <p class="timeline-section-1a-paragraph-1 tab-2-p col-8 mb-5">
                                     Perhaps no sector across our community most acutely felt the wrath and disastrous
                                     impact of the coronavirus pandemic more than schools. San Antonio Independent School
                                     District, serving the largest proportion of low-income and at-risk students, knew it
@@ -1467,17 +1446,20 @@
                                     UPTOGETHER
                                 </h1>
                                 <br>
-                                <div class="">
-                                    <p class="timeline-section-1a-paragraph-1 tab-2-p py-3 col-8">
+                                <div class="col-10">
+                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-12">
                                         In many respects, the Area Foundation was ready and able to provide immediate
                                         assistance for childcare providers. An example of that is a program put in place
                                         in 2019 which proved to be visionary in helping needy families during the
                                         pandemic.
-                                        Along with the H. E. Butt Foundation and other key partners, the Area Foundation
-                                        helped establish Family Independence Initiative, now known as UpTogether. The
+                                        <br><br>
+                                        Along with the<span class="tab-span-yellow"> H. E. Butt Foundation</span> and other key partners, the Area Foundation
+                                        helped establish Family Independence Initiative, now known as<span class="tab-span-yellow"> UpTogether</span>. The
                                         program is unique in its simplicity: it identifies eligible families in
                                         high-level poverty areas of Bexar County
+                                        <br><br>
                                         for direct emergency cash assistance.
+                                        <br><br>
                                         “COVID-19 caught all of us off-guard, but we were uniquely prepared to join our
                                         partners and quickly get money to families, well before the first federal
                                         stimulus payments,” said Ivanna Neri, Partnership Director at UpTogether. “One
@@ -1497,7 +1479,7 @@
                                 </div>
                             </div>
 
-                            <div class=" d-flex flex-column col-4 ">
+                            <div class=" d-flex flex-column col-5 ">
                                 <p class="timeline-section-1a-amount col-5">
                                     TOTAL GRANT: $200,000
                                 </p>

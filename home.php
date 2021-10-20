@@ -297,8 +297,8 @@
     <div class="section-7__text ">
         “I think it is safe to say that no one<br> foresaw the extraordinary events of 2020.<br>
         Each challenge became a turning point,<br> an opportunity to think critically and act<br>
-        decisively to find new ways to address<br>  escalating community needs. The<br>  decisions
-        were not always easy; the clear<br>  path was not always obvious. Fortunately,<br>  we were
+        decisively to find new ways to address<br> escalating community needs. The<br> decisions
+        were not always easy; the clear<br> path was not always obvious. Fortunately,<br> we were
         not alone on our journey.”
     </div>
     <div class="section-7__signature ">-Marjie French, CEO San Antonio Area Foundation</div>
@@ -816,10 +816,11 @@
     <div class="section-11__pretitle"></div>
     <div class="section-11__title">“It would be hard to overstate the<br> importance of nonprofits in our community.
 
-        <div class="section-11__title s2" >
-        By working alongside the City of San <br>Antonio, local businesses, and residents,<br> our nonprofits are a
-        powerful
-        force for<br> good, helping meet community needs,<br> advancing equity and opportunities for all.”</div>
+        <div class="section-11__title s2">
+            By working alongside the City of San <br>Antonio, local businesses, and residents,<br> our nonprofits are a
+            powerful
+            force for<br> good, helping meet community needs,<br> advancing equity and opportunities for all.”
+        </div>
     </div>
     <div class="section-11__text">
         -Mayor Ron Nirenberg
@@ -1125,10 +1126,10 @@
                                     Esperanza put grant funds to good use providing basic needs for its clients – with
                                     nearly 500 meals served, including almost 200 food box deliveries.
                                 </p>
-                                <p class="timeline-section-1a-paragraph-part-2 col-8">
-                                    Later, in August, the YMCA transitioned to offering e-Learning camps that gave 423
-                                    children boosted WiFi and support as they navigated their school’s distance learning
-                                    programs.
+                                <p class="timeline-section-1a-paragraph-part-1 col-8">
+                                  In total, Esperanza was able to put on 31 live virtual cultural events
+                                    and workshops, with the grant ultimately impacting the well-being of 15,000
+                                    residents.
                                 </p>
                             </div>
                         </div>
@@ -1160,44 +1161,46 @@
             <section class="tab-3a tab-a">
                 <div class="timeline-section-1 t3"></div>
                 <div class="timeline-section-1a">
-                    <div class="timeline-section-1a-background">
-                        <div class="timeline-section-1-text-container d-flex ">
-                            <div class="timeline-section-1a-ymca-container col-8 px-2">
-                                <h1 class="timeline-section-1a-title col-8 my-5">
+                        <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
+                            <div class=" col-7 ">
+                                <h1 class="timeline-section-1a-title col-10 mb-5">
                                     CORAZÓN MINISTRIES, INC.
                                 </h1>
                                 <br>
-                                <p class="timeline-section-1a-paragraph-1 col-8">
+                                <p class="timeline-section-1a-paragraph-1 col-10">
                                     Corazón has been serving downtown San Antonio’s homeless population for more than
                                     two decades. The pandemic immediately impacted its homelessness service work since
                                     clients could no longer congregate in large groups. No longer able to host
                                     gatherings, the agency went mobile thanks to its $5,000 grant.
+                                    <br><br>
                                     Staffers used an “ice cream truck” model to distribute meals in the five largest
-                                    public parks in the downtown area. Corazón then teamed up with Centro SA and the
-                                    City of San Antonio to operate in a gymnasium following appropriate social
+                                    public parks in the downtown area. Corazón then teamed up with<span class="tab-span-yellow"> Centro SA</span> and the
+                                    <span class="tab-span-yellow">City of San Antonio</span> to operate in a gymnasium following appropriate social
                                     distancing and safety protocols.
+                                    <br><br>
                                     They were able to hire a kitchen assistant to help prepare more meals to meet
                                     increasing demand. Corazón maintained services crucial for keeping poverty in check,
                                     including ID recovery, a cooling center during hot summer days, voter registration,
                                     and medical services.
+                                    <br><br>
                                     In addition, they partnered with Sichuan House and Pharm Table for six months, using
                                     the Area Foundation grant to provide meals for the homeless, keeping small
                                     businesses afloat.
                                 </p>
-                            </div>
 
-                            <div class="timeline-section-1a-amount-container d-flex flex-column mt-5 px-2">
-                                <p class="timeline-section-1a-amount col-5">
+                            </div>
+                            <div class=" d-flex flex-column col-6 ">
+                                <p class="timeline-section-1a-amount   col-8">
                                     TOTAL GRANT: $5,000
                                 </p>
                                 <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                <div class="timeline-section-1a-paragraph-part-1 col-8 mt-1 ">
                                     In all, services expanded from four to seven days a week with the average weekly
                                     meal count doubling from 420 to 840. Since the pandemic hit, more than 21,000 meals
                                     have been served.
-                                </p>
+                                </div>
 
-                                <p class="timeline-section-1a-quote quote-3 col-8">
+                                <p class="timeline-section-1a-quote quote-3 col-8 mt-5 ">
                                     “It was a great opportunity to provide meals to people in need while at the same
                                     time doing our part to provide jobs by keeping those restaurant employees on the
                                     job.”
@@ -1208,11 +1211,10 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
                 </div>
             </section>
 
-            <!--<--***************************tab-4*****************-->
+         <--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
                 <div class="tab-4 tabs">
                     <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,

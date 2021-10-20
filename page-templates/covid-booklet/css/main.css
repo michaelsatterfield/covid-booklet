@@ -2446,12 +2446,12 @@ timeline-images {
     height: 100vh;
     background-color: white;
 }
-.side-tab-text {
-
+.tab-span-yellow {
+    color: #c3a701;
 }
 
 .space{
-    margin-bottom: 10em;
+    margin-bottom: 4em;
 }
 /***************************************************************************/
 .tab-2 {
@@ -2467,8 +2467,8 @@ timeline-images {
 }
 
 .tab-2-main{
-    overflow-y: scroll;
-    height: 73em;
+    overflow: scroll;
+    height: 100%;
     /*width: 20em;*/
     margin-left: 3em;
 
@@ -2504,6 +2504,14 @@ font-size: 14px;!important;
 /*read more left image*/
 .timeline-section-1.t3 {
     background-image: url(../images/corazon.jpg);
+}
+.container-3 {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.timeline-section-1a-amount-container.amount-3 {
+    margin-top: 10%;
+
 }
 .timeline-section-1a-quote.quote-3 {
     position: initial;!important;
@@ -2639,7 +2647,7 @@ font-size: 14px;!important;
     width: 350px;
     float: left;
     text-align: left;
-    font: normal normal 900 22px/25px Roboto;
+    font: normal normal 900 17px/25px Roboto;
     letter-spacing: 0.22px;
     color: #1C2D5A;
     text-transform: uppercase;
@@ -2647,12 +2655,14 @@ font-size: 14px;!important;
 
 .timeline-section-1a-paragraph-1{
     position: relative;
+    height: 80em;
     left: 8%;
     width: 350px;
     text-align: left;
     font: normal normal normal 14px/25px Roboto;
     letter-spacing: -0.15px;
     color: #4A413A;
+    overflow: scroll;
 
 }
 .timeline-section-1a-amount{

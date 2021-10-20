@@ -1127,7 +1127,7 @@
                                     nearly 500 meals served, including almost 200 food box deliveries.
                                 </p>
                                 <p class="timeline-section-1a-paragraph-part-1 col-8">
-                                  In total, Esperanza was able to put on 31 live virtual cultural events
+                                    In total, Esperanza was able to put on 31 live virtual cultural events
                                     and workshops, with the grant ultimately impacting the well-being of 15,000
                                     residents.
                                 </p>
@@ -1161,60 +1161,62 @@
             <section class="tab-3a tab-a">
                 <div class="timeline-section-1 t3"></div>
                 <div class="timeline-section-1a">
-                        <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
-                            <div class=" col-7 ">
-                                <h1 class="timeline-section-1a-title col-10 mb-5">
-                                    CORAZÓN MINISTRIES, INC.
-                                </h1>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-1 col-10">
-                                    Corazón has been serving downtown San Antonio’s homeless population for more than
-                                    two decades. The pandemic immediately impacted its homelessness service work since
-                                    clients could no longer congregate in large groups. No longer able to host
-                                    gatherings, the agency went mobile thanks to its $5,000 grant.
-                                    <br><br>
-                                    Staffers used an “ice cream truck” model to distribute meals in the five largest
-                                    public parks in the downtown area. Corazón then teamed up with<span class="tab-span-yellow"> Centro SA</span> and the
-                                    <span class="tab-span-yellow">City of San Antonio</span> to operate in a gymnasium following appropriate social
-                                    distancing and safety protocols.
-                                    <br><br>
-                                    They were able to hire a kitchen assistant to help prepare more meals to meet
-                                    increasing demand. Corazón maintained services crucial for keeping poverty in check,
-                                    including ID recovery, a cooling center during hot summer days, voter registration,
-                                    and medical services.
-                                    <br><br>
-                                    In addition, they partnered with Sichuan House and Pharm Table for six months, using
-                                    the Area Foundation grant to provide meals for the homeless, keeping small
-                                    businesses afloat.
-                                </p>
+                    <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
+                        <div class=" col-7 ">
+                            <h1 class="timeline-section-1a-title col-10 mb-5">
+                                CORAZÓN MINISTRIES, INC.
+                            </h1>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-1 col-10">
+                                Corazón has been serving downtown San Antonio’s homeless population for more than
+                                two decades. The pandemic immediately impacted its homelessness service work since
+                                clients could no longer congregate in large groups. No longer able to host
+                                gatherings, the agency went mobile thanks to its $5,000 grant.
+                                <br><br>
+                                Staffers used an “ice cream truck” model to distribute meals in the five largest
+                                public parks in the downtown area. Corazón then teamed up with<span
+                                        class="tab-span-yellow"> Centro SA</span> and the
+                                <span class="tab-span-yellow">City of San Antonio</span> to operate in a gymnasium
+                                following appropriate social
+                                distancing and safety protocols.
+                                <br><br>
+                                They were able to hire a kitchen assistant to help prepare more meals to meet
+                                increasing demand. Corazón maintained services crucial for keeping poverty in check,
+                                including ID recovery, a cooling center during hot summer days, voter registration,
+                                and medical services.
+                                <br><br>
+                                In addition, they partnered with Sichuan House and Pharm Table for six months, using
+                                the Area Foundation grant to provide meals for the homeless, keeping small
+                                businesses afloat.
+                            </p>
 
-                            </div>
-                            <div class=" d-flex flex-column col-6 ">
-                                <p class="timeline-section-1a-amount   col-8">
-                                    TOTAL GRANT: $5,000
-                                </p>
-                                <br>
-                                <div class="timeline-section-1a-paragraph-part-1 col-8 mt-1 ">
-                                    In all, services expanded from four to seven days a week with the average weekly
-                                    meal count doubling from 420 to 840. Since the pandemic hit, more than 21,000 meals
-                                    have been served.
-                                </div>
-
-                                <p class="timeline-section-1a-quote quote-3 col-8 mt-5 ">
-                                    “It was a great opportunity to provide meals to people in need while at the same
-                                    time doing our part to provide jobs by keeping those restaurant employees on the
-                                    job.”
-
-
-                                    </br></br>
-                                    <span class="timeline-section-1a-quote-author author-3"> —Gavin Rogers, Executive Director at Corazón Ministries, Inc.</span>
-                                </p>
-                            </div>
                         </div>
+                        <div class=" d-flex flex-column col-6 ">
+                            <p class="timeline-section-1a-amount   col-8">
+                                TOTAL GRANT: $5,000
+                            </p>
+                            <br>
+                            <div class="timeline-section-1a-paragraph-part-1 col-8 mt-2 ">
+                                In all, services expanded from four to seven days a week with the average weekly
+                                meal count doubling from 420 to 840. Since the pandemic hit, more than 21,000 meals
+                                have been served.
+                            </div>
+
+                            <p class="timeline-section-1a-quote quote-3 col-8 mt-5 ">
+                                “It was a great opportunity to provide meals to people in need while at the same
+                                time doing our part to provide jobs by keeping those restaurant employees on the
+                                job.”
+
+
+                                </br></br>
+                                <span class="timeline-section-1a-quote-author author-3"> —Gavin Rogers, Executive Director at Corazón Ministries, Inc.</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-         <--***************************tab-4*****************-->
+            <--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
                 <div class="tab-4 tabs">
                     <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
@@ -1238,56 +1240,53 @@
             <section class="tab-4a tab-a">
                 <div class="timeline-section-1 t4"></div>
                 <div class="timeline-section-1a">
-                    <div class="timeline-section-1a-background">
-                        <div class="timeline-section-1-text-container d-flex ">
-                            <div class="timeline-section-1a-ymca-container  tab-2-main pl-5">
-                                <h1 class="timeline-section-1a-title mb-5 col-8">
-                                    Girls Incorporated of San Antonio (Girls, Inc.)
-                                </h1>
-                                <br>
-                                <div class="">
-                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-8">
-                                        Girls Inc. was able to maintain its strong connection with the many girls whom
-                                        they inspire “to be strong, smart, and bold.”
-                                        <br>
-                                        Academic programming did not stop – the organization was able to shift to
-                                        virtual
-                                        programs and administrators were able to increase bandwidth, actually expanding
-                                        the client base as a result.
-                                        <br>
-                                        Essential wellness services did not stop either. The Girl Pad Grab & Go Program
-                                        was created to keep offering feminine hygiene products to girls in the
-                                        community. It quickly proved successful. On just its second distribution event,
-                                        staff recounted many people showing up on bicycles and on foot –– in the middle
-                                        of a downpour.
-                                        <br>
-                                        One mother and daughter even walked over after having car trouble
-                                        (though fearing they could be turned away since it was a drive-through event).
-                                        They were eternally grateful to learn they would still receive their products.
-                                        <br>
-                                        Once it became safe enough to do so, Girls Inc. used grant funding to open its
-                                        doors to girls and their families who could not access virtual programs,
-                                        offering after-school, socially distanced programming.
-                                    <div class="space"><br></div>
-                                    </p>
-                                    <!--                                    <div class="tab-2__text-shadow-after "></div>-->
-                                </div>
-                            </div>
-
-                            <div class="timeline-section-1a-amount-container d-flex flex-column col-4 px-1 mt-1">
-                                <p class="timeline-section-1a-amount col-5">
-                                    TOTAL GRANT: $20,000
+                    <div class="timeline-section-1-text-container  container-3 d-flex align-items-start">
+                        <div class=" col-7">
+                            <h1 class="timeline-section-1a-title mb-5 col-10">
+                                Girls Incorporated of San Antonio (Girls, Inc.)
+                            </h1>
+                            <br>
+                            <div class="">
+                                <p class="timeline-section-1a-paragraph-1 tab-2-p col-10">
+                                    Girls Inc. was able to maintain its strong connection with the many girls whom
+                                    they inspire “to be strong, smart, and bold.”
+                                    <br>
+                                    Academic programming did not stop – the organization was able to shift to
+                                    virtual
+                                    programs and administrators were able to increase bandwidth, actually expanding
+                                    the client base as a result.
+                                    <br>
+                                    Essential wellness services did not stop either. The Girl Pad Grab & Go Program
+                                    was created to keep offering feminine hygiene products to girls in the
+                                    community. It quickly proved successful. On just its second distribution event,
+                                    staff recounted many people showing up on bicycles and on foot –– in the middle
+                                    of a downpour.
+                                    <br>
+                                    One mother and daughter even walked over after having car trouble
+                                    (though fearing they could be turned away since it was a drive-through event).
+                                    They were eternally grateful to learn they would still receive their products.
+                                    <br>
+                                    Once it became safe enough to do so, Girls Inc. used grant funding to open its
+                                    doors to girls and their families who could not access virtual programs,
+                                    offering after-school, socially distanced programming.
+                                <div class="space"><br></div>
                                 </p>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
-                                    Academic programming did not stop – the organization was able to shift to virtual
-                                    programs. Additionally, given the increased demand for digital offerings,
-                                    administrators were able to increase bandwidth. As a result, the client base
-                                    expanded.
-                                </p>
+                                <!--                                    <div class="tab-2__text-shadow-after "></div>-->
                             </div>
                         </div>
 
+                        <div class="col-5">
+                            <p class="timeline-section-1a-amount  col-7">
+                                TOTAL GRANT: $20,000
+                            </p>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                Academic programming did not stop – the organization was able to shift to virtual
+                                programs. Additionally, given the increased demand for digital offerings,
+                                administrators were able to increase bandwidth. As a result, the client base
+                                expanded.
+                            </p>
+                        </div>
                     </div>
             </section>
 
@@ -1381,7 +1380,6 @@
             <section class="tab-6a tab-a">
                 <div class="timeline-section-1 t6"></div>
                 <div class="timeline-section-1a">
-                    <div class="timeline-section-1a-background">
                         <div class="timeline-section-1-text-container d-flex ">
                             <div class="timeline-section-1a-ymca-container  tab-2-main col-7 pr-2">
                                 <h1 class="timeline-section-1a-title col-8 my-5">
@@ -1394,7 +1392,8 @@
                                     District, serving the largest proportion of low-income and at-risk students, knew it
                                     faced one of its most menacing challenges.
                                     <br><br>
-                                    Thanks to its philanthropic arm, SAISD
+                                    Thanks to its philanthropic arm,
+                                    <span class="tab-span-yellow">SAISD</span>
                                     Foundation, the district’s grant assured the rapid purchase and distribution of
                                     4,000 internet connectivity (hotspot) devices in the early days of the pandemic.
                                     This was crucial as students and staff quickly shifted to remote learning protocols.
@@ -1415,7 +1414,7 @@
                             <div class="tab-2__text-shadow-after"></div>
 
                             <div class="timeline-section-1a-amount-container d-flex flex-column mt-5  ">
-                                <p class="timeline-section-1a-amount col-8">
+                                <p class="timeline-section-1a-amount mt-2 col-8">
                                     TOTAL GRANT: $50,000
                                 </p>
                                 <br>
@@ -1426,10 +1425,8 @@
                                 </p>
 
                                 <p class="timeline-section-1a-quote quote-3 col-8">
-                                    SAISD was able to purchase and distribute over 4,000 hotspot devices for low-income
-                                    and at-risk students to participate in remote learning due to the COVID-19 Response
-                                    Fund.
-
+                                    “The digital divide has always been there, but we have to prioritize getting kids
+                                    connected. We have to fix it if we are going to have equity.”
 
                                     </br></br>
                                     <span class="timeline-section-1a-quote-author author-3">
@@ -1463,15 +1460,15 @@
             <section class="tab-7a tab-a">
                 <div class="timeline-section-1 t7"></div>
                 <div class="timeline-section-1a">
-                    <div class="timeline-section-1a-background">
-                        <div class="timeline-section-1-text-container d-flex ">
-                            <div class="timeline-section-1a-ymca-container  tab-2-main pl-5">
+
+                        <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
+                            <div class="  pl-5">
                                 <h1 class="timeline-section-1a-title mb-5 col-8">
                                     UPTOGETHER
                                 </h1>
                                 <br>
                                 <div class="">
-                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-8">
+                                    <p class="timeline-section-1a-paragraph-1 tab-2-p py-3 col-8">
                                         In many respects, the Area Foundation was ready and able to provide immediate
                                         assistance for childcare providers. An example of that is a program put in place
                                         in 2019 which proved to be visionary in helping needy families during the
@@ -1489,18 +1486,18 @@
                                         neighbors buy groceries.”
 
                                         <!--********************map***********-->
-                                    <div class=" viewMap">
 
-                                        <button type="button" class="btnMap" data-bs-toggle="modal"
-                                                data-bs-target="#mapModal">
-                                            <a class="mapAnchor" data-toggle="modal" href="#mapModal">View Map</a>
-                                        </button>
-                                    </div>
                                     </p>
+                                <div class=" viewMap col-8">
+                                    <button type="button" class="btnMap" data-bs-toggle="modal"
+                                            data-bs-target="#mapModal">
+                                        <a class="mapAnchor" data-toggle="modal" href="#mapModal">View Map</a>
+                                    </button>
+                                </div>
                                 </div>
                             </div>
 
-                            <div class="timeline-section-1a-amount-container d-flex flex-column col-4 px-1 mt-1">
+                            <div class=" d-flex flex-column col-4 ">
                                 <p class="timeline-section-1a-amount col-5">
                                     TOTAL GRANT: $200,000
                                 </p>
@@ -1517,12 +1514,13 @@
                             </div>
                         </div>
 
-                    </div>
+
 
 
                     <!-- Button trigger modal -->
 
                     <!-- Modal -->
+                    <div class="m1">
                     <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
                          aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -1536,6 +1534,7 @@
                                 <div class="modal-body map"></div>
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
 
@@ -1604,10 +1603,10 @@
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h4>COVID-19 FUND GRANTEES</h4>
+            <div class="canvas-title">COVID-19 FUND GRANTEES</div>
 
             <br>
-            <h5 class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
+            <div class="canvas-h5">100 Black Men of San Antonio, Inc.<br>
                 Acts of Hope Center<br>
                 Adult & Teen Challenge of Texas<br>
                 Alamo Area Mutual Housing Association, Inc.<br>
@@ -1630,7 +1629,7 @@
                 Autism Service Center of San Antonio<br>
                 Autistic Treatment Center, Inc.
 
-            </h5>
+            </div>
         </div>
     </div>
 
@@ -1639,16 +1638,16 @@
 
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body p-3">
-            <h4 class="p-3">THANK YOU, SAN ANTONIO</h4>
+        <div class="offcanvas-body ">
+            <div class="canvas-title">THANK YOU, SAN ANTONIO</div>
 
             <br>
-            <h5 class="canvas-h5 p-2">
+            <div class="canvas-h5 ">
                 We are grateful to all the individuals, families, organizations,<br>
                 and business that have come together to support San<br>
                 Antonians in need through the San Antonio COVID-19<br>
                 Response Fund. The list below recognizes those donors:<br><br>
-            </h5>
+            </div>
             <div class="section-19__donors p-3">
                 John L. Santikos Charitable Foundation, a Fund of the San<br> Antonio Area Foundation<br><br>
                 The Najim Charitable Foundation<br><br>
@@ -1727,7 +1726,7 @@
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h4>2020 BOARD MEMBERS</h4>
+            <div class="canvas-title">2020 BOARD MEMBERS</div>
 
             <br>
             <h5 class="canvas-h5">
@@ -1818,9 +1817,10 @@
     <div class="section-20__pretitle"></div>
     <div class="section-20__text-wrapper">
         <div class="section-20__title"> Will you help us<br>
-            continue the <br>battle?<br></div>
+            continue the battle?</div>
         <div class="section-20__text">
-            Your generosity will help our community pull through the COVID-19 crisis.
+            Your generosity will help our community <br>
+            pull through the COVID-19 crisis.
             <br><br>
             Thank you.
         </div>

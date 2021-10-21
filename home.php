@@ -909,7 +909,9 @@
 
 <section class="section-15">
     <div class="section-15__image_wrapper">
-        <div class="section-15__background backgroundImg" id="15"></div>
+        <div class="section-15__background muralBackground1" id="15">
+
+        </div>
         <div class="section-15__image"></div>
         <div class="section-15__imageshorttext"></div>
 

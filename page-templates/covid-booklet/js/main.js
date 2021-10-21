@@ -93,6 +93,8 @@ window.addEventListener("DOMContentLoaded", event => {
                     case "background-image":
                         this.container.style.backgroundImage = "url(" + this.animationString + ")";
 
+                    case "background-position":
+                        this.container.style.backgroundPositionY = this.animationValue + "em";
 
                 }
 
@@ -394,7 +396,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     // new ElementAnimation("section-15__background", "scale", 3, 3, 1430, 1460);
 
-    new ElementAnimation("section-15__background", "scale", 3, 1.07, 1470, 1500);
+    new ElementAnimation("section-15__background", "scale", 2, 1.0, 1470, 1500);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
     new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1420, 1425);
@@ -410,7 +412,8 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1500, 1510);
 
 
-    new ElementAnimation("section-16__background", "scale", 1.4, 3.50, 1520, 1550);
+    new ElementAnimation("section-16__background", "background-position", 18, -18, 1510, 1520);
+    new ElementAnimation("section-16__background", "scale", 1.0, 3.50, 1500, 1520);
     new ElementAnimation("section-16__background", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "margin-left", 50, 0, 1515, 1545);

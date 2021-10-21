@@ -560,20 +560,23 @@ body.page-loaded .header-top {
     display: -ms-flexbox;
     display: flex;
     padding-top: 22px;
-    padding-right: 61px;
+    /*padding-right: 61px;*/
     padding-left: 24px;
     width: 100%
 }
 
 .nav-main {
+    position:absolute;
     margin-left: auto;
-    padding-bottom: 12px
+    right: 1em;
+
 }
 
 .nav-main__list {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
+    margin-right: 1em;
 }
 
 .nav-main__item:nth-child(n+2) {
@@ -1776,7 +1779,7 @@ section-10__text {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    transform: scale(1.05);
+
 }
 
 .section-13__total-wrapper {
@@ -1798,60 +1801,64 @@ section-10__text {
 
 .section-13__bar {
 
-    position: relative;
-    top: 1vh;
+    position: absolute;
+    top: 29%;
+    left: 14%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 75%;
+    background-size: 75%;
+    background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png");
 
-    width: 800px;
-    transform: translateX(-50%);
-    padding-left: 500px;
 }
 
-.section-13__bar.completed {
-    display: none !important;
-    /*visibility: hidden;*/
-}
+/*.section-13__bar.completed {*/
+/*    display: none !important;*/
+/*    !*visibility: hidden;*!*/
+/*}*/
 
-.section-13__bar {
-    text-align: right;
-    font-size: 0;
-    transition: opacity 0.33s;
-}
+/*.section-13__bar {*/
+/*    text-align: right;*/
+/*    font-size: 0;*/
+/*    transition: opacity 0.33s;*/
+/*}*/
 
-.section-13__bar .section-13__bar-inner {
-    display: inline-block;
-    /*padding: 0 22.5px;*/
-    font-size: 18px;
-    line-height: 20px;
-    color: #ffffff;
-}
+/*.section-13__bar .section-13__bar-inner {*/
+/*    display: inline-block;*/
+/*    !*padding: 0 22.5px;*!*/
+/*    font-size: 18px;*/
+/*    line-height: 20px;*/
+/*    color: #ffffff;*/
+/*}*/
 
-.section-13__bar .section-13__bar-inner .section-13__bar-title {
-    font-family: "Courier 10 Pitch", courier, monospace;
-    display: inline-block;
-    font-size: 18px;
-    line-height: 20px;
-    vertical-align: middle;
-}
+/*.section-13__bar .section-13__bar-inner .section-13__bar-title {*/
+/*    font-family: "Courier 10 Pitch", courier, monospace;*/
+/*    display: inline-block;*/
+/*    font-size: 18px;*/
+/*    line-height: 20px;*/
+/*    vertical-align: middle;*/
+/*}*/
 
-.section-13__bar-title {
-    margin-left: 1em;
-    font-family: 'Amatic SC', cursive;;
-}
+/*.section-13__bar-title {*/
+/*    margin-left: 1em;*/
+/*    font-family: 'Amatic SC', cursive;;*/
+/*}*/
 
 
-.section-13__bar .section-13__bar-inner .section-13__bar-total {
-    /*float: right;*/
-    margin-left: 28px;
-    font-size: 32px;
-    line-height: 67px;
-    vertical-align: middle;
-    font-family: Roboto-Black, Arial, sans-serif;
-}
+/*.section-13__bar .section-13__bar-inner .section-13__bar-total {*/
+/*    !*float: right;*!*/
+/*    margin-left: 28px;*/
+/*    font-size: 32px;*/
+/*    line-height: 67px;*/
+/*    vertical-align: middle;*/
+/*    font-family: Roboto-Black, Arial, sans-serif;*/
+/*}*/
 
-.section-13__bar-total {
-    color: black;
-    margin-left: 1em;
-}
+/*.section-13__bar-total {*/
+/*    color: black;*/
+/*    margin-left: 1em;*/
+/*}*/
 
 
 .pieClass {
@@ -2166,8 +2173,11 @@ section-10__text {
     height: 100%;
 }
 .section-15__background {
-    position: relative;
-    background-position: 123% 12em;
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 58% 10%;
     background-image: url('https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/sa-murals-p1-scaled.jpeg');
 
 }
@@ -2255,6 +2265,13 @@ section-10__text {
 .section-15 .button-next-slide-section-15 span {
     color: #C3A701;
 }
+.muralBackground1{
+
+}
+
+
+
+
 
 .section-16 {
     z-index: 86;
@@ -2270,7 +2287,7 @@ section-10__text {
     /*height: 100%;*/
     /*filter: brightness(.6);*/
     background-attachment: fixed;
-    background-position: 137% -12em;
+    background-position: 90% -12em;
     background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/sa-murals-p1-scaled.jpeg");
 
 }

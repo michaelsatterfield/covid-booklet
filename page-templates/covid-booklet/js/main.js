@@ -91,7 +91,7 @@ window.addEventListener("DOMContentLoaded", event => {
                         break;
 
                     case "background-image":
-                        this.container.style.backgroundImage = "url(" + this.animationValue + ")";
+                        this.container.style.backgroundImage = "url(" + this.animationString + ")";
 
 
                 }
@@ -302,6 +302,22 @@ window.addEventListener("DOMContentLoaded", event => {
 
         return totalString;
     }
+
+    const p1 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
+    const p2 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
+    const p3 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
+    const p4 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
+    const p5 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
+    const p6 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
+    const p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
+    const p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
+
+
+
+    new ElementAnimation("section-13__bar bar-8", "opacity", 0.0, 1.0, 1390, 1400, function (sp, ssta, ssto) {
+        updateBarCallback(7, sp, ssta, ssto);
+    });
+
     new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1380, 1390, function (sp, ssta, ssto) {
         updateBarCallback(7, sp, ssta, ssto);
     });
@@ -334,14 +350,15 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1410, function ( sp, ssta, ssto) {
     //     updateBarCallback(1, sp, ssta, ssto);
     // });
-    // new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1300, 1310)
-    // new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1300, 1310);
-    // new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1300, 1310);
-    // new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1300, 1310);
-    // new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1300, 1310);
-    // new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1300, 1310);
-    // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1300, 1310);
-    // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1300, 1310);
+
+    new ElementAnimation("section-13__bar bar-8", "background-image", p8, p8, 1390, 1400);
+    new ElementAnimation("section-13__bar bar-7", "background-image", p7, p7, 1380, 1390);
+    new ElementAnimation("section-13__bar bar-6", "background-image", p6, p6, 1370, 1380);
+    new ElementAnimation("section-13__bar bar-5", "background-image", p5, p5, 1360, 1370);
+    new ElementAnimation("section-13__bar bar-4", "background-image", p5, p5, 1340, 1360);
+    new ElementAnimation("section-13__bar bar-3", "background-image", p3, p4, 1330, 1340);
+    new ElementAnimation("section-13__bar bar-2", "background-image", p1, p2, 1315, 1330);
+    new ElementAnimation("section-13__bar bar-1", "background-image", p1, p1, 1295, 1315);
 
     new ElementAnimation("section-13__total", "opacity", 1.0, 0.0, 1428, 1430);
     // new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1410, 1425, true);
@@ -677,128 +694,10 @@ window.addEventListener("DOMContentLoaded", event => {
 
     // all custom jQuery will go here
 
+
     jQuery(document).ready(function ($) {
         console.log("working jquery")
-        //pie chart functionality
-        // let p1 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
-        // let p2 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
-        // let p3 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
-        // let p4 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
-        // let p5 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
-        // let p6 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
-        // let p7 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
-        // let p8 = "http://localhost:8080/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
 
-        let p1 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"
-        let p2 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-02@2x.png"
-        let p3 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-03@2x.png"
-        let p4 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-04@2x.png"
-        let p5 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
-        let p6 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
-        let p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
-        let p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
-        $(window).scroll(function () {
-            let value = $(this).scrollTop();
-            console.log(value)
-            switch (true) {
-                case value >= 17000 && value <= 17200:
-                    $(".pieClass").attr("src", p1);
-                    break;
-                case value >= 17200 && value <= 17400:
-                    $(".pieClass").attr("src", p2)
-
-
-                    break;
-                case value >= 17400 && value <= 17600:
-                    $(".pieClass").attr("src", p3);
-
-                    break;
-                case value >= 17600 && value <= 17800:
-                    $(".pieClass").attr("src", p4);
-
-                    break;
-                case value >= 17800 && value <= 18000:
-                    $(".pieClass").attr("src", p5);
-
-                    break;
-                case value >= 18000 && value <= 18100:
-                    $(".pieClass").attr("src", p6);
-
-                    break;
-                case value >= 18100 && value <= 18300:
-                    $(".pieClass").attr("src", p7);
-
-
-                    break;
-                case value >= 18200 && value <= 18600:
-                    $(".pieClass").attr("src", p8);
-                    break;
-
-
-
-                // case value >= 18500 && value <= 18600:
-                //     $(".pieClass").attr("src", p1);
-                //     break;
-                // case value >= 18600 && value <= 18800:
-                //     $(".pieClass").attr("src", p2)
-                //     break;
-                //
-                // case value >= 18800 && value <= 19000:
-                //     $(".pieClass").attr("src", p3);
-                //
-                //     break;
-                // case value >= 19000 && value <= 19200:
-                //     $(".pieClass").attr("src", p4);
-                //
-                //     break;
-                // case value >= 19200 && value <= 19400:
-                //     $(".pieClass").attr("src", p5);
-                //
-                //     break;
-                // case value >= 19400 && value <= 19600:
-                //     $(".pieClass").attr("src", p6);
-                //
-                //     break;
-                // case value >= 19600 && value <= 19800:
-                //     $(".pieClass").attr("src", p7);
-                //
-                //
-                //     break;
-                // case value >= 19800 && value <= 20000:
-                //     $(".pieClass").attr("src", p8);
-                //     break;
-
-//
-//
-//
-//
-//                 case value >= 24200 && value <= 24400:
-//                     $(".pieClass").attr("src", p3);
-
-//                     break;
-//                 case value >= 24400 && value <= 24600:
-//                     $(".pieClass").attr("src", p4);
-
-//                     break;
-//                 case value >= 24600 && value <= 24800:
-//                     $(".pieClass").attr("src", p5);
-
-//                     break;
-//                 case value >= 24800 && value <= 25000:
-//                     $(".pieClass").attr("src", p6);
-
-//                     break;
-//                 case value >= 25000 && value <= 25200:
-//                     $(".pieClass").attr("src", p7);
-
-
-//                     break;
-//                 case value >= 25200 && value <= 25400:
-//                     $(".pieClass").attr("src", p8);
-//                     break;
-
-            }
-        });
         //close when clicking off-screen timeline area
         $(".nav-link").click(function () {
             $("section").removeClass("toggle")

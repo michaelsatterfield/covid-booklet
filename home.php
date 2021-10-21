@@ -888,40 +888,24 @@
 
 <!--pie chart-->
 <section class="section-13">
-    <div class="section-13__background"></div>
+    <div class="section-13__background">
     <div class="section-13__total">
         <div class="section-13__total-wrapper">$XX,XXX,XXX</div>
         <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
+    </div>
 
-        <div class="section-13__bars">
-            <div class="">
-                <img class="pieClass"
-                     src="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png"/>
-            </div>
-            <div class="section-13__bar bar-1"></div>
-            <div class="section-13__bar bar-2 "></div>
-            <div class="section-13__bar bar-3"></div>
-            <div class="section-13__bar bar-4"></div>
-            <div class="section-13__bar bar-5"></div>
-            <div class="section-13__bar bar-6"></div>
-            <div class="section-13__bar bar-7"></div>
-            <div class="section-13__bar bar-8"></div>
-        </div>
+        <div class="section-13__bar bar-1"></div>
+        <div class="section-13__bar bar-2 "></div>
+        <div class="section-13__bar bar-3"></div>
+        <div class="section-13__bar bar-4"></div>
+        <div class="section-13__bar bar-5"></div>
+        <div class="section-13__bar bar-6"></div>
+        <div class="section-13__bar bar-7"></div>
+        <div class="section-13__bar bar-8"></div>
+    </div>
 </section>
 
-<!--<section class="section-14">-->
-<!--    <div class="section-14__image">-->
-<!--        <div class="section-14__imageshorttext"></div>-->
-<!--    </div>-->
-<!--    <div class="section-14__text-wrapper">-->
-<!--        <div class="section-14__title"></div>-->
-<!--        <div class="section-14__text">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="button-next-slide button-next-slide-section-14" data-toggle=".section-14, .section-14a"><span></span>-->
-<!---->
-<!--    </div>-->
-<!--</section>-->
+
 
 <section class="section-15">
     <div class="section-15__image_wrapper">

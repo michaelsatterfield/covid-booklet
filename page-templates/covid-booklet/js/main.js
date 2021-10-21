@@ -90,6 +90,9 @@ window.addEventListener("DOMContentLoaded", event => {
                         this.container.style.transform = "scale(" + this.animationValue + ")";
                         break;
 
+                    case "background-image":
+                        this.container.style.backgroundImage = "url(" + this.animationValue + ")";
+
 
                 }
 
@@ -198,7 +201,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-7", "opacity", 1.0, 0.0, 670, 685);
 
     // Section 8 | Active
-    new ElementAnimation("section-8", "opacity", 0.0, 1.0, 685, 690);
+    // new ElementAnimation("section-8", "opacity", 0.0, 1.0, 685, 690);
     new ElementAnimation("section-8__title", "margin-left", 150, 0, 670, 700);
     new ElementAnimation("section-8__subtitle", "margin-left", 100, 0, 700, 720);
     new ElementAnimation("section-8__subtitle-wrapper", "opacity", 0.0, 1.0, 710, 725);
@@ -211,9 +214,9 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-8", "opacity", 1.0, 0.0, 770, 790);
 
     //Section 9 | Active
-    new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
+    // new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
 
-    // new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
+    new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
     // new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
     //
     // new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
@@ -224,14 +227,14 @@ window.addEventListener("DOMContentLoaded", event => {
     //
     // new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
     //
-    // new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
+    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
 
     new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 
     // //section 10
-    new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
+    // new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
     new ElementAnimation("section-10__background", "opacity", 0, 1.00, 890, 900);
-
+    new ElementAnimation("section-10__pretitle", "opacity", 0, 1.0, 900, 920);
     new ElementAnimation("section-10__total-wrapper", "opacity", 0.0, 1.0, 890, 900);
     new ElementAnimation("section-10__pretitle", "margin-left", 50, 0, 900, 920);
     new ElementAnimation("section-10__title", "opacity", 0.0, 1.0, 910, 920);
@@ -273,7 +276,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-12", "opacity", 1.0, 0.0, 1295, 1300);
 
 
-    new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1295, 1300);
+    // new ElementAnimation("section-13", "opacity", 0.0, 1.0, 1295, 1300);
     new ElementAnimation("section-13__total-wrapper", "opacity", 0.0, 1.0, 1290, 1300);
 
 
@@ -372,10 +375,12 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-14", "opacity", 1.0, 0.5, 1401, 1402);
 
 
-    new ElementAnimation("section-15__image", "scale", 0.95, 0.975, 1410, 1412);
+    // new ElementAnimation("section-15__background", "scale", 3, 3, 1430, 1460);
+
+    new ElementAnimation("section-15__background", "scale", 3, 1.07, 1470, 1500);
     new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
     new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
-    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1428, 1430);
+    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1420, 1425);
     new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
     new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
     new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
@@ -388,7 +393,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1500, 1510);
 
 
-    new ElementAnimation("section-16__background", "scale", 1.0, 1.00, 1490, 1500);
+    new ElementAnimation("section-16__background", "scale", 1.4, 3.50, 1520, 1550);
     new ElementAnimation("section-16__background", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1500, 1510);
     new ElementAnimation("section-16__pretitle", "margin-left", 50, 0, 1515, 1545);

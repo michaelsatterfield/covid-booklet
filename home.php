@@ -16,19 +16,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>San Antonio Area Foundation | 2020 Annual Report</title>
+    <title>SAAFdn — Covid-19 Community Response Fund Impact Report</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-<!--    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">-->
-<!--    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">-->
-<!--    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">-->
-<!--    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">-->
-<!--    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">-->
-<!--    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">-->
-<!--    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">-->
-<!--    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">-->
-<!--    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">-->
+    <!--    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">-->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
@@ -38,8 +38,9 @@
     <meta name="application-name" content="ds-webpack-starter">
     <link rel="shortcut icon"
           href="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/saaf-favicon.png">
-<!--    <link rel="shortcut icon"-->
-<!--          href="--><?php //echo get_template_directory_uri(); ?><!--https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/saaf-favicon.png">-->
+    <!--    <link rel="shortcut icon"-->
+    <!--          href="-->
+    <?php //echo get_template_directory_uri(); ?><!--https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/saaf-favicon.png">-->
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="msapplication-config" content="browserconfig.xml">
@@ -443,13 +444,13 @@
         </main>
         <!--content-->
         <!--*****************March*****************-->
+        <main class="all-tabs">
         <div class="tab-content " id="v-pills-tabContent">
-
             <div class="tab-pane fade show active bg-light" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
                 <div class="section-9__background ">
-<!--                    <div class="d-flex justify-content-start">-->
-                    <div class="section-9__title ">March 2020</div>
-<!--                    </div>-->
+                    <div class="section-9__title-wrapper ">
+                        <div class="section-9__title ">March 2020</div>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">13</span><br>
                         Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
@@ -488,8 +489,10 @@
 
             <!--*****************April*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
-                <div class="section-9__background">
-                    <h1 class="section-9__title ">April 2020</h1>
+                <div class="section-9__background ">
+                    <div class="section-9__title-wrapper ">
+                        <h1 class="section-9__title ">April 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         <span class="section-9__span">Contributions to the COVID-19 Response Fund include: </span>80|20
@@ -526,7 +529,9 @@
             <!--*****************May*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-3" role="tabpanel" aria-labelledby="s9_3">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">May 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">11</span><br>
                         In response to laid-off restaurant workers, SAAFdn and other funders collaborate to support the
@@ -552,7 +557,9 @@
             <!--*****************June*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-4" role="tabpanel" aria-labelledby="s9_4">
                 <div class="section-9__background">
+                <div class="section-9__title-wrapper ">
                     <h1 class="section-9__title">June 2020</h1>
+                </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         <span class="section-9__span">SAAFdn joins community foundations from across the country</span>
@@ -569,7 +576,9 @@
             <!--*****************July*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-5" role="tabpanel" aria-labelledby="s9_5">
                 <div class="section-9__background">
-                    <h1 class="section-9__title">July 2020</h1>
+                    <div class="section-9__title-wrapper ">
+                        <h1 class="section-9__title">July 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         <span class="section-9__span">SAAFdn’s CEO, Marjie French, joins San Antonio Mayor Ron Nirenberg’s
@@ -592,7 +601,9 @@
             <!--*****************August*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-6" role="tabpanel" aria-labelledby="s9_6">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">August 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">3</span><br>
                         <span class="section-9__span">San Antonio Workforce and Education Leadership Taskforce</span>
@@ -620,7 +631,9 @@
             <!--*****************September*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-7" role="tabpanel" aria-labelledby="s9_7">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">September 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         <span class="section-9__span">SAAFdn joins over 40 Arts organizations</span> to advocate for and
@@ -660,7 +673,9 @@
             <!--*****************October*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-8" role="tabpanel" aria-labelledby="s9_8">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">October 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         SAAFdn joins other local funders to launch <span class="section-9__span">Catchafire</span>, a
@@ -674,7 +689,9 @@
             <!--*****************November*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-9" role="tabpanel" aria-labelledby="s9_9">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">November 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">3</span><br>
                         <span class="section-9__span">Both Proposition A: Sales & Use Tax for Pre-K 4 SA and Proposition B: Ready
@@ -702,7 +719,9 @@
             <!--*****************December*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-10" role="tabpanel" aria-labelledby="s9_10">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">December 2020</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">3</span><br>
                         <span class="section-9__span">SAAFdn, in coordination with UP Partnership, secures an $8 million grant</span>
@@ -724,7 +743,9 @@
             <!--*****************January*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-11" role="tabpanel" aria-labelledby="s9_11">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">January 2021</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         <span class="section-9__span">SAAFdn collaborates with the City of San Antonio’s Metro Health to distribute
@@ -746,7 +767,9 @@
             <!--*****************February*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-12" role="tabpanel" aria-labelledby="s9_12">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">February 2021</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         <span class="section-9__span">SAAFdn partners with The Ewing Hassel Foundation</span> via the
@@ -762,7 +785,9 @@
             <!--*****************March*****************-->
             <div class="tab-pane fade show  bg-light" id="s9-13" role="tabpanel" aria-labelledby="s9_13">
                 <div class="section-9__background">
+                    <div class="section-9__title-wrapper">
                     <h1 class="section-9__title">March 2021</h1>
+                    </div>
                     <div class="section-9__subtitle">
                         <span class="date-span">1</span><br>
                         Assessing the challenges with the rollout of the vaccine, <span class="section-9__span">SAAFdn provides
@@ -773,6 +798,7 @@
 
                 </div>
             </div>
+        </main>
 </section>
 
 
@@ -800,9 +826,9 @@
             powerful
             force for<br> good, helping meet community needs,<br> advancing equity and opportunities for all.”
         </div>
-    <div class="section-11__text">
-        -Mayor Ron Nirenberg
-    </div>
+        <div class="section-11__text">
+            -Mayor Ron Nirenberg
+        </div>
     </div>
     <div class="section-11__bardetails">
     </div>
@@ -981,48 +1007,49 @@
                 <div class="timeline-section-1 t1"></div>
                 <div class="timeline-section-1a">
 
-                        <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
-                            <div class="side-tab-1 col-7">
-                                <h1 class="timeline-section-1a-title col-8">
-                                    YMCA EARLY LEARNING CENTER AT HAVEN FOR HOPE
-                                </h1>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-1 col-8">
-                                    As the City began shutting down, so did daycare and other childcare centers.
-                                    Response Fund partners started linking with nonprofits to reopen childcare centers
-                                    for first responders and essential workers.The support provided immediate impact in
-                                    stabilizing a spiraling crisis as the pandemic spread exponentially.
+                    <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
+                        <div class="side-tab-1 col-7">
+                            <h1 class="timeline-section-1a-title col-8">
+                                YMCA EARLY LEARNING CENTER AT HAVEN FOR HOPE
+                            </h1>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-1 col-8">
+                                As the City began shutting down, so did daycare and other childcare centers.
+                                Response Fund partners started linking with nonprofits to reopen childcare centers
+                                for first responders and essential workers.The support provided immediate impact in
+                                stabilizing a spiraling crisis as the pandemic spread exponentially.
 
-                                <div class="timeline-section-1a-quote-container tab1 quote-3 col-8 mt-5">
-                                    <p class="timeline-section-1a-quote">
-                                        “My daughter enrolled in the distance learning camp, and sending her has been an
-                                        absolute lifeline for our family. We work and have no family in town. Without this camp,
-                                        we’d have to make some painful decisions for our family, financial and otherwise.”
-                                        </br></br>
-                                        <span class="timeline-section-1a-quote-author">—YMCA Client</span></p>
-                                </div>
-                                </p>
+                            <div class="timeline-section-1a-quote-container tab1 quote-3 col-8 mt-5">
+                                <p class="timeline-section-1a-quote">
+                                    “My daughter enrolled in the distance learning camp, and sending her has been an
+                                    absolute lifeline for our family. We work and have no family in town. Without this
+                                    camp,
+                                    we’d have to make some painful decisions for our family, financial and otherwise.”
+                                    </br></br>
+                                    <span class="timeline-section-1a-quote-author">—YMCA Client</span></p>
                             </div>
+                            </p>
+                        </div>
 
-                            <div class=" d-flex flex-column col-6">
-                                <p class="timeline-section-1a-amount col-8">
-                                    TOTAL AMOUNT: $200,000
-                                </p>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 mt-2">
-                                    The learning center was able to stay open during the early months of COVID-19,
-                                    providing full-day childcare to 269 children of essential workers when schools and
-                                    other childcare centers closed.
-                                </p>
-                                <p class="timeline-section-1a-paragraph-part-2 col-8">
-                                    Later, in August, the YMCA transitioned to offering e-Learning camps that gave 423
-                                    children boosted WiFi and support as they navigated their school’s distance learning
-                                    programs.
-                                </p>
+                        <div class=" d-flex flex-column col-6">
+                            <p class="timeline-section-1a-amount col-8">
+                                TOTAL AMOUNT: $200,000
+                            </p>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-part-1 col-8 mt-2">
+                                The learning center was able to stay open during the early months of COVID-19,
+                                providing full-day childcare to 269 children of essential workers when schools and
+                                other childcare centers closed.
+                            </p>
+                            <p class="timeline-section-1a-paragraph-part-2 col-8">
+                                Later, in August, the YMCA transitioned to offering e-Learning camps that gave 423
+                                children boosted WiFi and support as they navigated their school’s distance learning
+                                programs.
+                            </p>
 
-                            </div>
                         </div>
                     </div>
+                </div>
             </section>
 
             <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
@@ -1195,7 +1222,7 @@
                 </div>
             </section>
 
-<!--            <--***************************tab-4*****************-->
+            <!--            <--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
                 <div class="tab-4 tabs">
                     <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
@@ -1359,61 +1386,61 @@
             <section class="tab-6a tab-a">
                 <div class="timeline-section-1 t6"></div>
                 <div class="timeline-section-1a">
-                        <div class="timeline-section-1-text-container d-flex ">
-                            <div class="timeline-section-1a-ymca-container  tab-2-main col-7 pr-2">
-                                <h1 class="timeline-section-1a-title col-8 my-5">
-                                    San Antonio Foundation for Excellence in Education, Inc. (SAISD Foundation)
-                                </h1>
+                    <div class="timeline-section-1-text-container d-flex ">
+                        <div class="timeline-section-1a-ymca-container  tab-2-main col-7 pr-2">
+                            <h1 class="timeline-section-1a-title col-8 my-5">
+                                San Antonio Foundation for Excellence in Education, Inc. (SAISD Foundation)
+                            </h1>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-1 tab-2-p col-8 mb-5">
+                                Perhaps no sector across our community most acutely felt the wrath and disastrous
+                                impact of the coronavirus pandemic more than schools. San Antonio Independent School
+                                District, serving the largest proportion of low-income and at-risk students, knew it
+                                faced one of its most menacing challenges.
+                                <br><br>
+                                Thanks to its philanthropic arm,
+                                <span class="tab-span-yellow">SAISD</span>
+                                Foundation, the district’s grant assured the rapid purchase and distribution of
+                                4,000 internet connectivity (hotspot) devices in the early days of the pandemic.
+                                This was crucial as students and staff quickly shifted to remote learning protocols.
+                                <br><br>
+                                As the pandemic persisted, additional devices had to be bought and distributed to
+                                students who were either new to the district or whose families faced financial
+                                hardship from lost wages.
+                                <br><br>
+                                Sadly, the experience highlighted how far San Antonio
+                                still must go to bridge its digital divide. The district was already aware that it
+                                served a large low-income and at-risk student population, but the need for remote
+                                learning made it clear many never had WiFi at home.
                                 <br>
-                                <p class="timeline-section-1a-paragraph-1 tab-2-p col-8 mb-5">
-                                    Perhaps no sector across our community most acutely felt the wrath and disastrous
-                                    impact of the coronavirus pandemic more than schools. San Antonio Independent School
-                                    District, serving the largest proportion of low-income and at-risk students, knew it
-                                    faced one of its most menacing challenges.
-                                    <br><br>
-                                    Thanks to its philanthropic arm,
-                                    <span class="tab-span-yellow">SAISD</span>
-                                    Foundation, the district’s grant assured the rapid purchase and distribution of
-                                    4,000 internet connectivity (hotspot) devices in the early days of the pandemic.
-                                    This was crucial as students and staff quickly shifted to remote learning protocols.
-                                    <br><br>
-                                    As the pandemic persisted, additional devices had to be bought and distributed to
-                                    students who were either new to the district or whose families faced financial
-                                    hardship from lost wages.
-                                    <br><br>
-                                    Sadly, the experience highlighted how far San Antonio
-                                    still must go to bridge its digital divide. The district was already aware that it
-                                    served a large low-income and at-risk student population, but the need for remote
-                                    learning made it clear many never had WiFi at home.
-                                    <br>
-                                <div class="space"><br></div>
+                            <div class="space"><br></div>
 
-                                </p>
-                            </div>
-                            <div class="tab-2__text-shadow-after"></div>
+                            </p>
+                        </div>
+                        <div class="tab-2__text-shadow-after"></div>
 
-                            <div class="timeline-section-1a-amount-container d-flex flex-column mt-5  ">
-                                <p class="timeline-section-1a-amount mt-2 col-8">
-                                    TOTAL GRANT: $50,000
-                                </p>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 mb-5 ">
-                                    SAISD was able to purchase and distribute over 4,000 hotspot devices for low-income
-                                    and at-risk students to participate in remote learning due to the COVID-19 Response
-                                    Fund.
-                                </p>
+                        <div class="timeline-section-1a-amount-container d-flex flex-column mt-5  ">
+                            <p class="timeline-section-1a-amount mt-2 col-8">
+                                TOTAL GRANT: $50,000
+                            </p>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-part-1 col-8 mb-5 ">
+                                SAISD was able to purchase and distribute over 4,000 hotspot devices for low-income
+                                and at-risk students to participate in remote learning due to the COVID-19 Response
+                                Fund.
+                            </p>
 
-                                <p class="timeline-section-1a-quote quote-3 col-8">
-                                    “The digital divide has always been there, but we have to prioritize getting kids
-                                    connected. We have to fix it if we are going to have equity.”
+                            <p class="timeline-section-1a-quote quote-3 col-8">
+                                “The digital divide has always been there, but we have to prioritize getting kids
+                                connected. We have to fix it if we are going to have equity.”
 
-                                    </br></br>
-                                    <span class="timeline-section-1a-quote-author author-3">
+                                </br></br>
+                                <span class="timeline-section-1a-quote-author author-3">
                                         — Dina Toland, Second Grade Teacher at SAISD’s Advanced Learning Academy
                                     </span>
-                                </p>
-                            </div>
+                            </p>
                         </div>
+                    </div>
             </section>
 
 
@@ -1440,83 +1467,83 @@
                 <div class="timeline-section-1 t7"></div>
                 <div class="timeline-section-1a">
 
-                        <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
-                            <div class="  pl-5">
-                                <h1 class="timeline-section-1a-title mb-5 col-8">
-                                    UPTOGETHER
-                                </h1>
-                                <br>
-                                <div class="col-10">
-                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-12">
-                                        In many respects, the Area Foundation was ready and able to provide immediate
-                                        assistance for childcare providers. An example of that is a program put in place
-                                        in 2019 which proved to be visionary in helping needy families during the
-                                        pandemic.
-                                        <br><br>
-                                        Along with the<span class="tab-span-yellow"> H. E. Butt Foundation</span> and other key partners, the Area Foundation
-                                        helped establish Family Independence Initiative, now known as<span class="tab-span-yellow"> UpTogether</span>. The
-                                        program is unique in its simplicity: it identifies eligible families in
-                                        high-level poverty areas of Bexar County
-                                        <br><br>
-                                        for direct emergency cash assistance.
-                                        <br><br>
-                                        “COVID-19 caught all of us off-guard, but we were uniquely prepared to join our
-                                        partners and quickly get money to families, well before the first federal
-                                        stimulus payments,” said Ivanna Neri, Partnership Director at UpTogether. “One
-                                        mom had to stop working because schools closed, and she needed to care for her
-                                        children. Another person told us she used part of the money to help her
-                                        neighbors buy groceries.”
+                    <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
+                        <div class="  pl-5">
+                            <h1 class="timeline-section-1a-title mb-5 col-8">
+                                UPTOGETHER
+                            </h1>
+                            <br>
+                            <div class="col-10">
+                                <p class="timeline-section-1a-paragraph-1 tab-2-p col-12">
+                                    In many respects, the Area Foundation was ready and able to provide immediate
+                                    assistance for childcare providers. An example of that is a program put in place
+                                    in 2019 which proved to be visionary in helping needy families during the
+                                    pandemic.
+                                    <br><br>
+                                    Along with the<span class="tab-span-yellow"> H. E. Butt Foundation</span> and other
+                                    key partners, the Area Foundation
+                                    helped establish Family Independence Initiative, now known as<span
+                                            class="tab-span-yellow"> UpTogether</span>. The
+                                    program is unique in its simplicity: it identifies eligible families in
+                                    high-level poverty areas of Bexar County
+                                    <br><br>
+                                    for direct emergency cash assistance.
+                                    <br><br>
+                                    “COVID-19 caught all of us off-guard, but we were uniquely prepared to join our
+                                    partners and quickly get money to families, well before the first federal
+                                    stimulus payments,” said Ivanna Neri, Partnership Director at UpTogether. “One
+                                    mom had to stop working because schools closed, and she needed to care for her
+                                    children. Another person told us she used part of the money to help her
+                                    neighbors buy groceries.”
 
-                                        <!--********************map***********-->
+                                    <!--********************map***********-->
 
-                                    </p>
+                                </p>
                                 <div class=" viewMap col-8">
                                     <button type="button" class="btnMap" data-bs-toggle="modal"
                                             data-bs-target="#mapModal">
                                         <a class="mapAnchor" data-toggle="modal" href="#mapModal">View Map</a>
                                     </button>
                                 </div>
-                                </div>
-                            </div>
-
-                            <div class=" d-flex flex-column col-5 ">
-                                <p class="timeline-section-1a-amount col-5">
-                                    TOTAL GRANT: $200,000
-                                </p>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
-                                    The COVID-19 Response Fund invested in UpTogether so they could quickly get cash
-                                    into households desperate to make ends meet, with one or both parents suddenly out
-                                    of work and bills mounting.
-                                </p>
-                                <p class="timeline-section-1a-paragraph-part-2 col-8">
-                                    In all, UpTogether raised more than $12 million, giving more than 31,000 San Antonio
-                                    households a direct cash infusion (on average, $150 to $500 each).
-                                </p>
                             </div>
                         </div>
 
-
+                        <div class=" d-flex flex-column col-5 ">
+                            <p class="timeline-section-1a-amount col-5">
+                                TOTAL GRANT: $200,000
+                            </p>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                The COVID-19 Response Fund invested in UpTogether so they could quickly get cash
+                                into households desperate to make ends meet, with one or both parents suddenly out
+                                of work and bills mounting.
+                            </p>
+                            <p class="timeline-section-1a-paragraph-part-2 col-8">
+                                In all, UpTogether raised more than $12 million, giving more than 31,000 San Antonio
+                                households a direct cash infusion (on average, $150 to $500 each).
+                            </p>
+                        </div>
+                    </div>
 
 
                     <!-- Button trigger modal -->
 
                     <!-- Modal -->
                     <div class="m1">
-                    <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
-                         aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="staticBackdropLabel">San Antonio and Bexar county –
-                                        Highest level poverty zip code map</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
+                        <div class="modal fade" id="mapModal" data-bs-keyboard="false" tabindex="-1"
+                             aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">San Antonio and Bexar county –
+                                            Highest level poverty zip code map</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body map"></div>
                                 </div>
-                                <div class="modal-body map"></div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
 
@@ -1799,7 +1826,8 @@
     <div class="section-20__pretitle"></div>
     <div class="section-20__text-wrapper">
         <div class="section-20__title"> Will you help us<br>
-            continue the battle?</div>
+            continue the battle?
+        </div>
         <div class="section-20__text">
             Your generosity will help our community <br>
             pull through the COVID-19 crisis.

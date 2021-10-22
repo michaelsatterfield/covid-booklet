@@ -1,6 +1,4 @@
 
-
-
 a {
     display: block;
     padding-right: 50px;
@@ -560,15 +558,15 @@ body.page-loaded .header-top {
     display: -ms-flexbox;
     display: flex;
     padding-top: 22px;
-    /*padding-right: 61px;*/
+    padding-right: 16px;
     padding-left: 24px;
     width: 100%
 }
 
 .nav-main {
-    position:absolute;
+    position: relative;
     margin-left: auto;
-    right: 1em;
+
 
 }
 
@@ -576,12 +574,15 @@ body.page-loaded .header-top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 1em;
+    margin-right: -4em;
+    width: 41em;
 }
 
+.nav-main__item{
+
+}
 .nav-main__item:nth-child(n+2) {
     margin-left: -6%;
-    /*margin-left: 17px*/
 }
 
 .nav-main__link {
@@ -767,8 +768,8 @@ body.page-loaded .section-1__text-1 {
     line-height: 150px;
     position: relative;
     top: -40px;
-  left: 150px;
-  /*  margin-left: 153px;*/
+    left: 150px;
+    /*  margin-left: 153px;*/
     opacity: 0;
     transition: opacity 2s, left 2s;
     transition-delay: 2.25s;
@@ -1156,7 +1157,7 @@ body.page-loaded .section-1__text-2 {
 
 .section-5__title,
 .section-5__pretitle
- {
+{
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
     color: #fff;
@@ -1562,10 +1563,10 @@ body.page-loaded .section-1__text-2 {
     /*left: -26%;*/
     /*padding-left: 2%;*/
     /*margin-top: 2em;*/
-    font-size: 13px;
+    font-size: 16px;
     line-height: 25px;
 }
- .date-span {
+.date-span {
     font-weight: bold;
     color: #ef7930;
     font-size: 20px;
@@ -1574,7 +1575,7 @@ body.page-loaded .section-1__text-2 {
 .section-9__span {
     font-weight: bold;
     color: #1c2d5a;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .section-10__pretitle {
@@ -1763,14 +1764,14 @@ section-10__text {
     z-index: 89;
     width: 100%;
     height: 100vh;
-    background: #f4f4f4;
+    background: #ffffff;
 }
 
 
 .section-13__background {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20%;
     width: 100%;
     height: 100%;
     background-color: #ffffff;
@@ -1796,69 +1797,30 @@ section-10__text {
     line-height: 180px;
     transform: translateX(-50%);
     color: #85261E;
-
 }
+
+/*.section-13__bar.completed{*/
+/*    visibility: hidden;*/
+/*    transition-delay: 5ms;*/
+/*}*/
+
 
 .section-13__bar {
 
     position: absolute;
-    top: 29%;
-    left: 14%;
+    margin-left: 7%;
+    margin-top: 2%;
+    /*top: 29%;*/
+    /*left: 14%;*/
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    -webkit-background-size: 75%;
-    background-size: 75%;
+    -webkit-background-size: 55%;
+    background-size: 55%;
     background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png");
 
 }
 
-/*.section-13__bar.completed {*/
-/*    display: none !important;*/
-/*    !*visibility: hidden;*!*/
-/*}*/
-
-/*.section-13__bar {*/
-/*    text-align: right;*/
-/*    font-size: 0;*/
-/*    transition: opacity 0.33s;*/
-/*}*/
-
-/*.section-13__bar .section-13__bar-inner {*/
-/*    display: inline-block;*/
-/*    !*padding: 0 22.5px;*!*/
-/*    font-size: 18px;*/
-/*    line-height: 20px;*/
-/*    color: #ffffff;*/
-/*}*/
-
-/*.section-13__bar .section-13__bar-inner .section-13__bar-title {*/
-/*    font-family: "Courier 10 Pitch", courier, monospace;*/
-/*    display: inline-block;*/
-/*    font-size: 18px;*/
-/*    line-height: 20px;*/
-/*    vertical-align: middle;*/
-/*}*/
-
-/*.section-13__bar-title {*/
-/*    margin-left: 1em;*/
-/*    font-family: 'Amatic SC', cursive;;*/
-/*}*/
-
-
-/*.section-13__bar .section-13__bar-inner .section-13__bar-total {*/
-/*    !*float: right;*!*/
-/*    margin-left: 28px;*/
-/*    font-size: 32px;*/
-/*    line-height: 67px;*/
-/*    vertical-align: middle;*/
-/*    font-family: Roboto-Black, Arial, sans-serif;*/
-/*}*/
-
-/*.section-13__bar-total {*/
-/*    color: black;*/
-/*    margin-left: 1em;*/
-/*}*/
 
 
 .pieClass {
@@ -2283,34 +2245,42 @@ section-10__text {
 
 .section-16__background {
     position: absolute;
+    background-color: #fefefe;
     /*width: 100%;*/
     /*height: 100%;*/
     /*filter: brightness(.6);*/
     background-attachment: fixed;
+    /*filter: grayscale(.5);*/
     background-position: 90% -12em;
-    background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/sa-murals-p1-scaled.jpeg");
-
+    /*background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/San-Anto-Murals-27-scaled.jpg")*/
 }
 
+
+.section-16__text-wrapper{
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    z-index: 90;
+}
 .section-16__pretitle,
 .section-16__title {
     position: relative;
-    left: calc(50% - 17px);
+    /*left: calc(50% - 17px);*/
     color: white
 }
 
 .section-16__pretitle {
-    top: 168px;
-    left: calc(50% - 22px);
+    /*top: 168px;*/
+    /*left: calc(50% - 22px);*/
     width: 522px;
     font-size: 15px;
     /*line-height: 36px;*/
 }
 
 .section-16__title {
-    top: 182px;
+    /*top: 182px;*/
     width: 555px;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 72px
 }
 
@@ -2414,8 +2384,9 @@ timeline-images {
 
 /*overall main tab properties*/
 .tabs {
+    border-bottom: 1px solid;
     z-index: 80;
-    width: 100%;
+    width: 101%;
     height: 100vh;
     position: fixed;
     -webkit-background-size: cover;
@@ -2426,12 +2397,12 @@ timeline-images {
 
 .tabs-title{
     position: relative;
-   font-family: Whitman, Roman;
+    font-family: Whitman, Roman;
     font-size: 77px;
     line-height: 76px;
     color: white;
-    left: 6%;
-    top: 63%;
+    left: 20%;
+    top: 60%;
     text-shadow: 0px 0px 10px #000000B2;
 }
 /*overall side tab properties*/
@@ -2525,7 +2496,7 @@ timeline-images {
     margin-left: 3em;
 }
 .tab-2-p{
-    overflow: scroll;
+
     height: 95em;
 }
 
@@ -2578,11 +2549,10 @@ tab-2-p{
 
 /***************************************************************************/
 .tab-4 {
-    background: url(../images/grandfather-grandaugthers.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: url(../images/grandfather-grandaugthers.jpg);
+    background-repeat: no-repeat;
+    background-size: 143%;
+    background-position: 74% 64%;
 }
 /*read more left image*/
 .timeline-section-1.t4 {

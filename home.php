@@ -445,359 +445,359 @@
         <!--content-->
         <!--*****************March*****************-->
         <main class="all-tabs">
-        <div class="tab-content " id="v-pills-tabContent">
-            <div class="tab-pane fade show active bg-light" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="section-9__background ">
-                    <div class="section-9__title-wrapper ">
-                        <div class="section-9__title ">March 2020</div>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">13</span><br>
-                        Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
-                        response to the COVID-19 pandemic.<br><br>
+            <div class="tab-content " id="v-pills-tabContent">
+                <div class="tab-pane fade show active bg-light" id="s9-1" role="tabpanel" aria-labelledby="v-pill-1">
+                    <div class="section-9__background ">
+                        <div class="section-9__title-wrapper ">
+                            <div class="section-9__title ">March 2020</div>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">13</span><br>
+                            Bexar County officials declare <span class="section-9__span">State of Emergency</span> in
+                            response to the COVID-19 pandemic.<br><br>
 
-                        <span class="date-span">20</span><br>
-                        The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
-                        <span class="section-9__span">COVID-19 Response  Fund </span>
-                        with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
-                        immediately release 10 grants to
-                        trusted nonprofits on the frontlines.<br>
-                        The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
-                        vulnerable populations,
-                        medical information/support, fear and confusion about the outbreak, and resources for
-                        school-aged children.<br><br>
+                            <span class="date-span">20</span><br>
+                            The San Antonio Area Foundation and the United Way of San Antonio and Bexar County launch the
+                            <span class="section-9__span">COVID-19 Response  Fund </span>
+                            with nearly <span class="section-9__span">$3 million</span> initially seeded by donors, and
+                            immediately release 10 grants to
+                            trusted nonprofits on the frontlines.<br>
+                            The Fund sets priorities: the economic impact of reduced/lost work, the immediate needs of
+                            vulnerable populations,
+                            medical information/support, fear and confusion about the outbreak, and resources for
+                            school-aged children.<br><br>
 
-                        <span class="date-span">20</span><br>
-                        <span class="section-9__span">Creation of internal and external review committee</span>
-                        comprised of funders and community experts to
-                        inform
-                        fund efforts during the crisis supporting our community’s greatest needs, before federal funds
-                        are made available.<br><br>
+                            <span class="date-span">20</span><br>
+                            <span class="section-9__span">Creation of internal and external review committee</span>
+                            comprised of funders and community experts to
+                            inform
+                            fund efforts during the crisis supporting our community’s greatest needs, before federal funds
+                            are made available.<br><br>
 
-                        <span class="date-span">23</span><br>
-                        SAAFdn collaborates with other funders and the City of San Antonio to fund<span
-                                class="section-9__span"> childcare for essential workers</span>.<br><br>
+                            <span class="date-span">23</span><br>
+                            SAAFdn collaborates with other funders and the City of San Antonio to fund<span
+                                    class="section-9__span"> childcare for essential workers</span>.<br><br>
 
-                        <span class="date-span">27</span><br>
-                        The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are
-                        awarded before
-                        the end of March.<br><br>
-                    </div>
-
-                </div>
-            </div>
-
-            <!--*****************April*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
-                <div class="section-9__background ">
-                    <div class="section-9__title-wrapper ">
-                        <h1 class="section-9__title ">April 2020</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        <span class="section-9__span">Contributions to the COVID-19 Response Fund include: </span>80|20
-                        Foundation, Bank of San Antonio, Bexar County, Greehey Family Foundation, H. E. Butt Foundation,
-                        John L. Santikos Charitable Foundation, JPMorgan Chase & Co., Kronkosky Charitable Foundation,
-                        Mays Family Foundation, Harvey E. Najim and The Najim Charitable Foundation, NuStar Energy, The
-                        Tobin Endowment, and the Wells Fargo Foundation.<br><br>
-
-                        <span class="date-span">2</span><br>
-                        Additional grants are awarded to help with <span class="section-9__span">emergency child assistance.</span>
-                        <br><br>
-
-                        <span class="date-span">21</span><br>
-                        Two new donations bring the COVID-19 Response Fund to a total <span class="section-9__span">$5.3 million.</span>
-                        A $500,000 challenge grant from San Antonio philanthropist <span class="section-9__span">Harvey E. Najim</span>
-                        spurs the <span class="section-9__span">John L. Santikos Charitable Foundation</span> to match
-                        Najim's contribution.
-                        <br><br>
-
-                        <span class="date-span">23</span><br>
-                        <span class="section-9__span">UpTogether</span> serves as a vital pathway for the City of San
-                        Antonio to distribute their newly created <span class="section-9__span">$25 million assistance program</span>
-                        for residents impacted by COVID-19.
-                        <br><br>
-
-                        <span class="date-span">29</span><br>
-                        The COVID-19 Response Fund awards <span
-                                class="section-9__span">125 grants totaling $3,621,453</span> by the end of April.
-                        <br><br>
-                    </div>
-
-                </div>
-            </div>
-            <!--*****************May*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-3" role="tabpanel" aria-labelledby="s9_3">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">May 2020</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">11</span><br>
-                        In response to laid-off restaurant workers, SAAFdn and other funders collaborate to support the
-                        use of a program called <span class="section-9__span">Get Shift Done</span>, which connects
-                        local workers with temporary jobs at the San Antonio Food Bank.
-                        <br><br>
-
-                        <span class="date-span">13</span><br>
-                        Responding to the changing needs of the community, additional investments of <span
-                                class="section-9__span">$500,000 from the H. E. Butt Foundation and $300,000 from the Humana Foundation</span>,
-                        bringing the COVID-19 Response Fund total to $6.3 million.
-                        <br><br>
-
-                        <span class="date-span">31</span><br>
-                        Fund grants total over <span class="section-9__span">$5 million to 162 local nonprofits</span>,
-                        providing much needed food, shelter, security, and critical social services for marginalized
-                        communities.
-                        <br><br>
+                            <span class="date-span">27</span><br>
+                            The first 30 grants from the COVID-19 Response Fund totaling<span class="section-9__span"> $1.45 million </span>are
+                            awarded before
+                            the end of March.<br><br>
+                        </div>
 
                     </div>
                 </div>
-            </div>
-            <!--*****************June*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-4" role="tabpanel" aria-labelledby="s9_4">
-                <div class="section-9__background">
-                <div class="section-9__title-wrapper ">
-                    <h1 class="section-9__title">June 2020</h1>
-                </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        <span class="section-9__span">SAAFdn joins community foundations from across the country</span>
-                        for monthly
-                        virtual peer learning on the COVID-19 response titled “COVID-19 – Respond, Recover, Rebuild.”
-                        <br><br>
 
-                        <span class="date-span">4</span><br>
-                        The fund provides <span class="section-9__span">12 additional grants totaling $278,850</span>
-                        <br><br>
+                <!--*****************April*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-2" role="tabpanel" aria-labelledby="s9_2">
+                    <div class="section-9__background ">
+                        <div class="section-9__title-wrapper ">
+                            <h1 class="section-9__title ">April 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            <span class="section-9__span">Contributions to the COVID-19 Response Fund include: </span>80|20
+                            Foundation, Bank of San Antonio, Bexar County, Greehey Family Foundation, H. E. Butt Foundation,
+                            John L. Santikos Charitable Foundation, JPMorgan Chase & Co., Kronkosky Charitable Foundation,
+                            Mays Family Foundation, Harvey E. Najim and The Najim Charitable Foundation, NuStar Energy, The
+                            Tobin Endowment, and the Wells Fargo Foundation.<br><br>
+
+                            <span class="date-span">2</span><br>
+                            Additional grants are awarded to help with <span class="section-9__span">emergency child assistance.</span>
+                            <br><br>
+
+                            <span class="date-span">21</span><br>
+                            Two new donations bring the COVID-19 Response Fund to a total <span class="section-9__span">$5.3 million.</span>
+                            A $500,000 challenge grant from San Antonio philanthropist <span class="section-9__span">Harvey E. Najim</span>
+                            spurs the <span class="section-9__span">John L. Santikos Charitable Foundation</span> to match
+                            Najim's contribution.
+                            <br><br>
+
+                            <span class="date-span">23</span><br>
+                            <span class="section-9__span">UpTogether</span> serves as a vital pathway for the City of San
+                            Antonio to distribute their newly created <span class="section-9__span">$25 million assistance program</span>
+                            for residents impacted by COVID-19.
+                            <br><br>
+
+                            <span class="date-span">29</span><br>
+                            The COVID-19 Response Fund awards <span
+                                    class="section-9__span">125 grants totaling $3,621,453</span> by the end of April.
+                            <br><br>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-            <!--*****************July*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-5" role="tabpanel" aria-labelledby="s9_5">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper ">
-                        <h1 class="section-9__title">July 2020</h1>
+                <!--*****************May*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-3" role="tabpanel" aria-labelledby="s9_3">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">May 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">11</span><br>
+                            In response to laid-off restaurant workers, SAAFdn and other funders collaborate to support the
+                            use of a program called <span class="section-9__span">Get Shift Done</span>, which connects
+                            local workers with temporary jobs at the San Antonio Food Bank.
+                            <br><br>
+
+                            <span class="date-span">13</span><br>
+                            Responding to the changing needs of the community, additional investments of <span
+                                    class="section-9__span">$500,000 from the H. E. Butt Foundation and $300,000 from the Humana Foundation</span>,
+                            bringing the COVID-19 Response Fund total to $6.3 million.
+                            <br><br>
+
+                            <span class="date-span">31</span><br>
+                            Fund grants total over <span class="section-9__span">$5 million to 162 local nonprofits</span>,
+                            providing much needed food, shelter, security, and critical social services for marginalized
+                            communities.
+                            <br><br>
+
+                        </div>
                     </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        <span class="section-9__span">SAAFdn’s CEO, Marjie French, joins San Antonio Mayor Ron Nirenberg’s
+                </div>
+                <!--*****************June*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-4" role="tabpanel" aria-labelledby="s9_4">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper ">
+                            <h1 class="section-9__title">June 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            <span class="section-9__span">SAAFdn joins community foundations from across the country</span>
+                            for monthly
+                            virtual peer learning on the COVID-19 response titled “COVID-19 – Respond, Recover, Rebuild.”
+                            <br><br>
+
+                            <span class="date-span">4</span><br>
+                            The fund provides <span class="section-9__span">12 additional grants totaling $278,850</span>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+                <!--*****************July*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-5" role="tabpanel" aria-labelledby="s9_5">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper ">
+                            <h1 class="section-9__title">July 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            <span class="section-9__span">SAAFdn’s CEO, Marjie French, joins San Antonio Mayor Ron Nirenberg’s
                         Workforce and Education Leadership Taskforce</span> to reassess community workforce development
-                        priorities and identify strategies beyond the immediate crisis.
-                        <br><br>
+                            priorities and identify strategies beyond the immediate crisis.
+                            <br><br>
 
-                        <span class="date-span">13</span><br>
-                        The City of San Antonio launches the <span class="section-9__span">COVID-19 Recovery Grant Program</span>
-                        for small businesses and nonprofits, in partnership with LiftFund.
-                        <br><br>
+                            <span class="date-span">13</span><br>
+                            The City of San Antonio launches the <span class="section-9__span">COVID-19 Recovery Grant Program</span>
+                            for small businesses and nonprofits, in partnership with LiftFund.
+                            <br><br>
 
-                        <span class="date-span">25</span><br>
-                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of the San Antonio Area Foundation, Texas Public Radio (TPR) initiates Vital Conversations,</span>
-                        a series of community conversations centered on priority impact areas.
+                            <span class="date-span">25</span><br>
+                            In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of the San Antonio Area Foundation, Texas Public Radio (TPR) initiates Vital Conversations,</span>
+                            a series of community conversations centered on priority impact areas.
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
-            <!--*****************August*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-6" role="tabpanel" aria-labelledby="s9_6">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">August 2020</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">3</span><br>
-                        <span class="section-9__span">San Antonio Workforce and Education Leadership Taskforce</span>
-                        releases recommendations for workforce recovery.
-                        <br><br>
+                <!--*****************August*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-6" role="tabpanel" aria-labelledby="s9_6">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">August 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">3</span><br>
+                            <span class="section-9__span">San Antonio Workforce and Education Leadership Taskforce</span>
+                            releases recommendations for workforce recovery.
+                            <br><br>
 
-                        <span class="date-span">6</span><br>
-                        <span class="section-9__span">SAAFdn presents to national philanthropic leaders</span> on San
-                        Antonio’s COVID
-                        relief efforts, highlighting the community’s collaborative response fund
-                        prioritizing recovering equitably.
-                        <br><br>
+                            <span class="date-span">6</span><br>
+                            <span class="section-9__span">SAAFdn presents to national philanthropic leaders</span> on San
+                            Antonio’s COVID
+                            relief efforts, highlighting the community’s collaborative response fund
+                            prioritizing recovering equitably.
+                            <br><br>
 
-                        <span class="date-span">25</span><br>
-                        Fund grants total over <span class="section-9__span">$6.4 million.</span> With an additional $7
-                        million in grants
-                        from Donor Advised Funds hosted at SAAFdn, <span class="section-9__span">total grants in response to the
+                            <span class="date-span">25</span><br>
+                            Fund grants total over <span class="section-9__span">$6.4 million.</span> With an additional $7
+                            million in grants
+                            from Donor Advised Funds hosted at SAAFdn, <span class="section-9__span">total grants in response to the
                         pandemic reach $13.4 million</span> to help over 200 local nonprofits make an
-                        impact in marginalized communities.
+                            impact in marginalized communities.
 
-                        <br><br>
+                            <br><br>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--*****************September*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-7" role="tabpanel" aria-labelledby="s9_7">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">September 2020</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        <span class="section-9__span">SAAFdn joins over 40 Arts organizations</span> to advocate for and
-                        encourage City
-                        Council to allocate a portion of the COVID-19 Community Recovery and
-                        Resiliency Plan to support arts recovery.
-                        <br><br>
+                <!--*****************September*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-7" role="tabpanel" aria-labelledby="s9_7">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">September 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            <span class="section-9__span">SAAFdn joins over 40 Arts organizations</span> to advocate for and
+                            encourage City
+                            Council to allocate a portion of the COVID-19 Community Recovery and
+                            Resiliency Plan to support arts recovery.
+                            <br><br>
 
-                        <span class="date-span">1</span><br>
-                        <span class="section-9__span">SAAFdn launches its annual responsive grant process</span>
-                        prioritizing trust-based
-                        philanthropy in the form of general operating grants to provide much-needed
-                        additional funding in the field.
-                        <br><br>
+                            <span class="date-span">1</span><br>
+                            <span class="section-9__span">SAAFdn launches its annual responsive grant process</span>
+                            prioritizing trust-based
+                            philanthropy in the form of general operating grants to provide much-needed
+                            additional funding in the field.
+                            <br><br>
 
-                        <span class="date-span">3</span><br>
-                        <span class="section-9__span">SAAFdn starts an early-stage capacity building program with the H. E. Butt
+                            <span class="date-span">3</span><br>
+                            <span class="section-9__span">SAAFdn starts an early-stage capacity building program with the H. E. Butt
                         Foundation</span> to ensure support for smaller nonprofits with deep roots in
-                        marginalized communities.
-                        <br><br>
+                            marginalized communities.
+                            <br><br>
 
-                        <span class="date-span">5</span><br>
-                        SAAFdn partners with leaders from across our community in the <span class="section-9__span"> Count Me In
+                            <span class="date-span">5</span><br>
+                            SAAFdn partners with leaders from across our community in the <span class="section-9__span"> Count Me In
                         Census 2020</span> by investing in strategic and collaborative grants.
-                        <br><br>
+                            <br><br>
 
-                        <span class="date-span">11</span><br>
-                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
+                            <span class="date-span">11</span><br>
+                            In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
                         the San Antonio Area Foundation, Texas Public Radio (TPR) presents Vital
                         Conversations: “Youth Success”</span> addressing root causes of our city’s
-                        education inequities and improving education outcomes for all San Antonio
-                        youth as we recover from the pandemic.
-                        <br><br>
+                            education inequities and improving education outcomes for all San Antonio
+                            youth as we recover from the pandemic.
+                            <br><br>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--*****************October*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-8" role="tabpanel" aria-labelledby="s9_8">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">October 2020</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        SAAFdn joins other local funders to launch <span class="section-9__span">Catchafire</span>, a
-                        national online
-                        capacity building platform with a community of over 100,000 skilled
-                        volunteers to support over 100 local nonprofit organizations in their recovery.
-                        <br><br>
+                <!--*****************October*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-8" role="tabpanel" aria-labelledby="s9_8">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">October 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            SAAFdn joins other local funders to launch <span class="section-9__span">Catchafire</span>, a
+                            national online
+                            capacity building platform with a community of over 100,000 skilled
+                            volunteers to support over 100 local nonprofit organizations in their recovery.
+                            <br><br>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--*****************November*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-9" role="tabpanel" aria-labelledby="s9_9">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">November 2020</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">3</span><br>
-                        <span class="section-9__span">Both Proposition A: Sales & Use Tax for Pre-K 4 SA and Proposition B: Ready
+                <!--*****************November*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-9" role="tabpanel" aria-labelledby="s9_9">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">November 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">3</span><br>
+                            <span class="section-9__span">Both Proposition A: Sales & Use Tax for Pre-K 4 SA and Proposition B: Ready
                         to Work SA Workforce program pass</span> with voter support ensuring sustained
-                        investment in key impact areas.
-                        <br><br>
+                            investment in key impact areas.
+                            <br><br>
 
-                        <span class="date-span">6</span><br>
-                        <span class="section-9__span">SAAFdn partnered with LISC San Antonio to launch Leading to Change:
+                            <span class="date-span">6</span><br>
+                            <span class="section-9__span">SAAFdn partnered with LISC San Antonio to launch Leading to Change:
                         Building Equity</span> in Community to support leaders in affordable housing and
-                        economic development who will play a critical role in an equitable recovery.
-                        <br><br>
+                            economic development who will play a critical role in an equitable recovery.
+                            <br><br>
 
-                        <span class="date-span">23</span><br>
-                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
+                            <span class="date-span">23</span><br>
+                            In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
                         the San Antonio Area Foundation, Texas Public Radio (TPR) presents Vital
                         Conversations: “Aging Strong Through COVID-19 And Beyond”</span> detailing how
-                        the pandemic has severely affected older adults facing challenges with
-                        health outcomes, isolation, transportation, food security, and mental health.
-                        <br><br>
-                    </div>
+                            the pandemic has severely affected older adults facing challenges with
+                            health outcomes, isolation, transportation, food security, and mental health.
+                            <br><br>
+                        </div>
 
-                </div>
-            </div>
-            <!--*****************December*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-10" role="tabpanel" aria-labelledby="s9_10">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">December 2020</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">3</span><br>
-                        <span class="section-9__span">SAAFdn, in coordination with UP Partnership, secures an $8 million grant</span>
-                        from a national grant program through <span
-                                class="section-9__span">Blue Meridian Partners</span> to address
-                        disparities, scale up work on racial equity, and advance economic mobility for
-                        our youth to provide youth leadership development.
-                        <br><br>
-
-                        <span class="date-span">10</span><br>
-                        <span class="section-9__span">SAAFdn hosts a panel of local funders</span> titled Looking Back
-                        and Looking
-                        Forward Lessons Learned through the COVID-19 Response Fund and
-                        Implications for Philanthropy in 2021.
-                        <br><br>
                     </div>
                 </div>
-            </div>
-            <!--*****************January*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-11" role="tabpanel" aria-labelledby="s9_11">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">January 2021</h1>
+                <!--*****************December*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-10" role="tabpanel" aria-labelledby="s9_10">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">December 2020</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">3</span><br>
+                            <span class="section-9__span">SAAFdn, in coordination with UP Partnership, secures an $8 million grant</span>
+                            from a national grant program through <span
+                                    class="section-9__span">Blue Meridian Partners</span> to address
+                            disparities, scale up work on racial equity, and advance economic mobility for
+                            our youth to provide youth leadership development.
+                            <br><br>
+
+                            <span class="date-span">10</span><br>
+                            <span class="section-9__span">SAAFdn hosts a panel of local funders</span> titled Looking Back
+                            and Looking
+                            Forward Lessons Learned through the COVID-19 Response Fund and
+                            Implications for Philanthropy in 2021.
+                            <br><br>
+                        </div>
                     </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        <span class="section-9__span">SAAFdn collaborates with the City of San Antonio’s Metro Health to distribute
+                </div>
+                <!--*****************January*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-11" role="tabpanel" aria-labelledby="s9_11">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">January 2021</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            <span class="section-9__span">SAAFdn collaborates with the City of San Antonio’s Metro Health to distribute
                         mini grants to nonprofits</span> to help address health disparities in communities
-                        with the most need.
-                        <br><br>
+                            with the most need.
+                            <br><br>
 
-                        <span class="date-span">19</span><br>
-                        In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
+                            <span class="date-span">19</span><br>
+                            In collaboration with the <span class="section-9__span">John L. Santikos Charitable Foundation, a Fund of
                         the San Antonio Area Foundation, Texas Public Radio (TPR) presents Vital
                         Conversations “Cultural Vibrancy - A Conversation About the Future of Arts &
                         Culture in San Antonio”</span> highlighting the impact of lockdowns on museums,
-                        theaters, art galleries, music venues, and cultural events.
-                        <br><br>
-                    </div>
+                            theaters, art galleries, music venues, and cultural events.
+                            <br><br>
+                        </div>
 
-                </div>
-            </div>
-            <!--*****************February*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-12" role="tabpanel" aria-labelledby="s9_12">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">February 2021</h1>
-                    </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        <span class="section-9__span">SAAFdn partners with The Ewing Hassel Foundation</span> via the
-                        COVID-19
-                        Response Fund to assess the current and growing needs of youth and
-                        <span class="section-9__span">distributes $125,000 to seven youth-serving organizations</span>
-                        working on
-                        creative solutions in recovery.
-                        <br><br>
                     </div>
                 </div>
-            </div>
-            <!--*****************March*****************-->
-            <div class="tab-pane fade show  bg-light" id="s9-13" role="tabpanel" aria-labelledby="s9_13">
-                <div class="section-9__background">
-                    <div class="section-9__title-wrapper">
-                    <h1 class="section-9__title">March 2021</h1>
+                <!--*****************February*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-12" role="tabpanel" aria-labelledby="s9_12">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">February 2021</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            <span class="section-9__span">SAAFdn partners with The Ewing Hassel Foundation</span> via the
+                            COVID-19
+                            Response Fund to assess the current and growing needs of youth and
+                            <span class="section-9__span">distributes $125,000 to seven youth-serving organizations</span>
+                            working on
+                            creative solutions in recovery.
+                            <br><br>
+                        </div>
                     </div>
-                    <div class="section-9__subtitle">
-                        <span class="date-span">1</span><br>
-                        Assessing the challenges with the rollout of the vaccine, <span class="section-9__span">SAAFdn provides
+                </div>
+                <!--*****************March*****************-->
+                <div class="tab-pane fade show  bg-light" id="s9-13" role="tabpanel" aria-labelledby="s9_13">
+                    <div class="section-9__background">
+                        <div class="section-9__title-wrapper">
+                            <h1 class="section-9__title">March 2021</h1>
+                        </div>
+                        <div class="section-9__subtitle">
+                            <span class="date-span">1</span><br>
+                            Assessing the challenges with the rollout of the vaccine, <span class="section-9__span">SAAFdn provides
                         mini grants to older adult-serving organizations</span> who experienced
-                        unexpected costs associated with reaching those populations.
-                        <br><br>
-                    </div>
+                            unexpected costs associated with reaching those populations.
+                            <br><br>
+                        </div>
 
+                    </div>
                 </div>
-            </div>
         </main>
 </section>
 
@@ -889,48 +889,52 @@
 <!--pie chart-->
 <section class="section-13">
     <div class="section-13__background">
-    <div class="section-13__total">
-        <div class="section-13__total-wrapper">$XX,XXX,XXX</div>
-        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
-    </div>
-
-        <div class="section-13__bar bar-1"></div>
-        <div class="section-13__bar bar-2 "></div>
-        <div class="section-13__bar bar-3"></div>
-        <div class="section-13__bar bar-4"></div>
-        <div class="section-13__bar bar-5"></div>
-        <div class="section-13__bar bar-6"></div>
-        <div class="section-13__bar bar-7"></div>
-        <div class="section-13__bar bar-8"></div>
-    </div>
-</section>
 
 
-
-<section class="section-15">
-    <div class="section-15__image_wrapper">
-        <div class="section-15__background muralBackground1" id="15">
-
-        </div>
-        <div class="section-15__image"></div>
-        <div class="section-15__imageshorttext"></div>
-
-        <div class="section-15__text-wrapper">
-
-            <div class="section-15__pretitle"></div>
-            <div class="section-15__title"></div>
-
-            <div class="section-15__text">
+        <div class="wheel col-12">
+            <div class="section-13__total col-12">
+                <div class="section-13__total-wrapper">$XX,XXX,XXX</div>
+                <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
             </div>
+            <div class="section-13__bar bar-1"></div>
+            <div class="section-13__bar bar-2 "></div>
+            <div class="section-13__bar bar-3"></div>
+            <div class="section-13__bar bar-4"></div>
+            <div class="section-13__bar bar-5"></div>
+            <div class="section-13__bar bar-6"></div>
+            <div class="section-13__bar bar-7"></div>
+            <div class="section-13__bar bar-8"></div>
         </div>
-        <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a">
-            <span></span>
-
-        </div>
+    </div>
 </section>
+
+
+
+<!--<section class="section-15">-->
+<!--    <div class="section-15__image_wrapper">-->
+<!--        <div class="section-15__background muralBackground1" id="15">-->
+<!---->
+<!--        </div>-->
+<!--        <div class="section-15__image"></div>-->
+<!--        <div class="section-15__imageshorttext"></div>-->
+<!---->
+<!--        <div class="section-15__text-wrapper">-->
+<!---->
+<!--            <div class="section-15__pretitle"></div>-->
+<!--            <div class="section-15__title"></div>-->
+<!---->
+<!--            <div class="section-15__text">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a">-->
+<!--            <span></span>-->
+<!---->
+<!--        </div>-->
+<!--</section>-->
 
 <section class="section-16">
-    <div class="section-16__background backgroundImg"></div>
+    <div class="section-16__background backgroundImg">  </div>
+        <div class="section-16__text-wrapper">
     <div class="section-16__title">A LIFELINE FOR THE COMMUNITY</div>
     <div class="section-16__pretitle">
         The San Antonio Area Foundation and the United Way<br>of San Antonio and Bexar County
@@ -941,6 +945,8 @@
         <br>outbreak,
         and resources for school-aged children.
     </div>
+        </div>
+
 </section>
 
 <section class="section-17">
@@ -969,8 +975,8 @@
         <!--*****************tab-1*****************-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="tab-1 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">YMCA Early Learning<br> Center at Haven for
+                <div class="tab-1 tabs  d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">YMCA Early Learning<br> Center at Haven for
                         Hope
                     </div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-1, .tab-1a">
@@ -1040,11 +1046,10 @@
 
             <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
             <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
-                <div class="tab-2 tabs">
-
+                <div class="tab-2 tabs  d-flex jjustify-content-start align-items-baseline">
+                    <div class="tabs-title ">Esperanza Peace<br> and Justice Center
+                    </div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-2, .tab-2a">
-                        <div class="tabs-title d-flex justify-content-center ">Esperanza Peace<br> and Justice Center
-                        </div>
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <div class="button-ripple button-ripple-section-2">
@@ -1133,8 +1138,8 @@
 
             <!--***************************tab-3*****************-->
             <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
-                <div class="tab-3 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">Corazón<br> Ministries, Inc.</div>
+                <div class="tab-3 tabs  d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">Corazón<br> Ministries, Inc.</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1210,8 +1215,8 @@
 
             <!--            <--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
-                <div class="tab-4 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
+                <div class="tab-4 tabs d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">Girls Incorporated of<br> San Antonio (Girls,
                         Inc.)
                     </div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
@@ -1284,8 +1289,8 @@
 
             <!--*************************tab-5*****************-->
             <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
-                <div class="tab-5 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">LiftFund</div>
+                <div class="tab-5 tabs d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">LiftFund</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1350,8 +1355,8 @@
             </section>
             <!--**********************tab-6*****************-->
             <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
-                <div class="tab-6 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">San Antonio Foundation for<br> Excellence in
+                <div class="tab-6 tabs  d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">San Antonio Foundation for<br> Excellence in
                         Education,<br> Inc. (SAISD Foundation)
                     </div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
@@ -1432,8 +1437,8 @@
 
             <!--************************tab-7*****************-->
             <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
-                <div class="tab-7 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">UpTogether</div>
+                <div class="tab-7 tabs  d-flex justify-content-baseline align-items-baseline">
+                    <div class="tabs-title">UpTogether</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->

@@ -10,7 +10,9 @@ window.addEventListener("DOMContentLoaded", event => {
                     _propertyTargetValue,
                     _scrollStartOffset,
                     _scrollStopOffset,
-                    _updateCallback = undefined) {
+                    _updateCallback = undefined,
+                    _initialSecondary,
+                    _targetSecondary,) {
             // Future update to accept hashed id attribute element identifiers
             // currently accepts only class
             this.identifier = _identifier;
@@ -18,6 +20,8 @@ window.addEventListener("DOMContentLoaded", event => {
             this.property = _property;
             this.propertyInitialValue = _propertyInitialValue;
             this.propertyTargetValue = _propertyTargetValue;
+            this.initialSecondary = _initialSecondary;
+            this.targetSecondary = _targetSecondary;
             this._scrollStartOffset = _scrollStartOffset;
             this._scrollStopOffset = _scrollStopOffset;
 
@@ -61,19 +65,30 @@ window.addEventListener("DOMContentLoaded", event => {
                 } else {
                     this.container.classList.remove("active");
                 }
+
             }
 
             this.animate(pageScrollPosition);
 
             if (typeof this.updateCallback == "function")
                 this.updateCallback(pageScrollPosition, this.scrollStartOffset, this.scrollStopOffset);
+
+
         }
+
+
+
+
+
 
         // consider moving to static
         animate(pageScrollPosition) {
             this.animationPercentage = (pageScrollPosition - this.scrollStartOffset) / (this.scrollStopOffset - this.scrollStartOffset);
             this.animationValue = this.propertyInitialValue + ((this.propertyTargetValue - this.propertyInitialValue) * this.animationPercentage);
             this.animationString = this.propertyTargetValue;
+            this.animationStringFirst =this.propertyInitialValue;
+            this.animationStringThird = this.initialSecondary;
+            this.animationStringFourth = this.targetSecondary;
 
             if (this.lastAnimationValue != this.animationValue) {
 
@@ -94,7 +109,12 @@ window.addEventListener("DOMContentLoaded", event => {
                         this.container.style.backgroundImage = "url(" + this.animationString + ")";
 
                     case "background-position":
-                        this.container.style.backgroundPositionY = this.animationValue + "em";
+                        this.container.style.backgroundPositionY = this.animationValue + "%";
+
+                    case "background-filter":
+
+                        this.container.style.backgroundImage = "linear-gradient(300deg, rgba(0,0,0, "+ this.animationString + "), rgba(0,0,0,0)),url(" + "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/San-Anto-Murals-27-scaled.jpg" +")";
+
 
                 }
 
@@ -139,15 +159,15 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-2__text-3", "margin-left", 50, 0, 110, 125);
     new ElementAnimation("section-2__text-4", "opacity", 0.0, 1.0, 130, 145);
     new ElementAnimation("section-2__text-5", "opacity", 0.0, 1.0, 155, 170);
-    new ElementAnimation("button-next-slide-section-2", "opacity", 0.0, 1.0, 110, 120);
-    new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 110, 115);
-    new ElementAnimation("button-ripple-2", "scale", 1.0, 1.75, 110, 120);
-    new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 120, 130);
-    new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 115, 130);
-    new ElementAnimation("button-ripple-2", "scale", 1.5, 1.75, 170, 180);
-    new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 170, 180);
-    new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 180, 190);
-    new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 180, 190);
+    // new ElementAnimation("button-next-slide-section-2", "opacity", 0.0, 1.0, 110, 120);
+    // new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 110, 115);
+    // new ElementAnimation("button-ripple-2", "scale", 1.0, 1.75, 110, 120);
+    // new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 120, 130);
+    // new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 115, 130);
+    // new ElementAnimation("button-ripple-2", "scale", 1.5, 1.75, 170, 180);
+    // new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 170, 180);
+    // new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 180, 190);
+    // new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 180, 190);
 
     new ElementAnimation("section-2", "opacity", 1.0, 0.0, 280, 385);
 
@@ -164,7 +184,7 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-3__title-2", "opacity", 1.0, 0.0, 215, 240);
     new ElementAnimation("section-3__subtitle", "opacity", 1.0, 0.0, 245, 270);
 
-    new ElementAnimation("section-4__background", "scale", 1.0, 1.05, 245, 500);
+    // new ElementAnimation("section-4__background", "scale", 1.0, 1.05, 245, 500);
     new ElementAnimation("section-4__pretitle", "opacity", 0.0, 1.0, 300, 315);
     new ElementAnimation("section-4__text", "opacity", 0.0, 1.0, 300, 340);
 
@@ -179,14 +199,14 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-4__background", "opacity", 1.0, 0.0, 390, 405);
     new ElementAnimation("section-4", "opacity", 1.0, 0.0, 390, 405);
 
-    new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 420);
+    // new ElementAnimation("section-5__background", "scale", 1.0, 1.05, 410, 420);
     new ElementAnimation("section-5__pretitle", "margin-left", 50, 0, 390, 485);
     new ElementAnimation("section-5__subtitle", "opacity", 0.0, 1.0, 450, 465);
 
 
     new ElementAnimation("section-5", "opacity", 1.0, 0.0, 470, 485);
 
-    new ElementAnimation("section-6__background", "scale", 1.0, 1.05, 470, 585);
+    // new ElementAnimation("section-6__background", "scale", 1.0, 1.05, 470, 585);
     new ElementAnimation("section-6__pretitle", "margin-left", 50, 0, 470, 585);
     new ElementAnimation("section-6__pretitle", "opacity", 0.0, 1.0, 470, 500);
     new ElementAnimation("section-6__title", "margin-left", 50, 0, 480, 585);
@@ -194,7 +214,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-6", "opacity", 1.0, 0.0, 570, 585);
 
-    new ElementAnimation("section-7__background", "scale", 1.0, 1.05, 470, 700);
+    // new ElementAnimation("section-7__background", "scale", 1.0, 1.05, 470, 700);
     new ElementAnimation("section-7__text", "opacity", 0.0, 1.0, 585, 600);
     new ElementAnimation("section-7__signature", "opacity", 0.0, 1.0, 585, 650);
 
@@ -219,19 +239,19 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
 
     new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760),
-    // new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
-    //
-    // new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
-    //
-    // new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 810);
-    //
-    // new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
-    //
-    // new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
-    //
-    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
+        // new ElementAnimation("section-9__background", "margin-left", 0, 400, 880, 890),
+        //
+        // new ElementAnimation("section-9__title", "opacity", 0.0, 1.0, 800, 810);
+        //
+        // new ElementAnimation("section-9__pretitle", "opacity", 0.0, 1.0, 805, 810);
+        //
+        // new ElementAnimation("section-9__subtitle", "opacity", 0.0, 1.0, 800, 810);
+        //
+        // new ElementAnimation("section-9__stats", "opacity", 0.0, 1.0, 800, 810);
+        //
+        new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890),
 
-    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
+        new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 
     // //section 10
     // new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
@@ -283,8 +303,8 @@ window.addEventListener("DOMContentLoaded", event => {
 
 
     // Continue here
-    var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00, 839742.44];
-    var barTotals = [0, 0, 0, 0, 0, 0, 0, 0];
+    var barTotalTargets = [1210913.86, 425331.00, 1355833.32, 286628.00, 1154662.86, 602108.93, 614895.00, 839742.44, 7000000];
+    var barTotals = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     var updateBarCallback = function (barIndex, sp, ssta, ssto) {
         barTotals[barIndex - 1] = barTotalTargets[barIndex - 1] * ((sp - ssta) / (ssto - ssta));
@@ -295,6 +315,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
         //}, 25);
     };
+
 
     var barAmount = function () {
         var totalString = Math.round(barTotals.reduce((a, b) => a + b, 0)).toLocaleString();
@@ -312,38 +333,82 @@ window.addEventListener("DOMContentLoaded", event => {
     const p5 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
     const p6 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
     const p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
-    const p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-08@2x.png"
+    const p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/piechart-8-withText.png"
 
 
-
-    new ElementAnimation("section-13__bar bar-8", "opacity", 0.0, 1.0, 1390, 1400, function (sp, ssta, ssto) {
-        updateBarCallback(7, sp, ssta, ssto);
+    new ElementAnimation("section-13__bar bar-8", "opacity", 0.0, 1.0, 1395, 1400, function (sp, ssta, ssto) {
+        updateBarCallback(9, sp, ssta, ssto);
     });
 
+
+
+    // new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1390, 1400, function (sp, ssta, ssto) {
+    //     updateBarCallback(8, sp, ssta, ssto);
+    // });
+
+    new ElementAnimation("section-13__bar bar-8", "opacity", 0.0, 1.0, 1390, 1400, function (sp, ssta, ssto) {
+        updateBarCallback(8, sp, ssta, ssto);
+    });
+
+
+    // new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1390, 1395, function (sp, ssta, ssto) {
+    //     updateBarCallback(7, sp, ssta, ssto);
+    // });
     new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1380, 1390, function (sp, ssta, ssto) {
         updateBarCallback(7, sp, ssta, ssto);
     });
 
+
+    // new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1380, 1385, function (sp, ssta, ssto) {
+    //     updateBarCallback(6, sp, ssta, ssto);
+    // });
     new ElementAnimation("section-13__bar bar-6", "opacity", 0.0, 1.0, 1370, 1380, function (sp, ssta, ssto) {
         updateBarCallback(6, sp, ssta, ssto);
     });
+
+
+    //
+    // new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1370, 1375, function (sp, ssta, ssto) {
+    //     updateBarCallback(5, sp, ssta, ssto);
+    // });
 
     new ElementAnimation("section-13__bar bar-5", "opacity", 0.0, 1.0, 1360, 1370, function (sp, ssta, ssto) {
         updateBarCallback(5, sp, ssta, ssto);
     });
 
+
+
+    // new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1360, 1365, function (sp, ssta, ssto) {
+    //     updateBarCallback(4, sp, ssta, ssto);
+    // });
+
     new ElementAnimation("section-13__bar bar-4", "opacity", 0.0, 1.0, 1340, 1360, function (sp, ssta, ssto) {
         updateBarCallback(4, sp, ssta, ssto);
     });
 
+    //
+    // new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1340, 1345, function (sp, ssta, ssto) {
+    //     updateBarCallback(3, sp, ssta, ssto);
+    // });
     new ElementAnimation("section-13__bar bar-3", "opacity", 0.0, 1.0, 1330, 1340, function (sp, ssta, ssto) {
         updateBarCallback(3, sp, ssta, ssto);
     });
 
+
+
+    //
+    // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1330, 1335, function (sp, ssta, ssto) {
+    //     updateBarCallback(2, sp, ssta, ssto);
+    // });
     new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1315, 1330, function (sp, ssta, ssto) {
         updateBarCallback(2, sp, ssta, ssto);
     });
 
+
+    //
+    // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1315, 1320, function (sp, ssta, ssto) {
+    //     updateBarCallback(1, sp, ssta, ssto);
+    // });
     new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1295, 1315, function (sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
@@ -364,7 +429,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     new ElementAnimation("section-13__total", "opacity", 1.0, 0.0, 1428, 1430);
     // new ElementAnimation("section-13__background", "opacity", 1.0, 0.0, 1410, 1425, true);
-    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1428, 1430);
+    new ElementAnimation("section-13", "opacity", 1.0, 0.0, 1428, 1440);
 
     //todo: adjust scrollStart and stop to page height
     // new ElementAnimation("section-13__image", "scale", 0.95, 0.975, 1400, 1500);
@@ -396,28 +461,44 @@ window.addEventListener("DOMContentLoaded", event => {
 
     // new ElementAnimation("section-15__background", "scale", 3, 3, 1430, 1460);
 
-    new ElementAnimation("section-15__background", "scale", 2, 1.0, 1470, 1500);
-    new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
-    new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
-    new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1420, 1425);
-    new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
-    new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
-    new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
-    new ElementAnimation("section-15__title", "opacity", 0.0, 1.0, 1410, 1440);
-    new ElementAnimation("section-15__title", "margin-left", 50, 0, 1410, 1440);
-    new ElementAnimation("section-15__text", "opacity", 0.0, 1.0, 1420, 1450);
-    new ElementAnimation("section-15__text", "margin-left", 50, 0, 1420, 1450);
-    new ElementAnimation("button-next-slide-section-15", "opacity", 0.0, 1.0, 1440, 1450);
-    // new ElementAnimation("section-15", "opacity", 0.0, 1.0, 1400, 1410);
-    new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1500, 1510);
+    // new ElementAnimation("section-15__background", "scale", 2, 1.0, 1470, 1500);
+    // new ElementAnimation("section-15__image", "scale", 0.975, 1.0, 1412, 1415);
+    // new ElementAnimation("section-15__image", "margin-left", -60, 0, 1410, 1415);
+    // new ElementAnimation("section-15__background", "opacity", 0.0, 1.0, 1420, 1425);
+    // new ElementAnimation("section-15__imageshorttext", "opacity", 0.0, 1.0, 1410, 1470);
+    // new ElementAnimation("section-15__pretitle", "opacity", 0.0, 1.0, 1415, 1480);
+    // new ElementAnimation("section-15__pretitle", "margin-left", 50, 0, 1415, 1480);
+    // new ElementAnimation("section-15__title", "opacity", 0.0, 1.0, 1410, 1440);
+    // new ElementAnimation("section-15__title", "margin-left", 50, 0, 1410, 1440);
+    // new ElementAnimation("section-15__text", "opacity", 0.0, 1.0, 1420, 1450);
+    // new ElementAnimation("section-15__text", "margin-left", 50, 0, 1420, 1450);
+    // new ElementAnimation("button-next-slide-section-15", "opacity", 0.0, 1.0, 1440, 1450);
+    // // new ElementAnimation("section-15", "opacity", 0.0, 1.0, 1400, 1410);
+    // new ElementAnimation("section-15", "opacity", 1.0, 0.0, 1500, 1510);
 
 
-    new ElementAnimation("section-16__background", "background-position", 18, -18, 1510, 1520);
-    new ElementAnimation("section-16__background", "scale", 1.0, 3.50, 1500, 1520);
-    new ElementAnimation("section-16__background", "opacity", 0.0, 1.0, 1500, 1510);
-    new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1500, 1510);
+
+    // new ElementAnimation("section-16__background", "background-filter", .01, .01, 1440, 1550);
+    new ElementAnimation("section-16__background", "opacity", 0.0, 1.0, 1440, 1450);
+    new ElementAnimation("section-16__background", "background-position", 50, -35, 1450, 1488);
+    new ElementAnimation("section-16__background", "margin-left", 0, 80, 1460, 1480);
+    new ElementAnimation("section-16__background", "scale", 1.0, 2, 1450, 1490);
+
+    new ElementAnimation("section-16__background", "background-position", -40, 90, 1510, 1520);
+    // new ElementAnimation("section-16__background", "scale", 1.0, 3.50, 1500, 1520);
+    new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1540, 1550);
     new ElementAnimation("section-16__pretitle", "margin-left", 50, 0, 1515, 1545);
-    new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1530, 1560);
+
+    //todo: add background filter at 1540
+    let bg1 ="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/San-Anto-Murals-27-scaled.jpg"
+    //
+    //
+    // new ElementAnimation("section-16__background", "background-image", bg1, bg1, 1440, 1540);
+
+    // new ElementAnimation("section-16__background", "background-filter", "0.1%", "1%", 1540, 1550);
+
+
+    new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1540, 1550);
     new ElementAnimation("section-16__title", "margin-left", 50, 0, 1530, 1560);
 
     new ElementAnimation("section-16", "opacity", 1.0, 0.0, 1580, 1600);
@@ -461,7 +542,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1920);
     new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1920);
 
-    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2000, 2010);
 
 
     ElementAnimation.setScrollDummyHeight();

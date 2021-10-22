@@ -139,15 +139,15 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-2__text-3", "margin-left", 50, 0, 110, 125);
     new ElementAnimation("section-2__text-4", "opacity", 0.0, 1.0, 130, 145);
     new ElementAnimation("section-2__text-5", "opacity", 0.0, 1.0, 155, 170);
-    new ElementAnimation("button-next-slide-section-2", "opacity", 0.0, 1.0, 110, 120);
-    new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 110, 115);
-    new ElementAnimation("button-ripple-2", "scale", 1.0, 1.75, 110, 120);
-    new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 120, 130);
-    new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 115, 130);
-    new ElementAnimation("button-ripple-2", "scale", 1.5, 1.75, 170, 180);
-    new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 170, 180);
-    new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 180, 190);
-    new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 180, 190);
+    // new ElementAnimation("button-next-slide-section-2", "opacity", 0.0, 1.0, 110, 120);
+    // new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 110, 115);
+    // new ElementAnimation("button-ripple-2", "scale", 1.0, 1.75, 110, 120);
+    // new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 120, 130);
+    // new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 115, 130);
+    // new ElementAnimation("button-ripple-2", "scale", 1.5, 1.75, 170, 180);
+    // new ElementAnimation("button-ripple-2", "opacity", 0.0, 1.0, 170, 180);
+    // new ElementAnimation("button-ripple-2", "scale", 1.75, 1.5, 180, 190);
+    // new ElementAnimation("button-ripple-2", "opacity", 1.0, 0.0, 180, 190);
 
     new ElementAnimation("section-2", "opacity", 1.0, 0.0, 280, 385);
 
@@ -415,13 +415,13 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-16__background", "opacity", 0.0, 1.0, 1440, 1450);
     new ElementAnimation("section-16__background", "background-position", 50, -35, 1450, 1488);
     new ElementAnimation("section-16__background", "margin-left", 0, 80, 1460, 1480);
-    new ElementAnimation("section-16__background", "scale", 1.0, 3.50, 1450, 1490);
+    new ElementAnimation("section-16__background", "scale", 1.0, 2, 1450, 1490);
 
     new ElementAnimation("section-16__background", "background-position", -40, 90, 1510, 1520);
     // new ElementAnimation("section-16__background", "scale", 1.0, 3.50, 1500, 1520);
-    new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1550, 1560);
+    new ElementAnimation("section-16__pretitle", "opacity", 0.0, 1.0, 1540, 1550);
     new ElementAnimation("section-16__pretitle", "margin-left", 50, 0, 1515, 1545);
-    new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1550, 1560);
+    new ElementAnimation("section-16__title", "opacity", 0.0, 1.0, 1540, 1550);
     new ElementAnimation("section-16__title", "margin-left", 50, 0, 1530, 1560);
 
     new ElementAnimation("section-16", "opacity", 1.0, 0.0, 1580, 1600);
@@ -465,7 +465,6 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-20__text", "opacity", 0.0, 1.0, 1910, 1920);
     new ElementAnimation("section-20__text", "margin-left", 50, 0, 1910, 1920);
 
-    new ElementAnimation("section-20", "opacity", 1.0, 0.0, 2000, 2010);
 
 
     ElementAnimation.setScrollDummyHeight();

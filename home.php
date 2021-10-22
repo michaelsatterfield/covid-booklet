@@ -889,11 +889,13 @@
 <!--pie chart-->
 <section class="section-13">
     <div class="section-13__background">
-    <div class="section-13__total">
-        <div class="section-13__total-wrapper">$XX,XXX,XXX</div>
-        <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
-    </div>
 
+
+        <div class="wheel col-12">
+            <div class="section-13__total col-12">
+                <div class="section-13__total-wrapper">$XX,XXX,XXX</div>
+                <h2 class="total-funds-comment">Total funds distributed by the COVID-19 Response Fund</h2>
+            </div>
         <div class="section-13__bar bar-1"></div>
         <div class="section-13__bar bar-2 "></div>
         <div class="section-13__bar bar-3"></div>
@@ -902,6 +904,7 @@
         <div class="section-13__bar bar-6"></div>
         <div class="section-13__bar bar-7"></div>
         <div class="section-13__bar bar-8"></div>
+        </div>
     </div>
 </section>
 
@@ -969,8 +972,8 @@
         <!--*****************tab-1*****************-->
         <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active bg-warning" id="pill1" role="tabpanel" aria-labelledby="v-pill-1">
-                <div class="tab-1 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">YMCA Early Learning<br> Center at Haven for
+                <div class="tab-1 tabs  d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">YMCA Early Learning<br> Center at Haven for
                         Hope
                     </div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-1, .tab-1a">
@@ -1040,11 +1043,10 @@
 
             <!--+++++++tab-2++++++++++++++++++++++++++++++++=-->
             <div class="tab-pane fade bg-primary" id="pill2" role="tabpanel" aria-labelledby="v-pill-2">
-                <div class="tab-2 tabs">
-
-                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-2, .tab-2a">
-                        <div class="tabs-title d-flex justify-content-center ">Esperanza Peace<br> and Justice Center
+                <div class="tab-2 tabs  d-flex jjustify-content-start align-items-baseline">
+                        <div class="tabs-title ">Esperanza Peace<br> and Justice Center
                         </div>
+                    <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-2, .tab-2a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
                         <div class="button-ripple button-ripple-section-2">
@@ -1133,8 +1135,8 @@
 
             <!--***************************tab-3*****************-->
             <div class="tab-pane fade bg-secondary" id="pill3" role="tabpanel" aria-labelledby="v-pills-3">
-                <div class="tab-3 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">Corazón<br> Ministries, Inc.</div>
+                <div class="tab-3 tabs  d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">Corazón<br> Ministries, Inc.</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-3, .tab-3a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1210,8 +1212,8 @@
 
             <!--            <--***************************tab-4*****************-->
             <div class="tab-pane fade" id="pill4" role="tabpanel" aria-labelledby="v-pills-4">
-                <div class="tab-4 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">Girls Incorporated of<br> San Antonio (Girls,
+                <div class="tab-4 tabs d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">Girls Incorporated of<br> San Antonio (Girls,
                         Inc.)
                     </div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-4, .tab-4a">
@@ -1284,8 +1286,8 @@
 
             <!--*************************tab-5*****************-->
             <div class="tab-pane fade bg-warning" id="pill5" role="tabpanel" aria-labelledby="v-pill-5">
-                <div class="tab-5 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">LiftFund</div>
+                <div class="tab-5 tabs d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">LiftFund</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-5, .tab-5a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->
@@ -1350,8 +1352,8 @@
             </section>
             <!--**********************tab-6*****************-->
             <div class="tab-pane fade bg-primary" id="pill6" role="tabpanel" aria-labelledby="v-pill-6">
-                <div class="tab-6 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">San Antonio Foundation for<br> Excellence in
+                <div class="tab-6 tabs  d-flex justify-content-start align-items-baseline">
+                    <div class="tabs-title">San Antonio Foundation for<br> Excellence in
                         Education,<br> Inc. (SAISD Foundation)
                     </div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-6, .tab-6a">
@@ -1432,8 +1434,8 @@
 
             <!--************************tab-7*****************-->
             <div class="tab-pane fade bg-secondary" id="pill7" role="tabpanel" aria-labelledby="v-pills-7">
-                <div class="tab-7 tabs">
-                    <div class="tabs-title d-flex justify-content-center ">UpTogether</div>
+                <div class="tab-7 tabs  d-flex justify-content-baseline align-items-baseline">
+                    <div class="tabs-title">UpTogether</div>
                     <div class="button-next-slide button-next-slide-section-2" data-toggle=".tab-7, .tab-7a">
                         <span class="yellow-text">READ MORE</span>
                         <!--button-->

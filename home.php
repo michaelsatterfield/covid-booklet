@@ -907,27 +907,27 @@
 
 
 
-<section class="section-15">
-    <div class="section-15__image_wrapper">
-        <div class="section-15__background muralBackground1" id="15">
-
-        </div>
-        <div class="section-15__image"></div>
-        <div class="section-15__imageshorttext"></div>
-
-        <div class="section-15__text-wrapper">
-
-            <div class="section-15__pretitle"></div>
-            <div class="section-15__title"></div>
-
-            <div class="section-15__text">
-            </div>
-        </div>
-        <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a">
-            <span></span>
-
-        </div>
-</section>
+<!--<section class="section-15">-->
+<!--    <div class="section-15__image_wrapper">-->
+<!--        <div class="section-15__background muralBackground1" id="15">-->
+<!---->
+<!--        </div>-->
+<!--        <div class="section-15__image"></div>-->
+<!--        <div class="section-15__imageshorttext"></div>-->
+<!---->
+<!--        <div class="section-15__text-wrapper">-->
+<!---->
+<!--            <div class="section-15__pretitle"></div>-->
+<!--            <div class="section-15__title"></div>-->
+<!---->
+<!--            <div class="section-15__text">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a">-->
+<!--            <span></span>-->
+<!---->
+<!--        </div>-->
+<!--</section>-->
 
 <section class="section-16">
     <div class="section-16__background backgroundImg"></div>

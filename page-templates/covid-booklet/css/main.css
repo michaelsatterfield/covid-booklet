@@ -560,7 +560,7 @@ body.page-loaded .header-top {
     display: -ms-flexbox;
     display: flex;
     padding-top: 22px;
-    /*padding-right: 61px;*/
+    padding-right: 16px;
     padding-left: 24px;
     width: 100%
 }
@@ -577,11 +577,14 @@ body.page-loaded .header-top {
     display: -ms-flexbox;
     display: flex;
     margin-right: 1em;
+    width: 41em;
 }
 
+.nav-main__item{
+   /*width: 20%;*/
+}
 .nav-main__item:nth-child(n+2) {
     margin-left: -6%;
-    /*margin-left: 17px*/
 }
 
 .nav-main__link {
@@ -2283,11 +2286,12 @@ section-10__text {
 
 .section-16__background {
     position: absolute;
+    background-color: #fefefe;
     /*width: 100%;*/
     /*height: 100%;*/
     /*filter: brightness(.6);*/
     background-attachment: fixed;
-    background-position: 90% -12em;
+    /*background-position: 90% -12em;*/
     background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/sa-murals-p1-scaled.jpeg");
 
 }

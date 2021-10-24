@@ -136,10 +136,10 @@
         </symbol>
     </svg>
 </div>
-<div class="main-wrapper">
+<div class="main-wrapper ">
     <div class="header-top hidden">
-        <div class="header-top__wrapper">
-            <div class="logo logo-main logo-main-white">
+        <div class="header-top__wrapper d-flex ">
+            <div class="logo logo-main logo-main-white p-2">
                 <svg>
                     <use href="#logo-main"></use>
                 </svg>
@@ -149,9 +149,9 @@
                     <use href="#logo-main-text"></use>
                 </svg>
             </div>
-            <nav class="nav-main">
+            <nav class="nav-main ml-auto p-2">
                 <ul class="nav-main__list">
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1220">[Timeline]</a>
+                    <li class="nav-main__item p-1"><a class="nav-main__link" href="#" data-offset="1220">[Timeline]</a>
                     </li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2000">[Numbers]</a></li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2520">[Stories]</a></li>

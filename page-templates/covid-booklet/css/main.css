@@ -222,7 +222,6 @@ a {
 }
 
 
-
 .icon-arrow svg {
     stroke: white;
 }
@@ -253,6 +252,7 @@ a {
 .icon-heart-white {
     fill: #fff
 }
+
 .icon-heart,
 .icon-heart svg {
     width: 23px;
@@ -265,8 +265,8 @@ a {
 
 
 .icon-heart svg:hover {
-    -webkit-filter: drop-shadow( 3px 3px 2px rgba(145, 25, 25, 0.66));
-    filter: drop-shadow( 3px 3px 2px rgba(145, 25, 25, 0.66));
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(145, 25, 25, 0.66));
+    filter: drop-shadow(3px 3px 2px rgba(145, 25, 25, 0.66));
     fill: rgb(119, 26, 22);
     /*text-shadow:0px 0px 30px #8c1d19;*/
     -moz-transition: all 0.2s ease-in;
@@ -275,7 +275,7 @@ a {
     transition: all 0.2s ease-in;
     width: 33px;
     height: 28px;
-    margin-left:-4px;
+    margin-left: -4px;
     margin-top: -4px;
     fill-opacity: .8;
 
@@ -300,7 +300,8 @@ a {
     display: -ms-flexbox;
     display: flex;
     padding: 0;
-    border: none;!important;
+    border: none;
+!important;
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -320,7 +321,6 @@ a {
 }
 
 
-
 .button-arrow-red:hover {
     cursor: pointer;
     border: 6px solid rgba(157, 66, 66, 0.67);
@@ -338,7 +338,8 @@ a {
     border-radius: 50%;
     background-color: #85261e;
 }
-.scroll-button-wrapper{
+
+.scroll-button-wrapper {
     position: relative;
     top: 65%;
 }
@@ -350,9 +351,9 @@ a {
     transform: rotate(90deg);
 }
 
-.scroll-text{
+.scroll-text {
     text-transform: uppercase;
-    position:relative;
+    position: relative;
     left: 6.4em;
     bottom: 2em;
     color: white;
@@ -370,7 +371,8 @@ a {
 
 /*turn yellow arrow up*/
 .arrow-up {
-    transform: rotate(270deg);!important;
+    transform: rotate(270deg);
+!important;
 }
 
 .button-arrow-yellow:hover {
@@ -406,7 +408,6 @@ a {
 .button-arrow-yellow span {
     color: #C3A701
 }
-
 
 
 .button-arrow-red-section-1:hover {
@@ -582,12 +583,14 @@ body.page-loaded .header-top {
     font-size: 20px;
     line-height: 1;
     color: #fff;
-    padding-right:1em;
+    padding-right: 1em;
 }
-.nav-main__link:hover{
-    color:#ffffff;
+
+.nav-main__link:hover {
+    color: #ffffff;
 }
-.nav-main__item:hover{
+
+.nav-main__item:hover {
     text-decoration: underline;
 }
 
@@ -843,10 +846,11 @@ body.page-loaded .section-1__text-2 {
     font-weight: bold;
 }
 
-.section-2__text-4{
+.section-2__text-4 {
     left: 40%;
     margin-top: 6%;
 }
+
 .section-2__text-4,
 .section-2__text-5 {
     font-family: Whitman-Roman, Arial, sans-serif;
@@ -856,7 +860,6 @@ body.page-loaded .section-1__text-2 {
     position: relative;
     color: #4A413A;
 }
-
 
 
 .button-next-slide-section-2 {
@@ -904,12 +907,16 @@ body.page-loaded .section-1__text-2 {
     margin-left: 100%;
     background-color: #f4f4f4;
     transition: margin-left 0.33s;
+
+
 }
 
-.section-2a__signature{
+.section-2a__signature {
     position: absolute;
-    top: 88%;
-    left:18%;
+    bottom: 4.4%;
+    padding-right: 5px;
+    width: 209px;
+    height: auto;
 }
 
 .section-2a.toggle {
@@ -924,6 +931,7 @@ body.page-loaded .section-1__text-2 {
     display: -ms-flexbox;
     display: flex;
     margin-right: auto;
+
     /*margin-left: auto;*/
     /*padding-left: 96px;*/
     width: 1368px;
@@ -931,8 +939,11 @@ body.page-loaded .section-1__text-2 {
 }
 
 .section-2a__foto-wrapper {
-    width: 38%;
-    height: 100%
+    display: flex;
+    justify-content: flex-end;
+    /*width: 38%;*/
+    height: 100%;
+
 }
 
 .section-2a__foto-wrapper img {
@@ -946,9 +957,10 @@ body.page-loaded .section-1__text-2 {
 }
 
 .section-2a__text-wrapper {
+
     position: relative;
-    margin-left: 8em;
-    padding-left: 1em;
+    margin-left: 10%;
+    /*padding-left: 1em;*/
     width: 40%;
     height: 600px;
 }
@@ -1034,7 +1046,7 @@ body.page-loaded .section-1__text-2 {
 .button-prev-red-section-2a {
     position: absolute;
     bottom: 52px;
-    left: 167px
+    left: 3%
 }
 
 
@@ -1133,7 +1145,7 @@ body.page-loaded .section-1__text-2 {
 }
 
 
-.section-5__subtitle{
+.section-5__subtitle {
     letter-spacing: -0.34px;
     font-size: 28px;
     z-index: 1;
@@ -1149,8 +1161,7 @@ body.page-loaded .section-1__text-2 {
 
 
 .section-5__title,
-.section-5__pretitle
-{
+.section-5__pretitle {
     font-family: Whitman-Roman, Arial, sans-serif;
     line-height: 1;
     color: #fff;
@@ -1162,7 +1173,6 @@ body.page-loaded .section-1__text-2 {
     font-size: 60px;
     margin-left: 80px;
 }
-
 
 
 .section-6 {
@@ -1238,7 +1248,7 @@ body.page-loaded .section-1__text-2 {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 19em;
-    font-family: Roboto;
+    font-family: Roboto-Bold, serif;
     font-size: 30px;
     line-height: 40px;
     /*font-weight: bold;*/
@@ -1249,9 +1259,8 @@ body.page-loaded .section-1__text-2 {
 .section-7__signature {
     font-weight: 300;
     font-size: 18px;
-
     position: absolute;
-    top: 700px;
+    top: 74%;
     left: 47%;
 
 }
@@ -1309,8 +1318,9 @@ body.page-loaded .section-1__text-2 {
     line-height: 25px;
     letter-spacing: -0.17px;
     left: 12%;
-    font-family: Roboto;!important;
-    font-size:17px;
+    font-family: Roboto;
+!important;
+    font-size: 17px;
     font-weight: 400;
 }
 
@@ -1354,7 +1364,6 @@ body.page-loaded .section-1__text-2 {
 .section-8__icon:hover .section-8__icon__read-poem {
     opacity: 1.0;
 }
-
 
 
 .section-8a {
@@ -1406,19 +1415,16 @@ body.page-loaded .section-1__text-2 {
 }
 
 
-
-
-
-
 /*vertical timeline 1*/
 
 .timeline {
-    resize: none;!important;
+    resize: none;
+!important;
     position: fixed;
     right: 8%;
     z-index: 94;
     background-size: cover;
-    pointer-events: all!important;
+    /*pointer-events: all!important;*/
 }
 
 
@@ -1434,31 +1440,35 @@ body.page-loaded .section-1__text-2 {
     height: 140%;
     z-index: -1;
 }
-.timeline-wrapper{
+
+.timeline-wrapper {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 /*top of circle of timeline*/
-#v-pill-1{
+#v-pill-1 {
     margin-top: 2em;
 }
+
 /*bottom of circle of timeline*/
-#s9-12{
+#s9-12 {
     margin-bottom: 1em;
 }
+
 .nav-link.s9 {
     height: 3rem !important;
     width: 3rem !important;
     border-radius: 150px !important;
-    margin:.75em 0 .5em 0;
+    margin: .75em 0 .5em 0;
     z-index: 100 !important;
     border: none !important;
     background-color: #f2c8b1;
-    padding: 0!important;
+    padding: 0 !important;
 
 }
+
 .nav-link.s9:hover {
     transform: scale(1.3);
     background-color: rgb(236, 150, 105) !important;
@@ -1468,7 +1478,8 @@ body.page-loaded .section-1__text-2 {
     font-size: 20px;
     margin-top: 5px;
     font-weight: bold;
-    color: white;!important;
+    color: white;
+!important;
 }
 
 .timeline-1 {
@@ -1482,6 +1493,7 @@ body.page-loaded .section-1__text-2 {
     background-size: contain;
     background-color: grey;
 }
+
 .section-9 {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1493,11 +1505,13 @@ body.page-loaded .section-1__text-2 {
     opacity: 1;
 
 }
-.all-tabs{
+
+.all-tabs {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     justify-content: space-evenly;
 }
+
 .section-9__background {
     left: 29%;
     position: relative;
@@ -1523,11 +1537,12 @@ body.page-loaded .section-1__text-2 {
     line-height: 41px;
 }
 
-.section-9__title-wrapper{
+.section-9__title-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
+
 .section-9__title {
     /*border: solid 2px;*/
     display: flex;
@@ -1556,9 +1571,10 @@ body.page-loaded .section-1__text-2 {
     /*left: -26%;*/
     /*padding-left: 2%;*/
     /*margin-top: 2em;*/
-    font-size: 16px;
+    font-size: 20px;
     line-height: 25px;
 }
+
 .date-span {
     font-weight: bold;
     color: #ef7930;
@@ -1568,7 +1584,7 @@ body.page-loaded .section-1__text-2 {
 .section-9__span {
     font-weight: bold;
     color: #1c2d5a;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .section-10__pretitle {
@@ -1644,20 +1660,24 @@ section-10__text {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.4em;
-    font-family: Roboto;!important;
+    font-family: Roboto;
+!important;
     color: #4A413A;
 }
-.s2{
+
+.s2 {
     margin-top: 4em;
     margin-left: -.5em;
 }
-.section-11__text{
+
+.section-11__text {
     position: relative;
     font-weight: 100;
     margin-top: -10%;
     left: 60%;
     font-size: 18px;
-    font-family: "Roboto Light";!important;
+    /*font-family: "Roboto Light", serif;*/
+!important;
     color: #63554F;
 }
 
@@ -1672,9 +1692,10 @@ section-10__text {
     background-size: cover
 }
 
-.section-12__background{
+.section-12__background {
 
 }
+
 .section-12__text-wrapper {
     position: relative;
     width: 100%;
@@ -1752,7 +1773,6 @@ section-10__text {
 }
 
 
-
 .section-13 {
     z-index: 89;
     width: 100%;
@@ -1813,7 +1833,6 @@ section-10__text {
     background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-01@2x.png");
 
 }
-
 
 
 .pieClass {
@@ -2127,6 +2146,7 @@ section-10__text {
     width: 100%;
     height: 100%;
 }
+
 .section-15__background {
     position: absolute;
     min-height: 100%;
@@ -2220,12 +2240,10 @@ section-10__text {
 .section-15 .button-next-slide-section-15 span {
     color: #C3A701;
 }
-.muralBackground1{
+
+.muralBackground1 {
 
 }
-
-
-
 
 
 .section-16 {
@@ -2249,12 +2267,13 @@ section-10__text {
 }
 
 
-.section-16__text-wrapper{
+.section-16__text-wrapper {
     position: absolute;
     top: 40%;
     left: 52%;
     z-index: 90;
 }
+
 .section-16__pretitle,
 .section-16__title {
     position: relative;
@@ -2296,7 +2315,6 @@ section-10__text {
 /*vertical timeline 1*/
 
 
-
 .section-17__text-wrapper {
     position: absolute;
     top: 65vh;
@@ -2311,9 +2329,9 @@ section-10__text {
 }
 
 
-
 timeline-images {
-    resize: none;!important;
+    resize: none;
+!important;
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -2334,7 +2352,7 @@ timeline-images {
     z-index: 99;
 }
 
-.tab-button-parent{
+.tab-button-parent {
     height: 20em;
     width: 20em;
 }
@@ -2388,7 +2406,7 @@ timeline-images {
     background-size: cover;
 }
 
-.tabs-title{
+.tabs-title {
     position: relative;
     font-family: Whitman, Roman;
     font-size: 77px;
@@ -2398,6 +2416,7 @@ timeline-images {
     top: 60%;
     text-shadow: 0px 0px 10px #000000B2;
 }
+
 /*overall side tab properties*/
 .tab-a {
     z-index: 92;
@@ -2407,20 +2426,24 @@ timeline-images {
     transition: margin-left 0.33s;
     background-color: #ffffff;
 }
-.tab-a.toggle{
+
+.tab-a.toggle {
     margin-left: 0;
 }
+
 .tab-1a.toggle {
     margin-left: 0;
 }
+
 .tab-1 {
     z-index: 92;
     position: absolute;
-    background-position: 50% 50% ;
-    background-image:url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/ymca-early-learning.png") ;
+    background-position: 50% 50%;
+    background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/ymca-early-learning.png");
     background-repeat: no-repeat;
 
 }
+
 /*read more left image*/
 .timeline-section-1.t1 {
     background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/ymca-early-learning.png");
@@ -2435,63 +2458,81 @@ timeline-images {
     margin-left: 100%;
 
 }
+
 .tab-1a-image {
     position: absolute;
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 50%;
-    background-image: url('https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/ymca-early-learning.png') ;
+    background-image: url('https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/ymca-early-learning.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.side-tab{
+
+.side-tab {
     color: black;
     top: 30%;
     right: 20%;
 }
 
-.side-tab-1{
+.tab-close {
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
 
 }
-.side-tab-wrapper{
+
+.side-tab-wrapper {
     position: absolute;
     left: 50%;
     height: 100vh;
     background-color: white;
 }
+
 .tab-span-yellow {
     color: #c3a701;
 }
 
-.space{
+.space {
     margin-bottom: 4em;
 }
+
 /***************************************************************************/
 .tab-2 {
-    background: url(../images/murals.jpg) no-repeat center center fixed ;
+    background: url(../images/murals.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
 /*read more left image*/
 .timeline-section-1.t2 {
     background-image: url(../images/murals.jpg);
 }
 
-.tab-2-main{
+.tab-2-main {
     overflow: auto;
     height: 120vh;
-
     margin-left: 3em;
 }
-.tab-2-p{
 
+.tab-2-t {
     height: 95em;
+    overflow: scroll;!important;
+    padding-bottom: 50em;
 }
+
+tab-2-p {
+    line-height: 80em;
+    font-size: 14px;!important;
+    margin-right: 2em;!important;
+
+}
+
 
 .tab-2__text-shadow-after {
     content: "";
@@ -2506,12 +2547,6 @@ timeline-images {
     background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #ffffff)
 }
 
-tab-2-p{
-    font-size: 14px;!important;
-    margin-right: 2em;!important;
-    overflow: scroll;
-}
-
 /***************************************************************************/
 .tab-3 {
     background: url(../images/corazon.jpg) no-repeat center center fixed;
@@ -2520,33 +2555,40 @@ tab-2-p{
     -o-background-size: cover;
     background-size: cover;
 }
+
 /*read more left image*/
 .timeline-section-1.t3 {
     background-image: url(../images/corazon.jpg);
 }
+
 .container-3 {
     margin-top: 10%;
     margin-left: 5%;
 }
+
 .timeline-section-1a-amount-container.amount-3 {
     margin-top: 10%;
 
 }
+
 .timeline-section-1a-quote.quote-3 {
-    position: initial;!important;
+    position: initial;
+!important;
 }
-.timeline-section-1a-quote-author.author-3{
+
+.timeline-section-1a-quote-author.author-3 {
     font-size: 10px;
 
 }
 
 /***************************************************************************/
 .tab-4 {
-    background-image: url(../images/grandfather-grandaugthers.jpg);
+    background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/Granfather-and-Granddaughter-33_Web-scaled.jpg");
     background-repeat: no-repeat;
     background-size: 143%;
     background-position: 74% 64%;
 }
+
 /*read more left image*/
 .timeline-section-1.t4 {
     background-image: url(../images/grandfather-grandaugthers.jpg);
@@ -2560,6 +2602,7 @@ tab-2-p{
     -o-background-size: cover;
     background-size: cover;
 }
+
 /*read more left image*/
 .timeline-section-1.t5 {
     background-image: url(../images/liftfund-foodtruck.jpg);
@@ -2570,6 +2613,7 @@ tab-2-p{
     background: url(../images/ymca-1.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+
 /*read more left image*/
 .timeline-section-1.t6 {
     background-image: url(../images/ymca-1.jpg);
@@ -2583,6 +2627,7 @@ tab-2-p{
     -o-background-size: cover;
     background-size: cover;
 }
+
 /*read more left image*/
 .timeline-section-1.t7 {
     background-image: url("https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/uptogether-background.png");
@@ -2622,7 +2667,7 @@ tab-2-p{
     margin: auto;
 }
 
-.timeline-section-1-read-more span{
+.timeline-section-1-read-more span {
     position: relative;
     text-align: right;
     font: normal normal 900 15px/23px Roboto;
@@ -2638,13 +2683,13 @@ tab-2-p{
     background-repeat: no-repeat;
 }
 
-.timeline-section-1-text-container{
+.timeline-section-1-text-container {
     height: 50%;
     /*flex-direction: column;*/
     /*flex-direction: row;*/
 }
 
-.timeline-section-1a-ymca-container{
+.timeline-section-1a-ymca-container {
     margin-top: 3em;
     padding: 2em;
     float: left;
@@ -2652,14 +2697,15 @@ tab-2-p{
 }
 
 
-.timeline-section-1a-YMCA-Early-Learning{
+.timeline-section-1a-YMCA-Early-Learning {
     flex-direction: row;
 }
 
-.timeline-section-1a-quote-container{
+.timeline-section-1a-quote-container {
     height: 50%;
 }
-.timeline-section-1a-quote-container.tab1{
+
+.timeline-section-1a-quote-container.tab1 {
     margin-left: 8%;
 }
 
@@ -2675,9 +2721,8 @@ tab-2-p{
     text-transform: uppercase;
 }
 
-.timeline-section-1a-paragraph-1{
+.timeline-section-1a-paragraph-1 {
     position: relative;
-    /*height: 80em;*/
     left: 8%;
     width: 350px;
     text-align: left;
@@ -2687,7 +2732,8 @@ tab-2-p{
 
 
 }
-.timeline-section-1a-amount{
+
+.timeline-section-1a-amount {
     /*position: relative;*/
     /*left: 50%;*/
     /*width: 200px;*/
@@ -2699,7 +2745,7 @@ tab-2-p{
 }
 
 
-.timeline-section-1a-amount-container{
+.timeline-section-1a-amount-container {
     position: relative;
     top: 5vh;
     /*right: 27%;*/
@@ -2707,7 +2753,7 @@ tab-2-p{
     /*float: right;*/
 }
 
-.timeline-section-1a-paragraph-part-1{
+.timeline-section-1a-paragraph-part-1 {
     /*position: relative;*/
 
     /*left: 49%;*/
@@ -2718,7 +2764,8 @@ tab-2-p{
     letter-spacing: -0.15px;
     color: #4A413A;
 }
-.timeline-section-1a-paragraph-part-2{
+
+.timeline-section-1a-paragraph-part-2 {
     /*position: relative;*/
     /*float: right;*/
 
@@ -2730,7 +2777,8 @@ tab-2-p{
     letter-spacing: -0.15px;
     color: #4A413A;
 }
-.timeline-section-1a-quote{
+
+.timeline-section-1a-quote {
     position: relative;
     /*top: -7em;*/
     /*left: 6%;*/
@@ -2740,7 +2788,8 @@ tab-2-p{
     letter-spacing: 0.18px;
     color: #E98243;
 }
-.timeline-section-1a-quote-author{
+
+.timeline-section-1a-quote-author {
     position: relative;
     text-align: left;
     font: normal normal bold 15px/20px Roboto;
@@ -2748,13 +2797,14 @@ tab-2-p{
     color: #E98243;
     font-weight: 100;
 }
+
 .timeline-section-1a-next-story {
     position: relative;
     top: 10vh;
     margin: auto;
 }
 
-.timeline-section-1a-next-story span{
+.timeline-section-1a-next-story span {
     position: relative;
     text-align: right;
     font: normal normal 900 15px/23px Roboto;
@@ -2764,59 +2814,61 @@ tab-2-p{
 }
 
 
-
-
-
-
 /*map*/
-.viewMap{
+.viewMap {
     position: absolute;
-    margin-left: 2em;
-    bottom: 10%;
+    margin-left: 2%;
+    bottom: 7%;
 }
-.btnMap{
+
+.btnMap {
     background: none;
     border: none;
 }
-.mapAnchor{
+
+.mapAnchor {
     color: #E98243;
     font-size: 16px;
     text-decoration: underline;
 }
-.mapAnchor:hover{
+
+.mapAnchor:hover {
     color: rgba(255, 112, 22, 0.77);
 }
-.modal-backdrop{
-    z-index: 80!important;
+
+.modal-backdrop {
+    z-index: 80 !important;
 }
-.modal-title{
-    text-transform:uppercase;
-    color:#1c2d5a;
+
+.modal-title {
+    text-transform: uppercase;
+    color: #1c2d5a;
 }
-.modal-header{
-    margin:1em 1em 0 1em!important;
-    border: none!important;
+
+.modal-header {
+    margin: 1em 1em 0 1em !important;
+    border: none !important;
 }
+
 .modal-content {
     min-height: 90vh;
     width: 100%;
     height: auto;
 
-    border-radius: 1em!important;
+    border-radius: 1em !important;
 }
 
-.map{
+.map {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ffffff url('../images/covid_zip_code_map.png') no-repeat ;
+    background: #ffffff url('../images/covid_zip_code_map.png') no-repeat;
     background-size: 95%;
     border-radius: 1em;
 
 }
-
 
 
 /*bootstrap overrides*/
@@ -2886,11 +2938,12 @@ tab-2-p{
 
 }
 
-.section-19__text-wrapper{
+.section-19__text-wrapper {
     position: relative;
     height: 100vh;
     width: 100%;
 }
+
 .section-19__pretitle,
 .section-19__title,
 .section-19__text {
@@ -2933,27 +2986,36 @@ tab-2-p{
     left: calc(50% - 445px);
     color: whitesmoke;
 }
+
 .section-19__links {
     margin-bottom: 3em;
 
 }
 
-.section-19__donors{
+.section-19__donors {
     line-height: 1em;
     overflow: scroll;
     font-size: 15px;
 
 }
-.canvas-title{
-    line-height: 1.7em;
-    font-size:20px;
-    margin-left: .5em;
-}
-.canvas-h5 {
-    line-height: 1.7em;
-    font-size: 15px;
-    margin-left: 1em;
 
+.canvas-title {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: Roboto-Bold, Arial, sans-serif;
+}
+
+.canvas-h5 {
+    line-height: 20px;
+    font-size: 15px;
+    font-family: Roboto-Medium, Arial, sans-serif;
+
+}
+
+
+.offcanvas.toggle {
+    transform: initial;
+!important;
 }
 
 .offcanvas-end {
@@ -2961,11 +3023,14 @@ tab-2-p{
 }
 
 .offcanvas {
+    padding-left: 75px;
+    padding-top: 40px;
     background-color: #554361 !important;
 }
 
 .offcanvas-body {
 
+    /*padding: 69px;*/
     color: white !important;
 }
 
@@ -3023,29 +3088,36 @@ tab-2-p{
 .section-20__text {
     position: relative;
     margin-top: 17%;
-    left: 45%;
+    left: 27%;
     font-family: Whitman, Roman;
     font-size: 20px;
     line-height: 25px;
     color: #4A413A;
 }
 
-.section-20__text-wrapper{
+.section-20__text-wrapper {
     position: absolute;
     top: 6%;
     left: 13%;
 }
+
 .section-20__link a {
+
     font-weight: 900;
     width: 322px;
     position: relative;
     text-transform: uppercase;
-    left: 93%;
+    left: 8%;
     font-family: Roboto;
     font-size: 14px;
     color: #85261E;
     text-decoration: none;
 }
+
+.section-20__link {
+
+}
+
 .section-20__link a:hover {
     color: #cc2e26;
 
@@ -3065,37 +3137,47 @@ tab-2-p{
 /*donate btton*/
 .section-32__donate {
     position: relative;
-    top: 3vh;
-    left: 45%;
+    /*top: 3vh;*/
+    left: 27%;
     width: 463px;
 }
 
 .section-32__donate button {
-    text-transform: uppercase;
-    border-radius: 11px;
+    border-radius: 6px;
     background-color: #85261E;
-    font-size: 20px;
-    padding: 10px;
-
-    line-height: 15px;
+    font-size: 27px;
+    padding: 12px;
+    line-height: 33px;
     font-family: Roboto-Bold, Arial, sans-serif;
     color: white;
-    border: none;!important;
+    border: none;
+!important;
 }
 
 .section-32__donate button .icon {
     display: inline-block;
 }
-.vl{
+
+.vl {
     border-left: 2px solid white;
     height: 1em;
     margin-right: 11px;
     margin-left: 11px;
 }
 
-.heart-button{
+.heart-button {
     top: 3px;
     left: 2px;
 
+}
+
+/*close "x"*/
+.section-32b__close {
+    position: relative;
+    right: -29%;
+}
+
+.section-32b__close:hover {
+    cursor: pointer;
 }
 

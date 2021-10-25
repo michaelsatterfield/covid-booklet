@@ -101,6 +101,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
                     case "background-image":
                         this.container.style.backgroundImage = "url(" + this.animationString + ")";
+                        break;
 
                     case "background-position":
                         this.container.style.backgroundPositionY = this.animationValue + "%";

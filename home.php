@@ -151,15 +151,15 @@
             </div>
             <nav class="nav-main ml-auto p-2">
                 <ul class="nav-main__list">
-                    <li class="nav-main__item p-1"><a class="nav-main__link" href="#" data-offset="1220">[Timeline]</a>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1100">[Timeline]</a>
                     </li>
-                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2000">[Numbers]</a></li>
+                    <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="1900">[Numbers]</a></li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2520">[Stories]</a></li>
                     <li class="nav-main__item"><a class="nav-main__link" href="#" data-offset="2750">[Funding]</a>
                     </li>
                     <li class="nav-main__item">
                         <button class="button button-heart button-heart-header-top"
-                                onclick="window.open('https://saafdn.fcsuite.com/erp/donate/', '_blank')">
+                                onclick="window.open('https://saafdn.org/giving/giving-options/', '_blank')">
                             <div class="icon icon-heart icon-heart-white">
                                 <svg>
                                     <use href="#icon-heart"></use>
@@ -978,7 +978,7 @@
         <div class="nav flex-column timeline-images " id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link s17 active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1"
                     type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
-            <button class="nav-link s17 img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
+            <button class="nav-link s17 img2 pulse-button" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
                     role="tab" aria-controls="v-pills-2" aria-selected="false"></button>
             <button class="nav-link s17 img3" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
                     role="tab" aria-controls="v-pills-3" aria-selected="false"></button>
@@ -1061,12 +1061,14 @@
                             </p>
 
                             <!--            close -->
-                            <div class="tab-close" data-toggle=".tab-1a">
-                                <div class="icon icon-close">
-                                    <svg>
-                                        <use href="#icon-close-gray"></use>
-                                    </svg>
-                                </div>
+                            <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-1" data-toggle=".tab-1a">
+                                <span class="next-text">NEXT STORY</span>
+                                <button class="button button-arrow-yellow">
+                                    <div class="button-ripple button-ripple-section-2"></div>
+                                    <div class="icon icon-arrow">
+                                        <svg>
+                                            <use href="#icon-arrow-right">
+                                </button>
                             </div>
 
                         </div>
@@ -1160,14 +1162,17 @@
                             </div>
                         </div>
                         <!--            close -->
-                        <div class="tab-close" data-toggle=".tab-2a">
-                            <div class="icon icon-close">
+                    <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-2" data-toggle=".tab-2a">
+                        <span class="next-text">NEXT STORY</span>
+                        <button class="button button-arrow-yellow">
+                            <div class="button-ripple button-ripple-section-2"></div>
+                            <div class="icon icon-arrow">
                                 <svg>
-                                    <use href="#icon-close-gray"></use>
-                                </svg>
-                            </div>
-                        </div>
+                                    <use href="#icon-arrow-right">
+                        </button>
                     </div>
+
+                </div>
             </section>
 
 
@@ -1245,13 +1250,16 @@
                             </p>
                         </div>
                         <!--            close -->
-                        <div class="tab-close" data-toggle=".tab-3a">
-                            <div class="icon icon-close">
-                                <svg>
-                                    <use href="#icon-close-gray"></use>
-                                </svg>
-                            </div>
+                        <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-3" data-toggle=".tab-3a">
+                            <span class="next-text">NEXT STORY</span>
+                            <button class="button button-arrow-yellow">
+                                <div class="button-ripple button-ripple-section-2"></div>
+                                <div class="icon icon-arrow">
+                                    <svg>
+                                        <use href="#icon-arrow-right">
+                            </button>
                         </div>
+
                     </div>
                 </div>
             </section>
@@ -1328,13 +1336,16 @@
                             </p>
                         </div>
                         <!--            close -->
-                        <div class="tab-close" data-toggle=".tab-4a">
-                            <div class="icon icon-close">
-                                <svg>
-                                    <use href="#icon-close-gray"></use>
-                                </svg>
-                            </div>
+                        <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-4" data-toggle=".tab-4a">
+                            <span class="next-text">NEXT STORY</span>
+                            <button class="button button-arrow-yellow">
+                                <div class="button-ripple button-ripple-section-2"></div>
+                                <div class="icon icon-arrow">
+                                    <svg>
+                                        <use href="#icon-arrow-right">
+                            </button>
                         </div>
+
                     </div>
             </section>
 
@@ -1402,13 +1413,16 @@
                                 </p>
                             </div>
                             <!--            close -->
-                            <div class="tab-close" data-toggle=".tab-5a">
-                                <div class="icon icon-close">
-                                    <svg>
-                                        <use href="#icon-close-gray"></use>
-                                    </svg>
-                                </div>
+                            <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-5" data-toggle=".tab-5a">
+                                <span class="next-text">NEXT STORY</span>
+                                <button class="button button-arrow-yellow">
+                                    <div class="button-ripple button-ripple-section-2"></div>
+                                    <div class="icon icon-arrow">
+                                        <svg>
+                                            <use href="#icon-arrow-right">
+                                </button>
                             </div>
+
                         </div>
 
             </section>
@@ -1491,13 +1505,16 @@
                             </p>
                         </div>
                         <!--            close -->
-                        <div class="tab-close" data-toggle=".tab-6a">
-                            <div class="icon icon-close">
-                                <svg>
-                                    <use href="#icon-close-gray"></use>
-                                </svg>
-                            </div>
+                        <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-6" data-toggle=".tab-6a">
+                            <span class="next-text">NEXT STORY</span>
+                            <button class="button button-arrow-yellow">
+                                <div class="button-ripple button-ripple-section-2"></div>
+                                <div class="icon icon-arrow">
+                                    <svg>
+                                        <use href="#icon-arrow-right">
+                            </button>
                         </div>
+
                     </div>
             </section>
 
@@ -1583,13 +1600,13 @@
                         </div>
                     </div>
                     <!--            close -->
-                    <div class="tab-close" data-toggle=".tab-7a">
-                        <div class="icon icon-close">
-                            <svg>
-                                <use href="#icon-close-gray"></use>
-                            </svg>
-                        </div>
-                    </div>
+<!--                    <div class="tab-close" data-toggle=".tab-7a">-->
+<!--                        <div class="icon icon-close">-->
+<!--                            <svg>-->
+<!--                                <use href="#icon-close-gray"></use>-->
+<!--                            </svg>-->
+<!--                        </div>-->
+<!--                    </div>-->
 
 
                     <!-- Button trigger modal -->
@@ -1927,15 +1944,15 @@
             <br><br>
             Thank you.
         </div>
-        <div class="d-flex align-items-center mt-5">
-            <div class="section-32__donate">
+        <div class="d-flex align-items-center donate">
+            <div class="section-32__donate text-center">
                 <button onclick="window.open('https://saafdn.org/giving/giving-options/', '_blank')">
                     <div class="icon icon-heart icon-heart-white heart-button">
                         <svg>
                             <use href="#icon-heart"></use>
                         </svg>
                     </div>
-                    <span class="vl"></span> Donate Now
+                     Donate Now
                 </button>
             </div>
             <div class="section-20__link">

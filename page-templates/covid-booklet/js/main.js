@@ -201,7 +201,7 @@ window.addEventListener("DOMContentLoaded", event => {
 
     // new ElementAnimation("section-7__background", "scale", 1.0, 1.05, 470, 700);
     new ElementAnimation("section-7__text", "opacity", 0.0, 1.0, 585, 600);
-    new ElementAnimation("section-7__signature", "opacity", 0.0, 1.0, 585, 650);
+    new ElementAnimation("section-7__signature", "opacity", 0.0, 1.0, 585, 600);
 
 
     // Section 7 | Closing
@@ -315,81 +315,30 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-13__bar bar-8", "opacity", 0.0, 1.0, 1395, 1400, function (sp, ssta, ssto) {
         updateBarCallback(9, sp, ssta, ssto);
     });
-
-
-    // new ElementAnimation("section-13__bar bar-8", "opacity", 1.0, 0.0, 1390, 1400, function (sp, ssta, ssto) {
-    //     updateBarCallback(8, sp, ssta, ssto);
-    // });
-
     new ElementAnimation("section-13__bar bar-8", "opacity", 0.0, 1.0, 1390, 1400, function (sp, ssta, ssto) {
         updateBarCallback(8, sp, ssta, ssto);
     });
-
-
-    // new ElementAnimation("section-13__bar bar-7", "opacity", 1.0, 0.0, 1390, 1395, function (sp, ssta, ssto) {
-    //     updateBarCallback(7, sp, ssta, ssto);
-    // });
     new ElementAnimation("section-13__bar bar-7", "opacity", 0.0, 1.0, 1380, 1390, function (sp, ssta, ssto) {
         updateBarCallback(7, sp, ssta, ssto);
     });
-
-
-    // new ElementAnimation("section-13__bar bar-6", "opacity", 1.0, 0.0, 1380, 1385, function (sp, ssta, ssto) {
-    //     updateBarCallback(6, sp, ssta, ssto);
-    // });
     new ElementAnimation("section-13__bar bar-6", "opacity", 0.0, 1.0, 1370, 1380, function (sp, ssta, ssto) {
         updateBarCallback(6, sp, ssta, ssto);
     });
-
-
-    //
-    // new ElementAnimation("section-13__bar bar-5", "opacity", 1.0, 0.0, 1370, 1375, function (sp, ssta, ssto) {
-    //     updateBarCallback(5, sp, ssta, ssto);
-    // });
-
     new ElementAnimation("section-13__bar bar-5", "opacity", 0.0, 1.0, 1360, 1370, function (sp, ssta, ssto) {
         updateBarCallback(5, sp, ssta, ssto);
     });
-
-
-    // new ElementAnimation("section-13__bar bar-4", "opacity", 1.0, 0.0, 1360, 1365, function (sp, ssta, ssto) {
-    //     updateBarCallback(4, sp, ssta, ssto);
-    // });
-
     new ElementAnimation("section-13__bar bar-4", "opacity", 0.0, 1.0, 1340, 1360, function (sp, ssta, ssto) {
         updateBarCallback(4, sp, ssta, ssto);
     });
-
-    //
-    // new ElementAnimation("section-13__bar bar-3", "opacity", 1.0, 0.0, 1340, 1345, function (sp, ssta, ssto) {
-    //     updateBarCallback(3, sp, ssta, ssto);
-    // });
     new ElementAnimation("section-13__bar bar-3", "opacity", 0.0, 1.0, 1330, 1340, function (sp, ssta, ssto) {
         updateBarCallback(3, sp, ssta, ssto);
     });
-
-
-    //
-    // new ElementAnimation("section-13__bar bar-2", "opacity", 1.0, 0.0, 1330, 1335, function (sp, ssta, ssto) {
-    //     updateBarCallback(2, sp, ssta, ssto);
-    // });
     new ElementAnimation("section-13__bar bar-2", "opacity", 0.0, 1.0, 1315, 1330, function (sp, ssta, ssto) {
         updateBarCallback(2, sp, ssta, ssto);
     });
-
-
-    //
-    // new ElementAnimation("section-13__bar bar-1", "opacity", 1.0, 0.0, 1315, 1320, function (sp, ssta, ssto) {
-    //     updateBarCallback(1, sp, ssta, ssto);
-    // });
     new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1295, 1315, function (sp, ssta, ssto) {
         updateBarCallback(1, sp, ssta, ssto);
     });
-
-
-    // new ElementAnimation("section-13__bar bar-1", "opacity", 0.0, 1.0, 1300, 1410, function ( sp, ssta, ssto) {
-    //     updateBarCallback(1, sp, ssta, ssto);
-    // });
 
     new ElementAnimation("section-13__bar bar-8", "background-image", p8, p8, 1390, 1400);
     new ElementAnimation("section-13__bar bar-7", "background-image", p7, p7, 1380, 1390);
@@ -699,6 +648,87 @@ window.addEventListener("DOMContentLoaded", event => {
         $(".nav-link").click(function () {
             $(".modal").removeClass("show")
         })
+
+        // next $button(x).onclick(this.class + 1).addClass("toggle").
+
+
+        let switchClass = "show active";
+        $("#tab-next-1").click(function () {
+            // const $p1 = $(".nav-link.s17");
+            //switches classes
+            $("#pill2").addClass(switchClass)
+            $("#pill1").toggleClass(switchClass);
+            $(".img1").removeClass("active");
+
+
+                //make selected tab bubble stay scaled and in color
+            $(".img1").css("transform", "scale(1");
+            $(".img1").css("filter", "grayscale(100%)");
+            $(".img2").css("transform", "scale(1.3)")
+            $(".img2").css("filter", "none")
+
+
+
+
+        })
+
+        $("#tab-next-2").click(function () {
+            $("#pill3").addClass(switchClass)
+            $("#pill2").toggleClass(switchClass)
+
+            $(".img2").css("transform", "scale(1");
+            $(".img2").css("filter", "grayscale(100%)");
+            $(".img3").css("transform", "scale(1.3)")
+            $(".img3").css("filter", "none")
+        })
+        $("#tab-next-3").click(function () {
+            $("#pill4").addClass(switchClass)
+            $("#pill3").toggleClass(switchClass)
+
+            $(".img3").css("transform", "scale(1");
+            $(".img3").css("filter", "grayscale(100%)");
+            $(".img4").css("transform", "scale(1.3)")
+            $(".img4").css("filter", "none")
+        })
+        $("#tab-next-4").click(function () {
+            $("#pill5").addClass(switchClass)
+            $("#pill4").toggleClass(switchClass)
+            $(".img4").css("transform", "scale(1");
+            $(".img4").css("filter", "grayscale(100%)");
+            $(".img5").css("transform", "scale(1.3)")
+            $(".img5").css("filter", "none")
+        })
+        $("#tab-next-5").click(function () {
+            $("#pill6").addClass(switchClass)
+            $("#pill5").toggleClass(switchClass)
+            $(".img5").css("transform", "scale(1");
+            $(".img5").css("filter", "grayscale(100%)");
+            $(".img6").css("transform", "scale(1.3)")
+            $(".img6").css("filter", "none")
+        })
+        $("#tab-next-6").click(function () {
+            $("#pill7").addClass(switchClass)
+            $("#pill6").toggleClass(switchClass)
+            $(".img6").css("transform", "scale(1");
+            $(".img6").css("filter", "grayscale(100%)");
+            $(".img7").css("transform", "scale(1.3)")
+            $(".img7").css("filter", "none")
+        })
+        //keep tab images in color and scaled
+        const $tabImg = $(".nav-link.s17");
+
+      $tabImg.click(function () {
+            $tabImg.css("transform", "scale(1)")
+            $tabImg.css("filter", "grayscale(100%)");
+            $(this).css("transform", "scale(1.3");
+            $(this).css("filter", "none");
+
+        })
+
+
+
+
+
         //keep page from refreshing to top
         $(window).on('unload', function () {
             $(window).scrollTop(0);
@@ -718,7 +748,11 @@ window.addEventListener("DOMContentLoaded", event => {
         })
 
 
+
         $("#myTab a:last").tab("show"); // show last tab
+
+
+
 
     });
 });

@@ -680,6 +680,7 @@ window.addEventListener("DOMContentLoaded", event => {
             $(".img2").css("filter", "grayscale(100%)");
             $(".img3").css("transform", "scale(1.3)")
             $(".img3").css("filter", "none")
+
         })
         $("#tab-next-3").click(function () {
             $("#pill4").addClass(switchClass)
@@ -724,6 +725,13 @@ window.addEventListener("DOMContentLoaded", event => {
             $(this).css("filter", "none");
 
         })
+
+        // add/remove pulsing button
+
+
+    $(".img2").click(function (){
+        $(".img2").removeClass("pulse-button")
+    })
 
 
 

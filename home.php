@@ -75,7 +75,7 @@
 <div class="svg-sprive">
     <svg width="0" height="0">
 
-        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 55" id="logo-main" fill="inherit">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 55" id="logo-main" fill="#822720">
             <path
                     d="M13.312.581c-.754-.537-1.711-.7-2.6-.444-2.63.5-2.238 2.858-2.071 3.865l.04.262c.097.784.52 1.491 1.164 1.948a3.57 3.57 0 0 0 2.072.686 2.9 2.9 0 0 0 .525-.047c1.458-.269 2.038-2.174 2.025-3.136.078-1.161-.342-2.301-1.155-3.134zm11.752.283A2.9 2.9 0 0 0 22.95.02a3.24 3.24 0 0 0-2.511.8 2.69 2.69 0 0 0-.856 1.951v.277c-.018 1.382-.047 3.7 3.128 3.765h.167c2.442 0 2.724-1.243 2.834-2.863.199-1.074-.034-2.183-.648-3.086zm11.753.844A3.51 3.51 0 0 0 34.635.252c-.947-.12-1.902.161-2.633.775-.825.782-1.246 1.899-1.144 3.031.027 1.512 1.751 2.579 3.331 2.7l.24.01c1.5 0 2.55-1.1 2.909-3.041a2.68 2.68 0 0 0-.521-2.019zm7.942 10.249c-.357-1.064-1.133-1.935-2.149-2.412-2.074-.9-6.113-1.755-21.484-1.991-14.47-.232-17.317 1.776-19.2 3.1l-.3.208c-1.06.587-1.69 1.73-1.621 2.94s.826 2.273 1.946 2.735a6.05 6.05 0 0 0 3.072.833 5.18 5.18 0 0 0 3.409-1.116c.575-.618.781-1.1.629-1.482-.178-.443-.823-.691-1.974-.761a.8.8 0 0 1-.723-.358c-.273-.525.255-1.47.347-1.627a33.9 33.9 0 0 1 4.857-1.167 151.09 151.09 0 0 1 17.656-.269c5.706.368 8.859 1.008 9.642 1.96.449.544.714.947.647 1.268-.063.3-.413.584-1.248 1.01-.725.368-1.042.672-1.03.987.015.388.515.741 1.783 1.263 1.374.373 2.839.194 4.082-.5a3.47 3.47 0 0 0 1.908-1.8 4.99 4.99 0 0 0-.249-2.821zm-18.76 5.99c-.127-1.653-1.036-4.323-2.172-4.744h0c-.575-.213-3.5-1.163-4.607 1.118-.716 1.474.5 16.211 1.309 25.962l.524 6.811c.117 3.1.5 6.527 1.018 7.079.277.331.666.549 1.094.609a.54.54 0 0 0 .18-.029c.249-.083.4-.339.441-.757.184-1.789 2.331-34.498 2.213-36.049zm10.183-1.107a9.35 9.35 0 0 1-.547-1.217c-.4-1-.77-1.953-1.836-2.247-.8-.212-1.653-.078-2.349.37-.629.396-1.055 1.044-1.169 1.778s-.422 5.377-.778 10.753l-1.187 16.162a51.01 51.01 0 0 0-.333 6.475l-.042 2.55c-.115 2.44 0 3.167 1.007 3.634a.79.79 0 0 0 .336.075.99.99 0 0 0 .474-.131 3.01 3.01 0 0 0 1.258-1.985c.129-.948 4.864-26.871 5.173-28.459s.779-6.382-.007-7.758zM18.303 50.954l-.041-2.542a51.25 51.25 0 0 0-.333-6.483c-.273-2.388-.757-9.693-1.185-16.14l-.781-10.777a2.28 2.28 0 0 0-1.024-1.611 3.02 3.02 0 0 0-2.407-.312c-1.452.4-2.216 1.411-2.477 3.268a35.49 35.49 0 0 0 0 7.732l5.173 28.459c.134.805.588 1.521 1.259 1.985a.98.98 0 0 0 .472.131.79.79 0 0 0 .335-.075c1.011-.471 1.123-1.198 1.009-3.635z"
                     fill="inherit"/>
@@ -316,46 +316,46 @@
 
         </div>
         <div class="d-flex align-items-center">
-        <div class="section-2a__text-wrapper col-8">
-            <div class="section-2a__text-overlay"></div>
-            <div class="section-2a__text">
-                <p>Dear Friends, Donors, and Partners,</p>
-                <p>During unprecedented times, the San Antonio Area Foundation was committed to helping the
-                    community
-                    respond and recover. .</p>
-                <p>The COVID-19 Response Fund was created by the Area Foundation and the United Way of San Antonio
-                    and Bexar County, in partnership with multiple funders, to call forth the strengths and
-                    resiliency
-                    of our community in response to the COVID-19 health pandemic.</p>
+            <div class="section-2a__text-wrapper col-8">
+                <div class="section-2a__text-overlay"></div>
+                <div class="section-2a__text">
+                    <p>Dear Friends, Donors, and Partners,</p>
+                    <p>During unprecedented times, the San Antonio Area Foundation was committed to helping the
+                        community
+                        respond and recover. .</p>
+                    <p>The COVID-19 Response Fund was created by the Area Foundation and the United Way of San Antonio
+                        and Bexar County, in partnership with multiple funders, to call forth the strengths and
+                        resiliency
+                        of our community in response to the COVID-19 health pandemic.</p>
 
-                <p>Together, the San Antonio Area Foundation and 38 partners established a fund available for
-                    general
-                    operating grants for area nonprofit organizations most impacted by the COVID-19 crisis. Our
-                    ability
-                    to leverage relationships within our community allowed us to provide support to over 200
-                    organizations
-                    with a community investment totaling $6.4M. </p>
+                    <p>Together, the San Antonio Area Foundation and 38 partners established a fund available for
+                        general
+                        operating grants for area nonprofit organizations most impacted by the COVID-19 crisis. Our
+                        ability
+                        to leverage relationships within our community allowed us to provide support to over 200
+                        organizations
+                        with a community investment totaling $6.4M. </p>
 
-                <p>While it is impossible to fully capture the awe-inspiring spirit of generosity and compassion
-                    that
-                    motivated donors and nonprofit workers throughout this past year, this report will focus on the
-                    collective efforts of the COVID-19 Response Fund.</p>
+                    <p>While it is impossible to fully capture the awe-inspiring spirit of generosity and compassion
+                        that
+                        motivated donors and nonprofit workers throughout this past year, this report will focus on the
+                        collective efforts of the COVID-19 Response Fund.</p>
 
-                <p>Our gratitude goes to our founding partners and the thousands of other nonprofit organizations,
-                    donors,
-                    and leaders who came together to address our community’s needs.</p>
+                    <p>Our gratitude goes to our founding partners and the thousands of other nonprofit organizations,
+                        donors,
+                        and leaders who came together to address our community’s needs.</p>
 
-                <p>With gratitude,</p>
-                <img class="section-2a__text__marjie-signature"
-                     src="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/marjie-signature-web-gray.png"
-                     alt="">
+                    <p>With gratitude,</p>
+                    <img class="section-2a__text__marjie-signature"
+                         src="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/marjie-signature-web-gray.png"
+                         alt="">
 
-                <p>Marjie French, CEO, San Antonio Area Foundation</p>
+                    <p>Marjie French, CEO, San Antonio Area Foundation</p>
 
-                <br><br><br>
+                    <br><br><br>
+                </div>
+                <div class="section-2a__text-shadow-after"></div>
             </div>
-            <div class="section-2a__text-shadow-after"></div>
-        </div>
         </div>
         <div class="section-2a__quoter">
 
@@ -978,7 +978,7 @@
         <div class="nav flex-column timeline-images " id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link s17 active img1" id="v-pill-1" data-bs-toggle="pill" data-bs-target="#pill1"
                     type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"></button>
-            <button class="nav-link s17 img2 pulse-button" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
+            <button class="nav-link s17 img2" id="v-pill-2" data-bs-toggle="pill" data-bs-target="#pill2" type="button"
                     role="tab" aria-controls="v-pills-2" aria-selected="false"></button>
             <button class="nav-link s17 img3" id="v-pill-3" data-bs-toggle="pill" data-bs-target="#pill3" type="button"
                     role="tab" aria-controls="v-pills-3" aria-selected="false"></button>
@@ -1101,67 +1101,67 @@
                 <div class="timeline-section-1 t2"></div>
                 <div class="timeline-section-1a">
                     <div class="timeline-section-1-text-container  container-3 d-flex align-items-start ">
-                            <div class="col-7">
-                                <h1 class="timeline-section-1a-title mb-5 col-8">
-                                    Esperanza Peace and Justice Center
-                                </h1>
-                                <br>
-                                <div class="tab-2-t col-12">
-                                    <p class="timeline-section-1a-paragraph-1 tab-2-p col-10">
-                                        The grant provided by the COVID-19 Response Fund allowed this venerable
-                                        community
-                                        organization to keep programs going when it would otherwise have had to suspend
-                                        or
-                                        terminate them. For example, contributing artists still collected fees for their
-                                        work, and members of the MujerArtes Women’s Clay Cooperative continued to
-                                        receive
-                                        their regular stipends.<br><br>
-                                        As social distancing and quarantine affected its
-                                        programming, Esperanza staff had to walk the tightrope of providing quality
-                                        virtual
-                                        programming while remaining cognizant of our community’s lingering digital
-                                        divide.
-                                        <br><br>
-                                        Wellness and outreach opportunities traditionally held in-person, such as
-                                        neighborhood canvassing and visiting clients in their homes, could not be
-                                        switched
-                                        to a digital format.
-                                        <br><br>
-                                        Educational programming, however, saw a significant bump, as
-                                        other clients appreciated the flexibility and logistical ease of online
-                                        workshops.
-                                        <br><br>
-                                        As virtual programming took hold, Esperanza found success with its virtual event
-                                        held on Oct. 10, in celebration of the national observations of Hispanic
-                                        Heritage
-                                        Month and National Coming Out Month. The online event was a much-needed showcase
-                                        for
-                                        talented artists, not just from San Antonio but from across the country, and an
-                                        opportunity for the Latinx LGBTQ+ community to bond in times of crisis and
-                                        despair.
-                                    <div class="space"><br></div>
-                                    </p>
-                                    <div class="tab-2__text-shadow-after"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-5">
-                                <p class="timeline-section-1a-amount col-7">
-                                    TOTAL GRANT: $20,000
+                        <div class="col-7">
+                            <h1 class="timeline-section-1a-title mb-5 col-8">
+                                Esperanza Peace and Justice Center
+                            </h1>
+                            <br>
+                            <div class="tab-2-t col-12">
+                                <p class="timeline-section-1a-paragraph-1 tab-2-p col-10">
+                                    The grant provided by the COVID-19 Response Fund allowed this venerable
+                                    community
+                                    organization to keep programs going when it would otherwise have had to suspend
+                                    or
+                                    terminate them. For example, contributing artists still collected fees for their
+                                    work, and members of the MujerArtes Women’s Clay Cooperative continued to
+                                    receive
+                                    their regular stipends.<br><br>
+                                    As social distancing and quarantine affected its
+                                    programming, Esperanza staff had to walk the tightrope of providing quality
+                                    virtual
+                                    programming while remaining cognizant of our community’s lingering digital
+                                    divide.
+                                    <br><br>
+                                    Wellness and outreach opportunities traditionally held in-person, such as
+                                    neighborhood canvassing and visiting clients in their homes, could not be
+                                    switched
+                                    to a digital format.
+                                    <br><br>
+                                    Educational programming, however, saw a significant bump, as
+                                    other clients appreciated the flexibility and logistical ease of online
+                                    workshops.
+                                    <br><br>
+                                    As virtual programming took hold, Esperanza found success with its virtual event
+                                    held on Oct. 10, in celebration of the national observations of Hispanic
+                                    Heritage
+                                    Month and National Coming Out Month. The online event was a much-needed showcase
+                                    for
+                                    talented artists, not just from San Antonio but from across the country, and an
+                                    opportunity for the Latinx LGBTQ+ community to bond in times of crisis and
+                                    despair.
+                                <div class="space"><br></div>
                                 </p>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 ">
-                                    Esperanza put grant funds to good use providing basic needs for its clients – with
-                                    nearly 500 meals served, including almost 200 food box deliveries.
-                                </p>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8">
-                                    In total, Esperanza was able to put on 31 live virtual cultural events
-                                    and workshops, with the grant ultimately impacting the well-being of 15,000
-                                    residents.
-                                </p>
+                                <div class="tab-2__text-shadow-after"></div>
                             </div>
                         </div>
-                        <!--            close -->
+
+                        <div class="col-5">
+                            <p class="timeline-section-1a-amount col-7">
+                                TOTAL GRANT: $20,000
+                            </p>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-part-1 col-8 ">
+                                Esperanza put grant funds to good use providing basic needs for its clients – with
+                                nearly 500 meals served, including almost 200 food box deliveries.
+                            </p>
+                            <p class="timeline-section-1a-paragraph-part-1 col-8">
+                                In total, Esperanza was able to put on 31 live virtual cultural events
+                                and workshops, with the grant ultimately impacting the well-being of 15,000
+                                residents.
+                            </p>
+                        </div>
+                    </div>
+                    <!--            close -->
                     <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-2" data-toggle=".tab-2a">
                         <span class="next-text">NEXT STORY</span>
                         <button class="button button-arrow-yellow">
@@ -1204,6 +1204,7 @@
                                 CORAZÓN MINISTRIES, INC.
                             </h1>
                             <br>
+                            <div class="tab-2-t col-12">
                             <p class="timeline-section-1a-paragraph-1 col-10">
                                 Corazón has been serving downtown San Antonio’s homeless population for more than
                                 two decades. The pandemic immediately impacted its homelessness service work since
@@ -1226,7 +1227,7 @@
                                 the Area Foundation grant to provide meals for the homeless, keeping small
                                 businesses afloat.
                             </p>
-
+                            </div>
                         </div>
                         <div class=" d-flex flex-column col-6 ">
                             <p class="timeline-section-1a-amount   col-8">
@@ -1372,58 +1373,58 @@
                 <div class="timeline-section-1 t5"></div>
                 <div class="timeline-section-1a">
 
-                        <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
-                            <div class="col-7">
-                                <h1 class="timeline-section-1a-title  mb-5 col-8">
-                                    LIFTFUND
-                                </h1>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-1 col-8">
-                                    With their doors shuttered, many small businesses faced dire, if not outright fatal,
-                                    consequences as they struggled to stay afloat.
-                                    <br><br>
-                                    Fortunately, many small businesses were able to keep their heads above water with a
-                                    lifeline from LiftFund, a microlending agency that received a $75,000 grant from the
-                                    COVID-19 Response Fund.
-                                    <br><br>
-                                    LiftFund immediately instituted a four-month loan deferral process for high-risk
-                                    industries and distributed grants of up to $5,000 to small business owners. Through
-                                    its business support centers, LiftFund also provided COVID-specific coaching
-                                    one-on-one and for larger audiences through webinars.
-                                </p>
-                            </div>
-
-                            <div class="d-flex flex-column col-6 ">
-                                <p class="timeline-section-1a-amount col-8">
-                                    TOTAL GRANT: $75,000
-                                </p>
-                                <br>
-                                <p class="timeline-section-1a-paragraph-part-1 col-8 mb-5 ">
-                                    In all, LiftFund utilized its COVID-19 Response Fund grant to help more than 500
-                                    clients and save nearly 2,000 jobs.
-                                </p>
-
-                                <p class="timeline-section-1a-quote quote-3 col-4">
-                                    “I have people depending on me and it has been my motivation to keep going and avoid
-                                    layoffs. This grant is literally saving lives and families.”
-
-
-                                    </br></br>
-                                    <span class="timeline-section-1a-quote-author author-3">— Kela Nabors, owner of Organically Bath & Beauty</span>
-                                </p>
-                            </div>
-                            <!--            close -->
-                            <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-5" data-toggle=".tab-5a">
-                                <span class="next-text">NEXT STORY</span>
-                                <button class="button button-arrow-yellow">
-                                    <div class="button-ripple button-ripple-section-2"></div>
-                                    <div class="icon icon-arrow">
-                                        <svg>
-                                            <use href="#icon-arrow-right">
-                                </button>
-                            </div>
-
+                    <div class="timeline-section-1-text-container container-3 d-flex align-items-start">
+                        <div class="col-7">
+                            <h1 class="timeline-section-1a-title  mb-5 col-8">
+                                LIFTFUND
+                            </h1>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-1 col-8">
+                                With their doors shuttered, many small businesses faced dire, if not outright fatal,
+                                consequences as they struggled to stay afloat.
+                                <br><br>
+                                Fortunately, many small businesses were able to keep their heads above water with a
+                                lifeline from LiftFund, a microlending agency that received a $75,000 grant from the
+                                COVID-19 Response Fund.
+                                <br><br>
+                                LiftFund immediately instituted a four-month loan deferral process for high-risk
+                                industries and distributed grants of up to $5,000 to small business owners. Through
+                                its business support centers, LiftFund also provided COVID-specific coaching
+                                one-on-one and for larger audiences through webinars.
+                            </p>
                         </div>
+
+                        <div class="d-flex flex-column col-6 ">
+                            <p class="timeline-section-1a-amount col-8">
+                                TOTAL GRANT: $75,000
+                            </p>
+                            <br>
+                            <p class="timeline-section-1a-paragraph-part-1 col-8 mb-5 ">
+                                In all, LiftFund utilized its COVID-19 Response Fund grant to help more than 500
+                                clients and save nearly 2,000 jobs.
+                            </p>
+
+                            <p class="timeline-section-1a-quote quote-3 col-4">
+                                “I have people depending on me and it has been my motivation to keep going and avoid
+                                layoffs. This grant is literally saving lives and families.”
+
+
+                                </br></br>
+                                <span class="timeline-section-1a-quote-author author-3">— Kela Nabors, owner of Organically Bath & Beauty</span>
+                            </p>
+                        </div>
+                        <!--            close -->
+                        <div class="tab-close button-next-slide button-next-slide-section-2" id="tab-next-5" data-toggle=".tab-5a">
+                            <span class="next-text">NEXT STORY</span>
+                            <button class="button button-arrow-yellow">
+                                <div class="button-ripple button-ripple-section-2"></div>
+                                <div class="icon icon-arrow">
+                                    <svg>
+                                        <use href="#icon-arrow-right">
+                            </button>
+                        </div>
+
+                    </div>
 
             </section>
             <!--**********************tab-6*****************-->
@@ -1456,6 +1457,7 @@
                                 San Antonio Foundation for Excellence in Education, Inc. (SAISD Foundation)
                             </h1>
                             <br>
+                            <div class="tab-2-t col-12">
                             <p class="timeline-section-1a-paragraph-1 tab-2-p col-8">
                                 Perhaps no sector across our community most acutely felt the wrath and disastrous
                                 impact of the coronavirus pandemic more than schools. San Antonio Independent School
@@ -1478,10 +1480,10 @@
                                 learning made it clear many never had WiFi at home.
                                 <br>
                             <div class="space"><br></div>
-
+                            </div>
                             </p>
                         </div>
-<!--                        <div class="tab-2__text-shadow-after"></div>-->
+                        <!--                        <div class="tab-2__text-shadow-after"></div>-->
 
                         <div class="d-flex flex-column col-6 ">
                             <p class="timeline-section-1a-amount mt-2 col-8">
@@ -1548,7 +1550,7 @@
                                 UPTOGETHER
                             </h1>
                             <br>
-                            <div class="col-8">
+                            <div class=" tab-2-t tab-7-col col-10">
                                 <p class="timeline-section-1a-paragraph-1 tab-2-p mx-3 col-12">
                                     In many respects, the Area Foundation was ready and able to provide immediate
                                     assistance for childcare providers. An example of that is a program put in place
@@ -1574,7 +1576,7 @@
                                     <!--********************map***********-->
 
                                 </p>
-                                <div class=" viewMap col-8">
+                                <div class="viewMap col-8">
                                     <button type="button" class="btnMap" data-bs-toggle="modal"
                                             data-bs-target="#mapModal">
                                         <a class="mapAnchor" data-toggle="modal" href="#mapModal">View Map</a>
@@ -1600,13 +1602,13 @@
                         </div>
                     </div>
                     <!--            close -->
-<!--                    <div class="tab-close" data-toggle=".tab-7a">-->
-<!--                        <div class="icon icon-close">-->
-<!--                            <svg>-->
-<!--                                <use href="#icon-close-gray"></use>-->
-<!--                            </svg>-->
-<!--                        </div>-->
-<!--                    </div>-->
+                                        <div class="tab-close" data-toggle=".tab-7a">
+                                            <div class="icon icon-close">
+                                                <svg>
+                                                    <use href="#icon-close-gray"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
 
 
                     <!-- Button trigger modal -->
@@ -1690,45 +1692,44 @@
 
     <!--    off canvas click items bootstrap-->
     <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
-        <div class="section-32b__close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"
-        ">
-        <div class="icon icon-close">
-            <svg>
-                <use href="#icon-close-white"></use>
-            </svg>
+        <div class="section-32b__close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-white"></use>
+                </svg>
+            </div>
         </div>
-    </div>
-    <div class="offcanvas-header light">
-    </div>
-    <div class="offcanvas-body">
-        <div class="canvas-title">COVID-19 FUND GRANTEES</div>
-
-        <br>
-        <div class="canvas-h5">100 Black Men of San Antonio, Inc.<br><br>
-            Acts of Hope Center<br><br>
-            Adult & Teen Challenge of Texas<br><br>
-            Alamo Area Mutual Housing Association, Inc.<br><br>
-            Alamo Area Rape Crisis Center<br><br>
-            Alamo Center ENT, Inc.<br><br>
-            Alamo Colleges Foundation<br><br>
-            Alamo Resource Conservation & Development Area, Inc<br><br>
-            Alpha Home, Inc<br><br>
-            Alzheimer’s Disease and Related Disorders Association, Inc.<br><br>
-            American GI Forum – National Veterans Outreach Program<br><br>
-            American Indians in Texas at the Spanish Colonial Missions<br><br>
-            American Kidney Fund, Inc.<br><br>
-            American Red Cross<br><br>
-            Antioch Missionary Baptist Church<br><br>
-            Any Baby Can of San Antonio, Inc.<br><br>
-            Arc of San Antonio<br><br>
-            Arthur Nagel Community Clinic<br><br>
-            Artpace San Antonio<br><br>
-            Ascension DePaul Services<br><br>
-            Autism Service Center of San Antonio<br><br>
-            Autistic Treatment Center, Inc.
-
+        <div class="offcanvas-header light">
         </div>
-    </div>
+        <div class="offcanvas-body">
+            <div class="canvas-title">COVID-19 FUND GRANTEES</div>
+
+            <br>
+            <div class="canvas-h5">100 Black Men of San Antonio, Inc.<br><br>
+                Acts of Hope Center<br><br>
+                Adult & Teen Challenge of Texas<br><br>
+                Alamo Area Mutual Housing Association, Inc.<br><br>
+                Alamo Area Rape Crisis Center<br><br>
+                Alamo Center ENT, Inc.<br><br>
+                Alamo Colleges Foundation<br><br>
+                Alamo Resource Conservation & Development Area, Inc<br><br>
+                Alpha Home, Inc<br><br>
+                Alzheimer’s Disease and Related Disorders Association, Inc.<br><br>
+                American GI Forum – National Veterans Outreach Program<br><br>
+                American Indians in Texas at the Spanish Colonial Missions<br><br>
+                American Kidney Fund, Inc.<br><br>
+                American Red Cross<br><br>
+                Antioch Missionary Baptist Church<br><br>
+                Any Baby Can of San Antonio, Inc.<br><br>
+                Arc of San Antonio<br><br>
+                Arthur Nagel Community Clinic<br><br>
+                Artpace San Antonio<br><br>
+                Ascension DePaul Services<br><br>
+                Autism Service Center of San Antonio<br><br>
+                Autistic Treatment Center, Inc.
+
+            </div>
+        </div>
     </div>
 
     <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
@@ -1754,71 +1755,368 @@
             Response Fund. The list below recognizes those donors:<br><br>
         </div>
         <div class="section-19__donors ">
-            John L. Santikos Charitable Foundation, a Fund of the San<br> Antonio Area Foundation<br><br>
-            The Najim Charitable Foundation<br><br>
-            Harvey E. Najim Charitable Fund of the San <br> Antonio Area Foundation<br><br>
-            H. E. Butt Foundation<br><br>
-            The Nancy Smith Hurd Foundation<br><br>
-            80|20 Foundation<br><br>
-            Alamo Cement Company<br><br>
-            Albert and Bessie Mae Kronkosky Charitable Foundation<br><br>
-            Alice Kleberg Reynolds Meyer Foundation<br><br>
-            Amini Family Foundation<br><br>
-            Anonymous<br><br>
-            Armstrong Giving Fund<br><br>
-            Arnim Family Foundation<br><br>
-            Bank of America Charitable Gift Fund<br><br>
-            Bank of San Antonio<br><br>
-            Baptist Health Foundation of San Antonio<br><br>
-            Benson Family Fund of the San Antonio Area Foundation<br><br>
-            Bexar County<br><br>
-            Richard and Ruth Butler<br><br>
-            Casey Family Foundation<br><br>
-            Childcare Collaborative Fund of the San Antonio <br> Area Foundation<br><br>
-            Adam Ciarella<br><br>
-            City of San Antonio<br><br>
-            Petra Claflin<br><br>
-            CVS Health<br><br>
-            Dominion Senior PGA<br><br>
-            Ewing Halsell Foundation<br><br>
-            Ellinor and Marvin Forland Charitable Fund of the San Antonio <br> Area Foundation<br><br>
-            General Dynamics Mission Systems, Inc.<br><br>
-            Gloria Galt Fund of the San Antonio Area Foundation<br><br>
-            Greehey Family Foundation<br><br>
-            Houston H. and Carolyn H. Harte Fund of the San Antonio <br> Area Foundation<br><br>
-            Holt Family Foundation<br><br>
-            Humana Foundation<br><br>
-            JP Morgan Chase & Co.<br><br>
-            Jo and Kae Kaneko<br><br>
-            Leonard Contracting, Inc.<br><br>
-            Masters Leadership Program Alumni<br><br>
-            Peter F. Maddox<br><br>
-            Mays Family Foundation<br><br>
-            McClure Charitable Foundation of 2007<br><br>
-            Meadows Foundation<br><br>
-            Nationwide Foundation<br><br>
-            NuStar Energy<br><br>
-            Patel Gaines, PLLC<br><br>
-            Petty Hefte Family Foundation<br><br>
-            Edward and Helenan Polansky Charitable Fund of the San<br> Antonio Area Foundation<br><br>
-            Dr. Ed Reed and Peggy Reed<br><br>
-            Semmes Foundation Fund of the San Antonio Area Foundation<br><br>
-            Shield-Ayres Foundation<br><br>
-            Spellman Charitable Fund of the San Antonio Area Foundation<br><br>
-            Annie and Tim Swan Fund of the San Antonio Area Foundation<br><br>
-            Bernard and Kathy Swift<br><br>
-            Texas Capital Bank<br><br>
-            Texas Mutual Insurance Company<br><br>
-            The Brown Foundation, Inc.<br><br>
-            The Tobin Endowment<br><br>
-            Toyota Manufacturing Company<br><br>
-            USAA<br><br>
-            United Way of San Antonio and Bexar County<br><br>
-            Jill and George Vassar<br><br>
-            Verizon<br><br>
-            VT SEVA<br><br>
-            Wells Fargo Foundation<br><br>
-            Tom White Charitable Fund of the San Antonio<br> Area Foundation<br><br>
+            80-20 Foundation
+            Michael Acovio <br><br>
+            Manjiri  Akalkotkar  <br><br>
+            Alamo Cement Company <br><br>
+            Albert & Bessie Mae Kronkosky Charitable Foundation <br><br>
+            Alice Kleberg Reynolds Meyer Foundation <br><br>
+            Kristen Allred <br><br>
+            Carlissa Alonso <br><br>
+            Patricia Alvarez <br><br>
+            Amini Family Foundation <br><br>
+            April Ancira <br><br>
+            Ramu Annamalai <br><br>
+            Anne and Tim Swan Fund of the San Antonio Area Foundation <br><br>
+            Robert  Arguello  <br><br>
+            Sandra  Arispe <br><br>
+            Armstrong Giving Fund <br><br>
+            Arnim Family Foundation <br><br>
+            David Auth <br><br>
+            Rebecca Baker <br><br>
+            Bank of America Charitable Gift Fund <br><br>
+            Bank of San Antonio <br><br>
+            Baptist Health Foundation of San Antonio <br><br>
+            Dominique Barbier <br><br>
+            Kathleen Barfield <br><br>
+            Sam Barton <br><br>
+            Brian Barwise <br><br>
+            Loretta  Behrens <br><br>
+            Sandy Benavides <br><br>
+            Mike & Debbie  Bender <br><br>
+            Benson Family Fund of the San Antonio Area Foundation <br><br>
+            Frank & Gloria Bent <br><br>
+            Robert Bernal <br><br>
+            Amit Bhattacharyya <br><br>
+            Douglas Bock <br><br>
+            Jessica Boggess <br><br>
+            Rebecca Bridges Dinnin <br><br>
+            Joyce & James Brown <br><br>
+            Carol Brown <br><br>
+            Nancy Bryant <br><br>
+            Richard Buhl <br><br>
+            Gladys Burger <br><br>
+            John Burns <br><br>
+            Mary Ellen Burns <br><br>
+            Richard & Ruth Butler <br><br>
+            Megan Butler <br><br>
+            Alicia Butler  <br><br>
+            Julie Byers <br><br>
+            Ana Cacho <br><br>
+            Marisa Calder <br><br>
+            Ed Calhoun  <br><br>
+            Brandy and Michael  Calles <br><br>
+            Yasmin Calvillo <br><br>
+            Lee Cantor <br><br>
+            Sandi Carlyon <br><br>
+            Louis Carrillo <br><br>
+            Don Carsten <br><br>
+            Itza Casanova <br><br>
+            Casey Family Programs - San Antonio <br><br>
+            Esther Castillo <br><br>
+            Anna Causey <br><br>
+            Kimberly Cauthorn <br><br>
+            Paul Cavazos <br><br>
+            Rachel Cavazos <br><br>
+            Rick Cavender <br><br>
+            Richard  Cavender <br><br>
+            Rhonda Chambers  <br><br>
+            Charlie and Lise de Leon Charitable Gift Fund <br><br>
+            Child Care Collaborative Fund of the San Antonio Area Foundation <br><br>
+            Adam Ciarella <br><br>
+            Mike Ciskowski <br><br>
+            City of San Antonio <br><br>
+            Petra  Claflin <br><br>
+            Gillian Cook <br><br>
+            Lee Ann Cook <br><br>
+            Robert Corder <br><br>
+            Patrick Cornely <br><br>
+            Robert Corona <br><br>
+            Johnny Cortez <br><br>
+            Tabitha Covarrubias <br><br>
+            S Craft <br><br>
+            Osvaldo Crespo <br><br>
+            CVS Health <br><br>
+            Cassidy Daniels <br><br>
+            Lisa Dannemiller <br><br>
+            Laura Davenport <br><br>
+            Lindsay Davis <br><br>
+            Yvette DeBlanc <br><br>
+            Diane DeForrest <br><br>
+            Austin Deleon-Lewis <br><br>
+            Charles Dibrell <br><br>
+            Blake  Dicke  <br><br>
+            Wanda Dobie <br><br>
+            Jamison Dove <br><br>
+            Shahrzad Dowlatshahi <br><br>
+            Arthur Downey <br><br>
+            September Downing <br><br>
+            Maria Dunn <br><br>
+            Paul Dunn, Sr. <br><br>
+            Sandra  Dush  <br><br>
+            Paul Dvorak <br><br>
+            Cody Eckhardt <br><br>
+            Ed and Peggy Reed Charitable Fund <br><br>
+            Edwards and Helenan Polansky Charitable Fund of the San Antonio Area Foundation  <br><br>
+            Richard Elledge <br><br>
+            Ellinor and Marvin Forland Charitbale Fund of the San Antonio Area Foundation <br><br>
+            Stephen Enders <br><br>
+            Ewing Halsell Foundation <br><br>
+            Blakely Fernandez <br><br>
+            Antonio Ferraro <br><br>
+            John Fey <br><br>
+            Michael Fisher <br><br>
+            Natalia Flores <br><br>
+            Laura Flores <br><br>
+            Natalia Flores <br><br>
+            Missy Flores  <br><br>
+            Victoria Ford <br><br>
+            Kevin Foster <br><br>
+            Holly Frindell <br><br>
+            Krista Furlow <br><br>
+            Neil Gabrielson <br><br>
+            Flora Garb <br><br>
+            Delfino Garcia <br><br>
+            Josiah Garcia <br><br>
+            David Gard <br><br>
+            Avery Gard <br><br>
+            Michael Garwood <br><br>
+            Montye Garza <br><br>
+            Linda Garza <br><br>
+            Cori Garza-Perkins <br><br>
+            General Dynamics Mission Systems, Inc. <br><br>
+            Barbara and Michael Gentry  <br><br>
+            Laura Giacomoni <br><br>
+            Gloria Galt Fund of the San Antonio Area Foundation <br><br>
+            Domingo Gonzales <br><br>
+            Patrick Rose Gonzales <br><br>
+            Beatriz Gonzales <br><br>
+            Barbara  Gonzalez  <br><br>
+            David Goodrich <br><br>
+            Jim & Suzanne Goudge <br><br>
+            Ben Graf <br><br>
+            Alicia Grant <br><br>
+            Greehey Family Foundation <br><br>
+            Joshua Grubbs <br><br>
+            Edward Guerra <br><br>
+            Jodi Guy <br><br>
+            Celso Guzman <br><br>
+            H.E. Butt Foundation <br><br>
+            Christopher Hackert <br><br>
+            Douglas Hall <br><br>
+            Peter & Yolanda Haring <br><br>
+            Frank Harmon <br><br>
+            William Hart <br><br>
+            Harvey E. Najim Charitable Foundation <br><br>
+            Harvey E. Najim Charitable Fund of the San Antonio Area Foundation <br><br>
+            Beth Hasseler <br><br>
+            Timothy  Haugh  <br><br>
+            Titus Hawthorne <br><br>
+            Julie Healy <br><br>
+            Bonnie Heckman <br><br>
+            Weldon Herchek <br><br>
+            Roxanna Hernandez <br><br>
+            Shianne Herrington <br><br>
+            Barbara Higdon <br><br>
+            Kimberly Hines <br><br>
+            Anna Hoelting <br><br>
+            Elaine Hogan <br><br>
+            Holt Family Foundation <br><br>
+            Philip Holts <br><br>
+            Houston and Caroline Harte Fund of the San Antonio Area Foundation <br><br>
+            A. Ryland & Pamela Howard <br><br>
+            Deborah Huber <br><br>
+            Maliha Imami <br><br>
+            John L. Santikos Charitable Foundation of the San Antonio Area Foundation <br><br>
+            Nathan Jowers <br><br>
+            JP Morgan Chase Bank, N.A. - San Antonio, TX <br><br>
+            Jo and Kae Kaneko <br><br>
+            Amanda Kenney <br><br>
+            Jack Kent <br><br>
+            Hani Khan <br><br>
+            Abigail Kinnison <br><br>
+            Antje Klaunig <br><br>
+            Maria Kravchenko <br><br>
+            Barbara Kyse <br><br>
+            Anne Lackner <br><br>
+            Claudia & David Ladensohn <br><br>
+            Alison  Lange <br><br>
+            Barbara Lau <br><br>
+            Brian Laub <br><br>
+            Henry Lavagnini <br><br>
+            Michael Lawlor <br><br>
+            Lauren Lederle <br><br>
+            Katie Leech <br><br>
+            Leonard Contracting, Inc. <br><br>
+            Michael Lewis <br><br>
+            Jaime Llamas <br><br>
+            Valentin Lopez Jr <br><br>
+            Ronald Lorton <br><br>
+            Gan Louie <br><br>
+            Kelly Lozano <br><br>
+            Nancy  Lozano  <br><br>
+            Kim Lubel <br><br>
+            Glenn  Lucadou <br><br>
+            Jon-Carlo Luera <br><br>
+            Carlos Macedo <br><br>
+            Laura MacKay <br><br>
+            Peter Maddox <br><br>
+            Scott and Janet Magers <br><br>
+            Masters Leadership Program Alumni <br><br>
+            Chris Martin <br><br>
+            Troy Mason <br><br>
+            Berna Massingill <br><br>
+            Martha Maynard <br><br>
+            Mays Family Foundation <br><br>
+            Kevin McBrearty <br><br>
+            McClure Charitable Foundation of 2007 <br><br>
+            Stephanie McCormack-Brown <br><br>
+            Kasi McCormick  <br><br>
+            Elizabeth McDevitt <br><br>
+            Tasha McKinney <br><br>
+            Carolyn McLerran <br><br>
+            John and Debbie McNair <br><br>
+            Meadows Foundation, Inc. <br><br>
+            Jeff and Kay Meyer <br><br>
+            Kathy Miller <br><br>
+            Alexander Miller <br><br>
+            Hilary Monford <br><br>
+            Ruby Montalvo <br><br>
+            Forest Moore <br><br>
+            Carolina Morell <br><br>
+            Ben Morrow <br><br>
+            Barbara Moschner <br><br>
+            Nora Mozingo <br><br>
+            Patricia Mozley <br><br>
+            Henrietta Munoz, PhD <br><br>
+            Thomas Murguia <br><br>
+            Jim Nagle <br><br>
+            Nancy Smith Hurd Foundation <br><br>
+            Diljith Nath <br><br>
+            Nationwide Foundation <br><br>
+            William Neel <br><br>
+            Jim Nichols <br><br>
+            William Nichols <br><br>
+            Giovanni Notarnicola <br><br>
+            Meleah Nye <br><br>
+            NuStar Energy <br><br>
+            Diane Olson <br><br>
+            Robert Ortiz <br><br>
+            Mary Owens <br><br>
+            Mary Anne Owens <br><br>
+            Alan Palmer <br><br>
+            Sarah Palmiero <br><br>
+            Patel Gaines, PLLC <br><br>
+            Shannon Patterson <br><br>
+            Shannon Peeples <br><br>
+            Sarah Pegues <br><br>
+            Steve Peirce <br><br>
+            Wanda Pena <br><br>
+            Mary Pena <br><br>
+            Veronica & Gilbert  Perez  <br><br>
+            Petty Hefte Family Foundation  <br><br>
+            Sara Pfeifer <br><br>
+            Julia Poage <br><br>
+            Ginny & Ed Porrata <br><br>
+            Leilah Powell <br><br>
+            Annica Poyas <br><br>
+            Frederick Preston <br><br>
+            David Prevott <br><br>
+            David Price <br><br>
+            Becky Purcell <br><br>
+            Veronica Pyle <br><br>
+            Theresa Ramos <br><br>
+            Cheryl Remmert <br><br>
+            Stephanie Rice <br><br>
+            Sally Roark <br><br>
+            Bob & Carole Robbins <br><br>
+            Alejandra Rolfhus <br><br>
+            Ethel Runion <br><br>
+            Dawn Ryan <br><br>
+            Daphne Rye <br><br>
+            Marisa Saccio <br><br>
+            Christopher  Sanchez  <br><br>
+            Haley Savage <br><br>
+            Michael Schick <br><br>
+            David Schmid <br><br>
+            Eric Schneeman <br><br>
+            Jessica Schulze <br><br>
+            Milinda Schwab <br><br>
+            Gary Scott <br><br>
+            Billie Seale <br><br>
+            Raj Sehgal <br><br>
+            Harvey Sekimoto <br><br>
+            Semmes Foundation Fund of the San Antonio Area Foundation <br><br>
+            Miguel Serna <br><br>
+            Rob Shaw-Meadow <br><br>
+            Shield-Ayres Foundation <br><br>
+            Issay Shields <br><br>
+            Jeffrey Simon <br><br>
+            Jeanne Sinclair <br><br>
+            Anil Singh <br><br>
+            Youngjin Son <br><br>
+            Bruce & Jill Sophie <br><br>
+            Raul Soto <br><br>
+            Spellman Charitable Fund of the San Antonio Area Foundation <br><br>
+            AnnDee Steidel <br><br>
+            Todd Stein <br><br>
+            Meredith Sterling <br><br>
+            Jonathan  Stevens  <br><br>
+            Gerald Sutherland <br><br>
+            Bernard and Kathy Swift <br><br>
+            Texas Mutual Insurance Company <br><br>
+            The Benevity Community Impact Fund <br><br>
+            The Brown Foundation, Inc. <br><br>
+            The Dominion Senior PGA <br><br>
+            The Humana Foundation, Inc. <br><br>
+            The Tobin Endowment <br><br>
+            The USAA Foundation, Inc <br><br>
+            Mary Thibodeau  <br><br>
+            Mary Thomas <br><br>
+            Billie  Thomas <br><br>
+            Carolyn Thomas <br><br>
+            Alice Thomas <br><br>
+            Patricia Thomas <br><br>
+            Mary Thomas <br><br>
+            Levi Thomson <br><br>
+            Lauren Timms <br><br>
+            Tom White Charitable Fund of the San Antonio Area Foundation  <br><br>
+            Robert Torres  <br><br>
+            Toyota Motor Engineering & Manufacturing North America <br><br>
+            John Tully <br><br>
+            Russell Ullrich Jr <br><br>
+            Patricia Uresti <br><br>
+            Bernice Uresti <br><br>
+            Daniel Uresti <br><br>
+            Maria Uriegas <br><br>
+            Jill and George Vassar <br><br>
+            Jenny Vázquez <br><br>
+            Verizon <br><br>
+            Sheila Vestal <br><br>
+            Linda Vickers <br><br>
+            Volunteering for Service  <br><br>
+            VT SEVA <br><br>
+            Michael Wallace <br><br>
+            Jeff Wasetis <br><br>
+            Ryan & Shelley Weber <br><br>
+            Wells Fargo Foundation <br><br>
+            Lon and Libby West <br><br>
+            Kevin White <br><br>
+            Jeffrey Williams <br><br>
+            Vanessa Williams <br><br>
+            Lisa  Williams <br><br>
+            Suzanne Williams <br><br>
+            Sara Winn <br><br>
+            Betty Wissinger <br><br>
+            Matthew Wood <br><br>
+            Alana Woods <br><br>
+            Charlotte Wright <br><br>
+            Nathaniel Wright <br><br>
+            Tracee Wulff <br><br>
+            David Wurm <br><br>
+            Andria Young <br><br>
+            James Young <br><br>
+            Cindy & David Zammiello <br><br>
         </div>
 
         </h5>
@@ -1826,57 +2124,56 @@
     </div>
 
     <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel">
-        <div class="section-32b__close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"
-        ">
-        <div class="icon icon-close">
-            <svg>
-                <use href="#icon-close-white"></use>
-            </svg>
+        <div class="section-32b__close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+            <div class="icon icon-close">
+                <svg>
+                    <use href="#icon-close-white"></use>
+                </svg>
+            </div>
         </div>
-    </div>
-    <div class="offcanvas-header light">
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-        <div class="canvas-title">2020 BOARD MEMBERS</div>
+        <div class="offcanvas-header light">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="canvas-title">2020 BOARD MEMBERS</div>
 
-        <br>
-        <h5 class="canvas-h5">
-            Theo Guidry, Board Chair<br>
-            Gen. James T. (Tom) Hill, 2021 Chair Elect<br>
-            Michelle R. Scarver, CPA/PFS, Treasurer<br>
-            Alex Perez, Secretary<br>
-            James D. (Darryl) Byrd<br>
-            Luis de la Garza<br>
-            Laura Ehrenberg-Chesler<br>
-            Lorenzo Gomez, III<br>
-            Sarah Harte, Past Board Chair<br>
-            Blake Hastings<br>
-            John Hayes, Past Board Chair<br>
-            David Komet<br>
-            Adena Williams Loston, Ph.D.<br>
-            Brad Parman<br>
-            Jane Phipps<br>
-            Marie Smith, Past Board Chair<br>
-            R. Bruce Tilley<br>
-            Harry W. Wolff, Jr.<br>
-        </h5>
-        <br><br><br>
-        <h5 class="canvas-h5">
-            <i>The San Antonio Area Foundation would like to thank<br>
-                outgoing directors for their outstanding service
-                on <br>our board through 2020:</i>
-        </h5>
-        <br>
-        <h5 class="canvas-h5">
-            Laura Ehrenberg-Chesler<br>
-            Luis de la Garza<br>
-            Theo Guidry<br>
-            John Hayes<br>
-            Jane Phipps<br>
-            Marie Smith<br>
-        </h5>
-    </div>
+            <br>
+            <h5 class="canvas-h5">
+                Theo Guidry, Board Chair<br>
+                Gen. James T. (Tom) Hill, 2021 Chair Elect<br>
+                Michelle R. Scarver, CPA/PFS, Treasurer<br>
+                Alex Perez, Secretary<br>
+                James D. (Darryl) Byrd<br>
+                Luis de la Garza<br>
+                Laura Ehrenberg-Chesler<br>
+                Lorenzo Gomez, III<br>
+                Sarah Harte, Past Board Chair<br>
+                Blake Hastings<br>
+                John Hayes, Past Board Chair<br>
+                David Komet<br>
+                Adena Williams Loston, Ph.D.<br>
+                Brad Parman<br>
+                Jane Phipps<br>
+                Marie Smith, Past Board Chair<br>
+                R. Bruce Tilley<br>
+                Harry W. Wolff, Jr.<br>
+            </h5>
+            <br><br><br>
+            <h5 class="canvas-h5">
+                <i>The San Antonio Area Foundation would like to thank<br>
+                    outgoing directors for their outstanding service
+                    on <br>our board through 2020:</i>
+            </h5>
+            <br>
+            <h5 class="canvas-h5">
+                Laura Ehrenberg-Chesler<br>
+                Luis de la Garza<br>
+                Theo Guidry<br>
+                John Hayes<br>
+                Jane Phipps<br>
+                Marie Smith<br>
+            </h5>
+        </div>
     </div>
 
     <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel">
@@ -1952,7 +2249,7 @@
                             <use href="#icon-heart"></use>
                         </svg>
                     </div>
-                     Donate Now
+                    Donate Now
                 </button>
             </div>
             <div class="section-20__link">

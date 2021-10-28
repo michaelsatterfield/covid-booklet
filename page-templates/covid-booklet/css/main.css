@@ -2529,9 +2529,12 @@ timeline-images {
 
 .tab-2-t {
     height: 95em;
-    overflow: scroll;
-!important;
-    padding-bottom: 50em;
+    overflow: scroll;!important;
+    padding-bottom: 30em;
+
+}
+.tab-7-col{
+    padding-right: 15%;
 }
 
 tab-2-p {
@@ -2826,9 +2829,9 @@ tab-2-p {
 
 /*map*/
 .viewMap {
-    position: absolute;
-    margin-left: 2%;
-    bottom: 7%;
+    position: relative;
+    margin-left: 10%;
+    padding-top: 10%;
 }
 
 .btnMap {
@@ -3190,6 +3193,9 @@ tab-2-p {
     cursor: pointer;
 }
 
+
+/*pulsing button*/
+
 .pulse-button {
     position: relative;
     /*top: 50%;*/
@@ -3240,4 +3246,3 @@ tab-2-p {
         box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
     }
 }
-

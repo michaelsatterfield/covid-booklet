@@ -309,7 +309,7 @@ window.addEventListener("DOMContentLoaded", event => {
     const p5 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-05@2x.png"
     const p6 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-06@2x.png"
     const p7 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/09/NestedPieChartsCovid_ForDigital-07@2x.png"
-    const p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/piechart-8-withText.png"
+    const p8 = "https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/pie8.png"
 
 
     new ElementAnimation("section-13__bar bar-8", "opacity", 0.0, 1.0, 1395, 1400, function (sp, ssta, ssto) {

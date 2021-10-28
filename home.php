@@ -1227,6 +1227,7 @@
                                 the Area Foundation grant to provide meals for the homeless, keeping small
                                 businesses afloat.
                             </p>
+                                <div class="tab-2__text-shadow-after"></div>
                             </div>
                         </div>
                         <div class=" d-flex flex-column col-6 ">
@@ -1295,7 +1296,7 @@
                                 Girls Incorporated of San Antonio (Girls, Inc.)
                             </h1>
                             <br>
-                            <div class="">
+                            <div class="tab-2-t col-12">
                                 <p class="timeline-section-1a-paragraph-1 tab-2-p col-10">
                                     Girls Inc. was able to maintain its strong connection with the many girls whom
                                     they inspire “to be strong, smart, and bold.”
@@ -1318,8 +1319,9 @@
                                     Once it became safe enough to do so, Girls Inc. used grant funding to open its
                                     doors to girls and their families who could not access virtual programs,
                                     offering after-school, socially distanced programming.
-                                <div class="space"><br></div>
+<!--                                <div class="space"><br></div>-->
                                 </p>
+                                <div class="tab-2__text-shadow-after"></div>
                                 <!--                                    <div class="tab-2__text-shadow-after "></div>-->
                             </div>
                         </div>
@@ -1479,8 +1481,9 @@
                                 served a large low-income and at-risk student population, but the need for remote
                                 learning made it clear many never had WiFi at home.
                                 <br>
-                            <div class="space"><br></div>
+<!--                            <div class="space"><br></div>-->
                             </div>
+                            <div class="tab-2__text-shadow-after"></div>
                             </p>
                         </div>
                         <!--                        <div class="tab-2__text-shadow-after"></div>-->
@@ -1749,9 +1752,9 @@
 
         <br>
         <div class="canvas-h5 ">
-            We are grateful to all the individuals, families, organizations,<br>
-            and business that have come together to support San<br>
-            Antonians in need through the San Antonio COVID-19<br>
+            We are grateful to all the individuals, families, organizations,
+            and business that have come together to support San
+            Antonians in need through the San Antonio COVID-19
             Response Fund. The list below recognizes those donors:<br><br>
         </div>
         <div class="section-19__donors ">

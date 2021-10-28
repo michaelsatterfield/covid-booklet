@@ -2530,7 +2530,7 @@ timeline-images {
 .tab-2-t {
     height: 95em;
     overflow: scroll;!important;
-    padding-bottom: 30em;
+    padding-bottom: 50em;
 
 }
 .tab-7-col{
@@ -3009,6 +3009,7 @@ tab-2-p {
     line-height: 1em;
     overflow: scroll;
     font-size: 15px;
+    max-width: 34%;
 
 }
 
@@ -3022,6 +3023,7 @@ tab-2-p {
     line-height: 20px;
     font-size: 15px;
     font-family: Roboto-Medium, Arial, sans-serif;
+    max-width: 33%;
 
 }
 
@@ -3196,53 +3198,3 @@ tab-2-p {
 
 /*pulsing button*/
 
-.pulse-button {
-    position: relative;
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*margin-left: -50px;*/
-    /*margin-top: -50px;*/
-    display: block;
-    width: 100px;
-    height: 100px;
-    /*font-size: 1.3em;*/
-    font-weight: light;
-    font-family: 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 100px;
-    letter-spacing: -1px;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    /*background: none;*/
-    cursor: pointer;
-    box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
-    -webkit-animation: pulse 1.5s infinite;
-}
-.pulse-button:hover {
-    -webkit-animation: none;
-}
-
-@-webkit-keyframes pulse {
-    0% {
-        -moz-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-    }
-    70% {
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-        box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
-    }
-    100% {
-        -moz-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
-        box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
-    }
-}

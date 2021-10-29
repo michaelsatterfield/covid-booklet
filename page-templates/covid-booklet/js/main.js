@@ -224,10 +224,10 @@ window.addEventListener("DOMContentLoaded", event => {
     // new ElementAnimation("section-9", "opacity", 0.0, 1.0, 780, 790);
 
     new ElementAnimation("section-9__background", "opacity", 0.0, 1.0, 750, 760);
-        //
-        new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890);
+    //
+    new ElementAnimation("section-9__background", "opacity", 1.00, 0.0, 880, 890);
 
-        new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
+    new ElementAnimation("section-9", "opacity", 1.0, 0.0, 880, 890);
 
     // //section 10
     // new ElementAnimation("section-10", "opacity", 0, 1.0, 890, 900);
@@ -371,12 +371,10 @@ window.addEventListener("DOMContentLoaded", event => {
     new ElementAnimation("section-16", "opacity", 1.0, 0.0, 1580, 1600);
 
 
-
     new ElementAnimation("section-17__background", "opacity", 0.0, 1.0, 1610, 1620);
 
     new ElementAnimation("section-17", "opacity", 1.0, 0.0, 1780, 1790);
     new ElementAnimation("tab-1", "opacity", 1.0, 0.0, 1780, 1790);
-
 
 
     new ElementAnimation("section-19__background", "opacity", 0.0, 1.0, 1780, 1790);
@@ -661,13 +659,11 @@ window.addEventListener("DOMContentLoaded", event => {
             $(".img1").removeClass("active");
 
 
-                //make selected tab bubble stay scaled and in color
+            //make selected tab bubble stay scaled and in color
             $(".img1").css("transform", "scale(1");
             $(".img1").css("filter", "grayscale(100%)");
             $(".img2").css("transform", "scale(1.3)")
             $(".img2").css("filter", "none")
-
-
 
 
         })
@@ -718,7 +714,7 @@ window.addEventListener("DOMContentLoaded", event => {
         //keep tab images in color and scaled
         const $tabImg = $(".nav-link.s17");
 
-      $tabImg.click(function () {
+        $tabImg.click(function () {
             $tabImg.css("transform", "scale(1)")
             $tabImg.css("filter", "grayscale(100%)");
             $(this).css("transform", "scale(1.3");
@@ -729,12 +725,9 @@ window.addEventListener("DOMContentLoaded", event => {
         // add/remove pulsing button
 
 
-    $(".img2").click(function (){
-        $(".img2").removeClass("pulse-button")
-    })
-
-
-
+        $(".img2").click(function () {
+            $(".img2").removeClass("pulse-button")
+        })
 
 
         //keep page from refreshing to top
@@ -747,6 +740,16 @@ window.addEventListener("DOMContentLoaded", event => {
         //keep hover state on timelime images
         const $timelineImg = $(".nav-link.s9");
 
+
+        //sets the initial active hover state(march in this case, can be changed in the timeline html "active")
+        $('.timeline-wrapper button').each(function () {
+                if ($(this).hasClass('active')) {
+                    $(this).css("transform", "scale(1.3");
+                    $(this).css("background-color", "#ef7930");
+                }
+            }
+        )
+
         $timelineImg.click(function () {
             $timelineImg.css("transform", "scale(1");
             $timelineImg.css("background-color", "#f2c8b1");
@@ -756,10 +759,7 @@ window.addEventListener("DOMContentLoaded", event => {
         })
 
 
-
         $("#myTab a:last").tab("show"); // show last tab
-
-
 
 
     });

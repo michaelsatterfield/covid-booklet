@@ -3007,11 +3007,11 @@ tab-2-p {
 
 .section-19__donors {
     line-height: 1em;
-    overflow: scroll;
+    overflow-y: scroll;
     font-size: 15px;
     max-width: 34%;
-
 }
+
 
 .canvas-title {
     font-size: 20px;

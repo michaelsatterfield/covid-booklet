@@ -20,15 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <!--    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon-76x76.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon-120x120.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-touch-icon-144x144.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-touch-icon-152x152.png">-->
-    <!--    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">-->
+
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="ds-webpack-starter">
@@ -38,9 +30,7 @@
     <meta name="application-name" content="ds-webpack-starter">
     <link rel="shortcut icon"
           href="https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/saaf-favicon.png">
-    <!--    <link rel="shortcut icon"-->
-    <!--          href="-->
-    <?php //echo get_template_directory_uri(); ?><!--https://saaf-covid.mystagingwebsite.com/wp-content/uploads/2021/10/saaf-favicon.png">-->
+
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="mstile-144x144.png">
     <meta name="msapplication-config" content="browserconfig.xml">
@@ -60,13 +50,10 @@
     <link href="<?php echo get_template_directory_uri(); ?>/page-templates/covid-booklet/css/main.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-    <script
-            src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -279,7 +266,7 @@
     <div class="section-6__title"></div>
     </div>
 </section>
-<section class="section-7">
+<section class="section-7" >
     <div class="section-7__background"></div>
 
     <div class="section-7__text ">
@@ -418,33 +405,32 @@
                         role="tab" aria-controls="v-pills-3" aria-selected="false"><h1>M</h1></button>
                 <div></div>
                 <button class="nav-link s9 row-1" id="s9_4" data-bs-toggle="pill" data-bs-target="#s9-4" type="button"
-                        role="tab" aria-controls="v-pills-4" aria-selected="false"><h1>J</h1</button>
+                        role="tab" aria-controls="v-pills-4" aria-selected="false"><h1>J</h1></button>
 
                 <button class="nav-link s9 row" id="s9_5" data-bs-toggle="pill" data-bs-target="#s9-5" type="button"
-                        role="tab" aria-controls="v-pills-5" aria-selected="false"><h1>J</h1</button>
-
+                        role="tab" aria-controls="v-pills-5" aria-selected="false"><h1>J</h1>
                 <button class="nav-link s9 row-1" id="s9_6" data-bs-toggle="pill" data-bs-target="#s9-6" type="button"
-                        role="tab" aria-controls="v-pills-6" aria-selected="false"><h1>A</h1</button>
+                        role="tab" aria-controls="v-pills-6" aria-selected="false"><h1>A</h1></button>
 
                 <button class="nav-link s9 row-1" id="s9_7" data-bs-toggle="pill" data-bs-target="#s9-7" type="button"
-                        role="tab" aria-controls="v-pills-7" aria-selected="false"><h1>S</h1</button>
+                        role="tab" aria-controls="v-pills-7" aria-selected="false"><h1>S</h1></button>
 
                 <button class="nav-link s9 row-1" id="s9_8" data-bs-toggle="pill" data-bs-target="#s9-8" type="button"
-                        role="tab" aria-controls="v-pills-8" aria-selected="false"><h1>O</h1</button>
+                        role="tab" aria-controls="v-pills-8" aria-selected="false"><h1>O</h1></button>
 
                 <button class="nav-link s9 row-1" id="s9_9" data-bs-toggle="pill" data-bs-target="#s9-9" type="button"
-                        role="tab" aria-controls="v-pills-9" aria-selected="false"><h1>N</h1</button>
+                        role="tab" aria-controls="v-pills-9" aria-selected="false"><h1>N</h1></button>
 
                 <button class="nav-link s9 row-1" id="s9_10" data-bs-toggle="pill" data-bs-target="#s9-10" type="button"
-                        role="tab" aria-controls="v-pills-10" aria-selected="false"><h1>D</h1</button>
+                        role="tab" aria-controls="v-pills-10" aria-selected="false"><h1>D</h1></button>
 
                 <button class="nav-link s9 row-1" id="s9_11" data-bs-toggle="pill" data-bs-target="#s9-11" type="button"
-                        role="tab" aria-controls="v-pills-11" aria-selected="false"><h1>J</h1</button>
+                        role="tab" aria-controls="v-pills-11" aria-selected="false"><h1>J</h1></button>
 
                 <button class="nav-link s9 row-1" id="s9_12" data-bs-toggle="pill" data-bs-target="#s9-12" type="button"
-                        role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1</button>
+                        role="tab" aria-controls="v-pills-12" aria-selected="false"><h1>F</h1></button>
                 <button class="nav-link s9 row-1" id="s9_12" data-bs-toggle="pill" data-bs-target="#s9-13" type="button"
-                        role="tab" aria-controls="v-pills-13" aria-selected="false"><h1>M</h1</button>
+                        role="tab" aria-controls="v-pills-13" aria-selected="false"><h1>M</h1></button>
             </div>
 
         </main>
@@ -930,29 +916,6 @@
         </div>
     </div>
 </section>
-
-
-<!--<section class="section-15">-->
-<!--    <div class="section-15__image_wrapper">-->
-<!--        <div class="section-15__background muralBackground1" id="15">-->
-<!---->
-<!--        </div>-->
-<!--        <div class="section-15__image"></div>-->
-<!--        <div class="section-15__imageshorttext"></div>-->
-<!---->
-<!--        <div class="section-15__text-wrapper">-->
-<!---->
-<!--            <div class="section-15__pretitle"></div>-->
-<!--            <div class="section-15__title"></div>-->
-<!---->
-<!--            <div class="section-15__text">-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="button-next-slide button-next-slide-section-15" data-toggle=".section-15, .section-15a">-->
-<!--            <span></span>-->
-<!---->
-<!--        </div>-->
-<!--</section>-->
 
 <section class="section-16">
     <div class="section-16__background backgroundImg"></div>
